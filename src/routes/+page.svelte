@@ -18,6 +18,7 @@
     import Article02 from "../lib/images/homePageImages/article3.jpg";
     import Article04 from "../lib/images/homePageImages/article4.jpg";
 
+    import Article05 from "../lib/images/MediaImages/Stem.png";
 
   const articles = [
     {
@@ -212,8 +213,8 @@
         <!-- Learn More Perspectives top right button- BLACK PAGE Latest update on importance issues offering diverse insights around the world, image with quote - Knowledge is the light that guides us through the darkness., under image - title - Unlocking true understanding through knowledge and impartiality. Next to image have newsletter subscription, 10 articles not on main page under image and newsletter. Videos under not on main page, under that have another sign up for newsletter(Subscribe to the The Wisdom), Partners again, -->
         <div class="col-span-2">
             <div>
-                <a href="/article/path">
-                    <img src={ArticleImage} alt="Article" class="w-96">
+                <a href="/article/stem">
+                    <img src={Article05} alt="Article" class="w-96">
                     <p class="mt-3 font-semibold text-2xl rasa">Exploring STEM: A Journey of Curiosity and Innovation</p>
                 </a>
             </div>

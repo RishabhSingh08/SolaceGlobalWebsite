@@ -1,9 +1,15 @@
 <script>
+  import stemHeader from "../../../lib/images/articleImages/insideImages/stemHeader.jpg";
+  import graph from "../../../lib/images/articleImages/insideImages/GRAPH.png";
+
   export let title = "Exploring STEM: A Journey of Curiosity and Innovation";
   export let description = "A personal story of discovering the transformative power of STEM and finding purpose through exploration and creativity.";
 </script>
 
 <main class="py-8 px-4 text-justify">
+  <div class="bg-red-500">
+    <img src={stemHeader} alt="header" class="w-full">
+  </div>
   <!-- Title and Description -->
   <header class="mb-12 grid grid-cols-2 items-center gap-12">
     <h1 class="text-4xl font-semibold text-gray-800 text-left">{title}</h1>
@@ -22,12 +28,18 @@
     </article>
 
     <!-- STEM's Impact -->
-    <article>
-      <h2 class="text-3xl font-semibold text-gray-800 text-left">The Impact of STEM</h2>
-      <p class="text-lg text-gray-600 mt-2">
-        From life-saving medical breakthroughs to technologies connecting the globe, STEM’s influence is everywhere. These possibilities drew me to the field, inspiring a desire to contribute to transformative progress. STEM is not just a career path; it’s a powerful toolkit for solving real-world problems.
-      </p>
-    </article>
+     <div class="grid grid-cols-2 items-center">
+       <article>
+         <h2 class="text-3xl font-semibold text-gray-800 text-left">The Impact of STEM</h2>
+         <p class="text-lg text-gray-600 mt-2">
+           From life-saving medical breakthroughs to technologies connecting the globe, STEM’s influence is everywhere. These possibilities drew me to the field, inspiring a desire to contribute to transformative progress. STEM is not just a career path; it’s a powerful toolkit for solving real-world problems.
+         </p>
+       </article>
+             <div>
+        <img src={graph} alt="graph" class="w-full">
+      </div>
+
+     </div>
 
     <!-- My Journey Begins -->
     <article>
