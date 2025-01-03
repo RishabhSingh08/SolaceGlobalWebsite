@@ -203,62 +203,62 @@
     <div class="grid grid-cols-5 gap-8">
         <div class="col-span-3 hover:scale-105 transition  p-6 rounded-lg shadow-2xl shadow-gray-800">
             <a href="/article/trap">
-                <img src={Article01} alt="Article" class="" >
+                <img src={Article01} alt="Article" class="">
                 <div class="mt-6">
-                    <p class="mb-3 font-semibold text-2xl rasa">Breaking Free from the Comparison Trap</p>
+                    <p class="mb-3 font-semibold text-3xl rasa">Breaking Free from the Comparison Trap</p>
                     <p class="text-sm">Explore how overcoming societal pressures and embracing personal passions can redefine the path to success. </p>
                 </div>
             </a>
         </div>
         <!-- Learn More Perspectives top right button- BLACK PAGE Latest update on importance issues offering diverse insights around the world, image with quote - Knowledge is the light that guides us through the darkness., under image - title - Unlocking true understanding through knowledge and impartiality. Next to image have newsletter subscription, 10 articles not on main page under image and newsletter. Videos under not on main page, under that have another sign up for newsletter(Subscribe to the The Wisdom), Partners again, -->
         <div class="col-span-2">
-            <div>
+        <div class="hover:scale-105 transition p-6 rounded-lg shadow-2xl shadow-gray-800">
                 <a href="/article/stem">
                     <img src={Article05} alt="Article" class="w-96">
                     <p class="mt-3 font-semibold text-2xl rasa">Exploring STEM: A Journey of Curiosity and Innovation</p>
                 </a>
             </div>
-<div class="smore-list-subscribe-form p-6 max-w-md mx-auto bg-white rounded-md shadow-md mt-8">
-    <form action="https://secure.smore.com/app/lists/confirm_subscribe" method="POST" class="space-y-5">
-        <input type="hidden" name="list_id" value="676a51b695e1b379806173ff">
+            <div class="smore-list-subscribe-form p-6 max-w-md mx-auto bg-white rounded-md shadow-md mt-8">
+                <form action="https://secure.smore.com/app/lists/confirm_subscribe" method="POST" class="space-y-5">
+                    <input type="hidden" name="list_id" value="676a51b695e1b379806173ff">
 
-        <h3 class="text-2xl font-semibold text-gray-700 rasa">Subscribe To Our Newsletter</h3>
+                    <h3 class="text-2xl font-semibold text-gray-700 rasa">Subscribe To Our Newsletter</h3>
 
-        <div class="field-group">
-            <label for="smore-subscribe-name" class="block text-sm font-medium text-gray-600">Name</label>
-            <input
-                type="text"
-                name="name"
-                id="smore-subscribe-name"
-                class="w-full mt-1 rounded-md border-gray-300 shadow-sm focus:ring-slate-400 focus:border-slate-400 text-gray-900 px-3 py-2"
-                placeholder="Your Name"
-            />
-        </div>
+                    <div class="field-group">
+                        <label for="smore-subscribe-name" class="block text-sm font-medium text-gray-600">Name</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="smore-subscribe-name"
+                            class="w-full mt-1 rounded-md border-gray-300 shadow-sm focus:ring-slate-400 focus:border-slate-400 text-gray-900 px-3 py-2"
+                            placeholder="Your Name"
+                        />
+                    </div>
 
-        <div class="field-group">
-            <label for="smore-subscribe-email" class="block text-sm font-medium text-gray-600">Email Address <span class="text-red-500">*</span></label>
-            <input
-                type="email"
-                name="email"
-                id="smore-subscribe-email"
-                required
-                class="w-full mt-1 rounded-md border-gray-300 shadow-sm focus:ring-slate-400 focus:ring focus:border-slate-400 text-gray-900 px-3 py-2"
-                placeholder="you@example.com"
-            />
-        </div>
+                    <div class="field-group">
+                        <label for="smore-subscribe-email" class="block text-sm font-medium text-gray-600">Email Address <span class="text-red-500">*</span></label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="smore-subscribe-email"
+                            required
+                            class="w-full mt-1 rounded-md border-gray-300 shadow-sm focus:ring-slate-400 focus:ring focus:border-slate-400 text-gray-900 px-3 py-2"
+                            placeholder="you@example.com"
+                        />
+                    </div>
 
-        <div class="">
-            <button
-                type="submit"
-                name="subscribe"
-                id="smore-subscribe-button"
-                class="mt-4 inline-flex items-center justify-center rounded-md bg-zinc-800 px-6 py-3 font-semibold text-white hover:bg-black transition"
-            >
-                Subscribe
-            </button>
-        </div>
-    </form>
-</div>
+                    <div class="">
+                        <button
+                            type="submit"
+                            name="subscribe"
+                            id="smore-subscribe-button"
+                            class="mt-4 inline-flex items-center justify-center rounded-md bg-zinc-800 px-6 py-3 font-semibold text-white hover:bg-black transition"
+                        >
+                            Subscribe
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
     </div>
