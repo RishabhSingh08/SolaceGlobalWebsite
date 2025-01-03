@@ -214,7 +214,7 @@
             <div>
                 <a href="/article/path">
                     <img src={ArticleImage} alt="Article" class="w-96">
-                    <p class="mt-3 font-semibold text-2xl rasa">Lorem ipsum dolor sit amet, consectetur</p>
+                    <p class="mt-3 font-semibold text-2xl rasa">Exploring STEM: A Journey of Curiosity and Innovation</p>
                 </a>
             </div>
 <div class="smore-list-subscribe-form p-6 max-w-md mx-auto bg-white rounded-md shadow-md mt-8">
