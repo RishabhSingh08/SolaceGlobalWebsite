@@ -18,12 +18,13 @@
     import discoveryImage10 from "../../../lib/images/discoveryImages/10.jpg";
     import discoveryImage11 from "../../../lib/images/discoveryImages/11.jpg";
     import discoveryImage12 from "../../../lib/images/discoveryImages/12.jpg";
+
     import header from "../../../lib/images/discoveryImages/Header.jpg";
 
   import { onMount } from "svelte";
   let currentIndex = 0;
   let images = [
-    discoveryImage1,
+    discoveryImage12,
     discoveryImage2,
     discoveryImage3,
     discoveryImage4,
@@ -33,7 +34,8 @@
     discoveryImage9,
     discoveryImage10,
     discoveryImage11,
-    discoveryImage12,
+    discoveryImage1,
+
   ];
 
   function nextSlide() {
