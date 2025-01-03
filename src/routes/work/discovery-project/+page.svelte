@@ -7,7 +7,6 @@
     import image04 from "../../../lib/images/MediaImages/IMG_6596.jpg";
     import image05 from "../../../lib/images/MediaImages/IMG_6589.jpg";
 
-    import header from "../../../lib/images/discoveryImages/header.jpg";
     import discoveryImage1 from "../../../lib/images/discoveryImages/1.jpg";
     import discoveryImage2 from "../../../lib/images/discoveryImages/2.jpg";
     import discoveryImage3 from "../../../lib/images/discoveryImages/3.jpg";
@@ -19,6 +18,7 @@
     import discoveryImage10 from "../../../lib/images/discoveryImages/10.jpg";
     import discoveryImage11 from "../../../lib/images/discoveryImages/11.jpg";
     import discoveryImage12 from "../../../lib/images/discoveryImages/12.jpg";
+    import header from "../../../lib/images/discoveryImages/Header.jpg";
 
   import { onMount } from "svelte";
   let currentIndex = 0;
@@ -84,7 +84,7 @@
             </div>
         </div>
         <div>
-            <img src={header} alt="">
+            <img src={header} alt="Header">
         </div>
         <div class="space-y-12 ">
         <div class="grid grid-cols-3 gap-4 mx-24">
