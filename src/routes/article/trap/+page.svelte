@@ -26,67 +26,66 @@
     </div>
   <div class="w-full border-b mb-12"></div>
 
-  <!-- Article Sections -->
-  <section class="max-w-3xl mx-auto space-y-8">
+<!-- Article Sections -->
+<section class="max-w-3xl mx-auto space-y-8">
 
-    <!-- Introduction -->
-    <article>
-      <h2 class="text-3xl font-semibold text-gray-800 text-left">Introduction</h2>
-      <p class="text-lg text-gray-600 mt-2">
-        When I walked into my first day of high school, I felt like I had entered an entirely different world—one where everyone seemed to be competing in an unspoken race for perfection. My name is Adhi, and today, I'm a college graduate with a degree in computational engineering, working in a top 10 consulting company. But getting here wasn’t easy. Looking back at my hyper-competitive high school experience, I’m grateful for the lessons it taught me, though it wasn’t without its share of struggles.
-      </p>
-    </article>
+  <!-- Introduction -->
+  <article>
+    <h2 class="text-3xl font-semibold text-gray-800 text-left">Breaking Free from the Comparison Trap</h2>
+    <p class="text-lg text-gray-600 mt-2">
+      When I walked into my first day of high school, I felt like I had entered an entirely different world—one where everyone seemed to be competing in an unspoken race for perfection. My name is Adhi, and today, I'm a college graduate with a degree in computational engineering, working in a top 10 consulting company. But getting here wasn't easy. My journey through high school taught me valuable lessons about focus, balance, and resilience, many of which I owe to a surprising source: running.
+    </p>
+  </article>
 
-    <!-- High School Pressure -->
-    <article>
-      <h2 class="text-3xl font-semibold text-gray-800 text-left">The Pressure of High School</h2>
-      <p class="text-lg text-gray-600 mt-2">
-        I attended a high school known for its rigorous academics and cutthroat environment. From the moment I stepped onto campus, I felt the pressure to excel. Conversations revolved around AP classes, perfect GPAs, prestigious summer programs, and college acceptance rates. Social media only amplified the stress, as everyone seemed to broadcast their achievements for the world to see. At first, I tried to keep up, signing up for every advanced class, joining clubs I wasn’t passionate about, and spending late nights poring over homework. But as the workload grew, so did my feelings of self-doubt. No matter how hard I tried, I always felt like I was falling short.
-      </p>
-    </article>
+  <!-- High School Environment -->
+  <article>
+    <h2 class="text-3xl font-semibold text-gray-800 text-left">The High School Environment</h2>
+    <p class="text-lg text-gray-600 mt-2">
+      I attended a high school known for its rigorous academics and cutthroat environment. Conversations revolved around AP classes, perfect GPAs, prestigious summer programs, and college acceptance rates. Social media only amplified the stress, as everyone seemed to broadcast their achievements for the world to see. At first, I tried to keep up, signing up for every advanced class, joining multiple clubs, and spending late nights poring over homework. It was overwhelming, but I discovered a way to ground myself: running.
+    </p>
+  </article>
 
-    <!-- Turning Point -->
-    <article>
-      <h2 class="text-3xl font-semibold text-gray-800 text-left">A Life-Changing Realization</h2>
-      <p class="text-lg text-gray-600 mt-2">
-        The turning point came during my sophomore year, after I bombed a major math exam. It wasn’t just the bad grade that hit me—it was the realization that I was pushing myself to meet someone else’s definition of success. I couldn’t keep running on this treadmill of comparison. For the first time, I asked myself: What do I actually enjoy?
-      </p>
-    </article>
+  <!-- Discovering Running -->
+  <article>
+    <h2 class="text-3xl font-semibold text-gray-800 text-left">Finding My Anchor in Running</h2>
+    <p class="text-lg text-gray-600 mt-2">
+      I joined the school's cross-country team during my freshman year, initially just to stay active. But it quickly became more than just exercise. Running gave me a structured way to clear my mind and focus on the present. Each practice and race required discipline, time management, and mental toughness—skills that carried over into my academics. It wasn't about competing with others; it was about challenging myself and improving with every step. That mindset became my anchor in an otherwise chaotic environment.
+    </p>
+  </article>
 
-    <!-- Finding Passion -->
-    <article>
-      <h2 class="text-3xl font-semibold text-gray-800 text-left">Discovering My Passion</h2>
-      <p class="text-lg text-gray-600 mt-2">
-        Slowly, I began shifting my focus. I had always loved technology but had ignored it in favor of more “impressive” activities like debate club. I decided to join the school’s coding club and started working on small projects at home. Coding didn’t feel like work; it felt like solving puzzles, and I genuinely looked forward to it. My grades improved as I stopped trying to do everything and concentrated on what I cared about. I dropped a few extracurriculars and started going to therapy, where I learned strategies to manage anxiety and perfectionism. For the first time, I felt like I was in control.
-      </p>
-    </article>
+  <!-- Balance and Growth -->
+  <article>
+    <h2 class="text-3xl font-semibold text-gray-800 text-left">Learning Balance Through Sport</h2>
+    <p class="text-lg text-gray-600 mt-2">
+      Balancing running with academics and other interests taught me the value of prioritization. I learned how to manage my time effectively, fitting in training sessions while staying on top of schoolwork. Running also gave me a sense of accomplishment that wasn't tied to grades or external validation. Every mile I ran was a reminder of my own growth and perseverance, independent of anyone else's achievements.
+    </p>
+  </article>
 
-    <!-- Overcoming Challenges -->
-    <article>
-      <h2 class="text-3xl font-semibold text-gray-800 text-left">Balancing Academics and Well-Being</h2>
-      <p class="text-lg text-gray-600 mt-2">
-        Balancing academics and personal interests wasn’t easy, but it was worth it. I still studied hard, but I also gave myself permission to relax, hang out with friends, and binge-watch my favorite shows without guilt. My parents, initially worried about my decision to drop some advanced classes, saw how much happier I was and became my biggest cheerleaders. My coding teacher became a mentor, encouraging me to apply for hackathons and internships. These supportive people helped me navigate the pressures I faced.
-      </p>
-    </article>
+  <!-- Team and Support -->
+  <article>
+    <h2 class="text-3xl font-semibold text-gray-800 text-left">The Power of Community</h2>
+    <p class="text-lg text-gray-600 mt-2">
+      Being part of the cross-country team also helped me connect with a supportive group of peers. We shared early morning runs, post-race celebrations, and the camaraderie that comes from working toward a common goal. These friendships reminded me that success isn't just about individual accomplishments but about building meaningful relationships along the way. My coach, who emphasized effort over results, became a mentor, teaching me the importance of consistency and resilience.
+    </p>
+  </article>
 
-    <!-- Lessons Learned -->
-    <article>
-      <h2 class="text-3xl font-semibold text-gray-800 text-left">Lessons Learned</h2>
-      <p class="text-lg text-gray-600 mt-2">
-        The biggest lesson I learned was to stop comparing myself to others. It’s a hard habit to break, especially in a high-achieving environment, but I realized that everyone’s path is different. By focusing on what made me happy, I found success on my own terms. When I applied to college, my application highlighted my coding projects and internships—things I genuinely enjoyed—and I was accepted into my top choice. Today, my passion for technology has opened doors I never imagined, including my current internship, where I’m gaining real-world experience while still in school.
-      </p>
-    </article>
+  <!-- College Success -->
+  <article>
+    <h2 class="text-3xl font-semibold text-gray-800 text-left">Beyond High School</h2>
+    <p class="text-lg text-gray-600 mt-2">
+      The life skills I gained through running set me apart when it came time to apply for college. My application highlighted not just my academic achievements but also my dedication to cross-country and the lessons I learned from it. I wrote about how running taught me to set goals, adapt to challenges, and find joy in the process rather than the outcome. These qualities resonated with admissions committees, and I was accepted into my top-choice college.
+    </p>
+  </article>
 
-    <!-- Conclusion -->
-    <article>
-      <h2 class="text-3xl font-semibold text-gray-800 text-left">Conclusion</h2>
-      <p class="text-lg text-gray-600 mt-2">
-        To anyone feeling crushed by high school’s competitive pressures, my advice is this: focus on what excites you. You don’t have to follow someone else’s timeline or definition of success. Surround yourself with supportive people, take care of your mental health, and trust that your unique path will lead you where you need to go. The journey isn’t always easy, but it’s worth it—and so are you.
-      </p>
-    </article>
+  <!-- Conclusion -->
+  <article>
+    <h2 class="text-3xl font-semibold text-gray-800 text-left">Finding Your Ground</h2>
+    <p class="text-lg text-gray-600 mt-2">
+      To anyone feeling overwhelmed by high school's pressures, my advice is this: find something that grounds you. Whether it's a sport, a hobby, or another passion, invest in something that brings you clarity and balance. For me, running was more than just a sport; it was a teacher, a motivator, and a reminder that success is about growth, not comparison. Your unique path will lead you where you need to go, one step at a time.
+    </p>
+  </article>
 
-  </section>
-</main>
+</section></main>
 
 <style>
   /* Optional Tailwind custom styles can go here */
