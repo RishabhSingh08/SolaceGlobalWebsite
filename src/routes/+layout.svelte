@@ -1,6 +1,7 @@
 
 <script>
 import { injectAnalytics } from '@vercel/analytics/sveltekit'
+injectAnalytics();
 import "../app.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Icon from "../lib/images/SolaceGlobalLogo.png";
