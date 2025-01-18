@@ -81,7 +81,7 @@
         </h1>
         <!-- Hyperlinked Text under slogan- Learn about empowerment and innovation to create lasting change for tomorrow. -->
         <p class="mt-5 text-xl border-b-2 w-[725px]  border-black">
-            <a href="/">
+            <a href="/about/how-we-work">
                 Learn about empowerment and innovation to create lasting change for tomorrow.
             </a>
         </p>
@@ -93,7 +93,7 @@
         </video>
             <!-- Hyperlink Text under video- Discover Solace Globals Philanthropy  to explore giving opportunities and make an impact. -->
         <p class="mt-5 text-md font-medium underline px-8">
-            <a href="/">
+            <a href="/donate">
                 Learn how to make a difference
             </a>
         </p>
@@ -194,9 +194,7 @@
     <div class="bg-zinc-900 px-32 py-16 text-white mt-20">
         <div class="grid grid-cols-2 justify-between items-center">
             <p class="flex justify-start font-medium text-5xl rasa">Perspectives</p>
-            <div class="flex justify-end items-center text-xs font-medium">
-                <p class="underline ">Learn More About Perspectives</p>
-            </div>
+
         </div>
         <p class="my-8 text-xs">Explore the latest updates, research, and stories from the foundation, Solace Global weekly updates newsletter.</p>
     
@@ -270,8 +268,8 @@
             <p class="text-4xl rasa text-center">Foundation Facts</p>
         </div>
         <div class="grid grid-cols-4 gap-8 text-center text-7xl">
+            <div><div class="rasa">$20000+</div> <p class="mt text-base">Donated Resources & Services</p> </div>
             <div><div class="rasa">6650+</div> <p class="mt text-base">People affected</p> </div>
-            <div><div class="rasa">$3400+</div> <p class="mt text-base">Amount raised</p> </div>
             <div><div class="rasa">50+</div> <p class="mt text-base">Volunteers</p> </div>
             <div><div class="rasa">11+</div> <p class="mt text-base">Programs</p> </div>
         </div>
