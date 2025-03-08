@@ -79,18 +79,8 @@
                     Tech Builders (Part 2)
                 </p>
                 <p>
-                    Our organization took a proactive step toward empowering girls in South Asia by providing them with digital robotics lessons. Recognizing the gender gap in STEM fields, we sought to create an inclusive and accessible platform where young girls could explore robotics, develop technical skills, and build confidence in their abilities. Using digital tools and virtual meetings, we bridged geographical and cultural barriers, ensuring that these students had the resources they needed to thrive in an increasingly tech-driven world.
-                </p>
-                <p>
-                    We held regular online sessions, where our team of volunteers and instructors connected with the students via video conferencing platforms. Each session was designed to introduce foundational robotics concepts, programming basics, and hands-on activities that encouraged creativity and problem-solving. To make learning more engaging, we provided virtual simulations and interactive tutorials, allowing the girls to experiment with robot design and coding in real-time. Our team also conducted Q&A sessions, where students could seek guidance and share their ideas, fostering a collaborative learning environment.
+Our second Tech Builders workshop took a proactive step toward empowering girls in South Asia by providing them with digital robotics lessons. Through virtual sessions, interactive tutorials, and mentorship, we helped bridge the gender gap in STEM, equipping young girls with technical skills, confidence, and a passion for innovation.                </p>
 
-                </p>
-                <p>
-                    The impact of these lessons extended beyond just technical education. By offering these classes, we helped cultivate a mindset of curiosity and innovation among the participants, many of whom had limited access to such opportunities. Parents and community members in South Asia shared their appreciation, noting how these lessons not only expanded the girls' academic horizons but also inspired them to dream of pursuing careers in STEM fields. Through consistent mentorship and encouragement, we aimed to show these young learners that they have the potential to contribute meaningfully to technology and innovation.
-
-                </p>
-                <p>This initiative was a testament to the power of digital education in breaking down barriers and creating opportunities for underrepresented communities. Despite the physical distance, our team in Texas forged meaningful connections with the girls, empowering them with knowledge and confidence that could transform their futures. By combining technology and passion, we contributed to a global effort to promote gender equality in education and create a brighter, more inclusive future in robotics and STEM.
-</p>
                 </div>
             </div>
         </div>
