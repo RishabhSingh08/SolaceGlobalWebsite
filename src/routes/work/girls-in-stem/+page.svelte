@@ -50,7 +50,7 @@
             <div class="grid grid-cols-9 gap-8 items-center">
                 <div class="space-y-5 col-span-4 ">
                     <p class="text-3xl rasa text-justify" >
-                Tech Builders: First Robotics Workshop
+Robotics Education for Girls at Bengal’s Largest Abuse Survivors’ Orphanage
                     </p>
                     <p>Over 39 million girls around the world are out of school due to conflict and crisis, often trapped in cycles of poverty that prevent them from accessing education. This dire situation is especially prevalent in underserved communities like those served by Naihati New Life Society (NNLS) in the Sundarbans region of West Bengal, India, where poverty, social inequalities, and geographical isolation make it incredibly difficult for girls to receive an education. The families in these areas often live in extreme poverty, with limited access to basic resources like food, healthcare, and education. The economic struggles these communities face leave little room for the pursuit of education, and many girls are forced into early marriages or become victims of trafficking, further limiting their opportunities.</p>
                     <p>Recognizing the challenges these girls face, Solace Global partnered with NNLS to bring a transformative event to their doorstep, focused on hands-on STEM education. In this impoverished region, where even basic schooling is a luxury, Solace Global's robotics event aimed to introduce these girls to the world of technology. With limited access to educational resources, many of these girls have never had the chance to explore fields like engineering or robotics. During the event, we introduced them to SPARK Prime and EV3 robots, providing them with a rare opportunity to engage with the basic components of robotics, such as axles, wheels, motors, control hubs, and gears.</p>
@@ -76,7 +76,8 @@
                 </div>
                 <div class="space-y-5 col-span-5">
                 <p class="text-3xl rasa" >
-                    Tech Builders (Part 2)
+                    Robotics Education for Girls at Bengal’s Largest Abuse Survivors’ Orphanage
+ (Part 2)
                 </p>
                 <p>
 Our second Tech Builders workshop took a proactive step toward empowering girls in South Asia by providing them with digital robotics lessons. Through virtual sessions, interactive tutorials, and mentorship, we helped bridge the gender gap in STEM, equipping young girls with technical skills, confidence, and a passion for innovation.                </p>
@@ -100,7 +101,7 @@ Our second Tech Builders workshop took a proactive step toward empowering girls 
                 </div>
                 <div class="space-y-5 col-span-5">
                 <p class="text-4xl rasa" >
-                    CodeHER
+Online Coding Classes for Girls with Code.org
                 </p>
                     <p>The CodeHER Initiative is a recurring, bi-monthly, girls-only online program that introduces young girls to the fundamentals of computer science, following the curriculum of the AP Computer Science Principles (APCSP) course. Studies show that as few as 8-10% of all programmers are female, and through this initiative, we aim to change that statistic by empowering young girls to pursue technology and coding careers.
 </p>

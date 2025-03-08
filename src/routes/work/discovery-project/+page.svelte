@@ -103,7 +103,7 @@
         <div id="dreams" class="space-y-6">
             <div class="grid grid-cols-9 gap-8 items-center">
                 <div class="space-y-5 col-span-4 ">
-                    <p class="text-3xl rasa text-justify" >3D Dreams</p>
+                    <p class="text-3xl rasa text-justify" >3D Printing Expo with Amazon & Tesla</p>
                     <p>
                     Solace Global organized an engaging STEM outreach event across North Texas, showcasing the possibilities of 3D printing to diverse communities in various common spaces, including malls and parks. The event aimed to inspire curiosity and interest in technology among individuals of all ages and backgrounds.
                     </p>
@@ -176,7 +176,7 @@
                         
                 </div>
                 <div class="space-y-5 col-span-4">
-                <p class="text-3xl rasa" >Robots for Earth</p>
+                <p class="text-3xl rasa" >Environmental Robotics Presentation with UTD Researcher</p>
                 <p>The event aimed to teach kids about climate change through the lens of robotics, led by a UTD researcher with expertise in 3D autonomous systems. It began with an informative presentation that explained how robotics can address environmental issues, such as waste management and pollution. The presentation highlighted the potential of technology in solving climate change-related problems and set the stage for the hands-on activities that followed.</p>
                 <p>Participants had the opportunity to build and program a SPARK Prime robot—created by a member of the Undefined Robotics team—that autonomously cleaned trash using a claw mechanism. This practical experience allowed the kids to apply what they had learned during the presentation and see how robotics can be utilized to tackle real-world sustainability challenges.</p>
                 <p>Through this hands-on activity, participants not only learned basic robotics skills but also gained an understanding of how innovation can be used to reduce pollution and promote environmental conservation. The event sparked creativity and encouraged the kids to think about how technology can help protect the planet. By combining interactive learning and an educational presentation, the event empowered the next generation to explore how they can contribute to combating climate change through robotics and other technological solutions.</p>
@@ -187,7 +187,8 @@
         <div id="seniors" class="space-y-6">
             <div class="grid grid-cols-9 gap-8 items-center">
                 <div class="space-y-5 col-span-4 ">
-                    <p class="text-3xl rasa text-center" >Smart Seniors</p>
+                    <p class="text-3xl rasa text-center" >Digital Safety Training for Seniors
+</p>
                 </div>
                 <div>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/oqGNcKCjYv4?si=lDv_yjLw6Y5XNEWP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -207,7 +208,7 @@
                 </div>
                 <div class="space-y-5 col-span-5">
                 <p class="text-3xl rasa" >
-                    STEM Spark
+                    STEM Workshop Led by Local Robotics Teens
                 </p>
                 <p>
 Led by members of a STATE UIL-winning robotics team and a World FTC Qualifying team, this event in Plano, Texas, provided an engaging and immersive hands-on experience designed to inspire the next generation of innovators and leaders in STEM. Participants explored a range of science and technology concepts through interactive activities that sparked curiosity and creativity, offering a perspective often missing from traditional school settings. By engaging with high school students, who acted as mentors and role models, the event created a "big brother" effect, where younger participants felt more connected and open to asking questions, experimenting, and thinking critically.

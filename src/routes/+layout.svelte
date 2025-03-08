@@ -148,25 +148,25 @@ function toggleIdeasDropdown() {
             <div>
                 <h4 class="text-2xl font-base"><a href="/work/connection-project" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>The Connection Project</a></h4>
                 <ul class="mt-2 space-y-2">
-                    <li><a href="/work/connection-project/#tech-builders" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Chess for Change</a></li>
+                    <li><a href="/work/connection-project/#chess" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Chess Lessons for Abuse Survivors</a></li>
                     <li><a href="/work/connection-project/#baqiyatullah" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Baqiyatullah Foundation Clothing Drive (Pakistan)</a></li>
                 </ul>
             </div>
             <div>
                 <h4 class="text-2xl font-base"><a href="/work/discovery-project" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>The Discovery Project</a></h4>
                 <ul class="mt-2 space-y-2">
-                    <li><a href="/work/discovery-project/#dreams" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>3D Dreams</a></li>
-                    <li><a href="/work/discovery-project/#robots" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robots for Earth</a></li>
-                    <li><a href="/work/discovery-project/#seniors" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Smart Senior</a></li>
-                    <li><a href="/work/discovery-project/#spark" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>STEM Spark</a></li>
+                    <li><a href="/work/discovery-project/#dreams" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>3D Printing Expo with Amazon & Tesla</a></li>
+                    <li><a href="/work/discovery-project/#robots" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Environmental Robotics Presentation with UTD Researcher</a></li>
+                    <li><a href="/work/discovery-project/#seniors" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Digital Safety Training for Seniors</a></li>
+                    <li><a href="/work/discovery-project/#spark" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>STEM Workshop Led by Local Robotics Teens</a></li>
                 </ul>
             </div>
             <div>
                 <h4 class="text-2xl font-base"><a href="/work/gTirls-in-stem" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Girls in STEM</a></h4>
                 <ul class="mt-2 space-y-2">
-                    <li><a href="/work/girls-in-stem/#tech-builders" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Tech Builders</a></li>
-                    <li><a href="/work/girls-in-stem/#robot-connection" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Tech Builders (Part 2)</a></li>
-                    <li><a href="/work/girls-in-stem/#CodeHER" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>CodeHER</a></li>
+                    <li><a href="/work/girls-in-stem/#tech-builders" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Education</a></li>
+                    <li><a href="/work/girls-in-stem/#robot-connection" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Education (Part 2)</a></li>
+                    <li><a href="/work/girls-in-stem/#CodeHER" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Online Coding Classes for Girls with Code.org</a></li>
                 </ul>
             </div>
 

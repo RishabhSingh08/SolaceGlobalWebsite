@@ -50,12 +50,12 @@
         </div>
 
         <div class="border-b border-zinc-300 mx-16"></div>
-        <div id="tech-builders" class="space-y-6">
+        <div id="chess" class="space-y-6">
 
             <div class="grid grid-cols-9 gap-8 items-center">
                 <div class="space-y-5 col-span-4 ">
                     <p class="text-3xl rasa text-justify" >
-                Chess for Change
+Chess Lessons for Abuse Survivors
                     </p>
 <p>Solace Global partnered with the Naihati New Life Society (NNLS), a nonprofit organization dedicated to supporting marginalized communities in the Sundarbans region of South West Bengal, India. NNLS works with children without parents, physically challenged individuals, victims of human trafficking, and survivors of early marriage and family violence. Many of these individuals come from impoverished backgrounds with limited access to educational opportunities. Through our 5-part chess series, Solace Global aimed to offer them a chance to develop critical thinking, problem-solving skills, and self-confidence, which are essential for overcoming the challenges they face.
 </p>
