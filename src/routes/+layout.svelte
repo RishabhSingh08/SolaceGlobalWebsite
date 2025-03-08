@@ -150,6 +150,7 @@ function toggleIdeasDropdown() {
                 <ul class="mt-2 space-y-2">
                     <li><a href="/work/connection-project/#tech-builders" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Chess for Change</a></li>
                     <li><a href="/work/connection-project/#robot-connection" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Connection</a></li>
+                    <li><a href="/work/connection-project/#baqiyatullah" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Baqiyatullah Foundation Clothing Drive</a></li>
                 </ul>
             </div>
             <div>

@@ -3,6 +3,7 @@
     import video01 from "../../../lib/images/MediaImages/solaceVideo.mp4";
     import poster01 from "../../../lib/images/MediaImages/poster01.png";
     import robotCon from "../../../lib/images/MediaImages/robotconnection.jpg"
+    import baqia from "../../../lib/images/MediaImages/baqia.png"
 </script>
 
 <svelte:head>
@@ -102,5 +103,39 @@ Through this chess series, Solace Global helped NNLS participants gain valuable 
                 </div>
             </div>
         </div>
+                <div class="border-b border-zinc-300 mx-16"></div>
+        <div id="baqiyatullah" class="space-y-6">
+            <div class="grid grid-cols-9 gap-16 items-center">
+
+                <div class="space-y-5 col-span-5">
+                <p class="text-3xl rasa" >
+Baqiyatullah Foundation: Clothing Drive - Pakistan
+                </p>
+                <p>
+Solace Global organized a heartfelt giving initiative, donating RS7,000 to provide clothing for 20 orphaned children aged 7-10 at the Baqiyatullah Orphan House Complex. Beyond providing essential resources, our members personally connected with the children, engaging in conversations, sharing smiles, and fostering a warm and supportive atmosphere.
+                </p>
+                <p>
+During the visit, our team took the time to listen to the children’s stories, learn about their daily lives, and offer words of encouragement. The experience was deeply moving, as we witnessed their resilience, curiosity, and hope for the future. The interactions reinforced the importance of not just donating material goods, but also showing up with kindness and genuine care.
+
+                </p>
+                <p>
+The Baqiyatullah Foundation provides a nurturing home, education, and life skills to orphaned children, helping them grow into self-reliant individuals. Through this collaboration, we aimed to do more than just provide clothing—we sought to remind these children that they are valued, supported, and not alone.
+
+                </p>
+                <p>
+This initiative reflects Solace Global’s commitment to making a meaningful impact, one step at a time. By standing with organizations like Baqiyatullah, we continue to work toward a future where every child has the opportunity to thrive.
+</p>
+                </div>
+                                <div class="col-span-4">
+        
+        <div>
+            <img src={baqia} alt="">
+        </div>
+
+                        
+                </div>
+            </div>
+        </div>
+
 
 </main>
