@@ -1,9 +1,9 @@
 <script>
     import image01 from "../../../lib/images/MediaImages/robotpic.jpg";
-    import video01 from "../../../lib/images/MediaImages/solaceVideo.mp4";
     import poster01 from "../../../lib/images/MediaImages/poster01.png";
-    import robotCon from "../../../lib/images/MediaImages/robotconnection.jpg"
     import baqia from "../../../lib/images/MediaImages/baqia.png"
+    import Video from "../../../lib/images/MediaImages/baqtiVideo.mp4";
+
 </script>
 
 <svelte:head>
@@ -23,6 +23,7 @@
 
 
 <main>
+
     <div class="space-y-12">
         <!-- FAQ Header -->
         <div class="text-center space-y-2">
@@ -71,43 +72,12 @@ Through this chess series, Solace Global helped NNLS participants gain valuable 
                 </div>
             </div>
         </div>
-        <div class="border-b border-zinc-300 mx-16"></div>
-        <div id="robot-connection" class="space-y-6">
-            <div class="grid grid-cols-9 gap-16 items-center">
-                <div class="col-span-4">
-        
-        <div>
-            <img src={robotCon} alt="">
-        </div>
-                    <div class="text-center text-sm my-4 space-y-4">
-                    </div>
-                        
-                </div>
-                <div class="space-y-5 col-span-5">
-                <p class="text-3xl rasa" >
-                    Robot Connection
-                </p>
-                <p>
-                    Our organization took a proactive step toward empowering girls in South Asia by providing them with digital robotics lessons. Recognizing the gender gap in STEM fields, we sought to create an inclusive and accessible platform where young girls could explore robotics, develop technical skills, and build confidence in their abilities. Using digital tools and virtual meetings, we bridged geographical and cultural barriers, ensuring that these students had the resources they needed to thrive in an increasingly tech-driven world.
-                </p>
-                <p>
-                    We held regular online sessions, where our team of volunteers and instructors connected with the students via video conferencing platforms. Each session was designed to introduce foundational robotics concepts, programming basics, and hands-on activities that encouraged creativity and problem-solving. To make learning more engaging, we provided virtual simulations and interactive tutorials, allowing the girls to experiment with robot design and coding in real-time. Our team also conducted Q&A sessions, where students could seek guidance and share their ideas, fostering a collaborative learning environment.
 
-                </p>
-                <p>
-                    The impact of these lessons extended beyond just technical education. By offering these classes, we helped cultivate a mindset of curiosity and innovation among the participants, many of whom had limited access to such opportunities. Parents and community members in South Asia shared their appreciation, noting how these lessons not only expanded the girls' academic horizons but also inspired them to dream of pursuing careers in STEM fields. Through consistent mentorship and encouragement, we aimed to show these young learners that they have the potential to contribute meaningfully to technology and innovation.
-
-                </p>
-                <p>This initiative was a testament to the power of digital education in breaking down barriers and creating opportunities for underrepresented communities. Despite the physical distance, our team in Texas forged meaningful connections with the girls, empowering them with knowledge and confidence that could transform their futures. By combining technology and passion, we contributed to a global effort to promote gender equality in education and create a brighter, more inclusive future in robotics and STEM.
-</p>
-                </div>
-            </div>
-        </div>
                 <div class="border-b border-zinc-300 mx-16"></div>
         <div id="baqiyatullah" class="space-y-6">
             <div class="grid grid-cols-9 gap-16 items-center">
 
-                <div class="space-y-5 col-span-5">
+                <div class="space-y-5 col-span-4">
                 <p class="text-3xl rasa" >
 Baqiyatullah Foundation: Clothing Drive - Pakistan
                 </p>
@@ -125,17 +95,24 @@ The Baqiyatullah Foundation provides a nurturing home, education, and life skill
                 <p>
 This initiative reflects Solace Global’s commitment to making a meaningful impact, one step at a time. By standing with organizations like Baqiyatullah, we continue to work toward a future where every child has the opportunity to thrive.
 </p>
-                </div>
-                                <div class="col-span-4">
-        
-        <div>
-            <img src={baqia} alt="">
-        </div>
 
-                        
+
                 </div>
-            </div>
+<div class="col-span-5">
+    <div class="space-y-4">
+        <img src={baqia} alt="" class="">
+        <div class="flex justify-center">
+            <video loop muted autoplay width="50%">
+                <source src={Video} type="video/mp4">
+            </video>
         </div>
+    </div>
+</div>
+
+
+
+    </div>
+</div>
 
 
 </main>

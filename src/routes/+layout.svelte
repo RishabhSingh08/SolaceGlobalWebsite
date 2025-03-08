@@ -135,7 +135,7 @@ function toggleIdeasDropdown() {
         <div class="grid grid-cols-4 gap-6">
             <!-- Column 1 -->
                     <!-- Column 2 -->
-                                 <div class="">
+                                <div class="">
                 <h4 class="text-2xl  font-base"><a href="/work/career-compass" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Career Compass</a></h4>
                 <ul class="mt-2 space-y-2">
                     <li><a href="/work/career-compass/#engineering" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Engineering</a></li>
@@ -149,8 +149,7 @@ function toggleIdeasDropdown() {
                 <h4 class="text-2xl font-base"><a href="/work/connection-project" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>The Connection Project</a></h4>
                 <ul class="mt-2 space-y-2">
                     <li><a href="/work/connection-project/#tech-builders" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Chess for Change</a></li>
-                    <li><a href="/work/connection-project/#robot-connection" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Connection</a></li>
-                    <li><a href="/work/connection-project/#baqiyatullah" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Baqiyatullah Foundation Clothing Drive</a></li>
+                    <li><a href="/work/connection-project/#baqiyatullah" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Baqiyatullah Foundation Clothing Drive (Pakistan)</a></li>
                 </ul>
             </div>
             <div>
@@ -163,9 +162,10 @@ function toggleIdeasDropdown() {
                 </ul>
             </div>
             <div>
-                <h4 class="text-2xl font-base"><a href="/work/girls-in-stem" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Girls in STEM</a></h4>
+                <h4 class="text-2xl font-base"><a href="/work/gTirls-in-stem" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Girls in STEM</a></h4>
                 <ul class="mt-2 space-y-2">
                     <li><a href="/work/girls-in-stem/#tech-builders" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Tech Builders</a></li>
+                    <li><a href="/work/girls-in-stem/#robot-connection" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>Tech Builders (Part 2)</a></li>
                     <li><a href="/work/girls-in-stem/#CodeHER" class=" text-gray-600 hover:underline" on:click={closeAllDropdowns}>CodeHER</a></li>
                 </ul>
             </div>

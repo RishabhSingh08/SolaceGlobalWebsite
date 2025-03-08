@@ -7,6 +7,7 @@
   import pfpVedant from "../../../lib/images/Headshots/vedant_teware.png";
   import pfpZaid from "../../../lib/images/Headshots/zaid_salahi.png";
 
+
   type TeamMember = {
     name: string;
     role: string;
@@ -130,6 +131,8 @@
 </style>
 
 <main>
+
+
   <div class="space-y-16 py-12">
     <!-- Team Header -->
     <h1 class="text-center text-6xl rasa font-bold text-black">

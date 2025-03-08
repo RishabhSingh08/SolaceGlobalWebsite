@@ -3,6 +3,8 @@
     import image02 from "../../../lib/images/MediaImages/techbuildersImage.png";
     import video01 from "../../../lib/images/MediaImages/solaceVideo.mp4";
     import poster01 from "../../../lib/images/MediaImages/poster01.png";
+        import robotCon from "../../../lib/images/MediaImages/robotconnection.jpg"
+
 </script>
 
 <svelte:head>
@@ -57,6 +59,38 @@
                 <div class="col-span-5">
                     <img src={image02} alt="">
                     <p class="text-center text-sm my-4">This photo shows the girls in West Bengal, intently observing the robot, with guidance from our mentor in Texas, who is 14,000 km away, demonstrating how STEM connects us across vast distances.</p>
+                </div>
+            </div>
+        </div>
+                <div class="border-b border-zinc-300 mx-16"></div>
+        <div id="robot-connection" class="space-y-6">
+            <div class="grid grid-cols-9 gap-16 items-center">
+                <div class="col-span-4">
+        
+        <div>
+            <img src={robotCon} alt="">
+        </div>
+                    <div class="text-center text-sm my-4 space-y-4">
+                    </div>
+                        
+                </div>
+                <div class="space-y-5 col-span-5">
+                <p class="text-3xl rasa" >
+                    Tech Builders (Part 2)
+                </p>
+                <p>
+                    Our organization took a proactive step toward empowering girls in South Asia by providing them with digital robotics lessons. Recognizing the gender gap in STEM fields, we sought to create an inclusive and accessible platform where young girls could explore robotics, develop technical skills, and build confidence in their abilities. Using digital tools and virtual meetings, we bridged geographical and cultural barriers, ensuring that these students had the resources they needed to thrive in an increasingly tech-driven world.
+                </p>
+                <p>
+                    We held regular online sessions, where our team of volunteers and instructors connected with the students via video conferencing platforms. Each session was designed to introduce foundational robotics concepts, programming basics, and hands-on activities that encouraged creativity and problem-solving. To make learning more engaging, we provided virtual simulations and interactive tutorials, allowing the girls to experiment with robot design and coding in real-time. Our team also conducted Q&A sessions, where students could seek guidance and share their ideas, fostering a collaborative learning environment.
+
+                </p>
+                <p>
+                    The impact of these lessons extended beyond just technical education. By offering these classes, we helped cultivate a mindset of curiosity and innovation among the participants, many of whom had limited access to such opportunities. Parents and community members in South Asia shared their appreciation, noting how these lessons not only expanded the girls' academic horizons but also inspired them to dream of pursuing careers in STEM fields. Through consistent mentorship and encouragement, we aimed to show these young learners that they have the potential to contribute meaningfully to technology and innovation.
+
+                </p>
+                <p>This initiative was a testament to the power of digital education in breaking down barriers and creating opportunities for underrepresented communities. Despite the physical distance, our team in Texas forged meaningful connections with the girls, empowering them with knowledge and confidence that could transform their futures. By combining technology and passion, we contributed to a global effort to promote gender equality in education and create a brighter, more inclusive future in robotics and STEM.
+</p>
                 </div>
             </div>
         </div>
