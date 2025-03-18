@@ -19,7 +19,7 @@
     import discoveryImage11 from "../../../lib/images/discoveryImages/11.jpg";
     import discoveryImage12 from "../../../lib/images/discoveryImages/12.jpg";
 
-    // import header from "../../../lib/images/discoveryImages/Header.jpg";
+    import header from "../../../lib/images/discoveryImages/Header.jpg";
 
   import { onMount } from "svelte";
   let currentIndex = 0;

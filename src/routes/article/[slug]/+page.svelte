@@ -1,6 +1,5 @@
 <script>
   export let data;
-  console.log(data.article.content.html);
 </script>
 
 <svelte:head>
@@ -33,7 +32,7 @@
   </div>
   
 <article class="space-y-6">
-  <div class="prose space-y-5">
+  <div class="prose space-y-5 custom-list">
     {@html data.article.content.html}
   </div>
 </article>
@@ -44,3 +43,14 @@
     <a href="/the-wisdom" class="text-blue-600 hover:underline">← Back to Articles</a>
   </div>
 </div>
+
+<style>
+  :global(.custom-list ul) {
+    list-style-type: disc;
+    padding-left: 1.25rem; /* Equivalent to pl-5 */
+  }
+  :global(.custom-list ol) {
+    list-style-type: decimal;
+    padding-left: 1.25rem;
+  }
+</style>
