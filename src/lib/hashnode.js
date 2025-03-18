@@ -3,7 +3,7 @@ import { GraphQLClient } from "graphql-request";
 // Create a GraphQL client instance
 const client = new GraphQLClient("https://gql.hashnode.com", {
   headers: {
-    Authorization: import.meta.env.VITE_HASHNODE_TOKEN,
+    Authorization: "fa56da6e-f515-4b66-b065-0514c91745d1",
   },
 });
 
@@ -33,7 +33,7 @@ export async function getAllArticles() {
   `;
 
   const variables = {
-    host: import.meta.env.VITE_HASHNODE_PUBLICATION_HOST,
+    host: "solaceglobal.hashnode.dev",
   };
 
   try {
@@ -72,7 +72,7 @@ export async function getArticleBySlug(slug) {
   `;
 
   const variables = {
-    host: import.meta.env.VITE_HASHNODE_PUBLICATION_HOST,
+    host: "solaceglobal.hashnode.dev",
     slug: slug,
   };
 
