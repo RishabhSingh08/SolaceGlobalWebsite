@@ -209,7 +209,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8">
             <!-- Main Article -->
             <div class="lg:col-span-3 hover:scale-105 transition p-4 md:p-6 rounded-lg shadow-2xl shadow-gray-800">
-                <a href="/article/trap">
+                <a href="/the-wisdom">
                     <img src={Article01} alt="Article" class="w-full">
                     <div class="mt-4 md:mt-6">
                         <p class="mb-2 md:mb-3 font-semibold text-xl md:text-2xl lg:text-3xl rasa">Breaking Free from the Comparison Trap</p>
@@ -221,7 +221,7 @@
             <!-- Secondary Article and Newsletter -->
             <div class="lg:col-span-2">
                 <div class="hover:scale-105 transition p-4 md:p-6 rounded-lg shadow-2xl shadow-gray-800">
-                    <a href="/article/stem">
+                    <a href="/the-wisdom">
                         <img src={Article05} alt="Article" class="w-full">
                         <p class="mt-3 font-semibold text-xl md:text-2xl rasa">Exploring STEM: A Journey of Curiosity and Innovation</p>
                     </a>
