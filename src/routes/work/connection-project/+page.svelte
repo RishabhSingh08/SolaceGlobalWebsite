@@ -125,6 +125,60 @@
                     </div>
                 </div>
             </div>
+
+            <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+            
+            <!-- German Students U.S. Visa Section -->
+            <div id="german-visa" class="space-y-6">
+                <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+                    <div class="space-y-4 lg:col-span-4">
+                        <p class="text-2xl md:text-3xl rasa">
+                            Guiding German Students on U.S. Visa Processes
+                        </p>
+                        <div class="space-y-3 text-sm md:text-base">
+                            <p>Solace Global recently partnered with Mohammed Nachawati, the branch head of Solace Global in Germany, to conduct an impactful online session addressing the challenges many German students face when pursuing educational opportunities in the United States. The session was designed to equip Mohammed with in-depth knowledge about U.S. visa categories, processes, and requirements, enabling him to share this information with foster homes and underprivileged teens in Germany.</p>
+                            
+                            <p>This initiative aligns with Solace Global's mission to foster global education and provide equitable opportunities to underserved communities. Economic inequality among students in Germany highlights the significance of this effort. In 2021, 37.9% of students in Germany were classified as at risk of poverty, with those living alone or in shared accommodations facing an even higher risk of 76.1%, according to the Federal Statistical Office (Destatis). By comparison, only 15.8% of the general German population faced similar challenges.</p>
+                            
+                            <p>Students reliant on BAföG, the federal education grant and loan scheme, are disproportionately affected, with 45% at risk of poverty. The average income of a poor student was just €802 (US$848) per month—well below Germany's poverty line of €1,265. Rising inflation and the energy crisis further compound these struggles, creating a pressing need for initiatives that open doors to better opportunities.</p>
+                            
+                            <p>The session covered the essentials of navigating the U.S. visa system, focusing on categories such as F-1 student visas for full-time study, J-1 exchange visitor visas for cultural and educational exchanges, and H-1B work visas for skilled employment. Mohammed learned how to guide students in identifying the most suitable visa type based on their individual goals, whether for academic study, internships, or long-term professional aspirations.</p>
+                            
+                            <p>A deeper understanding of the German education system was also critical. German high schools operate on a grading scale of 1 to 6, where 1 represents the highest score and 6 the lowest. For students in the qualification phase of the Abitur exam (Oberstufe), the grading shifts to a 15-point scale, with 15 being the top score. Translating these credentials into U.S. standards is often a challenge, and the session provided strategies for presenting competitive applications that showcase students' academic strengths effectively.</p>
+                            
+                            <p>Through initiatives like this, Solace Global continues to bridge the gap between aspiration and access, providing resources and knowledge to those who need it most. By equipping Mohammed Nachawati to spread this information, the organization extends its reach to some of the most vulnerable youth in Germany, offering them the tools to dream bigger and achieve more.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="w-full lg:col-span-5">
+                        <div class="space-y-4">
+                            
+                            <!-- Stats section -->
+                            <div class=" rounded-lg p-4 md:p-6 space-y-3">
+                                <p class="font-semibold text-base md:text-lg">Key Statistics:</p>
+                                <div class="grid grid-cols-2 gap-3">
+                                    <div class="bg-white p-3 rounded shadow-sm">
+                                        <p class="text-xl md:text-2xl font-bold text-blue-700">37.9%</p>
+                                        <p class="text-xs md:text-sm text-zinc-600">German students at risk of poverty (2021)</p>
+                                    </div>
+                                    <div class="bg-white p-3 rounded shadow-sm">
+                                        <p class="text-xl md:text-2xl font-bold text-blue-700">76.1%</p>
+                                        <p class="text-xs md:text-sm text-zinc-600">Students in shared housing at risk</p>
+                                    </div>
+                                    <div class="bg-white p-3 rounded shadow-sm">
+                                        <p class="text-xl md:text-2xl font-bold text-blue-700">€802</p>
+                                        <p class="text-xs md:text-sm text-zinc-600">Average monthly income of poor students</p>
+                                    </div>
+                                    <div class="bg-white p-3 rounded shadow-sm">
+                                        <p class="text-xl md:text-2xl font-bold text-blue-700">45%</p>
+                                        <p class="text-xs md:text-sm text-zinc-600">BAföG recipients at risk of poverty</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </main>
