@@ -1,6 +1,7 @@
 <script>
     import poster01 from "../../../lib/images/MediaImages/poster01.png";
     import baqia from "../../../lib/images/MediaImages/baqia.png"
+    import german from "../../../lib/images/MediaImages/image0.jpg"
     import Video from "../../../lib/images/MediaImages/baqtiVideo.mp4";
 </script>
 
@@ -152,6 +153,10 @@
                     
                     <div class="w-full lg:col-span-5">
                         <div class="space-y-4">
+                            <!-- Placeholder for German visa section image -->
+                            <div class="bg-zinc-100 rounded-lg flex items-center justify-center h-64 md:h-96">
+                                <img src={german} alt="">
+                            </div>
                             
                             <!-- Stats section -->
                             <div class=" rounded-lg p-4 md:p-6 space-y-3">
