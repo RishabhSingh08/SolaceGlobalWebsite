@@ -16,7 +16,6 @@
     import Article03 from "../lib/images/homePageImages/article2.jpg";
     import Article02 from "../lib/images/homePageImages/article3.jpg";
     import Article04 from "../lib/images/homePageImages/article4.jpg";
-
     import Article05 from "../lib/images/MediaImages/Stem.png";
 
   const articles = [
