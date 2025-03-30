@@ -11,6 +11,17 @@
     import Sponsor04 from "../lib/images/Sponsors/senior.png";
     import Sponsor05 from "../lib/images/Sponsors/shanti.png";
     import Sponsor06 from "../lib/images/Sponsors/undefined.png";
+    import Sponsor07 from "../lib/images/Sponsors/amazon.png";
+
+    const sponsors = [
+        { image: Sponsor01, alt: "Hack Club" },
+        { image: Sponsor02, alt: "Pinkberry" },
+        { image: Sponsor03, alt: "Project World Impact" },
+        { image: Sponsor04, alt: "Senior Partner" },
+        { image: Sponsor05, alt: "Shanti Bhavan" },
+        { image: Sponsor06, alt: "Undefined Robotics" },
+        { image: Sponsor07, alt: "Amazon" }
+    ];
 
     import Article01 from "../lib/images/MediaImages/article01.png";
     import Article03 from "../lib/images/homePageImages/article2.jpg";
@@ -137,52 +148,19 @@
     <div class="px-4 md:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
             <!-- Partners Grid -->
-            <div class="lg:col-span-3">
-                <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-8">
-                    <div class="relative w-full aspect-square">
-                        <img 
-                            src={Sponsor01} 
-                            alt="Hack Club" 
-                            class="absolute inset-0 w-full h-full object-contain p-2"
-                        />
-                    </div>
-                    <div class="relative w-full aspect-square">
-                        <img 
-                            src={Sponsor02} 
-                            alt="Pinkberry" 
-                            class="absolute inset-0 w-full h-full object-contain p-2"
-                        />
-                    </div>
-                    <div class="relative w-full aspect-square">
-                        <img 
-                            src={Sponsor03} 
-                            alt="Project World Impact" 
-                            class="absolute inset-0 w-full h-full object-contain p-2"
-                        />
-                    </div>
-                    <div class="relative w-full aspect-square">
-                        <img 
-                            src={Sponsor04} 
-                            alt="Senior Partner" 
-                            class="absolute inset-0 w-full h-full object-contain p-2"
-                        />
-                    </div>
-                    <div class="relative w-full aspect-square">
-                        <img 
-                            src={Sponsor05} 
-                            alt="Shanti Bhavan" 
-                            class="absolute inset-0 w-full h-full object-contain p-2"
-                        />
-                    </div>
-                    <div class="relative w-full aspect-square">
-                        <img 
-                            src={Sponsor06} 
-                            alt="Undefined Robotics" 
-                            class="absolute inset-0 w-full h-full object-contain p-2"
-                        />
-                    </div>
-                </div>
+<div class="lg:col-span-3">
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-8">
+        {#each sponsors as sponsor}
+            <div class="relative w-full aspect-square">
+                <img 
+                    src={sponsor.image} 
+                    alt={sponsor.alt} 
+                    class="absolute inset-0 w-full h-full object-contain p-2"
+                />
             </div>
+        {/each}
+    </div>
+</div>
             
             <!-- Partners Text -->
             <div class="lg:col-span-2 mt-8 lg:mt-0">
