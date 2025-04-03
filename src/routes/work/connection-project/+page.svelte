@@ -103,10 +103,10 @@
                 <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
                     <div class="space-y-4 lg:col-span-4">
                         <p class="text-2xl md:text-3xl rasa">
-                            Baqiyatullah Foundation: Clothing Drive - Pakistan
+                            Clothing for Those in Need – Pakistan
                         </p>
                         <div class="space-y-3 text-sm md:text-base">
-                            <p>Solace Global organized a heartfelt giving initiative, donating RS7,000 to provide clothing for 20 orphaned children aged 7-10 at the Baqiyatullah Orphan House Complex. Beyond providing essential resources, our members personally connected with the children, engaging in conversations, sharing smiles, and fostering a warm and supportive atmosphere.</p>
+                            <p>Solace Global organized a heartfelt giving initiative, donating $30,000 to provide clothing for 20 orphaned children aged 7-10 at the Baqiyatullah Orphan House Complex. Beyond providing essential resources, our members personally connected with the children, engaging in conversations, sharing smiles, and fostering a warm and supportive atmosphere.</p>
                             <p>During the visit, our team took the time to listen to the children's stories, learn about their daily lives, and offer words of encouragement. The experience was deeply moving, as we witnessed their resilience, curiosity, and hope for the future. The interactions reinforced the importance of not just donating material goods, but also showing up with kindness and genuine care.</p>
                             <p>The Baqiyatullah Foundation provides a nurturing home, education, and life skills to orphaned children, helping them grow into self-reliant individuals. Through this collaboration, we aimed to do more than just provide clothing—we sought to remind these children that they are valued, supported, and not alone.</p>
                             <p>This initiative reflects Solace Global's commitment to making a meaningful impact, one step at a time. By standing with organizations like Baqiyatullah, we continue to work toward a future where every child has the opportunity to thrive.</p>
@@ -115,7 +115,9 @@
                     
                     <div class="w-full lg:col-span-5">
                         <div class="space-y-4">
-                            <img src={baqia} alt="Baqiyatullah Foundation" class="w-full rounded-lg">
+                            <div class="flex justify-center">
+                                <img src={baqia} alt="Baqiyatullah Foundation" class="w-[30rem] rounded-lg">
+                            </div>
                             <div class="flex justify-center">
                                 <video loop muted autoplay controls class="w-full md:w-3/4 lg:w-1/2 rounded-lg">
                                     <source src={Video} type="video/mp4">

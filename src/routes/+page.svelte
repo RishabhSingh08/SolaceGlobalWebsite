@@ -14,13 +14,13 @@
     import Sponsor07 from "../lib/images/Sponsors/amazon.png";
 
     const sponsors = [
-        { image: Sponsor01, alt: "Hack Club" },
+        { image: Sponsor07, alt: "Amazon" },
         { image: Sponsor02, alt: "Pinkberry" },
         { image: Sponsor03, alt: "Project World Impact" },
-        { image: Sponsor04, alt: "Senior Partner" },
         { image: Sponsor05, alt: "Shanti Bhavan" },
         { image: Sponsor06, alt: "Undefined Robotics" },
-        { image: Sponsor07, alt: "Amazon" }
+        { image: Sponsor01, alt: "Hack Club" },
+
     ];
 
     import Article01 from "../lib/images/MediaImages/article01.png";
@@ -258,14 +258,18 @@
             <p class="text-2xl md:text-3xl lg:text-4xl rasa text-center">Foundation Facts</p>
         </div>
         
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center">
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8 text-center">
             <div class="p-4">
                 <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">$20000+</div>
-                <p class="mt-2 text-sm md:text-base">Donated Resources & Services</p>
+                <p class="mt-2 text-sm md:text-base">Raised in value</p>
             </div>
             <div class="p-4">
-                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">6650+</div>
+                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">7000+</div>
                 <p class="mt-2 text-sm md:text-base">People affected</p>
+            </div>
+            <div class="p-4">
+                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">6+</div>
+                <p class="mt-2 text-sm md:text-base">Countries in operation</p>
             </div>
             <div class="p-4">
                 <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">50+</div>
