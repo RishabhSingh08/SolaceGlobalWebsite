@@ -264,7 +264,7 @@
                 <p class="mt-2 text-sm md:text-base">Raised in value</p>
             </div>
             <div class="p-4">
-                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">7000+</div>
+                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">8000+</div>
                 <p class="mt-2 text-sm md:text-base">People affected</p>
             </div>
             <div class="p-4">
