@@ -198,7 +198,7 @@
             <!-- Secondary Article and Newsletter -->
             <div class="lg:col-span-2">
                 <div class="hover:scale-105 transition p-4 md:p-6 rounded-lg shadow-2xl shadow-gray-800">
-                    <a href="/the-wisdom">
+                    <a href="/article/exploring-stem-a-journey-of-curiosity-and-innovation">
                         <img src={Article05} alt="Article" class="w-full">
                         <p class="mt-3 font-semibold text-xl md:text-2xl rasa">Exploring STEM: A Journey of Curiosity and Innovation</p>
                     </a>
