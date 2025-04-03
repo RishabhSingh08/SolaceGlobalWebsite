@@ -31,32 +31,32 @@
 
   const articles = [
     {
-      href: "/the-wisdom",
+      href: "/article/bridging-the-stem-gap-empowering-impoverished-communities-through-education",
       imgSrc: ClimateImage,
       altText: "Climate Change Image",
       category: "Article",
-      title: "A Warming World: The Unfolding Crisis of Climate Change"
+      title: "Bridging the STEM Gap: Empowering Impoverished Communities Through Education"
     },
     {
-      href: "/the-wisdom",
+      href: "/article/existentialism-in-modern-society-finding-meaning-in-an-age-of-distraction",
       imgSrc: Article02,
       altText: "Middle East Transformations",
       category: "Article",
-      title: "Middle East: Transformations and Their Global Reverberations"
+      title: "Existentialism in Modern Society: Finding Meaning in an Age of Distraction"
     },
     {
-      href: "/the-wisdom",
+      href: "/article/bridging-the-stem-gap-empowering-impoverished-communities-through-education",
       imgSrc: Article03,
       altText: "Global Peace Image",
       category: "Article",
-      title: "Global Conflicts: The Ongoing Struggle for Peace"
+      title: "Bridging the STEM Gap: Empowering Impoverished Communities Through Education"
     },
     {
-      href: "/the-wisdom",
+      href: "/article/the-ethics-of-technological-advancement-balancing-innovation-with-moral-responsibility",
       imgSrc: Article04,
       altText: "Solar Research Image",
       category: "Article",
-      title: "Parker Solar Probe's Historic Achievement: A New Frontier in Solar Research"
+      title: "The Ethics of Technological Advancement: Balancing Innovation with Moral Responsibility"
     }
   ];
 
