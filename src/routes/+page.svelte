@@ -45,11 +45,11 @@
       title: "Existentialism in Modern Society: Finding Meaning in an Age of Distraction"
     },
     {
-      href: "/article/bridging-the-stem-gap-empowering-impoverished-communities-through-education",
+      href: "/article/combating-epidemics-how-solace-globals-donation-platform-facilitates-targeted-responses-to-health-emergencies",
       imgSrc: Article03,
       altText: "Global Peace Image",
       category: "Article",
-      title: "Bridging the STEM Gap: Empowering Impoverished Communities Through Education"
+      title: "Combating Epidemics: How Solace Global's Donation Platform Facilitates Targeted Responses to Health Emergencies"
     },
     {
       href: "/article/the-ethics-of-technological-advancement-balancing-innovation-with-moral-responsibility",
