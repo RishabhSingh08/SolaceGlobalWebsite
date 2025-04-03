@@ -196,7 +196,6 @@
         <div class="grid grid-cols-1 md:grid-cols-9 gap-6 md:gap-16 items-center">
           <div class="md:col-span-5 order-1">
             <div class="grid grid-cols-2 gap-2 md:gap-3">
-              <img src={image02} alt="Kids with robots" class="rounded-lg shadow-md">
               <img src={image04} alt="Children learning about robotics" class="rounded-lg shadow-md">
               <img src={image05} alt="Robotics demonstration" class="rounded-lg shadow-md">
               <img src={image03} alt="STEM workshop" class="rounded-lg shadow-md">

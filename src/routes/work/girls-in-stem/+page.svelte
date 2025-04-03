@@ -113,8 +113,13 @@
               Robotics Education for Girls at Bengal's Largest Abuse Survivors' Orphanage (Part 2)
             </p>
             <p class="text-sm md:text-base">
-              Our second Tech Builders workshop took a proactive step toward empowering girls in South Asia by providing them with digital robotics lessons. Through virtual sessions, interactive tutorials, and mentorship, we helped bridge the gender gap in STEM, equipping young girls with technical skills, confidence, and a passion for innovation.
+Our second workshop took a proactive step toward empowering girls in South Asia by providing them with digital robotics lessons, fostering a more inclusive STEM landscape. Through a combination of virtual sessions, interactive tutorials, and dedicated mentorship, we aimed to bridge the gender gap in STEM by equipping young girls with essential technical skills, boosting their confidence, and igniting their passion for innovation.
             </p>
+            <p class="text-sm md:text-base">
+In this session, we focused on introducing participants to the fundamentals of claw mechanisms and gear trains, ensuring they grasped the foundational concepts necessary for more advanced robotics applications. Using hands-on digital simulations and real-world examples, we demonstrated how different gear ratios influence movement and force distribution, helping students understand how mechanical components interact. As we expanded on these concepts, we incorporated EV3 programming to give participants a deeper, more practical understanding of how motors, sensors, and software integrate to create functional robotic systems.
+            </p>
+            <p class="text-sm md:text-base">
+By providing a structured yet flexible learning environment, we encouraged students to experiment, ask questions, and apply their newfound knowledge in creative ways. The workshop not only enhanced their technical proficiency but also instilled in them a sense of empowerment, showing them that they are capable of excelling in STEM fields. Through these continued efforts, we remain committed to fostering an environment where young girls can thrive as future innovators and problem solvers.            </p>
           </div>
         </div>
       </div>

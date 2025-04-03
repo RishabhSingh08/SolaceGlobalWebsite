@@ -3,6 +3,10 @@
     import baqia from "../../../lib/images/MediaImages/baqia.png"
     import german from "../../../lib/images/MediaImages/image0.jpg"
     import Video from "../../../lib/images/MediaImages/baqtiVideo.mp4";
+    import israel from "../../../lib/images/MediaImages/israel.jpg";
+    import israel2 from "../../../lib/images/MediaImages/israel2.jpg";
+    import israel3 from "../../../lib/images/MediaImages/israel3.jpg";
+    import israel4 from "../../../lib/images/MediaImages/israel4.jpg";
 </script>
 
 <svelte:head>
@@ -173,6 +177,39 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+            
+            <!-- German Students U.S. Visa Section -->
+            <div id="israel-aid" class="space-y-6">
+                <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+                    <div class="space-y-4 lg:col-span-4">
+                        <p class="text-2xl md:text-3xl rasa">
+                            Essential Aid for Those in Need – Israel
+                        </p>
+                        <div class="space-y-3 text-sm md:text-base">
+<p>Solace Global reached out to a dedicated member in Israel to carry out a heartfelt initiative focused on helping children and those in need. Understanding the challenges faced by many, we donated clothing worth ₪2000 to various clothing donation boxes across the country. These boxes are specifically aimed at supporting children and those in need, ensuring they have access to the warmth and care they deserve.</p>
+
+<p>We want to make it clear that this donation has absolutely no ties to any side in the ongoing conflict. Solace Global remains neutral and does not express any political views or take sides in the war. Our commitment is to the well-being of children and those who are vulnerable—individuals whose lives have been affected in ways beyond their control.</p>
+
+<p>Our team took great care in making sure that these donations would reach those who needed them most. The thought of a child receiving something as simple as a warm jacket or fresh clothes—a small gesture that can bring so much comfort—was the driving force behind this effort. It is not just about providing material goods, but about reminding these children that they are valued, that they matter, and that there are people who care about their future.</p>
+
+<p>This initiative is a reflection of Solace Global's deep commitment to humanity and compassion. It is about standing with those who need support, irrespective of the political landscape. We believe that every child deserves a future filled with hope and opportunity, and through this donation, we took one step closer to making that a reality.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="w-full lg:col-span-5">
+                        <div class="space-y-4">
+                            <!-- Placeholder for German visa section image -->
+            <div class="grid grid-cols-2 gap-2 md:gap-3">
+              <img src={israel} alt="Kids with robots" class="rounded-lg shadow-md">
+              <img src={israel2} alt="Children learning about robotics" class="rounded-lg shadow-md">
+              <img src={israel3} alt="Robotics demonstration" class="rounded-lg shadow-md">
+              <img src={israel4} alt="STEM workshop" class="rounded-lg shadow-md">
+            </div>
                         </div>
                     </div>
                 </div>
