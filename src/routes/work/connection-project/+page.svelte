@@ -112,20 +112,10 @@
                             <p>This initiative reflects Solace Global's commitment to making a meaningful impact, one step at a time. By standing with organizations like Baqiyatullah, we continue to work toward a future where every child has the opportunity to thrive.</p>
                         </div>
                     </div>
-                        <div class="w-full lg:col-span-5">
-                            <div class="flex flex-col lg:flex-row items-center justify-center space-y-4 lg:space-y-0 lg:space-x-4">
-                                <!-- Image Section -->
-                                <div class="w-full lg:w-1/2 flex justify-center">
-                                    <img src={baqia} alt="Baqiyatullah Foundation" class="w-[30rem] rounded-lg">
-                                </div>
-                                <!-- Video Section -->
-                                <div class="w-full lg:w-1/2 flex justify-center">
-                                    <video loop muted autoplay controls class="w-full md:w-3/4 lg:w-full rounded-lg">
-                                        <source src={Video} type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
-                                </div>
-                            </div>
+                    <div class="w-full lg:col-span-5">
+                        <div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WCm9Cna9uDQ?si=GR8lwmaIpNNIsvFy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                        </div>
+                        <p class="text-center text-xs md:text-sm mt-2 md:mt-4">For more information, please contact team@solaceglobal.xyz</p>
                     </div>
                 </div>
             </div>
