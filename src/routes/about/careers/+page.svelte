@@ -1,5 +1,5 @@
 <script>
-import VolunteerImage from "../../../lib/images/Volunteer.jpg";
+import VolunteerImage from "../../../lib/images/MediaImages/IMG_6585 (1).jpg";
 </script>
 
 <svelte:head>

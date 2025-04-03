@@ -1,7 +1,8 @@
 <script>
   import image01 from "../../../lib/images/MediaImages/IMG_6224.jpg";
   import image02 from "../../../lib/images/MediaImages/kids.jpg";
-  import image03 from "../../../lib/images/MediaImages/IMG_6585 (1).jpg";
+  import image03 from "../../../lib/images/Volunteer.jpg";
+  
   import image04 from "../../../lib/images/MediaImages/IMG_6596.jpg";
   import image05 from "../../../lib/images/MediaImages/IMG_6589.jpg";
 

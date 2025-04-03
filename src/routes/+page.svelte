@@ -197,10 +197,9 @@
             
             <!-- Secondary Article and Newsletter -->
             <div class="lg:col-span-2">
-                <div class="hover:scale-105 transition p-4 md:p-6 rounded-lg shadow-2xl shadow-gray-800">
-                    <a href="/article/exploring-stem-a-journey-of-curiosity-and-innovation">
+                <div class="hover:scale-105 transition p-2 md:p-2 rounded-lg shadow-2xl shadow-gray-800">
+                    <a href="https://docs.google.com/presentation/d/1MPVhAQ7d0rra6UaIxKxlLjtro66TQfB9gjbZjMNCM4Q/edit?usp=sharing" target="_blank">
                         <img src={Article05} alt="Article" class="w-full">
-                        <p class="mt-3 font-semibold text-xl md:text-2xl rasa">Exploring STEM: A Journey of Curiosity and Innovation</p>
                     </a>
                 </div>
                 
