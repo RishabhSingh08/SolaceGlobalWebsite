@@ -112,19 +112,20 @@
                             <p>This initiative reflects Solace Global's commitment to making a meaningful impact, one step at a time. By standing with organizations like Baqiyatullah, we continue to work toward a future where every child has the opportunity to thrive.</p>
                         </div>
                     </div>
-                    
-                    <div class="w-full lg:col-span-5">
-                        <div class="space-y-4">
-                            <div class="flex justify-center">
-                                <img src={baqia} alt="Baqiyatullah Foundation" class="w-[30rem] rounded-lg">
+                        <div class="w-full lg:col-span-5">
+                            <div class="flex flex-col lg:flex-row items-center justify-center space-y-4 lg:space-y-0 lg:space-x-4">
+                                <!-- Image Section -->
+                                <div class="w-full lg:w-1/2 flex justify-center">
+                                    <img src={baqia} alt="Baqiyatullah Foundation" class="w-[30rem] rounded-lg">
+                                </div>
+                                <!-- Video Section -->
+                                <div class="w-full lg:w-1/2 flex justify-center">
+                                    <video loop muted autoplay controls class="w-full md:w-3/4 lg:w-full rounded-lg">
+                                        <source src={Video} type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
                             </div>
-                            <div class="flex justify-center">
-                                <video loop muted autoplay controls class="w-full md:w-3/4 lg:w-1/2 rounded-lg">
-                                    <source src={Video} type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
