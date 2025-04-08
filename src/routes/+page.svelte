@@ -13,13 +13,14 @@
     import Sponsor06 from "../lib/images/Sponsors/undefined.png";
     import Sponsor07 from "../lib/images/Sponsors/amazon.png";
     import Sponsor08 from "../lib/images/Sponsors/code.png";
+    import Sponsor09 from "../lib/images/Sponsors/google.png";
 
     const sponsors = [
         { image: Sponsor07, alt: "Amazon" },
-        { image: Sponsor02, alt: "Pinkberry" },
-        { image: Sponsor08, alt: "Project World Impact" },
         { image: Sponsor05, alt: "Shanti Bhavan" },
+        { image: Sponsor08, alt: "Code" },
         { image: Sponsor06, alt: "Undefined Robotics" },
+        { image: Sponsor09, alt: "Google" },
         { image: Sponsor01, alt: "Hack Club" },
 
     ];
