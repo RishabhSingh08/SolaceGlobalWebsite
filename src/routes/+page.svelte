@@ -6,9 +6,6 @@
     import PartnersImage from "../lib/images/PartnersImage.png";
 
     import Sponsor01 from "../lib/images/Sponsors/Hack_Club_Flag_Standalone.png";
-    import Sponsor02 from "../lib/images/Sponsors/Pinkberry_logo.png";
-    import Sponsor03 from "../lib/images/Sponsors/projectworld.jpeg";
-    import Sponsor04 from "../lib/images/Sponsors/senior.png";
     import Sponsor05 from "../lib/images/Sponsors/shanti.png";
     import Sponsor06 from "../lib/images/Sponsors/undefined.png";
     import Sponsor07 from "../lib/images/Sponsors/amazon.png";
@@ -113,7 +110,7 @@
         <div class="mt-12 md:mt-20 px-4 md:px-8">
         <div>
             <p class="text-2xl md:text-3xl lg:text-4xl rasa">
-                Upcoming Event
+                <a href="/volleyball-tourney">Upcoming Event</a>
             </p>
         </div>
         

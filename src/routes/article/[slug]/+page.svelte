@@ -47,7 +47,7 @@
 <style>
   :global(.custom-list ul) {
     list-style-type: disc;
-    padding-left: 1.25rem; /* Equivalent to pl-5 */
+    padding-left: 1.25rem; 
   }
   :global(.custom-list ol) {
     list-style-type: decimal;
