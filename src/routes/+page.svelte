@@ -108,11 +108,14 @@
         </p>
     </div>
         <div class="mt-12 md:mt-20 px-4 md:px-8">
-        <div>
-            <p class="text-2xl md:text-3xl lg:text-4xl rasa">
-                <a href="/volleyball-tourney">Upcoming Event</a>
-            </p>
-        </div>
+<div>
+    <p class="text-2xl md:text-3xl lg:text-4xl rasa">
+        <a href="/volleyball-tourney" class=" underline transition">
+            Upcoming Event
+        </a>
+    </p>
+</div>
+
         
         <div class="mt-6 md:mt-8 shadow-lg rounded-lg overflow-hidden">
             <div class="bg-zinc-100 p-4">
