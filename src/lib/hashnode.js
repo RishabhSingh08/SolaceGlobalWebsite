@@ -3,7 +3,7 @@ import { GraphQLClient } from "graphql-request";
 // Create a GraphQL client instance
 const client = new GraphQLClient("https://gql.hashnode.com", {
   headers: {
-    Authorization: "fa56da6e-f515-4b66-b065-0514c91745d1",
+    Authorization: "a875159f-f359-4789-817d-cc5c55a15dce",
   },
 });
 
