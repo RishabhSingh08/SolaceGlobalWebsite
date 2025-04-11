@@ -19,7 +19,7 @@
   // --- Team Form State ---
   let teamName = "";
   let teamEmail = "";
-  const teamNumberOfSubstitutes = writable(0); // Renamed for clarity
+  const teamNumberOfSubstitutes = writable(0);
   let teamAgreedToTerms = false;
   let showTeamError = false;
   let teamFormErrors = {};
@@ -27,13 +27,14 @@
   // --- Individual Form State ---
   let individualName = "";
   let individualContact = ""; // Can be email or phone
-  const individualNumberOfSubstitutes = writable(0); // Added state for individual subs
+  let individualTeamName = ""; // <-- ADDED: Optional team name for individual registration
+  const individualNumberOfSubstitutes = writable(0);
   let individualAgreedToTerms = false;
   let showIndividualError = false;
   let individualFormErrors = {};
 
   // --- Derived State for Team Price Calculation ---
-  const teamTotalPrice = derived(        // Renamed for clarity
+  const teamTotalPrice = derived(
     teamNumberOfSubstitutes,
     ($subs) => {
       const subCost = $subs * PRICE_PER_SUBSTITUTE;
@@ -41,12 +42,12 @@
     }
   );
 
-  // --- Derived State for Individual Price Calculation --- (Added)
+  // --- Derived State for Individual Price Calculation ---
   const individualTotalPrice = derived(
     individualNumberOfSubstitutes,
     ($subs) => {
       const subCost = $subs * PRICE_PER_SUBSTITUTE;
-      return INDIVIDUAL_PRICE + subCost; // Use individual base price
+      return INDIVIDUAL_PRICE + subCost;
     }
   );
 
@@ -54,9 +55,8 @@
   function validateTeamForm() {
     teamFormErrors = {
       teamName: !teamName.trim() ? "Team Name is required" : null,
-      teamEmail: !teamEmail.trim() ? "Contact Email is required" : null, // Basic check
+      teamEmail: !teamEmail.trim() ? "Contact Email is required" : null,
       terms: !teamAgreedToTerms ? "You must agree to the terms and conditions." : null,
-      // Substitutes validation handled by select options range
     };
     teamFormErrors = Object.fromEntries(Object.entries(teamFormErrors).filter(([_, v]) => v != null));
     return Object.keys(teamFormErrors).length === 0;
@@ -67,8 +67,8 @@
     individualFormErrors = {
       individualName: !individualName.trim() ? "Name is required" : null,
       individualContact: !individualContact.trim() ? "Contact is required" : null,
+      // individualTeamName: !individualTeamName.trim() ? "Team Name is required" : null, // Only add if making the field required
       terms: !individualAgreedToTerms ? "You must agree to the terms and conditions." : null,
-      // Substitutes validation handled by select options range
     };
     individualFormErrors = Object.fromEntries(Object.entries(individualFormErrors).filter(([_, v]) => v != null));
     return Object.keys(individualFormErrors).length === 0;
@@ -83,10 +83,10 @@
     showTeamError = false;
 
     let currentSubs = 0;
-    teamNumberOfSubstitutes.subscribe(value => currentSubs = value)(); // Use team subs
+    teamNumberOfSubstitutes.subscribe(value => currentSubs = value)();
 
     let currentTotal = 0;
-    teamTotalPrice.subscribe(value => currentTotal = value)(); // Use team total
+    teamTotalPrice.subscribe(value => currentTotal = value)();
 
     const message = `Volleyball Tournament Team Registration\nTeam: ${teamName}\nSubstitutes: ${currentSubs}\nTotal: $${currentTotal.toFixed(2)}`;
 
@@ -94,7 +94,7 @@
       name: teamName,
       email: teamEmail,
       message: message,
-      amount: (currentTotal * 100).toFixed(0) // Amount in cents
+      amount: (currentTotal * 100).toFixed(0)
     });
 
     return `${PAYMENT_LINK_BASE}?${params.toString()}`;
@@ -109,19 +109,19 @@
     showIndividualError = false;
 
     let currentSubs = 0;
-    individualNumberOfSubstitutes.subscribe(value => currentSubs = value)(); // Get individual subs
+    individualNumberOfSubstitutes.subscribe(value => currentSubs = value)();
 
     let currentTotal = 0;
-    individualTotalPrice.subscribe(value => currentTotal = value)(); // Get individual total
+    individualTotalPrice.subscribe(value => currentTotal = value)();
 
-    // Updated message to include substitutes and dynamic total
-    const message = `Volleyball Tournament Individual Registration\nName: ${individualName}\nContact: ${individualContact}\nSubstitutes: ${currentSubs}\nTotal: $${currentTotal.toFixed(2)}`;
+    // Updated message to include optional team name
+    const message = `Volleyball Tournament Individual Registration\nName: ${individualName}\nContact: ${individualContact}\nPreferred Team: ${individualTeamName.trim() || 'N/A'}\nSubstitutes: ${currentSubs}\nTotal: $${currentTotal.toFixed(2)}`;
 
     const params = new URLSearchParams({
-        name: individualName,
-        email: individualContact.includes('@') ? individualContact : '', // Basic email check
-        message: message,
-        amount: (currentTotal * 100).toFixed(0) // Use dynamic individual total in cents
+        name: individualName, // Use individual name for payment system 'name' field
+        email: individualContact.includes('@') ? individualContact : '',
+        message: message, // Contains all details including team name preference
+        amount: (currentTotal * 100).toFixed(0)
     });
 
     return `${PAYMENT_LINK_BASE}?${params.toString()}`;
@@ -155,14 +155,13 @@
   // Function to switch tabs
   function setActiveTab(tabName) {
     activeTab.set(tabName);
-    // Reset errors and potentially form state when switching tabs
     showTeamError = false;
     showIndividualError = false;
     teamFormErrors = {};
     individualFormErrors = {};
-    // Optional: Reset substitute counts on tab switch if desired
-    // teamNumberOfSubstitutes.set(0);
-    // individualNumberOfSubstitutes.set(0);
+    // Optional: Reset form fields on tab switch if desired
+    // teamName = ""; teamEmail = ""; teamNumberOfSubstitutes.set(0); teamAgreedToTerms = false;
+    // individualName = ""; individualContact = ""; individualTeamName = ""; individualNumberOfSubstitutes.set(0); individualAgreedToTerms = false;
   }
 
 </script>
@@ -233,7 +232,6 @@
               <p class="text-red-500 text-xs mt-1">{teamFormErrors.teamName}</p>
             {/if}
           </div>
-
           <div class="space-y-1">
             <label for="teamEmail" class="block text-sm font-medium text-gray-700">Contact Email*</label>
             <input
@@ -250,19 +248,18 @@
               <p class="text-red-500 text-xs mt-1">{teamFormErrors.teamEmail}</p>
             {/if}
           </div>
-
           <div class="space-y-1">
             <label for="teamSubstitutes" class="block text-sm font-medium text-gray-700">Number of Substitutes</label>
             <select
               id="teamSubstitutes"
-              bind:value={$teamNumberOfSubstitutes} class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none bg-white transition duration-150 ease-in-out"
+              bind:value={$teamNumberOfSubstitutes}
+              class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none bg-white transition duration-150 ease-in-out"
             >
               {#each {length: MAX_SUBSTITUTES + 1} as _, i}
                    <option value={i}>{i} (+${(i * PRICE_PER_SUBSTITUTE).toFixed(2)})</option>
               {/each}
             </select>
            </div>
-
           <div class="space-y-2 p-4 bg-gray-50 rounded-lg border border-gray-200">
             <h3 class="text-lg font-semibold text-gray-800">Total Team Cost</h3>
             <div class="flex justify-between text-sm text-gray-600">
@@ -277,9 +274,9 @@
             {/if}
             <div class="flex justify-between text-lg font-bold text-gray-900 border-t pt-2 mt-2">
               <span>Total Amount:</span>
-              <span>${$teamTotalPrice.toFixed(2)}</span> </div>
+              <span>${$teamTotalPrice.toFixed(2)}</span>
+            </div>
           </div>
-
           <div class="relative flex items-start space-y-1">
              <div class="flex items-center h-5">
                <input
@@ -296,20 +293,20 @@
                <label for="teamTerms" class="font-medium text-gray-700">Agree to Terms*</label>
                 <p class="text-gray-500 text-xs">
                    By checking this box, I agree to the <a href="/terms-and-conditions" target="_blank" class="underline hover:text-red-600">terms and conditions</a>.
-                   I also acknowledge that my payment of ${$teamTotalPrice.toFixed(2)} is for the registration of my volleyball team. </p>
+                   I also acknowledge that my payment of ${$teamTotalPrice.toFixed(2)} is for the registration of my volleyball team.
+                </p>
                {#if teamFormErrors.terms && showTeamError}
                 <p class="text-red-500 text-xs mt-1">{teamFormErrors.terms}</p>
                {/if}
              </div>
            </div>
-
           <button
             type="submit"
             class="w-full px-6 py-3 text-white bg-red-500 rounded-lg hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition-colors duration-200 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed"
             disabled={!teamAgreedToTerms}
           >
-            Proceed to Team Payment (${$teamTotalPrice.toFixed(2)}) </button>
-
+            Proceed to Team Payment (${$teamTotalPrice.toFixed(2)})
+          </button>
           {#if showTeamError && Object.keys(teamFormErrors).length > 0 && !teamFormErrors.terms}
             <p class="text-center text-red-500 font-medium text-sm">
                Please correct the errors above before proceeding.
@@ -321,8 +318,8 @@
 
     {#if $activeTab === 'individual'}
       <div class="space-y-6">
-         <p class="text-sm text-gray-600">
-          Register as an individual player. The base fee is ${INDIVIDUAL_PRICE.toFixed(2)}. Each substitute adds an additional ${PRICE_PER_SUBSTITUTE.toFixed(2)}.
+        <p class="text-sm text-gray-600">
+          Register as an individual player. The base fee is ${INDIVIDUAL_PRICE.toFixed(2)}. Each substitute adds an additional ${PRICE_PER_SUBSTITUTE.toFixed(2)}. You can optionally specify a preferred team name.
         </p>
         <form on:submit={handleIndividualSubmit} class="space-y-6">
           <div class="space-y-1">
@@ -341,7 +338,6 @@
               <p class="text-red-500 text-xs mt-1">{individualFormErrors.individualName}</p>
              {/if}
           </div>
-
           <div class="space-y-1">
              <label for="individualContact" class="block text-sm font-medium text-gray-700">Contact (Email or Phone)*</label>
              <input
@@ -360,10 +356,21 @@
           </div>
 
           <div class="space-y-1">
+            <label for="individualTeamName" class="block text-sm font-medium text-gray-700">Preferred Team Name (Optional)</label>
+            <input
+              id="individualTeamName"
+              type="text"
+              bind:value={individualTeamName}
+              class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-150 ease-in-out"
+              placeholder="Enter team name if applicable"
+              />
+            </div>
+          <div class="space-y-1">
             <label for="individualSubstitutes" class="block text-sm font-medium text-gray-700">Number of Substitutes</label>
             <select
               id="individualSubstitutes"
-              bind:value={$individualNumberOfSubstitutes} class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none bg-white transition duration-150 ease-in-out"
+              bind:value={$individualNumberOfSubstitutes}
+              class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none bg-white transition duration-150 ease-in-out"
             >
               {#each {length: MAX_SUBSTITUTES + 1} as _, i}
                    <option value={i}>{i} (+${(i * PRICE_PER_SUBSTITUTE).toFixed(2)})</option>
@@ -384,7 +391,8 @@
              {/if}
              <div class="flex justify-between text-lg font-bold text-gray-900 border-t pt-2 mt-2">
                  <span>Total Amount:</span>
-                 <span>${$individualTotalPrice.toFixed(2)}</span> </div>
+                 <span>${$individualTotalPrice.toFixed(2)}</span>
+             </div>
            </div>
            <div class="relative flex items-start space-y-1">
              <div class="flex items-center h-5">
@@ -402,7 +410,8 @@
                  <label for="individualTerms" class="font-medium text-gray-700">Agree to Terms*</label>
                   <p class="text-gray-500 text-xs">
                       By checking this box, I agree to the <a href="/terms-and-conditions" target="_blank" class="underline hover:text-red-600">terms and conditions</a>.
-                      I also acknowledge that my payment of ${$individualTotalPrice.toFixed(2)} is for my individual registration. </p>
+                      I also acknowledge that my payment of ${$individualTotalPrice.toFixed(2)} is for my individual registration.
+                  </p>
                  {#if individualFormErrors.terms && showIndividualError}
                   <p class="text-red-500 text-xs mt-1">{individualFormErrors.terms}</p>
                  {/if}
@@ -413,7 +422,8 @@
                class="w-full px-6 py-3 text-white bg-red-500 rounded-lg hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition-colors duration-200 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed"
                disabled={!individualAgreedToTerms}
            >
-                 Proceed to Individual Payment (${$individualTotalPrice.toFixed(2)}) </button>
+                 Proceed to Individual Payment (${$individualTotalPrice.toFixed(2)})
+           </button>
            {#if showIndividualError && Object.keys(individualFormErrors).length > 0 && !individualFormErrors.terms}
              <p class="text-center text-red-500 font-medium text-sm">
                  Please correct the errors above before proceeding.
