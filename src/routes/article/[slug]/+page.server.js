@@ -1,17 +1,17 @@
-// src/routes/the-wisdom/+page.js
-export async function load({ fetch }) {
+// src/routes/article/[slug]/+page.js
+export async function load({ params, fetch }) {
+  const { slug } = params;
   // Replace with your Hashnode username or publication ID
   const HASHNODE_USERNAME = "solaceglobal";
 
   const query = `
-    query GetUserArticles {
+    query GetArticleBySlug {
       user(username: "${HASHNODE_USERNAME}") {
         publication {
-          posts(page: 0) {
+          post(slug: "${slug}") {
             title
-            brief
-            slug
             dateAdded
+            contentMarkdown
             coverImage
           }
         }
@@ -29,6 +29,6 @@ export async function load({ fetch }) {
 
   const jsonResponse = await response.json();
   return {
-    articles: jsonResponse.data.user.publication.posts,
+    article: jsonResponse.data.user.publication.post,
   };
 }

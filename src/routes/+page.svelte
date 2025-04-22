@@ -5,6 +5,7 @@
     import ArticleImage from "../lib/images/article1.png";
     import PartnersImage from "../lib/images/PartnersImage.png";
 
+
     import Sponsor01 from "../lib/images/Sponsors/Hack_Club_Flag_Standalone.png";
     import Sponsor05 from "../lib/images/Sponsors/shanti.png";
     import Sponsor06 from "../lib/images/Sponsors/undefined.png";
@@ -58,6 +59,39 @@
       title: "The Ethics of Technological Advancement: Balancing Innovation with Moral Responsibility"
     }
   ];
+
+  import { onMount } from 'svelte';
+  
+  let popupVisible = false;
+  let popupTrigger;
+  
+  function showPopup() {
+    popupVisible = true;
+    // Add scroll event listener when popup is opened
+  }
+  
+  function hidePopup() {
+    popupVisible = false;
+    // Remove scroll listener when popup is closed
+  }
+  
+  function handleScroll() {
+    // Close popup on scroll
+    hidePopup();
+  }
+  
+  function handleClickOutside(event) {
+    if (popupVisible && popupTrigger && !popupTrigger.contains(event.target) && !event.target.closest('.popup-content')) {
+      hidePopup();
+    }
+  }
+  
+  onMount(() => {
+    document.addEventListener('click', handleClickOutside);
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  });
 
 </script>
 
@@ -184,9 +218,9 @@
         
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8">
             <!-- Main Article -->
-            <div class="lg:col-span-3 hover:scale-105 transition p-4 md:p-6 rounded-lg shadow-2xl shadow-gray-800">
-                <a href="/article/breaking-free-from-the-comparison-trap">
-                    <img src={Article01} alt="Article" class="w-full">
+            <div class="lg:col-span-3 transition p-4 md:p-6 rounded-lg shadow-2xl hover:shadow-gray-800">
+                <a href="/perspective/breaking-free-from-the-comparison-trap">
+                    <img src="https://images.unsplash.com/photo-1739489248003-d57fc900afbb?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Article" class="w-full">
                     <div class="mt-4 md:mt-6">
                         <p class="mb-2 md:mb-3 font-semibold text-xl md:text-2xl lg:text-3xl rasa">Breaking Free from the Comparison Trap</p>
                         <p class="text-sm">Explore how overcoming societal pressures and embracing personal passions can redefine the path to success.</p>
@@ -196,9 +230,13 @@
             
             <!-- Secondary Article and Newsletter -->
             <div class="lg:col-span-2">
-                <div class="hover:scale-105 transition p-2 md:p-2 rounded-lg shadow-2xl shadow-gray-800">
-                    <a href="https://docs.google.com/presentation/d/1MPVhAQ7d0rra6UaIxKxlLjtro66TQfB9gjbZjMNCM4Q/edit?usp=sharing" target="_blank">
-                        <img src={Article05} alt="Article" class="w-full">
+                <div class=" transition p-2 md:p-2 rounded-lg shadow-2xl hover:shadow-gray-800">
+                    <a href="/perspective/shaping-future-leaders-through-interactive-stem-education" class="space-y-4">
+                        <img src="https://www.shutterstock.com/image-photo/diverse-school-children-students-build-600nw-2036186204.jpg" alt="Article" class="w-full">
+                        <div class="p-2">
+                            <p class="mb-2 md:mb-3 font-semibold text-lg rasa">Shaping Future Leaders Through Interactive STEM Education
+</p>
+                        </div>
                     </a>
                 </div>
                 
@@ -256,27 +294,118 @@
             <p class="text-2xl md:text-3xl lg:text-4xl rasa text-center">Foundation Facts</p>
         </div>
         
-        <div class="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8 text-center">
-            <div class="p-4">
-                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">$20000+</div>
-                <p class="mt-2 text-sm md:text-base">Raised in value</p>
-            </div>
-            <div class="p-4">
-                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">8000+</div>
-                <p class="mt-2 text-sm md:text-base">People affected</p>
-            </div>
-            <div class="p-4">
-                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">6+</div>
-                <p class="mt-2 text-sm md:text-base">Countries in operation</p>
-            </div>
-            <div class="p-4">
-                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">50+</div>
-                <p class="mt-2 text-sm md:text-base">Volunteers</p>
-            </div>
-            <div class="p-4">
-                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">11+</div>
-                <p class="mt-2 text-sm md:text-base">Programs</p>
-            </div>
+<div class="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8 text-center">
+  <div class="p-4 relative">
+    <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">$36000+</div>
+    <p class="mt-2 text-sm md:text-base underline cursor-pointer hover:text-red-600 transition-colors" 
+      bind:this={popupTrigger}
+      on:click|stopPropagation={showPopup}>
+      Raised in value
+    </p>
+  </div>
+  
+  <div class="p-4">
+    <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">8000+</div>
+    <p class="mt-2 text-sm md:text-base">People affected</p>
+  </div>
+  
+  <div class="p-4">
+    <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">6+</div>
+    <p class="mt-2 text-sm md:text-base">Countries in operation</p>
+  </div>
+  
+  <div class="p-4">
+    <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">50+</div>
+    <p class="mt-2 text-sm md:text-base">Volunteers</p>
+  </div>
+  
+  <div class="p-4">
+    <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl rasa">11+</div>
+    <p class="mt-2 text-sm md:text-base">Programs</p>
+  </div>
+</div>
+
+{#if popupVisible}
+  <!-- Overlay background with subtle fade-in effect -->
+  <div class="fixed inset-0 bg-black bg-opacity-50 z-40 backdrop-blur-sm transition-opacity duration-300" 
+       on:click={hidePopup}></div>
+  
+  <!-- Elegantly styled popup -->
+  <div class="popup-content fixed z-50 bg-white shadow-2xl rounded-lg p-8 w-80 md:w-96 text-left 
+              top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border border-gray-100">
+    <!-- Title with accent bar -->
+    <div class="relative pb-3 mb-5 border-b border-gray-200">
+      <div class="absolute left-0 top-0 w-12 h-1  rounded-full"></div>
+      <h2 class="font-bold text-2xl text-gray-800 mt-3">Contributions Overview</h2>
+    </div>
+    
+    <!-- Content with improved typography -->
+    <div class="text-sm space-y-4">
+      <p class="font-semibold text-base text-gray-700">Total Contributions and Savings to Date:</p>
+      
+      <div class="space-y-3">
+        <div class="flex justify-between items-center p-2 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
+          <span class="font-medium">Google Workspace</span>
+          <span class="font-semibold text-red-600">$6,000</span>
         </div>
+        
+        <div class="flex justify-between items-center p-2 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
+          <span class="font-medium">Code.org Partnership</span>
+          <span class="font-semibold text-red-600">$3,000</span>
+        </div>
+        
+        <div class="flex justify-between items-center p-2 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
+          <span class="font-medium">Pinkberry Partnership</span>
+          <span class="font-semibold text-red-600">$4,050</span>
+        </div>
+        
+        <div class="flex justify-between items-center p-2 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
+          <span class="font-medium">Hack Club Legal Services</span>
+          <span class="font-semibold text-red-600">$12,500</span>
+        </div>
+        
+        <div class="flex justify-between items-center p-2 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
+          <span class="font-medium">Stripe Banking</span>
+          <span class="font-semibold text-red-600">$350</span>
+        </div>
+        
+        <div class="flex justify-between items-center p-2 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
+          <span class="font-medium">Donations</span>
+          <span class="font-semibold text-red-600">$1,000</span>
+        </div>
+        
+        <div class="flex justify-between items-center p-2 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
+          <span class="font-medium">Undefined Robotics (Parts)</span>
+          <span class="font-semibold text-red-600">$10,000</span>
+        </div>
+      </div>
+      
+      <!-- Total sum with highlight -->
+      <div class="mt-6 pt-4 border-t border-gray-200">
+        <div class="flex justify-between items-center">
+          <span class="font-bold text-lg text-gray-800">Total Value</span>
+          <span class="font-bold text-lg text-red-600">$36,900</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer with better button styling -->
+    <div class="mt-8 flex justify-end">
+      <button class="px-6 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors duration-200 
+                     shadow-md hover:shadow-lg text-sm font-medium focus:outline-none focus:ring-2 focus:ring-red-500" 
+              on:click={hidePopup}>
+        Close
+      </button>
+    </div>
+    
+    <!-- Improved close button -->
+    <button class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors p-1 rounded-full hover:bg-gray-100" 
+            on:click={hidePopup}>
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
+{/if}
     </div>
 </main>
