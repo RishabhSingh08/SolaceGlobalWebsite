@@ -1,4 +1,4 @@
-<!-- src/routes/article/[slug]/+page.svelte -->
+src/routes/article/[slug]/+page.svelte
 <script>
   import { marked } from 'marked';
   export let data;

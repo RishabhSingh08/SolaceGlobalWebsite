@@ -1,4 +1,3 @@
-<!-- src/routes/the-wisdom/+page.svelte -->
 <script>
   export let data;
   const { articles } = data;
