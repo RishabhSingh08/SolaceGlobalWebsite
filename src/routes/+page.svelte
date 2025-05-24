@@ -72,7 +72,6 @@
 </svelte:head>
 
 <main class="container mx-auto">
-  <!-- Hero Section -->
   <div class="px-4 md:px-8 mt-6 md:mt-10">
       <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif leading-tight md:leading-snug lg:leading-[4.5rem] max-w-full md:max-w-3xl lg:max-w-4xl">
           Unite to create a future of lasting value
@@ -85,7 +84,6 @@
       </p>
   </div>
   
-  <!-- Video Section -->
   <div class="mt-10 md:mt-20">
       <div class="relative w-full overflow-hidden">
           <video loop muted autoplay class="w-full">
@@ -97,7 +95,6 @@
       </p>
   </div>
 
-  <!-- Featured Insights Section -->
   <div class="mt-12 md:mt-20 px-4 md:px-8">
       <p class="text-2xl md:text-3xl lg:text-4xl font-serif mb-6">Featured Insights</p>
 
@@ -127,7 +124,6 @@
   
   <div class="my-10 md:my-16 border-t-2 mx-4 md:mx-8"></div>
 
-  <!-- Partners Section -->
   <div class="px-4 md:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
           <div class="lg:col-span-3">
@@ -153,68 +149,59 @@
       </div>
   </div>
   
-  <!-- Perspectives Section -->
-  <div class="bg-zinc-900 px-4 sm:px-8 md:px-16 lg:px-32 py-10 md:py-16 text-white mt-12 md:mt-20">
-      <div class="grid grid-cols-1 md:grid-cols-2 justify-between items-center">
-          <p class="flex justify-start font-medium text-3xl md:text-4xl lg:text-5xl font-serif">Perspectives</p>
-      </div>
-      
-      <p class="my-4 md:my-8 text-xs">Explore the latest updates, research, and stories from the foundation, Solace Global weekly updates newsletter.</p>
-      
-      <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8">
-          <!-- Main Article -->
-          <div class="lg:col-span-3 transition p-4 md:p-6 rounded-lg shadow-2xl hover:shadow-gray-800">
-              <a href="/perspective/breaking-free-from-the-comparison-trap">
-                  <img src="https://images.unsplash.com/photo-1739489248003-d57fc900afbb?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Article" class="w-full">
-                  <div class="mt-4 md:mt-6">
-                      <p class="mb-2 md:mb-3 font-semibold text-xl md:text-2xl lg:text-3xl font-serif">Breaking Free from the Comparison Trap</p>
-                      <p class="text-sm">Explore how overcoming societal pressures and embracing personal passions can redefine the path to success.</p>
-                  </div>
-              </a>
-          </div>
-          
-          <!-- Secondary Article and Newsletter -->
-          <div class="lg:col-span-2">
-              <div class="transition p-2 md:p-2 rounded-lg shadow-2xl hover:shadow-gray-800">
-                  <a href="/perspective/shaping-future-leaders-through-interactive-stem-education" class="space-y-4">
-                      <img src="https://www.shutterstock.com/image-photo/diverse-school-children-students-build-600nw-2036186204.jpg" alt="Article" class="w-full">
-                      <div class="p-2">
-                          <p class="mb-2 md:mb-3 font-semibold text-lg font-serif">Shaping Future Leaders Through Interactive STEM Education</p>
-                      </div>
-                  </a>
-              </div>
-              
-              <!-- Newsletter Signup -->
-              <div class="smore-list-subscribe-form p-4 md:p-6 max-w-full mx-auto bg-white rounded-md shadow-md mt-6 md:mt-8">
-                  <form action="https://secure.smore.com/app/lists/confirm_subscribe" method="POST" class="space-y-4 md:space-y-5">
-                      <input type="hidden" name="list_id" value="676a51b695e1b379806173ff">
-
-                      <h3 class="text-xl md:text-2xl font-semibold text-gray-700 font-serif">Subscribe To Our Newsletter</h3>
-
-                      <div class="field-group">
-                          <label for="smore-subscribe-name" class="block text-sm font-medium text-gray-600">Name</label>
-                          <input type="text" name="name" id="smore-subscribe-name" class="w-full mt-1 rounded-md border-gray-300 shadow-sm focus:ring-slate-400 focus:border-slate-400 text-gray-900 px-3 py-2" placeholder="Your Name" />
-                      </div>
-
-                      <div class="field-group">
-                          <label for="smore-subscribe-email" class="block text-sm font-medium text-gray-600">Email Address <span class="text-red-500">*</span></label>
-                          <input type="email" name="email" id="smore-subscribe-email" required class="w-full mt-1 rounded-md border-gray-300 shadow-sm focus:ring-slate-400 focus:border-slate-400 text-gray-900 px-3 py-2" placeholder="you@example.com" />
-                      </div>
-
-                      <div>
-                          <button type="submit" name="subscribe" id="smore-subscribe-button" class="mt-2 md:mt-4 inline-flex items-center justify-center rounded-md bg-zinc-800 px-4 md:px-6 py-2 md:py-3 font-semibold text-white hover:bg-black transition">
-                              Subscribe
-                          </button>
-                      </div>
-                  </form>
-              </div>
-          </div>
-      </div>
+<!-- Perspectives Section - Redesigned -->
+<div class="bg-zinc-900 px-6 md:px-16 py-14 text-white mt-16 md:mt-24 rounded-lg">
+  <div class="flex flex-col lg:flex-row lg:justify-between items-center mb-10">
+    <h2 class="text-3xl md:text-4xl lg:text-5xl font-serif font-medium">Perspectives</h2>
+    <p class="mt-4 lg:mt-0 text-sm lg:text-base max-w-xl lg:text-right">
+      Explore the latest updates, research, and stories from the Solace Global Foundation through our curated articles and weekly newsletter.
+    </p>
   </div>
+
+  <div class="grid lg:grid-cols-3 gap-10">
+    <!-- Main Article -->
+    <a href="/perspective/breaking-free-from-the-comparison-trap" class="bg-zinc-800 rounded-xl overflow-hidden shadow-xl group transition hover:shadow-2xl border border-zinc-600">
+      <img src="https://images.unsplash.com/photo-1739489248003-d57fc900afbb?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Article" class="w-full h-56 object-cover">
+      <div class="p-5">
+        <h3 class="text-xl font-serif text-gray-300 mb-2 group-hover:text-red-600 transition-colors">Breaking Free from the Comparison Trap</h3>
+        <p class="text-sm text-gray-400">Explore how overcoming societal pressures and embracing personal passions can redefine the path to success.</p>
+      </div>
+    </a>
+
+    <!-- Secondary Article -->
+    <a href="/perspective/shaping-future-leaders-through-interactive-stem-education" class="bg-zinc-800 rounded-xl overflow-hidden shadow-xl group transition hover:shadow-2xl border border-zinc-600">
+      <img src="https://www.shutterstock.com/image-photo/diverse-school-children-students-build-600nw-2036186204.jpg" alt="Article" class="w-full h-56 object-cover">
+      <div class="p-5">
+        <h3 class="text-lg font-serif text-gray-300 mb-2 group-hover:text-red-600 transition-colors">Shaping Future Leaders Through Interactive STEM Education</h3>
+        <p class="text-sm text-gray-400">Hands-on STEM initiatives are inspiring young minds and changing communities one innovation at a time.</p>
+      </div>
+    </a>
+
+    <!-- Newsletter Signup -->
+    <div class="bg-zinc-800 rounded-xl shadow-xl p-6">
+      <h3 class="text-xl font-serif text-gray-300 mb-4">Subscribe To Our Newsletter</h3>
+      <form action="https://secure.smore.com/app/lists/confirm_subscribe" method="POST" class="space-y-4">
+        <input type="hidden" name="list_id" value="676a51b695e1b379806173ff">
+
+        <div>
+          <label for="smore-subscribe-name" class="block text-sm text-gray-400 mb-1">Name</label>
+          <input type="text" name="name" id="smore-subscribe-name" class="w-full rounded-md border-gray-300 shadow-sm focus:ring-slate-400 focus:border-slate-400 px-3 py-2 text-black" placeholder="Your Name" />
+        </div>
+
+        <div>
+          <label for="smore-subscribe-email" class="block text-sm text-gray-400 mb-1">Email Address <span class="text-red-500">*</span></label>
+          <input type="email" name="email" id="smore-subscribe-email" required class="w-full rounded-md border-gray-300 shadow-sm focus:ring-slate-400 focus:border-slate-400 px-3 py-2 text-black" placeholder="you@example.com" />
+        </div>
+
+        <button type="submit" name="subscribe" id="smore-subscribe-button" class="w-full bg-zinc-900 border border-zinc-600 text-white py-2 rounded-md hover:bg-black transition">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</div>
+
   
   <div class="my-10 md:my-16"></div>
 
-  <!-- Foundation Facts Section -->
   <div class="px-4 md:px-8 mb-12 md:mb-20">
       <div class="mb-6 md:mb-8">
           <p class="text-2xl md:text-3xl lg:text-4xl font-serif text-center">Foundation Facts</p>
@@ -224,9 +211,9 @@
           <div class="p-4 relative">
               <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">${totalContributions.toLocaleString()}+</div>
               <p class="mt-2 text-sm md:text-base underline cursor-pointer hover:text-red-600 transition-colors" 
-                bind:this={popupTrigger}
-                on:click|stopPropagation={togglePopup}>
-                Raised in value
+                  bind:this={popupTrigger}
+                  on:click|stopPropagation={togglePopup}>
+                  Raised in value
               </p>
           </div>
           
@@ -253,7 +240,7 @@
 
       {#if popupVisible}
           <div class="fixed inset-0 bg-black bg-opacity-50 z-40 backdrop-blur-sm transition-opacity duration-300" 
-               on:click={() => popupVisible = false}></div>
+                  on:click={() => popupVisible = false}></div>
           
           <div class="popup-content fixed z-50 bg-white shadow-2xl rounded-lg p-8 w-80 md:w-96 text-left 
                       top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border border-gray-100">
@@ -283,13 +270,13 @@
               
               <div class="mt-8 flex justify-end">
                   <button class="px-6 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors duration-200 shadow-md hover:shadow-lg text-sm font-medium focus:outline-none focus:ring-2 focus:ring-red-500" 
-                          on:click={() => popupVisible = false}>
+                              on:click={() => popupVisible = false}>
                       Close
                   </button>
               </div>
               
               <button class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors p-1 rounded-full hover:bg-gray-100" 
-                      on:click={() => popupVisible = false}>
+                              on:click={() => popupVisible = false}>
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                   </svg>
