@@ -10,7 +10,7 @@
   import pfpAzaan from "../../../lib/images/Headshots/azaan.png";
   import pfpJacob from "../../../lib/images/Headshots/jacob.png";
   import pfpJude from "../../../lib/images/Headshots/jude.png";
-  import pfpNishant from "../../../lib/images/Headshots/Nishant.png";
+  import pfpNishant from "../../../lib/images/Headshots/nishantS.png";
   import pfpYash from "../../../lib/images/Headshots/yash.jpg";
   import pfpRanveer from "../../../lib/images/Headshots/ranveer.jpg";
   import pfpRishabh from "../../../lib/images/Headshots/rishabh.jpg";
