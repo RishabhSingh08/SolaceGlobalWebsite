@@ -3,9 +3,19 @@
   import pfpAinesh from "../../../lib/images/Headshots/ainesh_gupta.png";
   import pfpAzalea from "../../../lib/images/Headshots/azalea_tang.png";
   import pfpMahit from "../../../lib/images/Headshots/mahit_cherku.png";
-  import pfpSamanyu from "../../../lib/images/Headshots/samanyu_earna.png";
+  import pfpSamanyu from "../../../lib/images/Headshots/samanyu.png";
   import pfpVedant from "../../../lib/images/Headshots/vedant_teware.png";
   import pfpZaid from "../../../lib/images/Headshots/zaid_salahi.png";
+  import pfpAbhi from "../../../lib/images/Headshots/abhi_karthik.png";
+  import pfpAzaan from "../../../lib/images/Headshots/azaan.png";
+  import pfpJacob from "../../../lib/images/Headshots/jacob.png";
+  import pfpJude from "../../../lib/images/Headshots/jude.png";
+  import pfpNishant from "../../../lib/images/Headshots/Nishant.png";
+  import pfpRanveer from "../../../lib/images/Headshots/ranveer.jpg";
+  import pfpRishabh from "../../../lib/images/Headshots/rishabh.jpg";
+  import pfpYash from "../../../lib/images/Headshots/yash.jpg";
+
+
 
 
   type TeamMember = {
@@ -20,90 +30,150 @@
   };
 
   const departments: Department[] = [
-    {
-      name: "Executive Leadership",
-      members: [
-        {
-          name: "Nishant Sinari",
-          role: "CEO & Founder"
-        }
-      ]
-    },
-    {
-      name: "Operations",
-      members: [
-        {
-          name: "Zaid Salahi",
-          role: "Head of Operations",
-          pfp: pfpZaid
-        },
-        {
-          name: "Mahit Cherku",
-          role: "Executive Assistant",
-          pfp: pfpMahit
-        }
-      ]
-    },
-    {
-      name: "IT Department",
-      members: [
-        {
-          name: "Punit Lakhotiya",
-          role: "Chief Information Officer"
-        },
-        {
-          name: "Rishabh Singh",
-          role: "Chief Technical Officer"
-        },
-        {
-          name: "Adwaith Sajin",
-          role: "Video Production Engineer"
-        }
-      ]
-    },
-    {
-      name: "STEM Mentors",
-      members: [
-        {
-          name: "Anvita Halbhavi",
-          role: "STEM Educator - North America"
-        },
-        {
-          name: "Azalea Tang",
-          role: "STEM Educator - North America",
-          pfp: pfpAzalea
-        },
-        {
-          name: "Ainesh Gupta",
-          role: "STEM Educator - South Asia",
-          pfp: pfpAinesh
-        }
-      ]
-    },
-    {
-      name: "Outreach and Program Development",
-      members: [
-        {
-          name: "Samanyu Earna",
-          role: "Finance Outreach Member",
-          pfp: pfpSamanyu
-        },
-        {
-          name: "Abhinav Karthik",
-          role: "Senior Home Outreach Lead - North Texas"
-        },
-        {
-          name: "Vedant Teware",
-          role: "STEM Program Coordinator - Southwest Asia",
-          pfp: pfpVedant
-        },
-        {
-          name: "Swaraj Nibandhe",
-          role: "STEM Program Coordinator - Southwest Asia"
-        }
-      ]
-    }
-  ];
+  {
+    name: "Executive Leadership",
+    members: [
+      {
+        name: "Nishant Sinari",
+        role: "CEO & Founder",
+        pfp: pfpNishant
+      },
+      {
+        name: "Ranveer Jadhav",
+        role: "Chief Financial Officer",
+        pfp: pfpRanveer
+      }
+    ]
+  },
+  {
+    name: "Operations",
+    members: [
+      {
+        name: "Zaid Salahi",
+        role: "Event Coordinator: Middle East",
+        pfp: pfpZaid
+      },
+      {
+        name: "Yash Giriyapura",
+        role: "Lead Events Manager",
+        pfp: pfpYash
+      },
+      {
+        name: "Jude Kumar",
+        role: "Events Manager: North Texas",
+        pfp: pfpJude
+      },
+      {
+        name: "Mahit Cherku",
+        role: "Chief Global Engagement Officer",
+        pfp: pfpMahit
+      }
+    ]
+  },
+  {
+    name: "IT Department",
+    members: [
+      {
+        name: "Rishabh Singh",
+        role: "Chief Technology Officer",
+        pfp: pfpRishabh
+      },
+      {
+        name: "Punit Lakhotiya",
+        role: "Chief AI Development Officer"
+      },
+
+      {
+        name: "Adwaith Sajin",
+        role: "Video Production Engineer"
+      }
+    ]
+  },
+  {
+    name: "STEM Mentors",
+    members: [
+      {
+        name: "Anvita Halbhavi",
+        role: "STEM Educator: North America"
+      },
+      {
+        name: "Azalea Tang",
+        role: "STEM Educator: North America",
+        pfp: pfpAzalea
+      },
+      {
+        name: "Ainesh Gupta",
+        role: "STEM Educator - South Asia",
+        pfp: pfpAinesh
+      }
+    ]
+  },
+  {
+    name: "Outreach and Program Development",
+    members: [
+      {
+        name: "Samanyu Earna",
+        role: "Senior Finance Manager",
+        pfp: pfpSamanyu
+      },
+      {
+        name: "Abhinav Karthik",
+        role: "Global Outreach Officer",
+        pfp: pfpAbhi
+      },
+      {
+        name: "Vedant Teware",
+        role: "STEM Program Coordinator - Southwest Asia",
+        pfp: pfpVedant
+      },
+      {
+        name: "Swaraj Nibandhe",
+        role: "STEM Program Coordinator - Southwest Asia"
+      },
+      {
+        name: "Abhiram Vemulapalli",
+        role: "Global Outreach Officer"
+      },
+      {
+        name: "Azaan Naqvi",
+        role: "Career Compass Manager",
+        pfp: pfpAzaan
+      }
+    ]
+  },
+  {
+    name: "Finance Team",
+    members: [
+      {
+        name: "Nishant Venkatachalam",
+        role: "Finance Manager"
+      },
+      {
+        name: "Kaushal Ganapur",
+        role: "Finance Assistant"
+      },
+      {
+        name: "Jennyl Patel",
+        role: "Finance Associate"
+      },
+      {
+        name: "Jacob Wheat",
+        role: "Finance Assistant",
+        pfp: pfpJacob
+      }
+    ]
+  },
+  {
+    name: "Marketing",
+    members: [
+      {
+        name: "Aidan Garrido",
+        role: "Marketing Associate"
+      }
+    ]
+  }
+];
+
 </script>
 
 <svelte:head>
