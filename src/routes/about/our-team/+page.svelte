@@ -11,9 +11,9 @@
   import pfpJacob from "../../../lib/images/Headshots/jacob.png";
   import pfpJude from "../../../lib/images/Headshots/jude.png";
   import pfpNishant from "../../../lib/images/Headshots/Nishant.png";
+  import pfpYash from "../../../lib/images/Headshots/yash.jpg";
   import pfpRanveer from "../../../lib/images/Headshots/ranveer.jpg";
   import pfpRishabh from "../../../lib/images/Headshots/rishabh.jpg";
-  import pfpYash from "../../../lib/images/Headshots/yash.jpg";
 
 
 
