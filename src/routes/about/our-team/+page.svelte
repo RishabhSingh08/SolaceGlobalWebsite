@@ -31,18 +31,13 @@
 
   const departments: Department[] = [
   {
-    name: "Executive Leadership",
+    name: "",
     members: [
       {
         name: "Nishant Sinari",
         role: "CEO & Founder",
         pfp: pfpNishant
       },
-      {
-        name: "Ranveer Jadhav",
-        role: "Chief Financial Officer",
-        pfp: pfpRanveer
-      }
     ]
   },
   {
@@ -144,6 +139,11 @@
   {
     name: "Finance Team",
     members: [
+      {
+        name: "Ranveer Jadhav",
+        role: "Chief Financial Officer",
+        pfp: pfpRanveer
+      },
       {
         name: "Nishant Venkatachalam",
         role: "Finance Manager"
