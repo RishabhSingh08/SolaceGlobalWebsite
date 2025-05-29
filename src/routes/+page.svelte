@@ -55,10 +55,10 @@
       { name: "Google Workspace", amount: 6000 },
       { name: "Code.org Partnership", amount: 3000 },
       { name: "Pinkberry Partnership", amount: 4050 },
-      { name: "Hack Club Legal Services", amount: 12500 },
+      { name: "Hack Club Legal Services", amount: 14000 },
       { name: "Stripe Banking", amount: 350 },
       { name: "Donations", amount: 1000 },
-      { name: "Undefined Robotics (Parts)", amount: 10000 }
+      { name: "Undefined Robotics (Parts)", amount: 12000 }
   ];
 
   const totalContributions = contributions.reduce((sum, item) => sum + item.amount, 0);
@@ -218,7 +218,7 @@
           </div>
           
           <div class="p-4">
-              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">8000+</div>
+              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">10k+</div>
               <p class="mt-2 text-sm md:text-base">People affected</p>
           </div>
           

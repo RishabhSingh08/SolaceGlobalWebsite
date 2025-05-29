@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import guest from "../../../lib/images/Headshots/none.png";
   import pfpAinesh from "../../../lib/images/Headshots/ainesh_gupta.png";
   import pfpAzalea from "../../../lib/images/Headshots/azalea_tang.png";
@@ -14,167 +14,69 @@
   import pfpYash from "../../../lib/images/Headshots/yash.jpg";
   import pfpRanveer from "../../../lib/images/Headshots/ranveer.jpg";
   import pfpRishabh from "../../../lib/images/Headshots/rishabh.jpg";
+  import pfpKaushal from "../../../lib/images/Headshots/Kaushal.jpg";
+  import pfpJennyl from "../../../lib/images/Headshots/jennyl.jpg";
+  import pfpAadi from "../../../lib/images/Headshots/aadi.jpg";
+  import pfpSwaraj from "../../../lib/images/Headshots/swaraj.jpg";
+  import pfpAbhiV from "../../../lib/images/Headshots/abhiv.jpg";
 
-
-
-
-  type TeamMember = {
-    name: string;
-    role: string;
-    pfp?: string;
-  };
-
-  type Department = {
-    name: string;
-    members: TeamMember[];
-  };
-
-  const departments: Department[] = [
-  {
-    name: "",
-    members: [
-      {
-        name: "Nishant Sinari",
-        role: "CEO & Founder",
-        pfp: pfpNishant
-      },
-    ]
-  },
-  {
-    name: "Operations",
-    members: [
-      {
-        name: "Zaid Salahi",
-        role: "Event Coordinator: Middle East",
-        pfp: pfpZaid
-      },
-      {
-        name: "Yash Giriyapura",
-        role: "Lead Events Manager",
-        pfp: pfpYash
-      },
-      {
-        name: "Jude Kumar",
-        role: "Events Manager: North Texas",
-        pfp: pfpJude
-      },
-      {
-        name: "Mahit Cherku",
-        role: "Chief Global Engagement Officer",
-        pfp: pfpMahit
-      }
-    ]
-  },
-  {
-    name: "IT Department",
-    members: [
-      {
-        name: "Rishabh Singh",
-        role: "Chief Technology Officer",
-        pfp: pfpRishabh
-      },
-      {
-        name: "Punit Lakhotiya",
-        role: "Chief AI Development Officer"
-      },
-
-      {
-        name: "Adwaith Sajin",
-        role: "Video Production Engineer"
-      }
-    ]
-  },
-  {
-    name: "STEM Mentors",
-    members: [
-      {
-        name: "Anvita Halbhavi",
-        role: "STEM Educator: North America"
-      },
-      {
-        name: "Azalea Tang",
-        role: "STEM Educator: North America",
-        pfp: pfpAzalea
-      },
-      {
-        name: "Ainesh Gupta",
-        role: "STEM Educator - South Asia",
-        pfp: pfpAinesh
-      }
-    ]
-  },
-  {
-    name: "Outreach and Program Development",
-    members: [
-      {
-        name: "Samanyu Earna",
-        role: "Senior Finance Manager",
-        pfp: pfpSamanyu
-      },
-      {
-        name: "Abhinav Karthik",
-        role: "Global Outreach Officer",
-        pfp: pfpAbhi
-      },
-      {
-        name: "Vedant Teware",
-        role: "STEM Program Coordinator - Southwest Asia",
-        pfp: pfpVedant
-      },
-      {
-        name: "Swaraj Nibandhe",
-        role: "STEM Program Coordinator - Southwest Asia"
-      },
-      {
-        name: "Abhiram Vemulapalli",
-        role: "Global Outreach Officer"
-      },
-      {
-        name: "Azaan Naqvi",
-        role: "Career Compass Manager",
-        pfp: pfpAzaan
-      }
-    ]
-  },
-  {
-    name: "Finance Team",
-    members: [
-      {
-        name: "Ranveer Jadhav",
-        role: "Chief Financial Officer",
-        pfp: pfpRanveer
-      },
-      {
-        name: "Nishant Venkatachalam",
-        role: "Finance Manager"
-      },
-      {
-        name: "Kaushal Ganapur",
-        role: "Finance Assistant"
-      },
-      {
-        name: "Jennyl Patel",
-        role: "Finance Associate"
-      },
-      {
-        name: "Jacob Wheat",
-        role: "Finance Assistant",
-        pfp: pfpJacob
-      }
-    ]
-  },
-  {
-    name: "Marketing",
-    members: [
-      {
-        name: "Aidan Garrido",
-        role: "Marketing Associate"
-      }
-    ]
-  }
-];
-
+  const departments = [
+    {
+      name: "Executive",
+      members: [
+        { name: "Nishant Sinari", role: "CEO & Founder", pfp: pfpNishant },
+        { name: "Yash Giriyapura", role: "Lead Events Manager", pfp: pfpYash },
+        { name: "Rishabh Singh", role: "Chief Technology Officer", pfp: pfpRishabh },
+        { name: "Ranveer Jadhav", role: "Chief Financial Officer", pfp: pfpRanveer },
+        { name: "Mahit Cherku", role: "Chief Global Engagement Officer", pfp: pfpMahit }
+      ]
+    },
+    {
+      name: "Operations",
+      members: [
+        { name: "Zaid Salahi", role: "Event Coordinator: Middle East", pfp: pfpZaid },
+        { name: "Jude Kumar", role: "Events Manager: North Texas", pfp: pfpJude },
+      ]
+    },
+    {
+      name: "IT Department",
+      members: [
+        { name: "Punit Lakhotiya", role: "Chief AI Development Officer" },
+        { name: "Adwaith Sajin", role: "Video Production Engineer", pfp: pfpAadi }
+      ]
+    },
+    {
+      name: "STEM Mentors",
+      members: [
+        { name: "Anvita Halbhavi", role: "STEM Educator: North America" },
+        { name: "Azalea Tang", role: "STEM Educator: North America", pfp: pfpAzalea },
+        { name: "Ainesh Gupta", role: "STEM Educator - South Asia", pfp: pfpAinesh }
+      ]
+    },
+    {
+      name: "Outreach and Program Development",
+      members: [
+        { name: "Abhinav Karthik", role: "Global Outreach Officer", pfp: pfpAbhi },
+        { name: "Vedant Teware", role: "STEM Program Coordinator - Southwest Asia", pfp: pfpVedant },
+        { name: "Swaraj Nibandhe", role: "STEM Program Coordinator - Southwest Asia", pfp: pfpSwaraj },
+        { name: "Aidan Garrido", role: "Marketing Associate" },
+        { name: "Abhiram Vemulapalli", role: "Global Outreach Officer", pfp: pfpAbhiV },
+        { name: "Azaan Naqvi", role: "Career Compass Manager", pfp: pfpAzaan }
+      ]
+    },
+    {
+      name: "Finance Team",
+      members: [
+        { name: "Samanyu Earna", role: "Senior Finance Manager", pfp: pfpSamanyu },
+        { name: "Nishant Venkatachalam", role: "Finance Manager" },
+        { name: "Kaushal Ganapur", role: "Finance Assistant", pfp: pfpKaushal },
+        { name: "Jennyl Patel", role: "Finance Associate", pfp: pfpJennyl },
+        { name: "Jacob Wheat", role: "Finance Assistant", pfp: pfpJacob }
+      ]
+    },
+  ];
 </script>
+
 
 <svelte:head>
   <link rel="preconnect" href="https://fonts.googleapis.com">

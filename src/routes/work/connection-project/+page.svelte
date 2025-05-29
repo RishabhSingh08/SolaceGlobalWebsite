@@ -59,7 +59,22 @@
         
         <!-- Main Image -->
         <div class="flex justify-center">
-            <img src={baqia} alt="Connection Project" class="w-full max-w-4xl">
+            <div>
+
+                <img src={v3} alt="Connection Project" class="w-full max-w-4xl">
+                <div class="flex justify-center pt-4">
+                    <a href="#volleyball-fundraiser">
+
+                        <div class="inline-flex items-center text-black font-medium border-b-2 border-black group-hover:text-gray-600 group-hover:border-gray-600 transition-colors pb-1">
+                            View More
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2 transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
         </div>
         
         <!-- Introduction -->
@@ -273,7 +288,7 @@
             </div>
             <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
             <!-- Israel Aid Section -->
-            <div id="israel-aid" class="space-y-6">
+            <div id="volleyball-fundraiser" class="space-y-6">
                 <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
                     <div class="space-y-4 lg:col-span-4">
                         <p class="text-2xl md:text-3xl rasa">
