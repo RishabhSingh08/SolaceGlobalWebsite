@@ -19,6 +19,7 @@
   import pfpAadi from "../../../lib/images/Headshots/aadi.jpg";
   import pfpSwaraj from "../../../lib/images/Headshots/swaraj.jpg";
   import pfpAbhiV from "../../../lib/images/Headshots/abhiv.jpg";
+  import pfpAnvita from "../../../lib/images/Headshots/anvita.jpg";
 
   const departments = [
     {
@@ -48,7 +49,7 @@
     {
       name: "STEM Mentors",
       members: [
-        { name: "Anvita Halbhavi", role: "STEM Educator: North America" },
+        { name: "Anvita Halbhavi", role: "STEM Educator: North America", pfp: pfpAnvita },
         { name: "Azalea Tang", role: "STEM Educator: North America", pfp: pfpAzalea },
         { name: "Ainesh Gupta", role: "STEM Educator - South Asia", pfp: pfpAinesh }
       ]

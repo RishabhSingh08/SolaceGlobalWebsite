@@ -10,6 +10,8 @@
     import v1 from "../../../lib/images/MediaImages/volley1.png";
     import v2 from "../../../lib/images/MediaImages/volley2.png";
     import v3 from "../../../lib/images/MediaImages/volley3.png";
+    import e1 from "../../../lib/images/MediaImages/e1.jpeg";
+    import e2 from "../../../lib/images/MediaImages/e2.jpeg";
 </script>
 
 <svelte:head>
@@ -287,7 +289,7 @@
                 </div>
             </div>
             <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
-            <!-- Israel Aid Section -->
+            <!-- Volleyball -->
             <div id="volleyball-fundraiser" class="space-y-6">
                 <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
                     <div class="space-y-4 lg:col-span-4">
@@ -304,14 +306,47 @@
                     <div class="w-full lg:col-span-5">
                         <div class="space-y-4">
                             <div class="grid grid-cols-2 gap-2 md:gap-3">
-                                <img src={v1} alt="Kids with robots" class="rounded-lg shadow-md">
-                                <img src={v2} alt="Children learning about robotics" class="rounded-lg shadow-md">
-                                <img src={v3} alt="Robotics demonstration" class="rounded-lg shadow-md">
+                                <img src={v1} alt="v1" class="rounded-lg shadow-md">
+                                <img src={v2} alt="v2" class="rounded-lg shadow-md">
+                                <img src={v3} alt="v3" class="rounded-lg shadow-md">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+            
+<!-- Ethiopia Donation START -->
+<div id="ethiopia-donation" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+                Empowering Students at Medresa-Hamza School – Ethiopia
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>Solace Global recently extended its outreach to Ethiopia by donating clothing worth Br 7,000 to ten students at the Medresa-Hamza School, located in a rural region serving youth from some of the country’s most economically challenged families. The students, aged 16 to 18, not only study at the school but also live there, as their families are unable to afford basic educational or living expenses. Medresa-Hamza provides them with shelter, meals, and a safe environment to grow both academically and personally.</p>
+                <p>This initiative was born from a desire to uplift students who often go unnoticed and unsupported. For these young individuals, the simple gift of clothing was more than just fabric—it was a symbol of dignity, hope, and recognition. Each garment was carefully selected to meet their needs and bring comfort to their daily lives, reinforcing the belief that no student should be held back due to a lack of basic resources.</p>
+                <p>During the distribution, members of our local team emphasized encouragement and connection, taking the time to understand each student's background and aspirations. The gratitude expressed by the students was deeply moving, reminding us that meaningful impact often comes from simple, sincere acts of kindness. Many of the students shared their dreams of becoming doctors, teachers, and engineers—ambitions that remain alive despite their circumstances.</p>
+                <p>Solace Global remains committed to creating lasting, human-centered change. By partnering with community-based institutions like Medresa-Hamza School, we aim to build a future where every child—regardless of income or geography—has the tools, support, and belief they need to thrive.</p>
+            </div>
+        </div>
+
+        <div class="w-full lg:col-span-5">
+            <div class="space-y-4">
+                <div class="grid grid-cols-2 gap-2 md:gap-3">
+                    <img src={e1} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
+                    <img src={e2} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END -->
+<!-- NEXT SECTION HERE -->
+
+
         </div>
     </div>
 </main>
