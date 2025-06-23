@@ -210,6 +210,7 @@ function acceptTerms() {
                                 <li><a href="/work/connection-project/#israel-aid" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Essential Aid for Those in Need – Israel</a></li>
                                 <li><a href="/work/connection-project/#volleyball-fundraiser" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Volleyball Fundraiser at Plano West High School</a></li>
                                 <li><a href="/work/connection-project/#ethiopia-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Empowering Medresa-Hamza Students – Ethiopia</a></li>
+                                <li><a href="/work/connection-project/#switzerland-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Cultural Heritage – Switzerland</a></li>
                             </ul>
                         </div>
                         <div>

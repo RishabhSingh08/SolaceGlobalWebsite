@@ -12,6 +12,10 @@
     import v3 from "../../../lib/images/MediaImages/volley3.png";
     import e1 from "../../../lib/images/MediaImages/e1.jpeg";
     import e2 from "../../../lib/images/MediaImages/e2.jpeg";
+
+    import s1 from "../../../lib/images/MediaImages/s1.jpeg";
+    import s2 from "../../../lib/images/MediaImages/s2.jpeg";
+    import s3 from "../../../lib/images/MediaImages/s3.jpeg";
 </script>
 
 <svelte:head>
@@ -345,7 +349,33 @@
 </div>
 <!-- END -->
 <!-- NEXT SECTION HERE -->
+<div id="switzerland-donation" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+                Supporting Cultural Heritage – Switzerland
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>In a continued effort to foster global connection and support community-rooted initiatives, Solace Global made a symbolic donation of CHF 30 to the Bern Cathedral (Berner Münster)—Switzerland’s largest and most iconic late-Gothic church.                </p>
+                <p>More than just a historic structure, the Bern Cathedral represents centuries of human craftsmanship, cultural continuity, and spiritual connection. Our donation covered the full cost of a guided visit, granting us the opportunity to explore this architectural masterpiece and support its preservation.                </p>
+                <p>By engaging with local heritage in Bern, we aimed to show appreciation for the values of resilience, legacy, and unity that places like the Münster uphold. From its stunning 100-meter tower to the Last Judgment portal that survived the Reformation, every corner of the cathedral tells a story of connection across generations.                </p>
+                <p>This small act reflects our belief that connection isn’t just about people—it’s also about honoring the spaces and histories that bring us together. Supporting local efforts like this reaffirms Solace Global’s commitment to bridging worlds through compassion, education, and shared experiences.</p>
+            </div>
+        </div>
 
+        <div class="w-full lg:col-span-5">
+            <div class="space-y-4">
+                <div class="grid grid-cols-2 gap-2 md:gap-3">
+                    <img src={s1} alt="Swiss Donation 1" class="rounded-lg shadow-md">
+                    <img src={s2} alt="Swiss Donation 2" class="rounded-lg shadow-md">
+                    <img src={s3} alt="Swiss Donation 3" class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END -->
 
         </div>
     </div>
