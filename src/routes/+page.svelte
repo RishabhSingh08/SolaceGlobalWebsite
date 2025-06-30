@@ -94,6 +94,32 @@
           <a href="/donate">Learn how to make a difference</a>
       </p>
   </div>
+  <div class="mt-12 md:mt-20 px-4 md:px-8">
+    <div>
+        <p class="text-2xl md:text-3xl lg:text-4xl rasa">
+            Upcoming Event
+        </p>
+    </div>
+    
+    <div class="mt-6 md:mt-8 shadow-lg rounded-lg overflow-hidden">
+        <div class="bg-zinc-100 p-4">
+            <p class="text-lg md:text-xl font-medium mb-4">Art Workshop</p>
+            <div class="w-full overflow-hidden">
+                <iframe 
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSf4y--POfcP_UJDJxjp44qA00K0HBexF--ns7pgQzCaDRxavg/viewform?embedded=true" 
+                    width="100%" 
+                    height="700" 
+                    frameborder="0" 
+                    marginheight="0" 
+                    marginwidth="0"
+                    class="mx-auto"
+                >
+                    Loading…
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
 
   <div class="mt-12 md:mt-20 px-4 md:px-8">
       <p class="text-2xl md:text-3xl lg:text-4xl font-serif mb-6">Featured Insights</p>
