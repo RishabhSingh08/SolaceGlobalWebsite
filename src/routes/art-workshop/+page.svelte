@@ -87,14 +87,11 @@
       {/if}
       <h2 class="text-3xl font-bold text-gray-900">Art Workshop Donation</h2>
       <p class="text-gray-600">
-        Support our upcoming Art Workshop with your generous donation.
+        Join our upcoming Art Workshop.
       </p>
     </div>
 
     <div class="space-y-6">
-      <p class="text-sm text-gray-600">
-        Your donation helps us provide art supplies and support for the workshop. A fixed donation amount of ${DEFAULT_DONATION_AMOUNT.toFixed(2)} is required.
-      </p>
       <form on:submit={handleSubmit} class="space-y-6">
         <div class="space-y-1">
           <label for="donorName" class="block text-sm font-medium text-gray-700">Name*</label>
