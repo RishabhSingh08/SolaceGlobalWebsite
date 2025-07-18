@@ -190,7 +190,7 @@ function acceptTerms() {
             {#if isWorkDropdownOpen && !isMobileMenuOpen}
             <div id="dropdown-menu-work" class="absolute left-0 top-full w-full bg-white shadow-md p-4 md:p-6 font-thin border-t z-50 overflow-y-auto max-h-96 md:max-h-none">
                 <div class="container mx-auto">
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <div>
                             <h4 class="text-xl md:text-2xl font-base"><a href="/work/career-compass" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Career Compass</a></h4>
                             <ul class="mt-2 space-y-2">
@@ -199,6 +199,7 @@ function acceptTerms() {
                                 <li><a href="/work/career-compass/#business" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Business</a></li>
                                 <li><a href="/work/career-compass/#fine-arts" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Fine Arts</a></li>
                                 <li><a href="/work/career-compass/#natural-sciences" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Natural Sciences</a></li>
+
                             </ul>
                         </div>
                         <div>
@@ -220,16 +221,20 @@ function acceptTerms() {
                                 <li><a href="/work/discovery-project/#robots" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Environmental Robotics Presentation with UTD Researcher</a></li>
                                 <li><a href="/work/discovery-project/#seniors" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Digital Safety Training for Seniors</a></li>
                                 <li><a href="/work/discovery-project/#spark" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>STEM Workshop Led by Local Robotics Teens</a></li>
+                                <li><a href="/work/girls-in-stem/#tech-builders" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Education to Underserved Girls</a></li>
+                                <li><a href="/work/girls-in-stem/#robot-connection" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Education to Underserved Girls (Part 2)</a></li>
+                                <li><a href="/work/girls-in-stem/#CodeHER" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Online Coding Classes for Girls with Code.org</a></li>
+
                             </ul>
                         </div>
-                        <div>
+                        <!-- <div>
                             <h4 class="text-xl md:text-2xl font-base"><a href="/work/girls-in-stem" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Girls in STEM</a></h4>
                             <ul class="mt-2 space-y-2">
                                 <li><a href="/work/girls-in-stem/#tech-builders" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Education</a></li>
                                 <li><a href="/work/girls-in-stem/#robot-connection" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Education (Part 2)</a></li>
                                 <li><a href="/work/girls-in-stem/#CodeHER" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Online Coding Classes for Girls with Code.org</a></li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>    
             </div>

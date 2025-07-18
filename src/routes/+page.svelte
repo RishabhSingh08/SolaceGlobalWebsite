@@ -52,13 +52,13 @@
 
   // Simplified contributions data
   const contributions = [
-      { name: "Google Workspace", amount: 6000 },
+      { name: "Google Workspace", amount: 10000 },
       { name: "Code.org Partnership", amount: 3000 },
       { name: "Pinkberry Partnership", amount: 4050 },
       { name: "Hack Club Legal Services", amount: 14000 },
-      { name: "Stripe Banking", amount: 350 },
-      { name: "Donations", amount: 1000 },
-      { name: "Undefined Robotics (Parts)", amount: 12000 }
+      { name: "Stripe Banking", amount: 500 },
+      { name: "Donations", amount: 13000 },
+      { name: "Undefined Robotics (Parts)", amount: 25000 }
   ];
 
   const totalContributions = contributions.reduce((sum, item) => sum + item.amount, 0);
@@ -94,33 +94,7 @@
           <a href="/donate">Learn how to make a difference</a>
       </p>
   </div>
-  <div class="mt-12 md:mt-20 px-4 md:px-8">
-    <div>
-        <p class="text-2xl md:text-3xl lg:text-4xl rasa underline">
-            <a href="/art-workshop">
-                Upcoming Event
-            </a>
-        </p>
-    </div>
-    <div class="mt-6 md:mt-8 shadow-lg rounded-lg overflow-hidden">
-        <div class="bg-zinc-100 p-4">
-            <p class="text-lg md:text-xl font-medium mb-4">Art Workshop</p>
-            <div class="w-full overflow-hidden">
-                <iframe 
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSfFQdJkr3Te_k_0XFC4PBEu_PP0ZdJzUqmIej7ugZMXBowXJQ/viewform?embedded=true" 
-                    width="100%" 
-                    height="700" 
-                    frameborder="0" 
-                    marginheight="0" 
-                    marginwidth="0"
-                    class="mx-auto"
-                >
-                    Loading…
-                </iframe>
-            </div>
-        </div>
-    </div>
-</div>
+
 
   <div class="mt-12 md:mt-20 px-4 md:px-8">
       <p class="text-2xl md:text-3xl lg:text-4xl font-serif mb-6">Featured Insights</p>
@@ -245,12 +219,12 @@
           </div>
           
           <div class="p-4">
-              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">10k+</div>
+              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">15k+</div>
               <p class="mt-2 text-sm md:text-base">People affected</p>
           </div>
           
           <div class="p-4">
-              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">7+</div>
+              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">9+</div>
               <p class="mt-2 text-sm md:text-base">Countries in operation</p>
           </div>
           
@@ -260,7 +234,7 @@
           </div>
           
           <div class="p-4">
-              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">11+</div>
+              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">20+</div>
               <p class="mt-2 text-sm md:text-base">Programs</p>
           </div>
       </div>
