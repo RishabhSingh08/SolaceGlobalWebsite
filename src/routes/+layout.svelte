@@ -142,7 +142,6 @@ function acceptTerms() {
                             <a href="/work/career-compass" on:click={closeAllDropdowns}>Career Compass</a>
                             <a href="/work/connection-project" on:click={closeAllDropdowns}>The Connection Project</a>
                             <a href="/work/discovery-project" on:click={closeAllDropdowns}>The Discovery Project</a>
-                            <a href="/work/girls-in-stem" on:click={closeAllDropdowns}>Girls in STEM</a>
                         </div>
                         {/if}
                         
@@ -212,6 +211,8 @@ function acceptTerms() {
                                 <li><a href="/work/connection-project/#volleyball-fundraiser" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Volleyball Fundraiser at Plano West High School</a></li>
                                 <li><a href="/work/connection-project/#ethiopia-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Empowering Medresa-Hamza Students – Ethiopia</a></li>
                                 <li><a href="/work/connection-project/#switzerland-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Cultural Heritage – Switzerland</a></li>
+                                <li><a href="/work/connection-project/#syria-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Clothing and Care for Orphans – Syria</a></li>
+                                <li><a href="/work/connection-project/#soccer-tourney" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Soccer Fundraiser Tournament</a></li>
                             </ul>
                         </div>
                         <div>

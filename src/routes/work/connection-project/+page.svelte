@@ -16,6 +16,11 @@
     import s1 from "../../../lib/images/MediaImages/s1.jpeg";
     import s2 from "../../../lib/images/MediaImages/s2.jpeg";
     import s3 from "../../../lib/images/MediaImages/s3.jpeg";
+
+    import syria1 from "../../../lib/images/MediaImages/syria1.png";
+    import syria2 from "../../../lib/images/MediaImages/syria2.png";
+    import syria3 from "../../../lib/images/MediaImages/syria3.png";
+
 </script>
 
 <svelte:head>
@@ -348,6 +353,8 @@
     </div>
 </div>
 <!-- END -->
+            <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
 <!-- NEXT SECTION HERE -->
 <div id="switzerland-donation" class="space-y-6">
     
@@ -373,6 +380,66 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<!-- END -->
+            <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- NEXT SECTION HERE -->
+<div id="syria-donation" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+                Clothing and Care for Orphans – Syria
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>Solace Global extended its mission of hope by organizing a meaningful giving initiative for orphaned children in Damascus, Syria. Through this effort, 14 shirts were donated to children spread throughout the city, each gift paired with two pieces of candy and a bag of chips to bring a small moment of joy and comfort to their day. </p>
+                <p>Beyond providing clothing and treats, this initiative was about sharing kindness and reminding these children that they are seen and cared for. Though simple, these gifts carried with them a message of compassion, solidarity, and hope for a brighter future.</p>
+                <p>Many of these children face daily challenges, yet their resilience continues to inspire us. By offering not only material support but also moments of happiness, Solace Global remains committed to standing beside communities in need wherever they may be.</p>
+                <p>This effort reflects our ongoing dedication to creating small but meaningful change, one act of kindness at a time.</p>            
+            </div>
+        </div>
+
+        <div class="w-full lg:col-span-5">
+            <div class="space-y-4">
+                <div class="grid grid-cols-2 gap-2 md:gap-3">
+                    <img src={syria1} alt="Syria Donation 1" class="rounded-lg shadow-md">
+                    <img src={syria2} alt="Syria Donation 2" class="rounded-lg shadow-md">
+                    <img src={syria3} alt="Syria Donation 3" class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END -->
+             <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- NEXT SECTION HERE -->
+<div id="soccer-tourney" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+                Soccer Fundraiser Tournament at Plano West High School
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+<p>On July 9, we hosted an energetic and community-driven Soccer Fundraiser Tournament at Anderson Bonner Park, bringing together 50 passionate players and volunteers for a fun and meaningful afternoon. With three teams competing in a round-robin format, the event was filled with teamwork, friendly rivalry, and lots of excitement on the field.</p>                <p>Beyond providing clothing and treats, this initiative was about sharing kindness and reminding these children that they are seen and cared for. Though simple, these gifts carried with them a message of compassion, solidarity, and hope for a brighter future.</p>
+<p>Thanks to everyone’s support, we successfully raised over $400, with $300 awarded to the winning team as a well-earned prize for their performance and sportsmanship.</p>
+<p>This tournament was more than just a game—it was a celebration of community, purpose, and the shared belief that small actions can create big change. The funds raised will help fuel Solace Global’s ongoing efforts to make STEM education accessible around the world.</p>
+<p>We are deeply grateful to all who played, volunteered, and cheered. Together, we’re proving that even a few hours on the field can move the needle toward a better future—one goal at a time.</p>
+</div>
+        </div>
+
+        <!-- <div class="w-full lg:col-span-5">
+            <div class="space-y-4">
+                <div class="grid grid-cols-2 gap-2 md:gap-3">
+                    <img src={syria1} alt="Syria Donation 1" class="rounded-lg shadow-md">
+                    <img src={syria2} alt="Syria Donation 2" class="rounded-lg shadow-md">
+                    <img src={syria3} alt="Syria Donation 3" class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </div> -->
     </div>
 </div>
 <!-- END -->
