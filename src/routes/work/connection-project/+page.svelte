@@ -21,6 +21,11 @@
     import syria2 from "../../../lib/images/MediaImages/syria2.png";
     import syria3 from "../../../lib/images/MediaImages/syria3.png";
 
+    import soccer1 from "../../../lib/images/MediaImages/soccer1.png"
+    import soccer2 from "../../../lib/images/MediaImages/soccer2.png"
+    import soccer3 from "../../../lib/images/MediaImages/soccer3.png"
+    import soccer4 from "../../../lib/images/MediaImages/soccer4.png"
+
 </script>
 
 <svelte:head>
@@ -424,22 +429,23 @@
                 Soccer Fundraiser Tournament at Plano West High School
             </p>
             <div class="space-y-3 text-sm md:text-base">
-<p>On July 9, we hosted an energetic and community-driven Soccer Fundraiser Tournament at Anderson Bonner Park, bringing together 50 passionate players and volunteers for a fun and meaningful afternoon. With three teams competing in a round-robin format, the event was filled with teamwork, friendly rivalry, and lots of excitement on the field.</p>                <p>Beyond providing clothing and treats, this initiative was about sharing kindness and reminding these children that they are seen and cared for. Though simple, these gifts carried with them a message of compassion, solidarity, and hope for a brighter future.</p>
+<p>On July 9, we hosted an energetic and community-driven Soccer Fundraiser Tournament at Anderson Bonner Park, bringing together 50 passionate players and volunteers for a fun and meaningful afternoon. With three teams competing in a round-robin format, the event was filled with teamwork, friendly rivalry, and lots of excitement on the field.</p>              
 <p>Thanks to everyone’s support, we successfully raised over $400, with $300 awarded to the winning team as a well-earned prize for their performance and sportsmanship.</p>
 <p>This tournament was more than just a game—it was a celebration of community, purpose, and the shared belief that small actions can create big change. The funds raised will help fuel Solace Global’s ongoing efforts to make STEM education accessible around the world.</p>
 <p>We are deeply grateful to all who played, volunteered, and cheered. Together, we’re proving that even a few hours on the field can move the needle toward a better future—one goal at a time.</p>
 </div>
         </div>
 
-        <!-- <div class="w-full lg:col-span-5">
+        <div class="w-full lg:col-span-5">
             <div class="space-y-4">
                 <div class="grid grid-cols-2 gap-2 md:gap-3">
-                    <img src={syria1} alt="Syria Donation 1" class="rounded-lg shadow-md">
-                    <img src={syria2} alt="Syria Donation 2" class="rounded-lg shadow-md">
-                    <img src={syria3} alt="Syria Donation 3" class="rounded-lg shadow-md">
+                    <img src={soccer1} alt="Soccer Donation 1" class="rounded-lg shadow-md">
+                    <img src={soccer2} alt="Soccer Donation 2" class="rounded-lg shadow-md">
+                    <img src={soccer3} alt="Soccer Donation 3" class="rounded-lg shadow-md">
+                    <img src={soccer4} alt="Soccer Donation 4" class="rounded-lg shadow-md">
                 </div>
             </div>
-        </div> -->
+        </div>
     </div>
 </div>
 <!-- END -->
