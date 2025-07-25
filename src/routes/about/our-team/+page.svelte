@@ -26,10 +26,10 @@
       name: "Executive",
       members: [
         { name: "Nishant Sinari", role: "CEO & Founder", pfp: pfpNishant },
-        { name: "Yash Giriyapura", role: "Lead Events Manager", pfp: pfpYash },
+        { name: "Yash Giriyapura", role: "Vice President of Engagement", pfp: pfpYash },
         { name: "Rishabh Singh", role: "Chief Technology Officer", pfp: pfpRishabh },
-        { name: "Ranveer Jadhav", role: "Chief Financial Officer", pfp: pfpRanveer },
-        { name: "Mahit Cherku", role: "Chief Global Engagement Officer", pfp: pfpMahit }
+        { name: "Ranveer Jadhav", role: "Vice President of Internal", pfp: pfpRanveer },
+        { name: "Mahit Cherku", role: "Chief of Staff", pfp: pfpMahit }
       ]
     },
     {
@@ -42,7 +42,8 @@
     {
       name: "IT Department",
       members: [
-        { name: "Punit Lakhotiya", role: "Chief AI Development Officer" },
+        { name: "Samanyu Earna", role: "Director of Technology", pfp: pfpSamanyu },
+        { name: "Punit Lakhotiya", role: "Chief Information Officer" },
         { name: "Adwaith Sajin", role: "Video Production Engineer", pfp: pfpAadi }
       ]
     },
@@ -58,7 +59,6 @@
       name: "Outreach and Program Development",
       members: [
         { name: "Abhinav Karthik", role: "Global Outreach Officer", pfp: pfpAbhi },
-        { name: "Vedant Teware", role: "STEM Program Coordinator - Southwest Asia", pfp: pfpVedant },
         { name: "Swaraj Nibandhe", role: "STEM Program Coordinator - Southwest Asia", pfp: pfpSwaraj },
         { name: "Aidan Garrido", role: "Marketing Associate" },
         { name: "Abhiram Vemulapalli", role: "Global Outreach Officer", pfp: pfpAbhiV },
@@ -68,11 +68,11 @@
     {
       name: "Finance Team",
       members: [
-        { name: "Samanyu Earna", role: "Senior Finance Manager", pfp: pfpSamanyu },
-        { name: "Nishant Venkatachalam", role: "Finance Manager" },
-        { name: "Kaushal Ganapur", role: "Finance Assistant", pfp: pfpKaushal },
-        { name: "Jennyl Patel", role: "Finance Associate", pfp: pfpJennyl },
-        { name: "Jacob Wheat", role: "Finance Assistant", pfp: pfpJacob }
+        { name: "Nishant Venkatachalam", role: "Director of Finance" },
+        { name: "Vedant Teware", role: "Finance Associate", pfp: pfpVedant },
+        { name: "Kaushal Ganapur", role: "Finance Associate", pfp: pfpKaushal },
+        { name: "Jennyl Patel", role: "Chief Finance Officer", pfp: pfpJennyl },
+        { name: "Jacob Wheat", role: "Senior Finance Manager", pfp: pfpJacob }
       ]
     },
   ];
