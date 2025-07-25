@@ -28,7 +28,7 @@
         { name: "Nishant Sinari", role: "CEO & Founder", pfp: pfpNishant },
         { name: "Yash Giriyapura", role: "Vice President of Engagement", pfp: pfpYash },
         { name: "Rishabh Singh", role: "Chief Technology Officer", pfp: pfpRishabh },
-        { name: "Ranveer Jadhav", role: "Vice President of Internal", pfp: pfpRanveer },
+        { name: "Ranveer Jadhav", role: "Vice President of Internal Operations", pfp: pfpRanveer },
         { name: "Mahit Cherku", role: "Chief of Staff", pfp: pfpMahit }
       ]
     },
@@ -68,11 +68,12 @@
     {
       name: "Finance Team",
       members: [
+        { name: "Jennyl Patel", role: "Chief Finance Officer", pfp: pfpJennyl },
         { name: "Nishant Venkatachalam", role: "Director of Finance" },
+        { name: "Jacob Wheat", role: "Senior Finance Manager", pfp: pfpJacob },
         { name: "Vedant Teware", role: "Finance Associate", pfp: pfpVedant },
         { name: "Kaushal Ganapur", role: "Finance Associate", pfp: pfpKaushal },
-        { name: "Jennyl Patel", role: "Chief Finance Officer", pfp: pfpJennyl },
-        { name: "Jacob Wheat", role: "Senior Finance Manager", pfp: pfpJacob }
+        { name: "Abhish Bandi", role: "Finance Associate", pfp: pfpKaushal },
       ]
     },
   ];
