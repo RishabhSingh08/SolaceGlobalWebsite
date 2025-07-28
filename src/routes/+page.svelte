@@ -62,6 +62,68 @@
   ];
 
   const totalContributions = contributions.reduce((sum, item) => sum + item.amount, 0);
+
+    import { writable } from 'svelte/store';
+
+  const BASE_FEE = 60;
+  const SUB_FEE = 5;
+  const PAYMENT_LINK_BASE = "https://hcb.hackclub.com/donations/start/solace-global";
+
+  let teamName = "";
+  let contactName = "";
+  let contactPhone = "";
+  let contactEmail = "";
+  let numberOfSubs = 0;
+  let agreedToTerms = false;
+  let showFormError = false;
+  let formErrors = {};
+
+  function validateForm() {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    formErrors = {
+      teamName: !teamName.trim() ? "Team name is required" : null,
+      contactName: !contactName.trim() ? "Contact name is required" : null,
+      contactPhone: !contactPhone.trim() ? "Phone number is required" : null,
+      contactEmail: !contactEmail.trim() ? "Email is required" : 
+                     !emailRegex.test(contactEmail) ? "Please enter a valid email address" : null,
+      numberOfSubs: numberOfSubs < 0 ? "Number of subs cannot be negative" : null,
+      terms: !agreedToTerms ? "You must agree to the terms and conditions." : null,
+    };
+    formErrors = Object.fromEntries(Object.entries(formErrors).filter(([_, v]) => v != null));
+    return Object.keys(formErrors).length === 0;
+  }
+
+  function generatePaymentLink() {
+    if (!validateForm()) {
+      showFormError = true;
+      return null;
+    }
+    showFormError = false;
+
+    let currentTotal = BASE_FEE + (numberOfSubs * SUB_FEE);
+    const message = `Beach Volleyball Tournament Registration\nTeam: ${teamName}\nContact: ${contactName}\nPhone: ${contactPhone}\nEmail: ${contactEmail}\nSubs: ${numberOfSubs}\nTotal: ${currentTotal.toFixed(2)}`;
+
+    const params = new URLSearchParams({
+      name: contactName,
+      email: contactEmail,
+      message: message,
+      amount: (currentTotal * 100).toFixed(0)
+    });
+
+    return `${PAYMENT_LINK_BASE}?${params.toString()}`;
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    const link = generatePaymentLink();
+    if (link) {
+      window.location.href = link;
+    }
+  }
+
+  $: if (showFormError) validateForm();
+  $: totalFee = BASE_FEE + (numberOfSubs * SUB_FEE);
+
 </script>
 
 <svelte:head>
@@ -107,11 +169,12 @@
               </div>
 
               <div class="space-y-6">
-                  <form class="space-y-6">
+                  <form class="space-y-6" on:submit={handleSubmit}>
                       <div class="space-y-1">
                           <label for="teamName" class="block text-sm font-medium text-gray-700">Team Name*</label>
                           <input
                               id="teamName"
+                              bind:value={teamName}
                               type="text"
                               class="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-150 ease-in-out border-gray-300"
                               placeholder="Enter your team name"
@@ -122,6 +185,7 @@
                           <label for="contactName" class="block text-sm font-medium text-gray-700">Primary Contact Name*</label>
                           <input
                               id="contactName"
+                              bind:value={contactName}
                               type="text"
                               class="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-150 ease-in-out border-gray-300"
                               placeholder="Enter primary contact name"
@@ -132,6 +196,7 @@
                           <label for="contactPhone" class="block text-sm font-medium text-gray-700">Primary Contact Phone Number*</label>
                           <input
                               id="contactPhone"
+                              bind:value={contactPhone}
                               type="tel"
                               class="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-150 ease-in-out border-gray-300"
                               placeholder="e.g., 555-123-4567"
@@ -142,6 +207,7 @@
                           <label for="contactEmail" class="block text-sm font-medium text-gray-700">Primary Contact Email*</label>
                           <input
                               id="contactEmail"
+                              bind:value={contactEmail}
                               type="email"
                               class="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-150 ease-in-out border-gray-300"
                               placeholder="e.g., captain@example.com"
@@ -152,6 +218,7 @@
                           <label for="numberOfSubs" class="block text-sm font-medium text-gray-700">Number of Subs</label>
                           <input
                               id="numberOfSubs"
+                              bind:value={numberOfSubs} 
                               type="number"
                               min="0"
                               class="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-150 ease-in-out border-gray-300"
@@ -160,27 +227,31 @@
                           <p class="text-xs text-gray-500">Each substitute adds $5 to the total fee</p>
                       </div>
 
-                      <div class="space-y-2 p-4 bg-gray-50 rounded-lg border border-gray-200">
-                          <h3 class="text-lg font-semibold text-gray-800">Cost Breakdown</h3>
-                          <div class="flex justify-between text-sm text-gray-600">
-                              <span>Base Team Fee:</span>
-                              <span>$60.00</span>
-                          </div>
-                          <div class="flex justify-between text-sm text-gray-600">
-                              <span>Subs (0 × $5):</span>
-                              <span>$0.00</span>
-                          </div>
-                          <div class="flex justify-between text-lg font-bold text-gray-900 border-t pt-2 mt-2">
-                              <span>Total Registration Fee:</span>
-                              <span>$60.00</span>
-                          </div>
-                      </div>
+        <div class="space-y-2 p-4 bg-gray-50 rounded-lg border border-gray-200">
+          <h3 class="text-lg font-semibold text-gray-800">Cost Breakdown</h3>
+          <div class="flex justify-between text-sm text-gray-600">
+            <span>Base Team Fee:</span>
+            <span>${BASE_FEE.toFixed(2)}</span>
+          </div>
+          {#if numberOfSubs > 0}
+            <div class="flex justify-between text-sm text-gray-600">
+              <span>Subs ({numberOfSubs} × ${SUB_FEE}):</span>
+              <span>${(numberOfSubs * SUB_FEE).toFixed(2)}</span>
+            </div>
+          {/if}
+          <div class="flex justify-between text-lg font-bold text-gray-900 border-t pt-2 mt-2">
+            <span>Total Registration Fee:</span>
+            <span>${totalFee.toFixed(2)}</span>
+          </div>
+        </div>
+
 
                       <div class="relative flex items-start space-y-1">
                           <div class="flex items-center h-5">
                               <input
                                   id="agreeTerms"
                                   name="agreeTerms"
+                                  bind:checked={agreedToTerms}
                                   type="checkbox"
                                   class="focus:ring-red-500 h-4 w-4 text-red-600 border-gray-300 rounded"
                                   required
@@ -198,9 +269,9 @@
                       <button
                           type="submit"
                           class="w-full px-6 py-3 text-white bg-red-500 rounded-lg hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition-colors duration-200 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed"
-                          disabled
+                          disabled={!agreedToTerms}
                       >
-                          Proceed to Payment ($60.00)
+                          Proceed to Payment (${totalFee.toFixed(2)})
                       </button>
                   </form>
               </div>

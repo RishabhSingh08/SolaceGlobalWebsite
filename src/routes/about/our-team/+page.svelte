@@ -20,6 +20,7 @@
   import pfpSwaraj from "../../../lib/images/Headshots/swaraj.jpg";
   import pfpAbhiV from "../../../lib/images/Headshots/abhiv.jpg";
   import pfpAnvita from "../../../lib/images/Headshots/anvita.jpg";
+  import pfpAbhish from "../../../lib/images/Headshots/abhish.jpg";
 
   const departments = [
     {
@@ -43,7 +44,7 @@
       name: "IT Department",
       members: [
         { name: "Samanyu Earna", role: "Director of Technology", pfp: pfpSamanyu },
-        { name: "Punit Lakhotiya", role: "Chief Information Officer" },
+        { name: "Punit Lakhotiya", role: "Techincal Clerk" },
         { name: "Adwaith Sajin", role: "Video Production Engineer", pfp: pfpAadi }
       ]
     },
@@ -73,7 +74,7 @@
         { name: "Jacob Wheat", role: "Senior Finance Manager", pfp: pfpJacob },
         { name: "Vedant Teware", role: "Finance Associate", pfp: pfpVedant },
         { name: "Kaushal Ganapur", role: "Finance Associate", pfp: pfpKaushal },
-        { name: "Abhish Bandi", role: "Finance Associate", pfp: pfpKaushal },
+        { name: "Abhish Bandi", role: "Finance Associate", pfp: pfpAbhish },
       ]
     },
   ];
