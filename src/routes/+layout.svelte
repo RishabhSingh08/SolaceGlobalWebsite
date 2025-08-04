@@ -191,7 +191,7 @@ function acceptTerms() {
                 <div class="container mx-auto">
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <div>
-                            <h4 class="text-xl md:text-2xl font-base"><a href="/work/career-compass" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Career Compass</a></h4>
+                            <h4 class="text-xl md:text-2xl font-base"><a href="/work/career-compass" class="text-gray-600 hover:underline " on:click={closeAllDropdowns}>Career Compass</a></h4>
                             <ul class="mt-2 space-y-2">
                                 <li><a href="/work/career-compass/#engineering" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Engineering</a></li>
                                 <li><a href="/work/career-compass/#humanities" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Humanities</a></li>
@@ -202,7 +202,7 @@ function acceptTerms() {
                             </ul>
                         </div>
                         <div>
-                            <h4 class="text-xl md:text-2xl font-base"><a href="/work/connection-project" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>The Connection Project</a></h4>
+                            <h4 class="text-xl md:text-2xl font-base"><a href="/work/connection-project" class="text-gray-600 hover:underline " on:click={closeAllDropdowns}>The Connection Project</a></h4>
                             <ul class="mt-2 space-y-2">
                                 <li><a href="/work/connection-project/#chess" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Chess Lessons for Abuse Survivors</a></li>
                                 <li><a href="/work/connection-project/#baqiyatullah" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Clothing for Those in Need – Pakistan</a></li>
@@ -213,10 +213,11 @@ function acceptTerms() {
                                 <li><a href="/work/connection-project/#switzerland-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Cultural Heritage – Switzerland</a></li>
                                 <li><a href="/work/connection-project/#syria-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Clothing and Care for Orphans – Syria</a></li>
                                 <li><a href="/work/connection-project/#soccer-tourney" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Soccer Fundraiser Tournament</a></li>
+                                <li><a href="/work/connection-project/#cambodia" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Socheata’s Journey to Recovery – Cambodia</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h4 class="text-xl md:text-2xl font-base"><a href="/work/discovery-project" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>The Discovery Project</a></h4>
+                            <h4 class="text-xl md:text-2xl font-base"><a href="/work/discovery-project" class="text-gray-600 hover:underline " on:click={closeAllDropdowns}>The Discovery Project</a></h4>
                             <ul class="mt-2 space-y-2">
                                 <li><a href="/work/discovery-project/#dreams" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>3D Printing Expo with Amazon & Tesla</a></li>
                                 <li><a href="/work/discovery-project/#robots" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Environmental Robotics Presentation with UTD Researcher</a></li>

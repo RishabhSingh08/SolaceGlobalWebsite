@@ -26,6 +26,8 @@
     import soccer3 from "../../../lib/images/MediaImages/soccer3.png"
     import soccer4 from "../../../lib/images/MediaImages/soccer4.png"
 
+    import cambodia from "../../../lib/images/MediaImages/cambodia.png";
+
 </script>
 
 <svelte:head>
@@ -449,7 +451,35 @@
     </div>
 </div>
 <!-- END -->
+             <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
 
+<!-- NEXT SECTION HERE -->
+<div id="cambodia" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+Supporting Socheata’s Journey to Recovery – Cambodia
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+<p>Solace Global contributed toward the life-changing surgery of Socheata, a six-year-old girl from Cambodia who suffered severe burn injuries to both hands at the age of one. The injuries resulted in multiple contractures—tightened skin and tissue that severely limited her ability to move her fingers, write, eat, or perform basic daily tasks.
+</p>
+<p>Socheata lives in Takeo province with her grandmother while her parents work several hours away in Sihanoukville. Despite these challenges, she attends first grade and finds joy in math, art, and playing jump rope with her friends.
+</p>
+<p>Recognizing her urgent need, Solace Global partnered with the Children’s Surgical Centre (CSC) in Cambodia to help fund her burn contracture release surgery, a procedure designed to restore movement in her hands and improve her quality of life. The surgery, was partially funded by Solace Global, joining hands with other donors to bring Socheata closer to healing. Solace Global donated 84,000 Indonesian Rupiah.
+</p>
+<p>This initiative reflects Solace Global’s commitment to creating meaningful, human-centered change. By helping fund Socheata’s treatment, we aim not only to support a medical procedure but to invest in a child’s potential—allowing her to return to school, regain her independence, and pursue her dreams.
+</p>
+<p>“I hope my hands will be better so I can draw and do things at school more easily.” — Socheata </p>
+</div>
+        </div>
+
+<div class="col-span-5">
+    <img src={cambodia} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
+</div>
+    </div>
+</div>
+<!-- END -->
         </div>
     </div>
 </main>

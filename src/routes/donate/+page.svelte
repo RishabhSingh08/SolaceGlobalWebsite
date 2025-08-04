@@ -144,7 +144,7 @@
   }
 </script>
 
-<main class=" rounded-3xl bg-gradient-to-b from-white to-gray-100 py-8">
+<main class=" rounded-3xl  py-8">
   <div class="max-w-lg mx-auto bg-white rounded-xl shadow-lg p-6 space-y-8">
     
     <div class="text-center space-y-4">
