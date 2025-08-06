@@ -45,7 +45,7 @@
       members: [
         { name: "Samanyu Earna", role: "Director of Technology", pfp: pfpSamanyu },
         { name: "Punit Lakhotiya", role: "Techincal Clerk" },
-        { name: "Adwaith Sajin", role: "Video Production Engineer", pfp: pfpAadi }
+        // { name: "Adwaith Sajin", role: "Video Production Engineer", pfp: pfpAadi }
       ]
     },
     {

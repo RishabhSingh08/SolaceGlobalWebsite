@@ -27,6 +27,7 @@
     import soccer4 from "../../../lib/images/MediaImages/soccer4.png"
 
     import cambodia from "../../../lib/images/MediaImages/cambodia.png";
+    import tanzania from "$lib/images/MediaImages/tanzania.png"
 
 </script>
 
@@ -480,6 +481,43 @@ Supporting Socheata’s Journey to Recovery – Cambodia
     </div>
 </div>
 <!-- END -->
+             <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+
+<!-- NEXT SECTION HERE -->
+<div id="tanzania" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+Helping Felista Walk Toward Her Dreams – Tanzania
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+<p>
+Solace Global contributed to the surgery of Felista, a vibrant five-year-old girl from Tanzania living with a condition called bilateral genu valgus, where her knees turn inward, making walking and playing increasingly painful. Despite these challenges, Felista remains full of joy, dreaming of one day becoming a teacher and standing confidently in front of a classroom.
+</p>
+<p>
+Raised by her single mother, who also has the same condition and recognized the early signs in her daughter, Felista’s journey has not been easy. Her mother works tirelessly through casual labor to provide for them, but the cost of corrective surgery was far beyond reach. Understanding the urgency and long-term impact of this condition, Solace Global made a heartfelt donation of 12,350 Tanzanian Shillings to help support her treatment.
+</p>
+<p>
+Felista’s procedure—bilateral distal femoral osteotomy—is designed to realign her knees, reduce discomfort, and improve her ability to walk and play. The surgery is being facilitated by African Mission Healthcare at Kafika House, with a total cost of $777 USD. While additional funds are still being raised, contributions like Solace Global’s help bring Felista one step closer to living a pain-free life.
+</p>
+<p>
+This initiative reflects Solace Global’s commitment to empowering youth across borders through compassion-driven action. By supporting Felista’s surgery, we hope to ensure her dreams of education, independence, and confidence can be pursued without limitation.
+</p>
+<p>
+“I don’t wish for my daughter to go through what I have experienced living with the same condition. I wish for her to have a better life.” — Felista’s mother
+</p>
+</div>
+        </div>
+
+<div class="col-span-5">
+    <img src={tanzania} alt="tanzania 1" class="w-full rounded-lg shadow-md">
+</div>
+    </div>
+</div>
+<!-- END -->
+
         </div>
     </div>
 </main>
