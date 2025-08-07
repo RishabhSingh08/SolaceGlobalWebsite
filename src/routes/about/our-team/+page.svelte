@@ -77,12 +77,12 @@
         { name: "Abhish Bandi", role: "Finance Associate", pfp: pfpAbhish },
       ]
     },
-    {
-      name: "Yash's Assistant",
-      members: [
-        { name: "Omar Ahmed", role: "Chauffeur", pfp: "https://i.pinimg.com/564x/d8/1f/02/d81f026ec5a2270cfbb9c41922fa8ea6.jpg" },
-      ]
-    },
+    // {
+    //   name: "Yash's Assistant",
+    //   members: [
+    //     { name: "Omar Ahmed", role: "Chauffeur", pfp: "https://i.pinimg.com/564x/d8/1f/02/d81f026ec5a2270cfbb9c41922fa8ea6.jpg" },
+    //   ]
+    // },
   ];
 </script>
 
