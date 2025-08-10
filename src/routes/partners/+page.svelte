@@ -11,8 +11,12 @@
 
     import Sponsor11 from "../../lib/images/Sponsors/1.png";
     import Sponsor12 from "../../lib/images/Sponsors/2.png";
+    import Sponsor13 from "../../lib/images/Sponsors/3.png";
+
+
 
     const sponsors = [
+        { name: "Jukebox", imgSrc: Sponsor13, description: 'Big shoutout to Jukebox for our <a href="https://www.jukeboxprint.com/custom-stickers" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">custom stickers at our next event!</a>' },
         { name: "Amazon Business", imgSrc: Sponsor07, description: "Amazon Business supports Solace Global by providing cost-effective solutions for sourcing STEM kits, robotics components, coding books, and educational tools that power our global initiatives. With bulk purchasing options, discounts, and a vast selection of resources, we can efficiently equip students, educators, and underserved communities with the materials they need for hands-on learning. By streamlining procurement and reducing costs, Amazon Business helps us scale our impact, ensuring that more students—whether in foster homes, senior centers, or schools in developing countries—have access to quality STEM education and the opportunity to innovate." },
         { name: "Shanti Bhavan", imgSrc: Sponsor05, description: "Shanti Bhavan Children's Project is a nonprofit organization dedicated to breaking the cycle of generational poverty through education and holistic development. Founded in 1997, the organization operates a residential school in Baliganapalli, India, providing children from impoverished backgrounds with 17 years of continuous support, from preschool to college and beyond. Shanti Bhavan's unique model combines high-quality academics, leadership training, extracurricular activities, and essential care, including housing, food, and medical support, to ensure a safe and nurturing environment. With a 98% college graduation rate and a focus on fostering leaders and change-makers, graduates uplift their families and communities while achieving successful careers in fields such as finance, technology, and medicine. Supported by a global network of educators, donors, and volunteers, Shanti Bhavan exemplifies the transformative power of long-term investment in underserved children." },
         { name: "Code.org", imgSrc: Sponsor09, description: "Code.org is a nonprofit dedicated to expanding access to computer science in schools and increasing participation by young women and underrepresented students. We primarily use Code.org in our girls-only coding classes to introduce and teach the fundamentals of AP Computer Science Principles (APCSP). With its interactive lessons, beginner-friendly approach, and real-world applications, Code.org helps make coding approachable and fun. The platform empowers our students to build confidence, explore technology, and develop a strong foundation in computer science—all in a supportive and engaging environment designed just for them." },
@@ -23,7 +27,7 @@
         { name: "Project World Impact", imgSrc: Sponsor03, description: "Project World Impact (PWI) is a leading nonprofit hub dedicated to connecting people with organizations making a difference around the world. Designed to enhance nonprofit visibility, fundraising, and mission fulfillment, PWI offers a comprehensive platform for both organizations and individuals. Nonprofits can leverage PWI’s tools to increase funding, recruit volunteers, and expand their outreach, while supporters can explore causes and organizations by country or category, learn about their missions, and contribute through donations or ongoing engagement. Founded by Chris Lesner, a marketing expert passionate about empowering nonprofits, PWI combines cutting-edge technology with personalized support to drive meaningful change. Headquartered in St. Charles, Illinois, PWI partners with thousands of nonprofits globally, fostering connections and creating a lasting impact in local and international communities." },
         { name: "Pinkberry", imgSrc: Sponsor02, description: "Pinkberry is a Los Angeles-based frozen yogurt brand that revolutionized the frozen dessert scene when it launched in 2005, sparking a renewed love for tart frozen yogurt. With over 100 locations across the country, Pinkberry is known for its commitment to quality, using real milk and real yogurt to create distinctive, fresh-tasting products. The brand is dedicated to providing outstanding service that brightens customers’ days and designing inviting spaces where communities can gather and enjoy a fun, shared experience. Combining delicious flavors, high-quality ingredients, and a vibrant atmosphere, Pinkberry offers a refreshing treat that tastes as good as it makes you feel." },
         { name: "DesiClik", imgSrc: Sponsor11, description: "DesiClik is a vibrant online South Asian marketplace based in the U.S., founded in the early 2010s. It unites local Indian shops under one platform, offering ethnic groceries, apparel, jewelry, handicrafts, and more, both retail and wholesale—all through a seamless checkout experience. Their $500 contribution reflects a shared commitment to cultural community, global learning, and increasing access to diverse resources." },
-        { name: "Sina Taleghani & Associates", imgSrc: Sponsor12, description: "Sina Taleghani & Associates is a client‑focused personal injury law firm serving Irving/Dallas, Texas, specializing in car accidents, wrongful death, workplace and other injury cases. Led by Managing Partner Sina Taleghani (licensed since 2009), the firm offers contingency‑fee representation, free consultations, transparent communication, and proprietary case‑management tools. Their $500 sponsorship demonstrates solidarity with our mission to support youth, equity, and community empowerment." }
+        { name: "Sina Taleghani & Associates", imgSrc: Sponsor12, description: "Sina Taleghani & Associates is a client‑focused personal injury law firm serving Irving/Dallas, Texas, specializing in car accidents, wrongful death, workplace and other injury cases. Led by Managing Partner Sina Taleghani (licensed since 2009), the firm offers contingency‑fee representation, free consultations, transparent communication, and proprietary case‑management tools. Their $500 sponsorship demonstrates solidarity with our mission to support youth, equity, and community empowerment." },
 
 
         ];
@@ -45,21 +49,19 @@
 }
 
 </style>
-<main class="p-8 ">
-    <!-- Title Section -->
+<main class="p-8">
     <section class="text-center mb-12">
         <h1 class="text-5xl font-bold rasa">Our Partners and Sponsors</h1>
         <p class="mt-4 text-gray-600">We are proud to collaborate with these amazing organizations and teams, driving innovation and making a difference in the world.</p>
     </section>
 
-    <!-- Sponsors Section -->
     <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {#each sponsors as { name, imgSrc, description }}
             <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition-shadow">
                 <img src={imgSrc} alt={name} class="w-full h-40 object-cover">
                 <div class="p-6">
                     <h2 class="text-xl font-semibold text-gray-800">{name}</h2>
-                    <p class="mt-2 text-gray-600 text-sm">{description}</p>
+                    <p class="mt-2 text-gray-600 text-sm">{@html description}</p>
                 </div>
             </div>
         {/each}
