@@ -57,7 +57,7 @@
       { name: "Pinkberry Partnership", amount: 4050 },
       { name: "Hack Club Legal Services", amount: 14000 },
       { name: "Stripe Banking", amount: 500 },
-      { name: "Donations", amount: 13000 },
+      { name: "Donations", amount: 13450 },
       { name: "Undefined Robotics (Parts)", amount: 25000 }
   ];
 
@@ -401,8 +401,8 @@
           </div>
           
           <div class="p-4">
-              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">15k+</div>
-              <p class="mt-2 text-sm md:text-base">People affected</p>
+              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">42k+</div>
+              <p class="mt-2 text-sm md:text-base underline hover:text-red-600 transition-colors"><a href="/impact-statement">People impacted</a></p>
           </div>
           
           <div class="p-4">
