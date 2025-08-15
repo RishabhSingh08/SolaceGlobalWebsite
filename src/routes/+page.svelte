@@ -280,7 +280,7 @@
           </div>
           
           <div class="p-4">
-              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">42k+</div>
+              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">12k+</div>
               <p class="mt-2 text-sm md:text-base underline hover:text-red-600 transition-colors"><a href="/impact-statement">People impacted</a></p>
           </div>
           
@@ -290,7 +290,7 @@
           </div>
           
           <div class="p-4">
-              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">50+</div>
+              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">200+</div>
               <p class="mt-2 text-sm md:text-base">Volunteers</p>
           </div>
           

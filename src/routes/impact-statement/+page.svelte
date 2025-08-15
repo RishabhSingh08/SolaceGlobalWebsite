@@ -42,37 +42,25 @@
       <!-- How We Work Content - Full width on mobile -->
       <div class="w-full md:col-span-7 md:col-start-5 md:col-end-12">
         <div class="space-y-6">
-          <div class="space-y-4">
-            <p class="rasa text-xl md:text-2xl">Since our founding, Solace Global has been committed to making STEM education and humanitarian support accessible to underserved communities worldwide. Every number we share represents real, measurable change — not inflated metrics. That’s why we calculate our impact using a transparent, weighted formula that adjusts for different levels of engagement.</p>
-            <p class="text-base md:text-lg font-semibold underline">Our Formula</p>
-            
-            <p class="text-base md:text-lg">Impact = (Short-form Views × 0.4) + (Long-form Views × 0.8) + (In-Person Participants)</p>
+<div class="space-y-4">
+  <p class="rasa text-xl md:text-2xl">Not all interactions are equal. Watching a quick clip isn’t the same as completing a workshop, so we adjust our numbers to reflect the depth of engagement.</p>
 
-            <p class="text-base md:text-lg">Short-form educational content (Reels, TikTok, Shorts): 95% of total interactions = 95,000 × 0.4 = 38,000 meaningful engagements</p>
+  <p class="text-base md:text-lg font-semibold underline">Our Formula</p>
+  <p class="text-base md:text-lg">Impact = (Short-form Views × 0.08) + (Long-form Views × 0.4) + (In-Person Participants × 1.0)</p>
 
-            <p class="text-base md:text-lg">Long-form educational videos (including our Career Compass series on 30 career paths): 5% of total interactions = 5,000 × 0.8 = 4,000 meaningful engagements</p>
+  <p class="text-base md:text-lg font-semibold underline">Why These Weights?</p>
+  <p class="text-base md:text-lg">0.08 for Short-form Views — Short videos (TikTok, Reels, Shorts) are a great way to spark curiosity, but they’re brief and often passive. We count each as 8% of a full engagement to reflect limited time spent learning.</p>
+  <p class="text-base md:text-lg">0.4 for Long-form Views — Longer videos (like our Career Compass series) involve sustained attention and skill-building. We count each as 40% of a full engagement because they deliver more meaningful learning.</p>
+  <p class="text-base md:text-lg">1.0 for In-Person Participants — Hands-on workshops, STEM kit distributions, and humanitarian projects have the most direct impact. We count each person reached in person as one full meaningful engagement.</p>
 
-            <p class="text-base md:text-lg">In-person programs (hands-on workshops, STEM kit distributions, humanitarian projects): 500 participants × 1.0 = 500 meaningful engagements</p>
+  <p class="text-base md:text-lg font-semibold underline">Example with Our Current Data</p>
+  <p class="text-base md:text-lg">Short-form: 95,000 views × 0.08 = 7,600 meaningful engagements</p>
+  <p class="text-base md:text-lg">Long-form: 5,000 views × 0.4 = 2,000 meaningful engagements</p>
+  <p class="text-base md:text-lg">In-person: 500 × 1.0 = 500 meaningful engagements</p>
+  <p class="text-base md:text-lg">Total Impact = 7,600 + 2,000 + 500 = 12,100 meaningful engagements</p>
 
-            <p class="text-base md:text-lg">Total Impact = 38,000 + 4,000 + 500 = 42,500 people meaningfully engaged</p>
-
-            <p class="text-base md:text-lg font-semibold underline">Our Reach in Numbers</p>
-            <p class="text-base md:text-lg">Across all platforms, we have an estimated 100,000 total interactions — including likes, comments, and views — on educational and humanitarian content. These interactions span multiple countries and demographics, making our programs both global and accessible.</p>
-
-            <p class="text-base md:text-lg font-semibold underline">Why These Numbers Matter</p>
-            <p class="text-base md:text-lg">Behind each number is a real person — a student discovering coding for the first time, a young person exploring career pathways through Career Compass, or a community receiving vital resources through our humanitarian aid programs.</p>
-
-            <p class="text-base md:text-lg">Your support has enabled us to:</p>
-            <p class="text-base md:text-lg">• Deliver hands-on STEM education in classrooms and community centers worldwide.</p>
-            <p class="text-base md:text-lg">• Create accessible, bite-sized learning content that reaches tens of thousands online.</p>
-            <p class="text-base md:text-lg">• Build the Career Compass library, guiding students toward their future careers.</p>
-            <p class="text-base md:text-lg">• Provide direct humanitarian aid, delivering both resources and hope.</p>
-
-            <p class="text-base md:text-lg font-semibold underline">A Transparent Promise</p>
-            <p class="text-base md:text-lg">We could simply say “100,000 interactions,” but we go further by adjusting for the depth of engagement. By doing so, we ensure donors and partners understand the true scope and quality of our impact. Every figure we share reflects a real human connection, learning experience, or act of support made possible by you.</p>
-
-            <p class="text-base md:text-lg">Together, we’ve made a difference in an estimated 42,500 lives — and we’re only getting started.</p>
-          </div>
+  <p class="text-base md:text-lg">By explaining exactly how we arrive at our numbers, we ensure transparency and build trust — every figure reflects a real human connection, not just a raw click count.</p>
+</div>
         </div>
       </div>
     </div>
