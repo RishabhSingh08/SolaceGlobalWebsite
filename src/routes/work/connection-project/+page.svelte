@@ -29,6 +29,12 @@
     import cambodia from "../../../lib/images/MediaImages/cambodia.png";
     import tanzania from "$lib/images/MediaImages/tanzania.png"
 
+    import malawi from "$lib/images/MediaImages/malawi.png"
+    import kenya from "$lib/images/MediaImages/kenya.png"
+    import haiti from "$lib/images/MediaImages/haiti.png"
+    import uganda from "$lib/images/MediaImages/uganda.png"
+
+
 </script>
 
 <svelte:head>
@@ -513,6 +519,150 @@ This initiative reflects Solace Global’s commitment to empowering youth across
 
 <div class="col-span-5">
     <img src={tanzania} alt="tanzania 1" class="w-full rounded-lg shadow-md">
+</div>
+    </div>
+</div>
+<!-- END -->
+             <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- NEXT SECTION HERE -->
+<div id="martin-malawi" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+Supporting Martin's Recovery – Malawi
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+<p>
+Solace Global extended its compassion to Malawi by donating 8,574 Malawi Kwatcha toward the treatment of Martin, a 14-year-old student facing urgent medical needs.
+</p>
+<p>
+Martin, the second-born in a family of three, lost his father six years ago and has been raised by his mother, who works tirelessly selling charcoal to provide for her children. Earlier this year, Martin was diagnosed with a painful condition that disrupted his daily life and schooling. Despite the challenges, his determination to continue learning and growing has remained strong.
+</p>
+<p>
+With this donation, Martin is able to move forward with treatment that will bring him relief from his pain and restore his ability to live and learn without constant discomfort. The support represents more than just medical help—it is a chance for Martin to reclaim his childhood, return to school, and pursue his dreams with renewed confidence.
+</p>
+<p>
+This initiative reflects Solace Global's belief that every child deserves the opportunity to thrive. By standing with Martin, we affirm our commitment to empowering young lives, uplifting families, and fostering brighter futures through acts of compassion that transcend borders.
+</p>
+<p>
+"I just want to get better and go back to school to continue with my education." — Martin
+</p>
+</div>
+        </div>
+
+<div class="col-span-5">
+    <img src={malawi} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
+</div>
+
+    </div>
+</div>
+<!-- END -->
+
+             <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- NEXT SECTION HERE -->
+<div id="kaltuma-kenya" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+Standing Beside Kaltuma in Her Fight Against Thyroid Disease – Kenya
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+<p>
+Solace Global extended its compassion to Kenya by donating 640 Kenyan Shillings to support Kaltuma, a resilient 51-year-old refugee striving to overcome serious health challenges.
+</p>
+<p>
+Living in Nairobi with her seven children, Kaltuma has carried the responsibility of keeping her family afloat while her husband remains in Somalia to sustain a small business. Despite her children taking on casual work, the family continues to face daily struggles. In the midst of these hardships, Kaltuma developed a thyroid condition that brought painful swelling, sleepless nights, and constant fatigue, making everyday life a challenge.
+</p>
+<p>
+With the help of contributions like this, Kaltuma is moving closer to receiving the treatment she urgently needs at Nazareth Hospital. This support represents more than financial aid—it is a lifeline, offering her strength, dignity, and renewed hope for a healthier future.
+</p>
+<p>
+Through this gift, Solace Global reaffirms its commitment to uplifting lives, ensuring that individuals like Kaltuma are not defined by hardship, but empowered to heal and continue caring for their families with resilience and hope.
+</p>
+<p>
+"My children and I are struggling to make ends meet. I would be grateful if someone could kindly assist me so that I can receive treatment and return to living a normal life." — Kaltuma
+</p>
+</div>
+        </div>
+
+<div class="col-span-5">
+    <img src={kenya} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
+</div>
+    </div>
+</div>
+<!-- END -->
+
+             <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- NEXT SECTION HERE -->
+<div id="ana-haiti" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+Bringing Hope to Ana as She Fights a Heart Condition – Haiti
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+<p>
+Solace Global extended its compassion to Haiti by donating 650 Haitian Gourdes to support Ana, a courageous four-year-old preschooler whose laughter and energy have been dimmed by a life-threatening heart condition.
+</p>
+<p>
+Ana lives in the capital with her parents and two older brothers. Her father works long hours in construction, while her mother devotes herself to raising the children. Despite their love and care, Ana's childhood has not been easy. She was born with a condition called patent ductus arteriosus, a hole near her heart that causes blood to leak between major vessels. Instead of running, playing, and learning with the carefree spirit of other children her age, Ana often feels exhausted, weak, and short of breath.
+</p>
+<p>
+This illness has placed a heavy weight on her family, who long to see their daughter live freely, without fear or fatigue. With the help of this donation, Ana is preparing to travel with her family to the Dominican Republic, where doctors will perform the surgery that can finally close the hole in her heart. This procedure will give Ana the chance to grow stronger, laugh louder, and enjoy the childhood she deserves.
+</p>
+<p>
+Through this act of kindness, Solace Global helps carry Ana's burden, turning fear into hope and giving her family the gift of believing in a brighter tomorrow.
+</p>
+<p>
+"Our family is so happy that our daughter can have her heart fixed so that she can be strong and healthy!" — Ana's mother
+</p>
+</div>
+        </div>
+
+<div class="col-span-5">
+    <img src={haiti} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
+</div>
+    </div>
+</div>
+<!-- END -->
+
+             <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- NEXT SECTION HERE -->
+<div id="elvis-uganda" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+Supporting Elvis as He Faces Surgery for a Tumor – Uganda
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+<p>
+Solace Global extended its compassion to Uganda by donating 17,600 Ugandan Shillings to support Elvis, a brave four-year-old boy whose childhood has been interrupted by a painful and frightening illness.
+</p>
+<p>
+Elvis is the second of three children, born to hardworking parents who struggle as small-scale farmers. Six months ago, his mother noticed a swelling in his lower abdomen. Despite visits to the local health center, the medication provided did little to help, and Elvis's condition worsened. With few resources left, his mother sent him to stay with his grandmother in the hope that someone could find a way forward.
+</p>
+<p>
+When Elvis's swelling became unbearable, his grandmother used the last of her savings to bring him to Rushoroza Hospital. There, doctors discovered a mass that required surgery. The news was overwhelming for his family, who knew the treatment was far beyond their means.
+</p>
+<p>
+With this contribution, Solace Global is helping Elvis move closer to the care that will ease his pain and allow him to return to the laughter and play every child deserves. Through this act of giving, Solace Global reaffirms its commitment to uplifting children like Elvis, ensuring that poverty and circumstance do not stand in the way of a healthy and hopeful future.
+</p>
+<p>
+"I believe that my grandchild will get well through surgery so that he may be able to live a comfortable life." — Elvis's grandmother
+</p>
+</div>
+        </div>
+
+<div class="col-span-5">
+    <img src={uganda} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
 </div>
     </div>
 </div>

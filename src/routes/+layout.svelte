@@ -224,9 +224,9 @@ function acceptTerms() {
                                 <li><a href="/work/discovery-project/#robots" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Environmental Robotics Presentation with UTD Researcher</a></li>
                                 <li><a href="/work/discovery-project/#seniors" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Digital Safety Training for Seniors</a></li>
                                 <li><a href="/work/discovery-project/#spark" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>STEM Workshop Led by Local Robotics Teens</a></li>
-                                <li><a href="/work/girls-in-stem/#tech-builders" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Education to Underserved Girls</a></li>
-                                <li><a href="/work/girls-in-stem/#robot-connection" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Education to Underserved Girls (Part 2)</a></li>
-                                <li><a href="/work/girls-in-stem/#CodeHER" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Online Coding Classes for Girls with Code.org</a></li>
+                                <li><a href="/work/discovery-project/#tech-builders" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Education to Underserved Girls</a></li>
+                                <li><a href="/work/discovery-project/#robot-connection" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Education to Underserved Girls (Part 2)</a></li>
+                                <li><a href="/work/discovery-project/#CodeHER" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Online Coding Classes for Girls with Code.org</a></li>
 
                             </ul>
                         </div>
