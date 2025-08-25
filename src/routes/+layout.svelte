@@ -215,6 +215,11 @@ function acceptTerms() {
                                 <li><a href="/work/connection-project/#soccer-tourney" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Soccer Fundraiser Tournament</a></li>
                                 <li><a href="/work/connection-project/#cambodia" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Socheata’s Journey to Recovery – Cambodia</a></li>
                                 <li><a href="/work/connection-project/#tanzania" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Helping Felista Walk Toward Her Dreams – Tanzania</a></li>
+                                <li><a href="/work/connection-project/#martin-malawi" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Martin's Recovery – Malawi</a></li>
+                                <li><a href="/work/connection-project/#kaltuma-kenya" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Standing Beside Kaltuma in Her Fight Against Thyroid Disease – Kenya</a></li>
+                                <li><a href="/work/connection-project/#ana-haiti" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Bringing Hope to Ana as She Fights a Heart Condition – Haiti</a></li>
+                                <li><a href="/work/connection-project/#elvis-uganda" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Elvis as He Faces Surgery for a Tumor – Uganda</a></li>
+
                             </ul>
                         </div>
                         <div>
