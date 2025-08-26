@@ -1,7 +1,6 @@
 <script>
     import poster01 from "../../../lib/images/MediaImages/poster01.png";
     import baqia from "../../../lib/images/MediaImages/baqia.png";
-    import german from "../../../lib/images/MediaImages/image0.jpg";
     import Video from "../../../lib/images/MediaImages/baqtiVideo.mp4";
     import israel from "../../../lib/images/MediaImages/israel.jpg";
     import israel2 from "../../../lib/images/MediaImages/israel2.jpg";
@@ -33,6 +32,12 @@
     import kenya from "$lib/images/MediaImages/kenya.png"
     import haiti from "$lib/images/MediaImages/haiti.png"
     import uganda from "$lib/images/MediaImages/uganda.png"
+
+    import bv1 from "$lib/images/MediaImages/bv1.png"
+    import bv2 from "$lib/images/MediaImages/bv2.png"
+    import bv3 from "$lib/images/MediaImages/bv3.png"
+    import bv4 from "$lib/images/MediaImages/bv4.png"
+
 
 
 </script>
@@ -116,48 +121,7 @@
             <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
             
             <!-- Chess Section -->
-            <div id="chess" class="space-y-6">
-                <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-8 items-start lg:items-center">
-                    <div class="space-y-4 lg:col-span-4">
-                        <p class="text-2xl md:text-3xl rasa">
-                            Chess Lessons for Abuse Survivors
-                        </p>
-                        <div class="space-y-3 text-sm md:text-base">
-                            <p>
-                                Solace Global partnered with the Naihati New Life Society (NNLS), a nonprofit organization dedicated to supporting marginalized communities in the Sundarbans region of South West Bengal, India. NNLS works with children without parents, physically challenged individuals, victims of human trafficking, and survivors of early marriage and family violence. Many of these individuals come from impoverished backgrounds with limited access to educational opportunities. Through our 5-part chess series, Solace Global aimed to offer them a chance to develop critical thinking, problem-solving skills, and self-confidence, which are essential for overcoming the challenges they face.
-                            </p>
-                            <p>
-                                The chess program was designed to be accessible and progressive, starting with basic lessons in the first three sessions and gradually introducing intermediate concepts in the final two sessions. This approach allowed the participants to build a solid foundation before advancing to more complex strategies. Despite the challenges of limited resources, the program provided participants with a unique opportunity to engage in an educational experience that would not only improve their intellectual abilities but also boost their sense of accomplishment.
-                            </p>
-                            <p>
-                                The program's goal was to empower the students with the skills to play a full game of chess by the end of the series. The participants, many of whom had never been exposed to chess before, gained a new understanding of the game's rules and strategies. By the final session, the students were able to apply their newfound knowledge and play a complete game, experiencing both the excitement and the challenges of the game firsthand.
-                            </p>
-                            <p>
-                                Through this chess series, Solace Global helped NNLS participants gain valuable skills that extend beyond the game itself. The lessons taught in chess—such as focus, strategy, and patience—provided the students with tools that can be applied to their daily lives. The program not only introduced them to a new intellectual pursuit but also gave them a sense of empowerment and achievement, helping them take a step toward a brighter future.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="w-full lg:col-span-5">
-                        <div class="video-container">
-                            <iframe 
-                                src="https://www.youtube.com/embed/4SXYDIXKEZo?si=-lplcRbccsicSHfs" 
-                                title="YouTube video player" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                referrerpolicy="strict-origin-when-cross-origin" 
-                                allowfullscreen 
-                                class="rounded-lg">
-                            </iframe>
-                        </div>
-                        <p class="text-center text-xs md:text-sm mt-2 md:mt-4">
-                            For more information, please contact team@solaceglobal.xyz
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+  
             
             <!-- Baqiyatullah Section -->
             <div id="baqiyatullah" class="space-y-6">
@@ -203,75 +167,6 @@
 
             <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
             
-            <!-- German Students U.S. Visa Section -->
-            <div id="german-visa" class="space-y-6">
-                <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
-                    <div class="space-y-4 lg:col-span-4">
-                        <p class="text-2xl md:text-3xl rasa">
-                            Guiding German Students on U.S. Visa Processes
-                        </p>
-                        <div class="space-y-3 text-sm md:text-base">
-                            <p>
-                                Solace Global recently partnered with Mohammed Nachawati, the branch head of Solace Global in Germany, to conduct an impactful online session addressing the challenges many German students face when pursuing educational opportunities in the United States. The session was designed to equip Mohammed with in-depth knowledge about U.S. visa categories, processes, and requirements, enabling him to share this information with foster homes and underprivileged teens in Germany.
-                            </p>
-                            
-                            <p>
-                                This initiative aligns with Solace Global's mission to foster global education and provide equitable opportunities to underserved communities. Economic inequality among students in Germany highlights the significance of this effort. In 2021, 37.9% of students in Germany were classified as at risk of poverty, with those living alone or in shared accommodations facing an even higher risk of 76.1%, according to the Federal Statistical Office (Destatis). By comparison, only 15.8% of the general German population faced similar challenges.
-                            </p>
-                            
-                            <p>
-                                Students reliant on BAföG, the federal education grant and loan scheme, are disproportionately affected, with 45% at risk of poverty. The average income of a poor student was just €802 (US$848) per month—well below Germany's poverty line of €1,265. Rising inflation and the energy crisis further compound these struggles, creating a pressing need for initiatives that open doors to better opportunities.
-                            </p>
-                            
-                            <p>
-                                The session covered the essentials of navigating the U.S. visa system, focusing on categories such as F-1 student visas for full-time study, J-1 exchange visitor visas for cultural and educational exchanges, and H-1B work visas for skilled employment. Mohammed learned how to guide students in identifying the most suitable visa type based on their individual goals, whether for academic study, internships, or long-term professional aspirations.
-                            </p>
-                            
-                            <p>
-                                A deeper understanding of the German education system was also critical. German high schools operate on a grading scale of 1 to 6, where 1 represents the highest score and 6 the lowest. For students in the qualification phase of the Abitur exam (Oberstufe), the grading shifts to a 15-point scale, with 15 being the top score. Translating these credentials into U.S. standards is often a challenge, and the session provided strategies for presenting competitive applications that showcase students' academic strengths effectively.
-                            </p>
-                            
-                            <p>
-                                Through initiatives like this, Solace Global continues to bridge the gap between aspiration and access, providing resources and knowledge to those who need it most. By equipping Mohammed Nachawati to spread this information, the organization extends its reach to some of the most vulnerable youth in Germany, offering them the tools to dream bigger and achieve more.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="w-full lg:col-span-5">
-                        <div class="space-y-4">
-                            <!-- German visa section image -->
-                            <div class="bg-zinc-100 rounded-lg flex items-center justify-center h-64 md:h-96">
-                                <img src={german} alt="German students visa program">
-                            </div>
-                            
-                            <!-- Stats section -->
-                            <div class="rounded-lg p-4 md:p-6 space-y-3">
-                                <p class="font-semibold text-base md:text-lg">Key Statistics:</p>
-                                <div class="grid grid-cols-2 gap-3">
-                                    <div class="bg-white p-3 rounded shadow-sm">
-                                        <p class="text-xl md:text-2xl font-bold text-blue-700">37.9%</p>
-                                        <p class="text-xs md:text-sm text-zinc-600">German students at risk of poverty (2021)</p>
-                                    </div>
-                                    <div class="bg-white p-3 rounded shadow-sm">
-                                        <p class="text-xl md:text-2xl font-bold text-blue-700">76.1%</p>
-                                        <p class="text-xs md:text-sm text-zinc-600">Students in shared housing at risk</p>
-                                    </div>
-                                    <div class="bg-white p-3 rounded shadow-sm">
-                                        <p class="text-xl md:text-2xl font-bold text-blue-700">€802</p>
-                                        <p class="text-xs md:text-sm text-zinc-600">Average monthly income of poor students</p>
-                                    </div>
-                                    <div class="bg-white p-3 rounded shadow-sm">
-                                        <p class="text-xl md:text-2xl font-bold text-blue-700">45%</p>
-                                        <p class="text-xs md:text-sm text-zinc-600">BAföG recipients at risk of poverty</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
             
             <!-- Israel Aid Section -->
             <div id="israel-aid" class="space-y-6">
@@ -378,7 +273,7 @@
                 Supporting Cultural Heritage – Switzerland
             </p>
             <div class="space-y-3 text-sm md:text-base">
-                <p>In a continued effort to foster global connection and support community-rooted initiatives, Solace Global made a symbolic donation of CHF 30 to the Bern Cathedral (Berner Münster)—Switzerland’s largest and most iconic late-Gothic church.                </p>
+                <p>In a continued effort to foster global connection and support community-rooted initiatives, Solace Global made a symbolic donation to the Bern Cathedral (Berner Münster)—Switzerland’s largest and most iconic late-Gothic church.                </p>
                 <p>More than just a historic structure, the Bern Cathedral represents centuries of human craftsmanship, cultural continuity, and spiritual connection. Our donation covered the full cost of a guided visit, granting us the opportunity to explore this architectural masterpiece and support its preservation.                </p>
                 <p>By engaging with local heritage in Bern, we aimed to show appreciation for the values of resilience, legacy, and unity that places like the Münster uphold. From its stunning 100-meter tower to the Last Judgment portal that survived the Reformation, every corner of the cathedral tells a story of connection across generations.                </p>
                 <p>This small act reflects our belief that connection isn’t just about people—it’s also about honoring the spaces and histories that bring us together. Supporting local efforts like this reaffirms Solace Global’s commitment to bridging worlds through compassion, education, and shared experiences.</p>
@@ -473,7 +368,7 @@ Supporting Socheata’s Journey to Recovery – Cambodia
 </p>
 <p>Socheata lives in Takeo province with her grandmother while her parents work several hours away in Sihanoukville. Despite these challenges, she attends first grade and finds joy in math, art, and playing jump rope with her friends.
 </p>
-<p>Recognizing her urgent need, Solace Global partnered with the Children’s Surgical Centre (CSC) in Cambodia to help fund her burn contracture release surgery, a procedure designed to restore movement in her hands and improve her quality of life. The surgery, was partially funded by Solace Global, joining hands with other donors to bring Socheata closer to healing. Solace Global donated 84,000 Indonesian Rupiah.
+<p>Recognizing her urgent need, Solace Global partnered with the Children’s Surgical Centre (CSC) in Cambodia to help fund her burn contracture release surgery, a procedure designed to restore movement in her hands and improve her quality of life. The surgery, was partially funded by Solace Global, joining hands with other donors to bring Socheata closer to healing. Solace Global joined hands with other donors to help fund Socheata’s surgery.
 </p>
 <p>This initiative reflects Solace Global’s commitment to creating meaningful, human-centered change. By helping fund Socheata’s treatment, we aim not only to support a medical procedure but to invest in a child’s potential—allowing her to return to school, regain her independence, and pursue her dreams.
 </p>
@@ -503,7 +398,7 @@ Helping Felista Walk Toward Her Dreams – Tanzania
 Solace Global contributed to the surgery of Felista, a vibrant five-year-old girl from Tanzania living with a condition called bilateral genu valgus, where her knees turn inward, making walking and playing increasingly painful. Despite these challenges, Felista remains full of joy, dreaming of one day becoming a teacher and standing confidently in front of a classroom.
 </p>
 <p>
-Raised by her single mother, who also has the same condition and recognized the early signs in her daughter, Felista’s journey has not been easy. Her mother works tirelessly through casual labor to provide for them, but the cost of corrective surgery was far beyond reach. Understanding the urgency and long-term impact of this condition, Solace Global made a heartfelt donation of 12,350 Tanzanian Shillings to help support her treatment.
+Raised by her single mother, who also has the same condition and recognized the early signs in her daughter, Felista’s journey has not been easy. Her mother works tirelessly through casual labor to provide for them, but the cost of corrective surgery was far beyond reach. Understanding the urgency and long-term impact of this condition, Solace Global made a heartfelt donation to help support her treatment.
 </p>
 <p>
 Felista’s procedure—bilateral distal femoral osteotomy—is designed to realign her knees, reduce discomfort, and improve her ability to walk and play. The surgery is being facilitated by African Mission Healthcare at Kafika House, with a total cost of $777 USD. While additional funds are still being raised, contributions like Solace Global’s help bring Felista one step closer to living a pain-free life.
@@ -535,7 +430,7 @@ Supporting Martin's Recovery – Malawi
             </p>
             <div class="space-y-3 text-sm md:text-base">
 <p>
-Solace Global extended its compassion to Malawi by donating 8,574 Malawi Kwatcha toward the treatment of Martin, a 14-year-old student facing urgent medical needs.
+Solace Global extended its compassion to Malawi by donating toward the treatment of Martin, a 14-year-old student facing urgent medical needs.
 </p>
 <p>
 Martin, the second-born in a family of three, lost his father six years ago and has been raised by his mother, who works tirelessly selling charcoal to provide for her children. Earlier this year, Martin was diagnosed with a painful condition that disrupted his daily life and schooling. Despite the challenges, his determination to continue learning and growing has remained strong.
@@ -572,7 +467,7 @@ Standing Beside Kaltuma in Her Fight Against Thyroid Disease – Kenya
             </p>
             <div class="space-y-3 text-sm md:text-base">
 <p>
-Solace Global extended its compassion to Kenya by donating 640 Kenyan Shillings to support Kaltuma, a resilient 51-year-old refugee striving to overcome serious health challenges.
+Solace Global extended its compassion to Kenya by donating to support Kaltuma, a resilient 51-year-old refugee striving to overcome serious health challenges.
 </p>
 <p>
 Living in Nairobi with her seven children, Kaltuma has carried the responsibility of keeping her family afloat while her husband remains in Somalia to sustain a small business. Despite her children taking on casual work, the family continues to face daily struggles. In the midst of these hardships, Kaltuma developed a thyroid condition that brought painful swelling, sleepless nights, and constant fatigue, making everyday life a challenge.
@@ -608,7 +503,7 @@ Bringing Hope to Ana as She Fights a Heart Condition – Haiti
             </p>
             <div class="space-y-3 text-sm md:text-base">
 <p>
-Solace Global extended its compassion to Haiti by donating 650 Haitian Gourdes to support Ana, a courageous four-year-old preschooler whose laughter and energy have been dimmed by a life-threatening heart condition.
+Solace Global extended its compassion to Haiti by donating to support Ana, a courageous four-year-old preschooler whose laughter and energy have been dimmed by a life-threatening heart condition.
 </p>
 <p>
 Ana lives in the capital with her parents and two older brothers. Her father works long hours in construction, while her mother devotes herself to raising the children. Despite their love and care, Ana's childhood has not been easy. She was born with a condition called patent ductus arteriosus, a hole near her heart that causes blood to leak between major vessels. Instead of running, playing, and learning with the carefree spirit of other children her age, Ana often feels exhausted, weak, and short of breath.
@@ -664,6 +559,47 @@ With this contribution, Solace Global is helping Elvis move closer to the care t
 <div class="col-span-5">
     <img src={uganda} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
 </div>
+    </div>
+</div>
+<!-- END -->
+<div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- NEXT SECTION HERE -->
+<div id="little-elm-volleyball" class="space-y-6">
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        
+        <!-- Text Column -->
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+                Beach Volleyball Tournament at Little Elm Beach 2025
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>
+                    On August 9, Solace Global hosted an exciting Beach Volleyball Tournament at Little Elm Beach, drawing together 16 teams and more than 130 attendees for a vibrant day of community, competition, and connection.
+                </p>
+                <p>
+                    The energy on the sand was electric as teams battled it out in a spirited series of matches, cheered on by an enthusiastic crowd of friends, families, and supporters. The tournament culminated in an exhilarating final match, where the winning team claimed a $750 prize in recognition of their skill, teamwork, and sportsmanship.
+                </p>
+                <p>
+                    Beyond the competition, the event served as a celebration of unity and collective effort—proving that fun, collaboration, and generosity can go hand in hand. Attendees enjoyed not only the games, but also the opportunity to meet new people, strengthen community bonds, and share in a day filled with energy and laughter.
+                </p>
+                <p>
+                    Most importantly, the funds raised from the tournament will directly support our upcoming outreach initiative with an orphanage in Pune, India, helping to extend the day’s spirit of connection and care across borders. Events like this remind us that when people come together—whether through sport, service, or shared experiences—we create opportunities to uplift others and build a stronger, more connected world.
+                </p>
+            </div>
+        </div>
+
+        <!-- Image Column -->
+        <div class="w-full lg:col-span-5">
+            <div class="space-y-4">
+                <div class="grid grid-cols-2 gap-2 md:gap-3">
+                    <img src={bv1} alt="Beach Volleyball 1" class="rounded-lg shadow-md">
+                    <img src={bv2} alt="Beach Volleyball 2" class="rounded-lg shadow-md">
+                    <img src={bv3} alt="Beach Volleyball 3" class="rounded-lg shadow-md">
+                    <img src={bv4} alt="Beach Volleyball 3" class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <!-- END -->
