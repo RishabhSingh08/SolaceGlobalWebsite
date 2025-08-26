@@ -217,6 +217,7 @@ function acceptTerms() {
                                 <li><a href="/work/connection-project/#kaltuma-kenya" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Standing Beside Kaltuma in Her Fight Against Thyroid Disease – Kenya</a></li>
                                 <li><a href="/work/connection-project/#ana-haiti" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Bringing Hope to Ana as She Fights a Heart Condition – Haiti</a></li>
                                 <li><a href="/work/connection-project/#elvis-uganda" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Elvis as He Faces Surgery for a Tumor – Uganda</a></li>
+                                <li><a href="/work/connection-project/#little-elm-volleyball" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Beach Volleyball Tournament at Little Elm Beach 2025</a></li>
 
                             </ul>
                         </div>
