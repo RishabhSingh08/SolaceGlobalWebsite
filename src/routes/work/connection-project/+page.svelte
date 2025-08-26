@@ -539,7 +539,7 @@ Supporting Elvis as He Faces Surgery for a Tumor – Uganda
             </p>
             <div class="space-y-3 text-sm md:text-base">
 <p>
-Solace Global extended its compassion to Uganda by donating 17,600 Ugandan Shillings to support Elvis, a brave four-year-old boy whose childhood has been interrupted by a painful and frightening illness.
+Solace Global extended its compassion to Uganda by donating to support Elvis, a brave four-year-old boy whose childhood has been interrupted by a painful and frightening illness.
 </p>
 <p>
 Elvis is the second of three children, born to hardworking parents who struggle as small-scale farmers. Six months ago, his mother noticed a swelling in his lower abdomen. Despite visits to the local health center, the medication provided did little to help, and Elvis's condition worsened. With few resources left, his mother sent him to stay with his grandmother in the hope that someone could find a way forward.
