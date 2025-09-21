@@ -101,7 +101,6 @@
     font-style: normal;
   }
 
-  /* Add smooth transition for hover effects */
   .team-member {
     transition: all 0.3s ease;
   }
@@ -115,14 +114,11 @@
 
 
   <div class="space-y-16 py-12">
-    <!-- Team Header -->
     <h1 class="text-center text-6xl rasa font-bold text-black">
       Our Team
     </h1>
 
-    <!-- Main Team Content -->
     <div class="grid grid-cols-12 gap-8">
-      <!-- Sidebar -->
       <div class="col-span-12 lg:col-span-3 px-4">
         <div class="sticky top-8 space-y-64">
           <div class="text-xl">
@@ -134,7 +130,6 @@
         </div>
       </div>
 
-      <!-- Team Content -->
       <div class="col-span-12 lg:col-span-8 space-y-12 px-4">
         {#each departments as department}
           <section class="space-y-6">

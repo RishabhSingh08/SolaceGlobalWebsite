@@ -60,16 +60,13 @@ function acceptTerms() {
     <div class="flex flex-col min-h-screen">
         <nav class="w-full py-4 border-b relative">
             <div class="container mx-auto px-4">
-                <!-- Mobile/Desktop Navigation -->
                 <div class="flex items-center justify-between">
-                    <!-- Logo -->
                     <div class="flex items-center">
                         <a href="/" class="block">
                             <img src={Icon} alt="Logo" class="w-24 md:w-32" on:click={closeAllDropdowns}>
                         </a>
                     </div>
 
-                    <!-- Desktop Navigation Links -->
                     <div class="hidden md:flex items-center space-x-8">
                         <button
                             class="text-lg font-medium hover:text-black hover:underline focus:outline-none"
@@ -93,7 +90,6 @@ function acceptTerms() {
                         <a href="/donate" class="text-lg hover:text-black hover:underline" on:click={closeAllDropdowns}>Donate</a>
                     </div>
 
-                    <!-- Mobile Menu Button -->
                     <div class="md:hidden">
                         <button 
                             class="text-2xl focus:outline-none" 
@@ -105,7 +101,6 @@ function acceptTerms() {
                     </div>
                 </div>
 
-                <!-- Mobile Menu -->
                 {#if isMobileMenuOpen}
                 <div class="md:hidden mt-4 py-4 border-t">
                     <div class="flex flex-col space-y-4">
@@ -152,17 +147,14 @@ function acceptTerms() {
                 {/if}
             </div>
 
-            <!-- Desktop Dropdowns -->
             {#if isAboutDropdownOpen && !isMobileMenuOpen}
             <div id="dropdown-about-menu" class="absolute left-0 top-full w-full bg-white shadow-md p-4 md:p-6 font-thin border-t z-50 overflow-y-auto max-h-96 md:max-h-none">
                 <div class="container mx-auto">
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        <!-- Column 1 -->
                         <div>
                             <h4 class="text-xl md:text-2xl font-base">About Us</h4>
                             <p class="mt-2 text-base md:text-lg w-full md:w-96">Learn about our story, our operation and our role in making the world one step better at a time</p>
                         </div>
-                        <!-- Column 2 -->
                         <div>
                             <h4 class="text-xl md:text-2xl font-base">Explore</h4>
                             <ul class="mt-2 space-y-2">
@@ -172,7 +164,6 @@ function acceptTerms() {
                                 <li><a href="/about/financials" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Financials</a></li>
                             </ul>
                         </div>
-                        <!-- Column 3 -->
                         <div>
                             <h4 class="text-xl md:text-2xl font-base">Get Involved</h4>
                             <ul class="mt-2 space-y-2">

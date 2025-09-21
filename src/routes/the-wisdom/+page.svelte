@@ -1,9 +1,7 @@
-<!-- Articles Page -->
 <script>
     /** @type {import('./$types').PageData} */
     export let data;
     
-    // Format date function
     function formatDate(dateString) {
         const date = new Date(dateString);
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
@@ -19,7 +17,6 @@
 
 <main class="container mx-auto">
     <div class="px-4 md:px-8 py-12 md:py-20">
-        <!-- Header Section -->
         <div class="mb-12 md:mb-20 text-center justify-center align-middle">
             <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl rasa leading-tight md:leading-snug lg:leading-[4.5rem] mb-6">
                 The Wisdom
@@ -82,14 +79,7 @@
                 {/each}
             </div>
             
-            <!-- Optional: Show more articles button if there are many -->
-            {#if data.articles.length >= 10}
-                <div class="text-center mt-16 md:mt-20">
-                    <button class="transition border-2 border-black text-black py-3 px-9 rounded hover:text-white hover:bg-stone-800 hover:border-stone-800">
-                        Load More Articles
-                    </button>
-                </div>
-            {/if}
+
         {/if}
     </div>
 </main>

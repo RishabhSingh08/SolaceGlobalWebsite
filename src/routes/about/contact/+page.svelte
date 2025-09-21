@@ -20,21 +20,17 @@
 
 <main class="container mx-auto px-4 py-8">
   <div class="space-y-6 md:space-y-10">
-    <!-- Contact Header -->
     <p class="text-center text-4xl md:text-6xl rasa font-bold text-black">
       Contact Us
     </p>
     
-    <!-- Contact Info -->
     <div class="text-center text-xl md:text-2xl space-y-2 md:space-y-4">
       <p><a href="mailto:team@solaceglobal.xyz" class="hover:underline">team@solaceglobal.xyz</a></p>
       <p><a href="tel:4695731655" class="hover:underline">469-573-1655</a></p>
     </div>
 
-    <!-- Main Content Section -->
     <div class="flex flex-col md:grid md:grid-cols-12 gap-8">
       
-      <!-- Sidebar - full width on mobile, side column on desktop -->
       <div class="w-full md:col-span-3 md:col-start-2 md:col-end-5">
         <div class="space-y-8 md:space-y-16">
           <div class="text-lg md:text-xl">
@@ -46,7 +42,6 @@
         </div>
       </div>
       
-      <!-- Form Content -->
       <div class="w-full md:col-span-7 md:col-start-5 md:col-end-12">
         <div class="space-y-6">
           <div class="w-full overflow-x-auto">

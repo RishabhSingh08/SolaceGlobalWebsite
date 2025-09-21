@@ -25,15 +25,12 @@
 </style>
 
 <main class="container mx-auto px-4 md:px-8 py-8 md:py-12">
-    <!-- Article Header -->
     <div class="max-w-4xl mx-auto">
-        <!-- Article Title -->
         <h1 class="text-3xl sm:text-4xl md:text-5xl rasa leading-tight mb-6">
             Shaping Future Leaders Through Interactive STEM Education
         </h1>
     </div>
     
-    <!-- Article Featured Image -->
     <div class="max-w-4xl mx-auto mb-8">
         <img 
             src="https://www.bostontechmom.com/wp-content/uploads/2022/12/afterschool-engineering-class-students-and-instructor.jpg"
@@ -41,8 +38,6 @@
             class="w-full h-auto rounded-lg shadow-lg"
         />
     </div>
-    
-    <!-- Article Content -->
     <div class="max-w-4xl mx-auto article-content">
         <p>The world is evolving rapidly, and with each passing day, we encounter new challenges that demand creative solutions. Issues like climate change, technological disparities, and social inequalities are complex and pressing. Addressing them requires a new generation of leaders who can think critically, act innovatively, and possess the skills to make a tangible difference. One effective way to cultivate these abilities in students is through interactive STEM education.</p>
         

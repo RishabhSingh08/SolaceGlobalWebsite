@@ -106,7 +106,6 @@
 
 <main class="px-4 md:px-6 lg:px-8 py-8 mx-auto">
   <div class="space-y-8 md:space-y-12">
-    <!-- Project Header -->
     <div class="text-center space-y-2">
       <p class="text-4xl md:text-5xl lg:text-6xl rasa font-bold text-black">
         The Discovery Project
@@ -117,12 +116,10 @@
       </div>
     </div>
 
-    <!-- Header Image -->
     <div class="w-full">
       <img src={header} alt="Header" class="w-full object-cover">
     </div>
 
-    <!-- Introduction Section -->
     <div class="space-y-8 md:space-y-12">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mx-2 md:mx-12 lg:mx-24">
         <div class="text-xl md:text-2xl rasa space-y-4">
@@ -136,7 +133,6 @@
 
       <div class="border-b border-zinc-300 mx-4 md:mx-16"></div>
 
-      <!-- 3D Printing Section -->
       <div id="dreams" class="space-y-6">
         <div class="grid grid-cols-1 md:grid-cols-9 gap-6 md:gap-8 items-center">
           <div class="space-y-4 md:col-span-4 order-2 md:order-1">
@@ -165,7 +161,6 @@
                 {/each}
               </div>
 
-              <!-- Navigation Buttons -->
               <button
                 on:click={prevSlide}
                 class="absolute left-2 top-1/2 transform -translate-y-1/2 text-xl md:text-3xl text-white   p-2 rounded-full"
@@ -181,7 +176,6 @@
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
 
-              <!-- Dots Indicator -->
               <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
                 {#each images as _, index}
                   <button
@@ -343,7 +337,6 @@
       <div id="german-visa" class="space-y-6">
         <div class="grid grid-cols-1 md:grid-cols-9 gap-6 md:gap-16 items-start md:items-center">
           
-          <!-- Left Content -->
           <div class="space-y-4 md:col-span-4 order-1 md:order-2">
             <p class="text-2xl md:text-3xl rasa text-center md:text-left">
               Guiding German Students on U.S. Visa Processes
@@ -370,15 +363,12 @@
             </div>
           </div>
 
-          <!-- Right Content -->
           <div class="md:col-span-5 order-2 md:order-1">
             <div class="space-y-4">
-              <!-- Image -->
               <div class="bg-zinc-100 rounded-lg flex items-center justify-center h-64 md:h-96 shadow-md">
                 <img src={german} alt="German students visa program" class="rounded-lg object-cover">
               </div>
 
-              <!-- Stats -->
               <div class="rounded-lg p-4 md:p-6 space-y-3 shadow-md bg-white">
                 <p class="font-semibold text-base md:text-lg">Key Statistics:</p>
                 <div class="grid grid-cols-2 gap-3">

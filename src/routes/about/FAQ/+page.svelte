@@ -20,14 +20,11 @@
 
 <main class="container mx-auto px-4 py-8">
   <div class="space-y-8 md:space-y-16">
-    <!-- FAQ Header -->
     <p class="text-center text-4xl md:text-6xl rasa font-bold text-black">
       FAQ
     </p>
 
-    <!-- Main FAQ Content -->
     <div class="flex flex-col md:grid md:grid-cols-12 gap-8">
-      <!-- Sidebar - Full width on mobile, side column on desktop -->
       <div class="w-full md:col-span-3 md:col-start-2 md:col-end-5 mb-6 md:mb-0">
         <div class="md:space-y-16">
           <div class="text-lg md:text-xl">
@@ -39,10 +36,8 @@
         </div>
       </div>
 
-      <!-- FAQ Content - Full width on mobile -->
       <div class="w-full md:col-span-7 md:col-start-5 md:col-end-12">
         <div class="space-y-8">
-          <!-- FAQ Items -->
           <div>
             <h2 class="text-xl md:text-2xl font-bold">What programs does Solace Global offer?</h2>
             <p class="mt-2 text-base md:text-lg">

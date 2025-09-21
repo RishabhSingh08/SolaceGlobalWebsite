@@ -21,19 +21,14 @@ import VolunteerImage from "../../../lib/images/MediaImages/IMG_6585 (1).jpg";
 
 <main class="container mx-auto px-4 py-8">
   <div class="space-y-8 md:space-y-16">
-    <!-- Careers Header -->
     <p class="text-center text-4xl md:text-6xl rasa font-bold text-black">
       Careers
     </p>
     
-    <!-- Responsive Image -->
     <div class="w-full">
       <img src={VolunteerImage} alt="Volunteer" class="w-full h-auto rounded-lg shadow-md">
     </div>
-
-    <!-- Main Content Section -->
     <div class="flex flex-col md:flex-row md:space-x-8">
-      <!-- Sidebar - stacked on mobile, side by side on larger screens -->
       <div class="w-full md:w-1/4 mb-8 md:mb-0">
         <div class="space-y-8 md:space-y-16">
           <div class="text-lg md:text-xl">
@@ -45,7 +40,6 @@ import VolunteerImage from "../../../lib/images/MediaImages/IMG_6585 (1).jpg";
         </div>
       </div>
       
-      <!-- Form Content - takes full width on mobile -->
       <div class="w-full md:w-3/4">
         <div class="space-y-6">
           <div class="w-full overflow-x-auto">

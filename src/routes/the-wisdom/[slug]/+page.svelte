@@ -71,7 +71,6 @@
       font-style: normal;
   }
 
-  /* Article content styling to match homepage aesthetic */
   :global(.article-content) {
       font-size: 1.125rem;
       line-height: 1.75;

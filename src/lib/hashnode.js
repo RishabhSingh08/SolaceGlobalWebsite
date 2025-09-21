@@ -1,8 +1,5 @@
 import { GraphQLClient } from "graphql-request";
 
-// Add these at the top of your hashnode.js file
-
-// Create a GraphQL client instance
 const client = new GraphQLClient("https://gql.hashnode.com", {
   headers: {
     Authorization: "a875159f-f359-4789-817d-cc5c55a15dce",

@@ -60,7 +60,7 @@
     .video-container {
         position: relative;
         width: 100%;
-        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        padding-bottom: 56.25%; 
         height: 0;
         overflow: hidden;
     }
@@ -76,7 +76,6 @@
 
 <main class="px-4 py-8 md:px-6 lg:px-8 bg-white">
     <div class="space-y-8 md:space-y-12">
-        <!-- Header -->
         <div class="text-center space-y-2">
             <p class="text-4xl md:text-5xl lg:text-6xl rasa font-bold text-black">
                 The Connection Project
@@ -87,7 +86,6 @@
             </div>
         </div>
         
-        <!-- Main Image -->
         <div class="flex justify-center">
             <div>
 
@@ -527,7 +525,7 @@ Through this act of kindness, Solace Global helps carry Ana's burden, turning fe
 </div>
 <!-- END -->
 
-             <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+        <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
 
 <!-- NEXT SECTION HERE -->
 <div id="elvis-uganda" class="space-y-6">

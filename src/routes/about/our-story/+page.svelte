@@ -27,19 +27,15 @@
 
 <main class="container mx-auto px-4 py-8">
   <div class="space-y-8 md:space-y-16">
-    <!-- Our Story Header -->
     <p class="text-center text-4xl md:text-6xl rasa font-bold text-black">
       Our Story
     </p>
 
-    <!-- Main Image - Responsive width -->
     <div class="w-full">
       <img src={OurStoryPic} alt="Our Story" class="w-full h-auto object-cover rounded-lg shadow-md">
     </div>
 
-    <!-- Main Content -->
     <div class="flex flex-col md:grid md:grid-cols-12 gap-8">
-      <!-- Sidebar - Full width on mobile, side column on desktop -->
       <div class="w-full md:col-span-3 md:col-start-2 md:col-end-5 md:mb-0">
         <div class="md:space-y-16">
           <div class="text-lg md:text-xl md:mb-0">
@@ -48,8 +44,6 @@
               <span class="pb-1 border-b border-black">Home</span>
             </a>
           </div>
-          
-          <!-- Video section - Shows on both mobile and desktop -->
            <div class="hidden md:block">
                <div class="space-y-0 mt-8 md:mt-32 max-w-xs md:space-y-2 ">
                  <p class="rasa text-xl md:text-2xl">Watch the latest videos to learn more</p>
@@ -64,7 +58,6 @@
         </div>
       </div>
 
-      <!-- Our Story Content - Full width on mobile -->
       <div class="w-full md:col-span-7 md:col-start-5 md:col-end-12">
         <div class="space-y-6">
           <p class="text-2xl md:text-4xl rasa">Coming together as teenagers to create an initiative that to aspire real change in society,</p>

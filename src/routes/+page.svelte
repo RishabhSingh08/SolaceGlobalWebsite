@@ -211,7 +211,6 @@
       </div>
   </div>
   
-<!-- Perspectives Section - Redesigned -->
 <div class="bg-zinc-900 px-6 md:px-16 py-14 text-white mt-16 md:mt-24 rounded-lg">
   <div class="flex flex-col lg:flex-row lg:justify-between items-center mb-10">
     <h2 class="text-3xl md:text-4xl lg:text-5xl font-serif font-medium">Perspectives</h2>
@@ -221,7 +220,6 @@
   </div>
 
   <div class="grid lg:grid-cols-3 gap-10">
-    <!-- Main Article -->
     <a href="/perspective/breaking-free-from-the-comparison-trap" class="bg-zinc-800 rounded-xl overflow-hidden shadow-xl group transition hover:shadow-2xl border border-zinc-600">
       <img src="https://images.unsplash.com/photo-1739489248003-d57fc900afbb?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Article" class="w-full h-56 object-cover">
       <div class="p-5">
@@ -230,7 +228,6 @@
       </div>
     </a>
 
-    <!-- Secondary Article -->
     <a href="/perspective/shaping-future-leaders-through-interactive-stem-education" class="bg-zinc-800 rounded-xl overflow-hidden shadow-xl group transition hover:shadow-2xl border border-zinc-600">
       <img src="https://www.shutterstock.com/image-photo/diverse-school-children-students-build-600nw-2036186204.jpg" alt="Article" class="w-full h-56 object-cover">
       <div class="p-5">
@@ -239,7 +236,6 @@
       </div>
     </a>
 
-    <!-- Newsletter Signup -->
     <div class="bg-zinc-800 rounded-xl shadow-xl p-6">
       <h3 class="text-xl font-serif text-gray-300 mb-4">Subscribe To Our Newsletter</h3>
       <form action="https://secure.smore.com/app/lists/confirm_subscribe" method="POST" class="space-y-4">

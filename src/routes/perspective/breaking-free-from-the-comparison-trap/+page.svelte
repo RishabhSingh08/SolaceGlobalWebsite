@@ -25,15 +25,12 @@
 </style>
 
 <main class="container mx-auto px-4 md:px-8 py-8 md:py-12">
-    <!-- Article Header -->
     <div class="max-w-4xl mx-auto">
-        <!-- Article Title -->
         <h1 class="text-3xl sm:text-4xl md:text-5xl rasa leading-tight mb-6">
             Breaking Free from the Comparison Trap
         </h1>
     </div>
     
-    <!-- Article Featured Image -->
     <div class="max-w-4xl mx-auto mb-8">
         <img 
             src="https://images.unsplash.com/photo-1739489248003-d57fc900afbb?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -42,7 +39,6 @@
         />
     </div>
     
-    <!-- Article Content -->
     <div class="max-w-4xl mx-auto article-content">
 <p>When I walked into my first day of high school, I felt like I had entered an entirely different world—one where everyone seemed to be competing in an unspoken race for perfection. My name is Adhi, and today, I'm a college graduate with a degree in computational engineering, working in a top 10 consulting company. But getting here wasn’t easy. My journey through high school taught me valuable lessons about focus, balance, and resilience, many of which I owe to a surprising source: running.</p>        
 <p>I attended a high school known for its rigorous academics and cutthroat environment. Conversations revolved around AP classes, perfect GPAs, prestigious summer programs, and college acceptance rates. Social media only amplified the stress, as everyone seemed to broadcast their achievements for the world to see. At first, I tried to keep up, signing up for every advanced class, joining multiple clubs, and spending late nights poring over homework. It was overwhelming, but I discovered a way to ground myself: running.</p>        
