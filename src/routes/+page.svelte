@@ -220,19 +220,19 @@
   </div>
 
   <div class="grid lg:grid-cols-3 gap-10">
-    <a href="/perspective/breaking-free-from-the-comparison-trap" class="bg-zinc-800 rounded-xl overflow-hidden shadow-xl group transition hover:shadow-2xl border border-zinc-600">
-      <img src="https://images.unsplash.com/photo-1739489248003-d57fc900afbb?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Article" class="w-full h-56 object-cover">
+    <a href="/perspective/power-of-storytelling" class="bg-zinc-800 rounded-xl overflow-hidden shadow-xl group transition hover:shadow-2xl border border-zinc-600">
+      <img src="https://www.shutterstock.com/image-photo/stack-books-against-background-library-600nw-2459213053.jpg" alt="Article" class="w-full h-56 object-cover">
       <div class="p-5">
-        <h3 class="text-xl font-serif text-gray-300 mb-2 group-hover:text-red-600 transition-colors">Breaking Free from the Comparison Trap</h3>
-        <p class="text-sm text-gray-400">Explore how overcoming societal pressures and embracing personal passions can redefine the path to success.</p>
+        <h3 class="text-xl font-serif text-gray-300 mb-2 group-hover:text-red-600 transition-colors">The Power of Storytelling in Building Empathy</h3>
+        <p class="text-sm text-gray-400">Stories shape how we see the world. They have the power to connect people across backgrounds, cultures, and generations. In an age dominated...</p>
       </div>
     </a>
 
-    <a href="/perspective/shaping-future-leaders-through-interactive-stem-education" class="bg-zinc-800 rounded-xl overflow-hidden shadow-xl group transition hover:shadow-2xl border border-zinc-600">
-      <img src="https://www.shutterstock.com/image-photo/diverse-school-children-students-build-600nw-2036186204.jpg" alt="Article" class="w-full h-56 object-cover">
+    <a href="/perspective/importance-of-rest" class="bg-zinc-800 rounded-xl overflow-hidden shadow-xl group transition hover:shadow-2xl border border-zinc-600">
+      <img src="https://www.nestbedding.com/cdn/shop/articles/dark_bedroom_at_night_10806ccc-8468-4fd1-928b-3158322b8a8e_1200x1200.jpg?v=1574245656" alt="Article" class="w-full h-56 object-cover">
       <div class="p-5">
-        <h3 class="text-lg font-serif text-gray-300 mb-2 group-hover:text-red-600 transition-colors">Shaping Future Leaders Through Interactive STEM Education</h3>
-        <p class="text-sm text-gray-400">Hands-on STEM initiatives are inspiring young minds and changing communities one innovation at a time.</p>
+        <h3 class="text-lg font-serif text-gray-300 mb-2 group-hover:text-red-600 transition-colors">The Importance of Rest in a Busy World</h3>
+        <p class="text-sm text-gray-400">Modern life often glorifies busyness. Productivity is praised, and schedules are filled to the brim. But what’s often overlooked is the necessity of rest...</p>
       </div>
     </a>
 
