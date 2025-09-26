@@ -24,7 +24,7 @@
   import pfpXander from "../../../lib/images/Headshots/xander.png";
   import pfpPunit from "../../../lib/images/Headshots/punit.jpg";
   import pfpTiffany from "../../../lib/images/Headshots/tiffany.png";
-  import pfpNishantV from "../../../lib/images/Headshots/nishantv.png";
+  import pfpNishantV from "../../../lib/images/Headshots/nishantV.png";
   import pfpDan from "../../../lib/images/Headshots/dan.png";
   import pfpSaahil from "../../../lib/images/Headshots/saahil.png";
   import pfpVedantB from "../../../lib/images/Headshots/vedant.png";
