@@ -392,6 +392,7 @@ Supporting Socheata’s Journey to Recovery – Cambodia
                     <img src={cambodia} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
                     <img src={cambodia1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
                 </div>
+                <p class="text-gray-700 text-center">Six-year-old Socheata smiles with hope as she prepares for surgery to restore movement in her hands and reclaim her independence.</p>
             </div>
         </div>
 
@@ -506,6 +507,7 @@ Through this gift, Solace Global reaffirms its commitment to uplifting lives, en
                     <img src={kenya} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
                     <img src={kenya1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
                 </div>
+                <p class="text-gray-700 text-center">A resilient mother of seven, Kaltuma faces her thyroid illness with courage while striving to provide for her family.</p>
             </div>
         </div>
 
@@ -584,6 +586,7 @@ With this contribution, Solace Global is helping Elvis move closer to the care t
                     <img src={uganda} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
                     <img src={uganda1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
                 </div>
+                <p class="text-gray-700 text-center">Four-year-old Elvis awaits life-saving surgery with the love and support of his family guiding him toward recovery.</p>
             </div>
         </div>
 
