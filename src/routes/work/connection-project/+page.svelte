@@ -38,6 +38,14 @@
     import bv3 from "$lib/images/MediaImages/bv3.png"
     import bv4 from "$lib/images/MediaImages/bv4.png"
 
+    import myanmar from "$lib/images/MediaImages/myanmar.jpg"
+    import bolivia from "$lib/images/MediaImages/bolivia.jpg"
+
+    import hike1 from "$lib/images/MediaImages/hike1.png"
+    import hike2 from "$lib/images/MediaImages/hike2.png"
+    import hike3 from "$lib/images/MediaImages/hike3.png"
+    import hike4 from "$lib/images/MediaImages/hike4.png"
+
 
 
 </script>
@@ -601,7 +609,91 @@ With this contribution, Solace Global is helping Elvis move closer to the care t
     </div>
 </div>
 <!-- END -->
+        <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
 
+<!-- NEXT SECTION HERE -->
+<div id="north-texas-hike-club" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+Community Cleanup with North Texas Hike Club            </p>
+            <div class="space-y-3 text-sm md:text-base">
+<p>
+In collaboration with the North Texas Hike Club, Solace Global organized a meaningful local initiative focused on caring for our shared environment. Together, we hosted clean-up efforts at White Rock Lake and Willow Bend Park, bringing volunteers together to remove litter, restore natural beauty, and protect community green spaces.
+</p>
+<p>
+This partnership marks the beginning of an ongoing commitment to regular local clean-ups, reinforcing the idea that connection isn’t just between people—it’s also with the places we live and enjoy. By uniting outdoor enthusiasts and community members, we not only improved the environment but also built stronger bonds rooted in service, stewardship, and shared purpose.
+</p>
+</div>
+        </div>
+
+        <div class="w-full lg:col-span-5">
+            <div class="space-y-4">
+                <div class="grid grid-cols-2 gap-2 md:gap-3">
+                    <img src={hike1} alt="Beach Volleyball 1" class="rounded-lg shadow-md">
+                    <img src={hike2} alt="Beach Volleyball 2" class="rounded-lg shadow-md">
+                    <img src={hike3} alt="Beach Volleyball 3" class="rounded-lg shadow-md">
+                    <img src={hike4} alt="Beach Volleyball 3" class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- END -->
+        <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- NEXT SECTION HERE -->
+<div id="simon-bolivia" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa"> Paying for Simon’s Heart Surgery - Bolivia</p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>
+                Simon is a six-year-old boy from Bolivia who lives with his aunt and five older siblings, after losing his mother at birth. Doctors diagnosed him with a ventricular septal defect (VSD)—a hole between the lower chambers of his heart—that leaves him weak and short of breath.
+                </p>
+                <p>
+                On April 16, 2025, Simon is scheduled for open-heart surgery at Hospital del Niño Dr. Ovidio Aliaga Uría. Surgeons will place a patch to close the hole so oxygen-rich blood can circulate properly. The total cost of his care is $1,500, covering diagnostics, surgery, follow-up, and medications through our partner, International Cardiac Alliance.
+                </p>
+                <p>
+                To support Simon’s recovery, Solace Global donated funds to help cover part of the cost of his surgery. This contribution brings Simon closer to the treatment he urgently needs and gives him the chance to grow up healthy and strong.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-span-5">
+            <img src={bolivia} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
+        </div>
+    </div>
+</div>
+<!-- END -->
+        <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- NEXT SECTION HERE -->
+<div id="aung-myanmar" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa"> Helping Aung Breathe Again- Myanmar</p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>
+                Aung is a 13-year-old boy from Myawaddy, Karen State, who lives with his mother and two older siblings. His mother works as a laundry worker, but the family’s income is barely enough to cover food and daily expenses, leaving little for medical care.
+                </p>
+                <p>
+                In April 2025, Aung began experiencing severe breathing difficulties caused by a blockage in his left nostril. After an initial clinic visit and unsuccessful treatment for sinusitis, doctors discovered a nasal polyp and referred him to Mae Sot General Hospital, where surgery was recommended to remove the obstruction and restore his breathing.
+                </p>
+                <p>
+                Understanding the urgency of his condition, Solace Global donated funds to help cover part of the $1,500 cost of his surgery, scheduled for June 5, 2025. This life-changing procedure will allow Aung to breathe more easily, regain his strength, and return to the joys of childhood.                </p>
+            </div>
+        </div>
+
+        <div class="col-span-5">
+            <img src={myanmar} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
+        </div>
+    </div>
+</div>
         </div>
     </div>
 </main>

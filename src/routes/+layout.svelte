@@ -209,6 +209,9 @@ function acceptTerms() {
                                 <li><a href="/work/connection-project/#ana-haiti" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Bringing Hope to Ana as She Fights a Heart Condition – Haiti</a></li>
                                 <li><a href="/work/connection-project/#elvis-uganda" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Elvis as He Faces Surgery for a Tumor – Uganda</a></li>
                                 <li><a href="/work/connection-project/#little-elm-volleyball" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Beach Volleyball Tournament at Little Elm Beach 2025</a></li>
+                                <li><a href="/work/connection-project/#north-texas-hike-club" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Community Cleanup with North Texas Hike Club</a></li>
+                                <li><a href="/work/connection-project/#aung-myanmar" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Helping Aung Breathe Again- Myanmar</a></li>
+                                <li><a href="/work/connection-project/#simon-bolivia" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Paying for Simon’s Heart Surgery- Bolivia</a></li>
 
                             </ul>
                         </div>
@@ -224,6 +227,7 @@ function acceptTerms() {
                                 <li><a href="/work/discovery-project/#CodeHER" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Online Coding Classes for Girls with Code.org</a></li>
                                 <li><a href="/work/discovery-project/#german-visa" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Guiding German Students on U.S. Visa Processes</a></li>
                                 <li><a href="/work/discovery-project/#chess" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Chess Lessons for Abuse Survivors</a></li>
+                                <li><a href="/work/discovery-project/#china" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>English Phonics Workshop in China</a></li>
 
 
                             </ul>

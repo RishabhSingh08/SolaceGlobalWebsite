@@ -25,6 +25,10 @@
     import robotCon from "../../../lib/images/MediaImages/robotconnection.jpg";
     import german from "../../../lib/images/MediaImages/image0.jpg";
 
+    import china1 from "../../../lib/images/MediaImages/china1.png";
+    import china2 from "../../../lib/images/MediaImages/china2.png";
+    import china3 from "../../../lib/images/MediaImages/china3.png";
+
 
   import header from "../../../lib/images/discoveryImages/Header.jpg";
 
@@ -279,9 +283,6 @@
           </div>
           <div class="md:col-span-5 order-1 md:order-2">
             <img src={image07} alt="Tech Builders Program" class="rounded-lg shadow-md">
-            <p class="text-center text-xs md:text-sm my-4">
-              This photo shows the girls in West Bengal, intently observing the robot...
-            </p>
           </div>
         </div>
       </div>
@@ -440,7 +441,38 @@
     </div>
 </div>
 
-      
+      <div class="border-b border-zinc-300 mx-4 md:mx-16"></div>
+
+<div id="china" class="space-y-6">
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-8 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+English Phonics Workshop in China            </p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>
+Solace Global partnered with the Sunkidz Novelty English Training Center in Foshan, China, to deliver an engaging phonics workshop for twenty-five children. One of our team members traveled to China to lead the session in person, bringing energy and expertise directly to the classroom. The program was designed to help students build confidence in English pronunciation, with a focus on mastering core vowel sounds and recognizing rhyme patterns that are foundational to reading and comprehension.
+                </p>
+                <p>
+The workshop was intentionally interactive and accessible. It began with direct modeling of vowel sounds by the instructor, followed by choral reading exercises where the whole class could practice together. Using word families such as brown, down, and round, students were guided from listening and repeating to actively applying what they learned on the board. This gradual approach allowed the children to connect sounds with spelling while reinforcing their ability to decode new words.
+                </p>
+                <p>
+As the session progressed, learners became more confident and were encouraged to take turns leading their peers in short reading drills. These moments of student-led practice created an atmosphere of encouragement, collaboration, and curiosity. Quick challenges and playful activities kept the energy high, helping the children stay engaged while developing important language skills.
+                </p>
+                <p>
+By the end of the workshop, the twenty-five participants demonstrated stronger pronunciation, rhythm, and willingness to read aloud. Teachers left with a clear, practical framework they could reuse: introduce the sound, model it collectively, practice with word families, and conclude with student-led activities. Through this initiative, Solace Global not only provided immediate learning gains but also equipped the center with sustainable teaching strategies to continue fostering growth and confidence in English.
+                </p>
+            </div>
+        </div>
+        
+          <div class="md:col-span-5 order-1 md:order-2">
+            <div class="grid grid-cols-2 gap-2 md:gap-3">
+              <img src={china1} alt="China 1" class="rounded-lg shadow-md">
+              <img src={china2} alt="China 2" class="rounded-lg shadow-md">
+              <img src={china3} alt="China 2" class="rounded-lg shadow-md">
+            </div>
+          </div>
+    </div>
+</div>
 
 
     </div>

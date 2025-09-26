@@ -21,6 +21,16 @@
   import pfpAbhiV from "../../../lib/images/Headshots/abhiv.jpg";
   import pfpAnvita from "../../../lib/images/Headshots/anvita.jpg";
   import pfpAbhish from "../../../lib/images/Headshots/abhish.jpg";
+  import pfpXander from "../../../lib/images/Headshots/xander.png";
+  import pfpPunit from "../../../lib/images/Headshots/punit.jpg";
+  import pfpTiffany from "../../../lib/images/Headshots/tiffany.png";
+  import pfpNishantV from "../../../lib/images/Headshots/nishantv.png";
+  import pfpDan from "../../../lib/images/Headshots/dan.png";
+  import pfpSaahil from "../../../lib/images/Headshots/saahil.png";
+  import pfpVedantB from "../../../lib/images/Headshots/vedant.png";
+  import pfpAiden from "../../../lib/images/Headshots/aiden.png";
+  import pfpErik from "../../../lib/images/Headshots/erik.png";
+  import pfpOmar from "../../../lib/images/Headshots/omar.png";
 
   const departments = [
     {
@@ -44,7 +54,9 @@
       name: "IT Department",
       members: [
         { name: "Samanyu Earna", role: "Director of Technology", pfp: pfpSamanyu },
-        { name: "Punit Lakhotiya", role: "Techincal Clerk" },
+        { name: "Punit Lakhotiya", role: "Chief Information Officer", pfp: pfpPunit },
+        { name: "Xander Kuksov", role: "Technical Coordinator", pfp: pfpXander },
+        { name: "Vedant Bakshi", role: "Research/Data Analyst", pfp: pfpVedantB },
         // { name: "Adwaith Sajin", role: "Video Production Engineer", pfp: pfpAadi }
       ]
     },
@@ -53,15 +65,19 @@
       members: [
         { name: "Anvita Halbhavi", role: "STEM Educator: North America", pfp: pfpAnvita },
         { name: "Azalea Tang", role: "STEM Educator: North America", pfp: pfpAzalea },
-        { name: "Ainesh Gupta", role: "STEM Educator - South Asia", pfp: pfpAinesh }
+        { name: "Ainesh Gupta", role: "STEM Educator - South Asia", pfp: pfpAinesh },
+        { name: "Erik Wang", role: "STEM Educator - Asia", pfp: pfpErik }
       ]
     },
     {
       name: "Outreach and Program Development",
       members: [
         { name: "Abhinav Karthik", role: "Global Outreach Officer", pfp: pfpAbhi },
+        { name: "Tiffany Chan", role: "Global Outreach and Social Media Officer", pfp: pfpTiffany },
         { name: "Swaraj Nibandhe", role: "STEM Program Coordinator - Southwest Asia", pfp: pfpSwaraj },
-        { name: "Aidan Garrido", role: "Marketing Associate" },
+        { name: "Dan Hyun", role: "Plano West Club Lead", pfp: pfpDan },
+        { name: "Aidan Garrido", role: "Marketing Associate", pfp: pfpAiden },
+        { name: "Saahil Amin", role: "Global Outreach Officer", pfp: pfpSaahil },
         { name: "Abhiram Vemulapalli", role: "Global Outreach Officer", pfp: pfpAbhiV },
         { name: "Azaan Naqvi", role: "Career Compass Manager", pfp: pfpAzaan }
       ]
@@ -70,9 +86,10 @@
       name: "Finance Team",
       members: [
         { name: "Jennyl Patel", role: "Chief Finance Officer", pfp: pfpJennyl },
-        { name: "Nishant Venkatachalam", role: "Director of Finance" },
+        { name: "Nishant Venkatachalam", role: "Director of Finance", pfp: pfpNishantV },
         { name: "Jacob Wheat", role: "Senior Finance Manager", pfp: pfpJacob },
         { name: "Vedant Teware", role: "Finance Associate", pfp: pfpVedant },
+        { name: "Omar Ahmed", role: "Finance Associate", pfp: pfpOmar},
         { name: "Kaushal Ganapur", role: "Finance Associate", pfp: pfpKaushal },
         { name: "Abhish Bandi", role: "Finance Associate", pfp: pfpAbhish },
       ]
