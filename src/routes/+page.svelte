@@ -281,7 +281,7 @@
           </div>
           
           <div class="p-4">
-              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">15+</div>
+              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">17+</div>
               <p class="mt-2 text-sm md:text-base">Countries in operation</p>
           </div>
           
