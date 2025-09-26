@@ -36,11 +36,10 @@
     {
       name: "Executive",
       members: [
-        { name: "Nishant Sinari", role: "CEO & Founder", pfp: pfpNishant },
-        { name: "Yash Giriyapura", role: "Vice President of Engagement", pfp: pfpYash },
+        { name: "Nishant Sinari", role: "Executive Director & Founder", pfp: pfpNishant },
+        { name: "Yash Giriyapura", role: "Chief Engagement Officer", pfp: pfpYash },
+        { name: "Jennyl Patel", role: "Chief Finance Officer", pfp: pfpJennyl },
         { name: "Rishabh Singh", role: "Chief Technology Officer", pfp: pfpRishabh },
-        { name: "Ranveer Jadhav", role: "Vice President of Internal Operations", pfp: pfpRanveer },
-        { name: "Mahit Cherku", role: "Chief of Staff", pfp: pfpMahit }
       ]
     },
     {
@@ -48,6 +47,10 @@
       members: [
         { name: "Zaid Salahi", role: "Event Coordinator: Middle East", pfp: pfpZaid },
         { name: "Jude Kumar", role: "Events Manager: North Texas", pfp: pfpJude },
+        { name: "Dan Hyun", role: "Plano West Club Lead", pfp: pfpDan },
+        { name: "Ranveer Jadhav", role: "Vice President of Internal Operations", pfp: pfpRanveer },
+        { name: "Mahit Cherku", role: "Chief of Staff", pfp: pfpMahit }
+
       ]
     },
     {
@@ -66,6 +69,7 @@
         { name: "Anvita Halbhavi", role: "STEM Educator: North America", pfp: pfpAnvita },
         { name: "Azalea Tang", role: "STEM Educator: North America", pfp: pfpAzalea },
         { name: "Ainesh Gupta", role: "STEM Educator - South Asia", pfp: pfpAinesh },
+        { name: "Swaraj Nibandhe", role: "STEM Program Coordinator - Southwest Asia", pfp: pfpSwaraj },
         { name: "Erik Wang", role: "STEM Educator - Asia", pfp: pfpErik }
       ]
     },
@@ -73,9 +77,7 @@
       name: "Outreach and Program Development",
       members: [
         { name: "Abhinav Karthik", role: "Global Outreach Officer", pfp: pfpAbhi },
-        { name: "Tiffany Chan", role: "Global Outreach and Social Media Officer", pfp: pfpTiffany },
-        { name: "Swaraj Nibandhe", role: "STEM Program Coordinator - Southwest Asia", pfp: pfpSwaraj },
-        { name: "Dan Hyun", role: "Plano West Club Lead", pfp: pfpDan },
+        { name: "Tiffany Chan", role: "Global Outreach & Social Media Officer", pfp: pfpTiffany },
         { name: "Aidan Garrido", role: "Marketing Associate", pfp: pfpAiden },
         { name: "Saahil Amin", role: "Global Outreach Officer", pfp: pfpSaahil },
         { name: "Abhiram Vemulapalli", role: "Global Outreach Officer", pfp: pfpAbhiV },
@@ -85,7 +87,6 @@
     {
       name: "Finance Team",
       members: [
-        { name: "Jennyl Patel", role: "Chief Finance Officer", pfp: pfpJennyl },
         { name: "Nishant Venkatachalam", role: "Director of Finance", pfp: pfpNishantV },
         { name: "Jacob Wheat", role: "Senior Finance Manager", pfp: pfpJacob },
         { name: "Vedant Teware", role: "Finance Associate", pfp: pfpVedant },

@@ -210,8 +210,8 @@ function acceptTerms() {
                                 <li><a href="/work/connection-project/#elvis-uganda" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Elvis as He Faces Surgery for a Tumor – Uganda</a></li>
                                 <li><a href="/work/connection-project/#little-elm-volleyball" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Beach Volleyball Tournament at Little Elm Beach 2025</a></li>
                                 <li><a href="/work/connection-project/#north-texas-hike-club" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Community Cleanup with North Texas Hike Club</a></li>
-                                <li><a href="/work/connection-project/#aung-myanmar" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Helping Aung Breathe Again- Myanmar</a></li>
                                 <li><a href="/work/connection-project/#simon-bolivia" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Paying for Simon’s Heart Surgery- Bolivia</a></li>
+                                <li><a href="/work/connection-project/#aung-myanmar" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Helping Aung Breathe Again- Myanmar</a></li>
 
                             </ul>
                         </div>

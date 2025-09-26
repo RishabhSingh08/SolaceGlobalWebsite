@@ -2,10 +2,12 @@
     import poster01 from "../../../lib/images/MediaImages/poster01.png";
     import baqia from "../../../lib/images/MediaImages/baqia.png";
     import Video from "../../../lib/images/MediaImages/baqtiVideo.mp4";
+
     import israel from "../../../lib/images/MediaImages/israel.jpg";
     import israel2 from "../../../lib/images/MediaImages/israel2.jpg";
     import israel3 from "../../../lib/images/MediaImages/israel3.jpg";
     import israel4 from "../../../lib/images/MediaImages/israel4.jpg";
+
     import v1 from "../../../lib/images/MediaImages/volley1.png";
     import v2 from "../../../lib/images/MediaImages/volley2.png";
     import v3 from "../../../lib/images/MediaImages/volley3.png";
@@ -26,12 +28,14 @@
     import soccer4 from "../../../lib/images/MediaImages/soccer4.png"
 
     import cambodia from "../../../lib/images/MediaImages/cambodia.png";
+    import cambodia1 from "../../../lib/images/MediaImages/cambodia1.png";
     import tanzania from "$lib/images/MediaImages/tanzania.png"
-
     import malawi from "$lib/images/MediaImages/malawi.png"
     import kenya from "$lib/images/MediaImages/kenya.png"
+    import kenya1 from "$lib/images/MediaImages/kenya1.png"
     import haiti from "$lib/images/MediaImages/haiti.png"
     import uganda from "$lib/images/MediaImages/uganda.png"
+    import uganda1 from "$lib/images/MediaImages/uganda1.png"
 
     import bv1 from "$lib/images/MediaImages/bv1.png"
     import bv2 from "$lib/images/MediaImages/bv2.png"
@@ -382,9 +386,15 @@ Supporting Socheata’s Journey to Recovery – Cambodia
 </div>
         </div>
 
-<div class="col-span-5">
-    <img src={cambodia} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
-</div>
+        <div class="w-full lg:col-span-5">
+            <div class="space-y-4">
+                <div class="grid grid-rows-1 gap-2 md:gap-3 justify-center">
+                    <img src={cambodia} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
+                    <img src={cambodia1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 <!-- END -->
@@ -490,9 +500,15 @@ Through this gift, Solace Global reaffirms its commitment to uplifting lives, en
 </div>
         </div>
 
-<div class="col-span-5">
-    <img src={kenya} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
-</div>
+        <div class="w-full lg:col-span-5">
+            <div class="space-y-4">
+                <div class="grid grid-rows-1 gap-2 md:gap-3 justify-center">
+                    <img src={kenya} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
+                    <img src={kenya1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 <!-- END -->
@@ -562,9 +578,15 @@ With this contribution, Solace Global is helping Elvis move closer to the care t
 </div>
         </div>
 
-<div class="col-span-5">
-    <img src={uganda} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
-</div>
+        <div class="w-full lg:col-span-5">
+            <div class="space-y-4">
+                <div class="grid grid-rows-1 gap-2 md:gap-3 justify-center justify-center">
+                    <img src={uganda} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
+                    <img src={uganda1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 <!-- END -->
