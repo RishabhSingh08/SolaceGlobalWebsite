@@ -31,6 +31,7 @@
   import pfpAiden from "../../../lib/images/Headshots/aiden.png";
   import pfpErik from "../../../lib/images/Headshots/erik.png";
   import pfpOmar from "../../../lib/images/Headshots/omar.png";
+  import pfpAdam from "../../../lib/images/Headshots/adam.jpg";
 
   const departments = [
     {
@@ -45,8 +46,9 @@
     {
       name: "Operations",
       members: [
-        { name: "Zaid Salahi", role: "Event Coordinator: Middle East", pfp: pfpZaid },
         { name: "Jude Kumar", role: "Events Manager: North Texas", pfp: pfpJude },
+        { name: "Zaid Salahi", role: "Event Coordinator: Middle East", pfp: pfpZaid },
+        { name: "Adam Awkash", role: "Events Coordinator: East Africa", pfp: pfpAdam },
         { name: "Dan Hyun", role: "Plano West Club Lead", pfp: pfpDan },
         { name: "Ranveer Jadhav", role: "Vice President of Internal Operations", pfp: pfpRanveer },
         { name: "Mahit Cherku", role: "Chief of Staff", pfp: pfpMahit }

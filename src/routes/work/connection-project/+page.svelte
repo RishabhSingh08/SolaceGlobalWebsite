@@ -33,7 +33,10 @@
     import malawi from "$lib/images/MediaImages/malawi.png"
     import kenya from "$lib/images/MediaImages/kenya.png"
     import kenya1 from "$lib/images/MediaImages/kenya1.png"
+
     import haiti from "$lib/images/MediaImages/haiti.png"
+    import haiti2 from "$lib/images/MediaImages/haiti2.png"
+    
     import uganda from "$lib/images/MediaImages/uganda.png"
     import uganda1 from "$lib/images/MediaImages/uganda1.png"
 
@@ -544,9 +547,16 @@ Through this act of kindness, Solace Global helps carry Ana's burden, turning fe
 </div>
         </div>
 
-<div class="col-span-5">
-    <img src={haiti} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
-</div>
+        <div class="w-full lg:col-span-5">
+            <div class="space-y-4">
+                <div class="grid grid-rows-1 gap-2 md:gap-3 justify-center justify-center">
+                    <img src={haiti} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
+                    <img src={haiti2} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
+                </div>
+                <p class="text-gray-700 text-center">Ana smiles after her heart surgery, relieved to feel stronger and ready to embrace life with renewed energy.ap</p>
+            </div>
+        </div>
+
     </div>
 </div>
 <!-- END -->
