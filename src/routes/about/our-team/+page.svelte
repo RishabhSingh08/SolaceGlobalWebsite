@@ -32,6 +32,7 @@
   import pfpErik from "../../../lib/images/Headshots/erik.png";
   import pfpOmar from "../../../lib/images/Headshots/omar.png";
   import pfpAdam from "../../../lib/images/Headshots/adam.jpg";
+  import pfpRatan from "../../../lib/images/Headshots/ratan.jpg";
 
   const departments = [
     {
@@ -78,9 +79,10 @@
     {
       name: "Outreach and Program Development",
       members: [
-        { name: "Abhinav Karthik", role: "Global Outreach Officer", pfp: pfpAbhi },
-        { name: "Tiffany Chan", role: "Global Outreach & Social Media Officer", pfp: pfpTiffany },
+        { name: "Ratan", role: "Public Health Outreach Lead", pfp: pfpRatan },
         { name: "Aidan Garrido", role: "Marketing Associate", pfp: pfpAiden },
+        { name: "Tiffany Chan", role: "Global Outreach & Social Media Officer", pfp: pfpTiffany },
+        { name: "Abhinav Karthik", role: "Global Outreach Officer", pfp: pfpAbhi },
         { name: "Saahil Amin", role: "Global Outreach Officer", pfp: pfpSaahil },
         { name: "Abhiram Vemulapalli", role: "Global Outreach Officer", pfp: pfpAbhiV },
         { name: "Azaan Naqvi", role: "Career Compass Manager", pfp: pfpAzaan }
