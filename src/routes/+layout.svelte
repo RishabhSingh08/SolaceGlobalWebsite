@@ -212,6 +212,7 @@ function acceptTerms() {
                                 <li><a href="/work/connection-project/#north-texas-hike-club" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Community Cleanup with North Texas Hike Club</a></li>
                                 <li><a href="/work/connection-project/#simon-bolivia" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Paying for Simon’s Heart Surgery- Bolivia</a></li>
                                 <li><a href="/work/connection-project/#aung-myanmar" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Helping Aung Breathe Again- Myanmar</a></li>
+                                <li><a href="/work/connection-project/#concepcion-philipines" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Concepcion’s Gallbladder Surgery - Philippines</a></li>
 
                             </ul>
                         </div>

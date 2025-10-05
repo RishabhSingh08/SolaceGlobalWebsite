@@ -29,8 +29,11 @@
 
     import cambodia from "../../../lib/images/MediaImages/cambodia.png";
     import cambodia1 from "../../../lib/images/MediaImages/cambodia1.png";
+
+    import philipines from "../../../lib/images/MediaImages/philipines.png";
     import tanzania from "$lib/images/MediaImages/tanzania.png"
     import malawi from "$lib/images/MediaImages/malawi.png"
+
     import kenya from "$lib/images/MediaImages/kenya.png"
     import kenya1 from "$lib/images/MediaImages/kenya1.png"
 
@@ -729,6 +732,35 @@ This partnership marks the beginning of an ongoing commitment to regular local c
         </div>
     </div>
 </div>
+
+<!-- END -->
+    <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+    <div id="concepcion-philipines" class="space-y-6">
+        
+        <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+            <div class="space-y-4 lg:col-span-4">
+                <p class="text-2xl md:text-3xl rasa"> Supporting Concepcion’s Gallbladder Surgery - Philippines</p>
+                <div class="space-y-3 text-sm md:text-base">
+                    <p>
+                        Concepcion is a 52-year-old public school teacher and single mother in the Philippines. For 17 years she has supported two school-age children while caring for three elderly siblings at home—one is bedridden, another has had a leg amputated, and the eldest brother serves as their daily caregiver. With no pensions or outside assistance, Concepcion’s steady income has kept the entire household going.
+                    </p>
+                    <p>
+                        Four months ago, she began experiencing severe abdominal pain radiating to her back, persistent vomiting, and difficulty eating. What started as abdominal swelling quickly led to dramatic weight loss—from 77 kg to 54 kg. Despite the pain, she continued teaching, worried about who would look after her family if she became too sick to work. Doctors diagnosed gallstones and recommended a cholecystectomy to relieve her symptoms and prevent complications.
+                    </p>
+                    <p>
+                        With the help of World Surgical Foundation Philippines (WSFP) and coverage from the Philippine Health Insurance Corporation, Concepcion is set to receive care at Our Lady of Peace Hospital on July 18. Solace Global has donated to help cover part of her surgical costs, ensuring she can focus on recovery and returning to the classroom.
+                    </div>
+            </div>
+
+            <div class="col-span-5">
+                <img src={philipines} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
+            </div>
+        </div>
+    </div>
+
+    <!-- END -->
+    <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
         </div>
     </div>
 </main>
