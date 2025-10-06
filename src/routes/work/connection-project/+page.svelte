@@ -30,7 +30,7 @@
     import cambodia from "../../../lib/images/MediaImages/cambodia.png";
     import cambodia1 from "../../../lib/images/MediaImages/cambodia1.png";
 
-    import philipines from "../../../lib/images/MediaImages/philipines.png";
+    import philipines from "$lib/images/MediaImages/philippines.png";
     import tanzania from "$lib/images/MediaImages/tanzania.png"
     import malawi from "$lib/images/MediaImages/malawi.png"
 
@@ -760,7 +760,6 @@ This partnership marks the beginning of an ongoing commitment to regular local c
     </div>
 
     <!-- END -->
-    <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
         </div>
     </div>
 </main>
