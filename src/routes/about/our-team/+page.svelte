@@ -8,7 +8,6 @@
   import pfpZaid from "../../../lib/images/Headshots/zaid_salahi.png";
   import pfpAbhi from "../../../lib/images/Headshots/abhi_karthik.png";
   import pfpAzaan from "../../../lib/images/Headshots/azaan.png";
-  import pfpJacob from "../../../lib/images/Headshots/jacob.png";
   import pfpJude from "../../../lib/images/Headshots/jude.png";
   import pfpNishant from "../../../lib/images/Headshots/nishantS.png";
   import pfpYash from "../../../lib/images/Headshots/yash.jpg";
@@ -92,7 +91,6 @@
       name: "Finance Team",
       members: [
         { name: "Nishant Venkatachalam", role: "Director of Finance", pfp: pfpNishantV },
-        { name: "Jacob Wheat", role: "Senior Finance Manager", pfp: pfpJacob },
         { name: "Vedant Teware", role: "Finance Associate", pfp: pfpVedant },
         { name: "Omar Ahmed", role: "Finance Associate", pfp: pfpOmar},
         { name: "Kaushal Ganapur", role: "Finance Associate", pfp: pfpKaushal },
