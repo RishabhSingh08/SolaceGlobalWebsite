@@ -229,7 +229,7 @@ function acceptTerms() {
                                 <li><a href="/work/discovery-project/#german-visa" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Guiding German Students on U.S. Visa Processes</a></li>
                                 <li><a href="/work/discovery-project/#chess" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Chess Lessons for Abuse Survivors</a></li>
                                 <li><a href="/work/discovery-project/#china" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>English Phonics Workshop in China</a></li>
-
+                                <li><a href="/work/discovery-project/#robotics-workshop" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Robotics Workshop for the Kids USA Montessori</a></li>
 
                             </ul>
                         </div>

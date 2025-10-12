@@ -49,7 +49,9 @@
     import bv4 from "$lib/images/MediaImages/bv4.png"
 
     import myanmar from "$lib/images/MediaImages/myanmar.jpg"
+
     import bolivia from "$lib/images/MediaImages/bolivia.jpg"
+    import bolivia2 from "$lib/images/MediaImages/bolivia2.jpg"
 
     import hike1 from "$lib/images/MediaImages/hike1.png"
     import hike2 from "$lib/images/MediaImages/hike2.png"
@@ -701,8 +703,13 @@ This partnership marks the beginning of an ongoing commitment to regular local c
             </div>
         </div>
 
-        <div class="col-span-5">
-            <img src={bolivia} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
+        <div class="w-full lg:col-span-5">
+            <div class="space-y-4">
+                <div class="grid grid-rows-2 gap-2 md:gap-3">
+                    <img src={bolivia2} alt="Beach Volleyball 2" class="rounded-lg shadow-md">
+                    <img src={bolivia} alt="Beach Volleyball 1" class="rounded-lg shadow-md">
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -29,6 +29,10 @@
     import china2 from "../../../lib/images/MediaImages/china2.png";
     import china3 from "../../../lib/images/MediaImages/china3.png";
 
+    import und1 from "../../../lib/images/MediaImages/und1.jpg";
+    import und2 from "../../../lib/images/MediaImages/und2.jpg";
+    import und3 from "../../../lib/images/MediaImages/und3.jpg";
+    import und4 from "../../../lib/images/MediaImages/und4.jpg";
 
   import header from "../../../lib/images/discoveryImages/Header.jpg";
 
@@ -469,6 +473,39 @@ By the end of the workshop, the twenty-five participants demonstrated stronger p
               <img src={china1} alt="China 1" class="rounded-lg shadow-md">
               <img src={china2} alt="China 2" class="rounded-lg shadow-md">
               <img src={china3} alt="China 2" class="rounded-lg shadow-md">
+            </div>
+          </div>
+    </div>
+</div>
+
+      <div class="border-b border-zinc-300 mx-4 md:mx-16"></div>
+
+<div id="robotics-workshop" class="space-y-6">
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-8 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+                Robotics Workshop for the Kids USA Montessori
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>
+                    Solace Global partnered with Undefined Robotics (#25782) to deliver a lively, hands-on robotics workshop for 20 primary students at Kids USA Montessori. The 60–90 minute session mixed short, kid-friendly demos with rotating stations where children explored real robot components — a movable claw, a movable chassis, and a safely demonstrated bow-and-arrow shooter mechanism — then worked in small teams to assemble and operate simple builds.
+                </p>
+                <p>
+                    Activities were Montessori-friendly: tactile, self-directed, and designed to teach basic mechanics (levers, gears, cause-and-effect) while encouraging collaboration and communication. The workshop turned abstract concepts into concrete experiences that sparked curiosity and confidence: students stayed engaged, practiced problem-solving, and shared ideas about how robots could help their communities.
+                </p>
+                <p>
+                    All activities were age-appropriate and supervised; safety protocols were followed for the shooter demo using soft materials and controlled demonstrations. To bring a similar workshop to your campus or learn how to run repeatable stations in class, contact team@solaceglobal.xyz
+                </p>
+
+            </div>
+        </div>
+        
+          <div class="md:col-span-5 order-1 md:order-2">
+            <div class="grid grid-cols-2 gap-2 md:gap-3">
+              <img src={und1} alt="Robotics Workshop 1" class="rounded-lg shadow-md">
+              <img src={und2} alt="Robotics Workshop 2" class="rounded-lg shadow-md">
+              <img src={und3} alt="Robotics Workshop 3" class="rounded-lg shadow-md">
+              <img src={und4} alt="Robotics Workshop 4" class="rounded-lg shadow-md">
             </div>
           </div>
     </div>
