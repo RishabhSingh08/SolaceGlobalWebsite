@@ -34,6 +34,11 @@
     import und3 from "../../../lib/images/MediaImages/und3.jpg";
     import und4 from "../../../lib/images/MediaImages/und4.jpg";
 
+    import pune1 from "../../../lib/images/MediaImages/pune1.jpg";
+    import pune2 from "../../../lib/images/MediaImages/pune2.jpg";
+    import pune3 from "../../../lib/images/MediaImages/pune3.jpg";
+    import pune4 from "../../../lib/images/MediaImages/pune4.png";
+
   import header from "../../../lib/images/discoveryImages/Header.jpg";
 
   import { onMount } from "svelte";
@@ -72,7 +77,40 @@
 
     return () => clearInterval(interval);
   });
+
+  // Lightbox functionality
+  let lightboxOpen = false;
+  let lightboxImages = [];
+  let lightboxIndex = 0;
+
+  function openLightbox(imageArray, index) {
+    lightboxImages = imageArray;
+    lightboxIndex = index;
+    lightboxOpen = true;
+  }
+
+  function closeLightbox() {
+    lightboxOpen = false;
+  }
+
+  function nextLightboxImage() {
+    lightboxIndex = (lightboxIndex + 1) % lightboxImages.length;
+  }
+
+  function prevLightboxImage() {
+    lightboxIndex = (lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length;
+  }
+
+  // Handle keyboard navigation
+  function handleKeydown(event) {
+    if (!lightboxOpen) return;
+    if (event.key === 'Escape') closeLightbox();
+    if (event.key === 'ArrowRight') nextLightboxImage();
+    if (event.key === 'ArrowLeft') prevLightboxImage();
+  }
 </script>
+
+<svelte:window on:keydown={handleKeydown} />
 
 <svelte:head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -109,6 +147,78 @@
 
   .carousel-item {
     flex: 0 0 100%;
+  }
+
+  /* Lightbox styles */
+  .lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lightbox-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lightbox-image {
+    max-width: 100%;
+    max-height: 90vh;
+    object-fit: contain;
+  }
+
+  .lightbox-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10001;
+    transition: all 0.3s ease;
+    user-select: none;
+  }
+
+  .lightbox-arrow:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-50%) scale(1.1);
+  }
+
+  .lightbox-arrow-left {
+    left: 20px;
+  }
+
+  .lightbox-arrow-right {
+    right: 20px;
+  }
+
+  .clickable-image {
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+
+  .clickable-image:hover {
+    opacity: 0.8;
   }
 </style>
 
@@ -207,9 +317,9 @@
         <div class="grid grid-cols-1 md:grid-cols-9 gap-6 md:gap-16 items-center">
           <div class="md:col-span-5 order-1">
             <div class="grid grid-cols-2 gap-2 md:gap-3">
-              <img src={image04} alt="Children learning about robotics" class="rounded-lg shadow-md">
-              <img src={image05} alt="Robotics demonstration" class="rounded-lg shadow-md">
-              <img src={image03} alt="STEM workshop" class="rounded-lg shadow-md">
+              <img src={image04} alt="Children learning about robotics" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([image04, image05, image03], 0)}>
+              <img src={image05} alt="Robotics demonstration" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([image04, image05, image03], 1)}>
+              <img src={image03} alt="STEM workshop" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([image04, image05, image03], 2)}>
             </div>
           </div>
           
@@ -254,7 +364,7 @@
         <div class="grid grid-cols-1 md:grid-cols-9 gap-6 md:gap-16 items-center">
           <div class="md:col-span-4 order-2 md:order-1">
             <div class="text-center text-sm my-4 space-y-4">
-              <img src={image01} alt="Team of robotics students" class="rounded-lg shadow-lg">
+              <img src={image01} alt="Team of robotics students" class="rounded-lg shadow-lg clickable-image" on:click={() => openLightbox([image01], 0)}>
             </div>
           </div>
           
@@ -286,7 +396,7 @@
             <p class="text-sm md:text-base">In communities where poverty is widespread, and opportunities are scarce, this event represented more than just a learning experience—it was a chance to break the cycle of poverty through education and empowerment. By offering the girls the tools to understand and engage with technology, Solace Global aimed to ignite their curiosity and inspire them to dream beyond their circumstances. Through our collaboration with NNLS, we hope to provide these girls with the skills and confidence to overcome the barriers of poverty and build a brighter future, one that is not limited by their current circumstances but shaped by the knowledge and potential they now possess.</p>
           </div>
           <div class="md:col-span-5 order-1 md:order-2">
-            <img src={image07} alt="Tech Builders Program" class="rounded-lg shadow-md">
+            <img src={image07} alt="Tech Builders Program" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([image07], 0)}>
           </div>
         </div>
       </div>
@@ -297,7 +407,7 @@
       <div id="robot-connection" class="space-y-6">
         <div class="grid grid-cols-1 md:grid-cols-9 gap-6 md:gap-16 items-center">
           <div class="md:col-span-4 order-1">
-            <img src={robotCon} alt="Robot Connection" class="rounded-lg shadow-md">
+            <img src={robotCon} alt="Robot Connection" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([robotCon], 0)}>
           </div>
           <div class="space-y-4 md:space-y-5 md:col-span-5 order-2">
             <p class="text-2xl md:text-3xl rasa">Robotics Education for Girls at Bengal's Largest Abuse Survivors' Orphanage (Part 2)</p>
@@ -371,7 +481,7 @@
           <div class="md:col-span-5 order-2 md:order-1">
             <div class="space-y-4">
               <div class="bg-zinc-100 rounded-lg flex items-center justify-center h-64 md:h-96 shadow-md">
-                <img src={german} alt="German students visa program" class="rounded-lg object-cover">
+                <img src={german} alt="German students visa program" class="rounded-lg object-cover clickable-image" on:click={() => openLightbox([german], 0)}>
               </div>
 
               <div class="rounded-lg p-4 md:p-6 space-y-3 shadow-md bg-white">
@@ -470,9 +580,9 @@ By the end of the workshop, the twenty-five participants demonstrated stronger p
         
           <div class="md:col-span-5 order-1 md:order-2">
             <div class="grid grid-cols-2 gap-2 md:gap-3">
-              <img src={china1} alt="China 1" class="rounded-lg shadow-md">
-              <img src={china2} alt="China 2" class="rounded-lg shadow-md">
-              <img src={china3} alt="China 2" class="rounded-lg shadow-md">
+              <img src={china1} alt="China 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([china1, china2, china3], 0)}>
+              <img src={china2} alt="China 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([china1, china2, china3], 1)}>
+              <img src={china3} alt="China 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([china1, china2, china3], 2)}>
             </div>
           </div>
     </div>
@@ -502,10 +612,46 @@ By the end of the workshop, the twenty-five participants demonstrated stronger p
         
           <div class="md:col-span-5 order-1 md:order-2">
             <div class="grid grid-cols-2 gap-2 md:gap-3">
-              <img src={und1} alt="Robotics Workshop 1" class="rounded-lg shadow-md">
-              <img src={und2} alt="Robotics Workshop 2" class="rounded-lg shadow-md">
-              <img src={und3} alt="Robotics Workshop 3" class="rounded-lg shadow-md">
-              <img src={und4} alt="Robotics Workshop 4" class="rounded-lg shadow-md">
+              <img src={und1} alt="Robotics Workshop 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([und1, und2, und3, und4], 0)}>
+              <img src={und2} alt="Robotics Workshop 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([und1, und2, und3, und4], 1)}>
+              <img src={und3} alt="Robotics Workshop 3" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([und1, und2, und3, und4], 2)}>
+              <img src={und4} alt="Robotics Workshop 4" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([und1, und2, und3, und4], 3)}>
+            </div>
+          </div>
+    </div>
+</div>
+
+<div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- Pune Tribal Robotics Section -->
+<div id="pune-robotics" class="space-y-6">
+    <div class="flex flex-col md:grid md:grid-cols-9 gap-6 md:gap-16 items-start md:items-center">
+        <div class="space-y-4 md:col-span-4 order-2 md:order-1">
+            <p class="text-2xl md:text-3xl rasa">
+                Pune Tribal Robotics at Anathsamram Karyakran Orphanage
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>
+                    Solace Global, in partnership with Anathsamram Karyakran Orphanage, kicked off the first class in the Pune Tribal Robotics series by teaching approximately 30 resident children to build and iterate hydraulic plane-launchers from classroom-ready kits.
+                </p>
+                <p>
+                    Working right inside the orphanage, learners moved from sorting parts and measuring cuts to assembling syringes, tubing, levers, and linkages, then ran test flights, analyzed failures, and refined designs until every team achieved consistent launches. Through this hands-on process, they picked up core mechanics (pressure/force, mechanical advantage, center of mass), precision skills (marking, fastening, safe tool use), and collaboration habits (clear communication, turn-taking, shared troubleshooting).
+                </p>
+                <p>
+                    Caregivers and local volunteers supported stations, each child took home a working launcher plus a pictorial mini-guide to teach peers, and we left a low-cost kit-and-mentor playbook tailored for the orphanage so staff can rerun the session independently.
+                </p>
+                <p>
+                    This foundation sets up the rest of the series—gears & motion control, sensors & simple coding, design for reliability, a community problem challenge, a public showcase, and a capstone—turning curiosity into confidence and building a pipeline of teen mentors within the orphanage community.
+                </p>
+            </div>
+        </div>
+        
+          <div class="md:col-span-5 order-1 md:order-2">
+            <div class="grid grid-cols-2 gap-2 md:gap-3">
+              <img src={pune1} alt="Pune Robotics 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([pune1, pune2, pune3, pune4], 0)}>
+              <img src={pune2} alt="Pune Robotics 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([pune1, pune2, pune3, pune4], 1)}>
+              <img src={pune3} alt="Pune Robotics 3" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([pune1, pune2, pune3, pune4], 2)}>
+              <img src={pune4} alt="Pune Robotics 4" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([pune1, pune2, pune3, pune4], 3)}>
             </div>
           </div>
     </div>
@@ -514,4 +660,29 @@ By the end of the workshop, the twenty-five participants demonstrated stronger p
 
     </div>
   </div>
+
+  <!-- Lightbox Modal -->
+  {#if lightboxOpen}
+    <div class="lightbox-overlay" on:click={closeLightbox}>
+      {#if lightboxImages.length > 1}
+        <button class="lightbox-arrow lightbox-arrow-left" on:click|stopPropagation={prevLightboxImage} aria-label="Previous image">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+      {/if}
+      
+      <div class="lightbox-content" on:click|stopPropagation>
+        <img src={lightboxImages[lightboxIndex]} alt="Lightbox" class="lightbox-image">
+      </div>
+      
+      {#if lightboxImages.length > 1}
+        <button class="lightbox-arrow lightbox-arrow-right" on:click|stopPropagation={nextLightboxImage} aria-label="Next image">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      {/if}
+    </div>
+  {/if}
 </main>

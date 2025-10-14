@@ -30,8 +30,11 @@
     import cambodia from "../../../lib/images/MediaImages/cambodia.png";
     import cambodia1 from "../../../lib/images/MediaImages/cambodia1.png";
 
+    import colombia from "../../../lib/images/MediaImages/colombia.png";
     import philipines from "$lib/images/MediaImages/philippines.png";
+
     import tanzania from "$lib/images/MediaImages/tanzania.png"
+    import tanzania2 from "$lib/images/MediaImages/tanzania2.png"
     import malawi from "$lib/images/MediaImages/malawi.png"
 
     import kenya from "$lib/images/MediaImages/kenya.png"
@@ -58,9 +61,39 @@
     import hike3 from "$lib/images/MediaImages/hike3.png"
     import hike4 from "$lib/images/MediaImages/hike4.png"
 
+    // Lightbox functionality
+    let lightboxOpen = false;
+    let lightboxImages = [];
+    let lightboxIndex = 0;
 
+    function openLightbox(imageArray, index) {
+        lightboxImages = imageArray;
+        lightboxIndex = index;
+        lightboxOpen = true;
+    }
 
+    function closeLightbox() {
+        lightboxOpen = false;
+    }
+
+    function nextLightboxImage() {
+        lightboxIndex = (lightboxIndex + 1) % lightboxImages.length;
+    }
+
+    function prevLightboxImage() {
+        lightboxIndex = (lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length;
+    }
+
+    // Handle keyboard navigation
+    function handleKeydown(event) {
+        if (!lightboxOpen) return;
+        if (event.key === 'Escape') closeLightbox();
+        if (event.key === 'ArrowRight') nextLightboxImage();
+        if (event.key === 'ArrowLeft') prevLightboxImage();
+    }
 </script>
+
+<svelte:window on:keydown={handleKeydown} />
 
 <svelte:head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -91,6 +124,78 @@
         left: 0;
         width: 100%;
         height: 100%;
+    }
+
+    /* Lightbox styles */
+    .lightbox-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lightbox-content {
+        position: relative;
+        max-width: 90%;
+        max-height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lightbox-image {
+        max-width: 100%;
+        max-height: 90vh;
+        object-fit: contain;
+    }
+
+    .lightbox-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10001;
+        transition: all 0.3s ease;
+        user-select: none;
+    }
+
+    .lightbox-arrow:hover {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.5);
+        transform: translateY(-50%) scale(1.1);
+    }
+
+    .lightbox-arrow-left {
+        left: 20px;
+    }
+
+    .lightbox-arrow-right {
+        right: 20px;
+    }
+
+    .clickable-image {
+        cursor: pointer;
+        transition: opacity 0.3s;
+    }
+
+    .clickable-image:hover {
+        opacity: 0.8;
     }
 </style>
 
@@ -215,10 +320,10 @@
                     <div class="w-full lg:col-span-5">
                         <div class="space-y-4">
                             <div class="grid grid-cols-2 gap-2 md:gap-3">
-                                <img src={israel} alt="Kids with robots" class="rounded-lg shadow-md">
-                                <img src={israel2} alt="Children learning about robotics" class="rounded-lg shadow-md">
-                                <img src={israel3} alt="Robotics demonstration" class="rounded-lg shadow-md">
-                                <img src={israel4} alt="STEM workshop" class="rounded-lg shadow-md">
+                                <img src={israel} alt="Kids with robots" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([israel, israel2, israel3, israel4], 0)}>
+                                <img src={israel2} alt="Children learning about robotics" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([israel, israel2, israel3, israel4], 1)}>
+                                <img src={israel3} alt="Robotics demonstration" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([israel, israel2, israel3, israel4], 2)}>
+                                <img src={israel4} alt="STEM workshop" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([israel, israel2, israel3, israel4], 3)}>
                             </div>
                         </div>
                     </div>
@@ -242,9 +347,9 @@
                     <div class="w-full lg:col-span-5">
                         <div class="space-y-4">
                             <div class="grid grid-cols-2 gap-2 md:gap-3">
-                                <img src={v1} alt="v1" class="rounded-lg shadow-md">
-                                <img src={v2} alt="v2" class="rounded-lg shadow-md">
-                                <img src={v3} alt="v3" class="rounded-lg shadow-md">
+                                <img src={v1} alt="v1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([v1, v2, v3], 0)}>
+                                <img src={v2} alt="v2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([v1, v2, v3], 1)}>
+                                <img src={v3} alt="v3" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([v1, v2, v3], 2)}>
                             </div>
                         </div>
                     </div>
@@ -272,8 +377,8 @@
         <div class="w-full lg:col-span-5">
             <div class="space-y-4">
                 <div class="grid grid-cols-2 gap-2 md:gap-3">
-                    <img src={e1} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
-                    <img src={e2} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
+                    <img src={e1} alt="Ethiopia Donation 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([e1, e2], 0)}>
+                    <img src={e2} alt="Ethiopia Donation 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([e1, e2], 1)}>
                 </div>
             </div>
         </div>
@@ -301,9 +406,9 @@
         <div class="w-full lg:col-span-5">
             <div class="space-y-4">
                 <div class="grid grid-cols-2 gap-2 md:gap-3">
-                    <img src={s1} alt="Swiss Donation 1" class="rounded-lg shadow-md">
-                    <img src={s2} alt="Swiss Donation 2" class="rounded-lg shadow-md">
-                    <img src={s3} alt="Swiss Donation 3" class="rounded-lg shadow-md">
+                    <img src={s1} alt="Swiss Donation 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([s1, s2, s3], 0)}>
+                    <img src={s2} alt="Swiss Donation 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([s1, s2, s3], 1)}>
+                    <img src={s3} alt="Swiss Donation 3" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([s1, s2, s3], 2)}>
                 </div>
             </div>
         </div>
@@ -331,9 +436,9 @@
         <div class="w-full lg:col-span-5">
             <div class="space-y-4">
                 <div class="grid grid-cols-2 gap-2 md:gap-3">
-                    <img src={syria1} alt="Syria Donation 1" class="rounded-lg shadow-md">
-                    <img src={syria2} alt="Syria Donation 2" class="rounded-lg shadow-md">
-                    <img src={syria3} alt="Syria Donation 3" class="rounded-lg shadow-md">
+                    <img src={syria1} alt="Syria Donation 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([syria1, syria2, syria3], 0)}>
+                    <img src={syria2} alt="Syria Donation 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([syria1, syria2, syria3], 1)}>
+                    <img src={syria3} alt="Syria Donation 3" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([syria1, syria2, syria3], 2)}>
                 </div>
             </div>
         </div>
@@ -361,10 +466,10 @@
         <div class="w-full lg:col-span-5">
             <div class="space-y-4">
                 <div class="grid grid-cols-2 gap-2 md:gap-3">
-                    <img src={soccer1} alt="Soccer Donation 1" class="rounded-lg shadow-md">
-                    <img src={soccer2} alt="Soccer Donation 2" class="rounded-lg shadow-md">
-                    <img src={soccer3} alt="Soccer Donation 3" class="rounded-lg shadow-md">
-                    <img src={soccer4} alt="Soccer Donation 4" class="rounded-lg shadow-md">
+                    <img src={soccer1} alt="Soccer Donation 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([soccer1, soccer2, soccer3, soccer4], 0)}>
+                    <img src={soccer2} alt="Soccer Donation 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([soccer1, soccer2, soccer3, soccer4], 1)}>
+                    <img src={soccer3} alt="Soccer Donation 3" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([soccer1, soccer2, soccer3, soccer4], 2)}>
+                    <img src={soccer4} alt="Soccer Donation 4" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([soccer1, soccer2, soccer3, soccer4], 3)}>
                 </div>
             </div>
         </div>
@@ -397,8 +502,8 @@ Supporting Socheata’s Journey to Recovery – Cambodia
         <div class="w-full lg:col-span-5">
             <div class="space-y-4">
                 <div class="grid grid-rows-1 gap-2 md:gap-3 justify-center">
-                    <img src={cambodia} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
-                    <img src={cambodia1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
+                    <img src={cambodia} alt="Ethiopia Donation 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([cambodia, cambodia1], 0)}>
+                    <img src={cambodia1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([cambodia, cambodia1], 1)}>
                 </div>
                 <p class="text-gray-700 text-center">Six-year-old Socheata smiles after her surgery, now able to move her hands more freely and enjoy school activities again.</p>
             </div>
@@ -437,9 +542,15 @@ This initiative reflects Solace Global’s commitment to empowering youth across
 </div>
         </div>
 
-<div class="col-span-5">
-    <img src={tanzania} alt="tanzania 1" class="w-full rounded-lg shadow-md">
-</div>
+        <div class="w-full lg:col-span-5">
+            <div class="space-y-4">
+                <div class="grid grid-rows-1 gap-2 md:gap-3 justify-center">
+                    <img src={tanzania} alt="Ethiopia Donation 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([tanzania, tanzania2], 0)}>
+                    <img src={tanzania2} alt="Ethiopia Donation 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([tanzania, tanzania2], 1)}>
+                </div>
+                <p class="text-gray-700 text-center">Felista smiles brightly, looking forward to walking and playing without pain after her corrective surgery</p>
+            </div>
+        </div>
     </div>
 </div>
 <!-- END -->
@@ -473,7 +584,7 @@ This initiative reflects Solace Global's belief that every child deserves the op
         </div>
 
 <div class="col-span-5">
-    <img src={malawi} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
+    <img src={malawi} alt="Cambodia 1" class="w-full rounded-lg shadow-md clickable-image" on:click={() => openLightbox([malawi], 0)}>
 </div>
 
     </div>
@@ -512,8 +623,8 @@ Through this gift, Solace Global reaffirms its commitment to uplifting lives, en
         <div class="w-full lg:col-span-5">
             <div class="space-y-4">
                 <div class="grid grid-rows-1 gap-2 md:gap-3 justify-center">
-                    <img src={kenya} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
-                    <img src={kenya1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
+                    <img src={kenya} alt="Ethiopia Donation 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([kenya, kenya1], 0)}>
+                    <img src={kenya1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([kenya, kenya1], 1)}>
                 </div>
                 <p class="text-gray-700 text-center">Kaltuma stands strong after receiving treatment for her thyroid condition, grateful for the chance to focus on her family’s future</p>
             </div>
@@ -555,8 +666,8 @@ Through this act of kindness, Solace Global helps carry Ana's burden, turning fe
         <div class="w-full lg:col-span-5">
             <div class="space-y-4">
                 <div class="grid grid-rows-1 gap-2 md:gap-3 justify-center justify-center">
-                    <img src={haiti} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
-                    <img src={haiti2} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
+                    <img src={haiti} alt="Ethiopia Donation 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([haiti, haiti2], 0)}>
+                    <img src={haiti2} alt="Ethiopia Donation 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([haiti, haiti2], 1)}>
                 </div>
                 <p class="text-gray-700 text-center">Ana smiles after her heart surgery, relieved to feel stronger and ready to embrace life with renewed energy.ap</p>
             </div>
@@ -598,8 +709,8 @@ With this contribution, Solace Global is helping Elvis move closer to the care t
         <div class="w-full lg:col-span-5">
             <div class="space-y-4">
                 <div class="grid grid-rows-1 gap-2 md:gap-3 justify-center justify-center">
-                    <img src={uganda} alt="Ethiopia Donation 1" class="rounded-lg shadow-md">
-                    <img src={uganda1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md">
+                    <img src={uganda} alt="Ethiopia Donation 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([uganda, uganda1], 0)}>
+                    <img src={uganda1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([uganda, uganda1], 1)}>
                 </div>
                 <p class="text-gray-700 text-center">Elvis smiles after undergoing surgery for a tumor, beginning his journey back to a healthy childhood.</p>
             </div>
@@ -639,10 +750,10 @@ With this contribution, Solace Global is helping Elvis move closer to the care t
         <div class="w-full lg:col-span-5">
             <div class="space-y-4">
                 <div class="grid grid-cols-2 gap-2 md:gap-3">
-                    <img src={bv1} alt="Beach Volleyball 1" class="rounded-lg shadow-md">
-                    <img src={bv2} alt="Beach Volleyball 2" class="rounded-lg shadow-md">
-                    <img src={bv3} alt="Beach Volleyball 3" class="rounded-lg shadow-md">
-                    <img src={bv4} alt="Beach Volleyball 3" class="rounded-lg shadow-md">
+                    <img src={bv1} alt="Beach Volleyball 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([bv1, bv2, bv3, bv4], 0)}>
+                    <img src={bv2} alt="Beach Volleyball 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([bv1, bv2, bv3, bv4], 1)}>
+                    <img src={bv3} alt="Beach Volleyball 3" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([bv1, bv2, bv3, bv4], 2)}>
+                    <img src={bv4} alt="Beach Volleyball 3" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([bv1, bv2, bv3, bv4], 3)}>
                 </div>
             </div>
         </div>
@@ -671,10 +782,10 @@ This partnership marks the beginning of an ongoing commitment to regular local c
         <div class="w-full lg:col-span-5">
             <div class="space-y-4">
                 <div class="grid grid-cols-2 gap-2 md:gap-3">
-                    <img src={hike1} alt="Beach Volleyball 1" class="rounded-lg shadow-md">
-                    <img src={hike2} alt="Beach Volleyball 2" class="rounded-lg shadow-md">
-                    <img src={hike3} alt="Beach Volleyball 3" class="rounded-lg shadow-md">
-                    <img src={hike4} alt="Beach Volleyball 3" class="rounded-lg shadow-md">
+                    <img src={hike1} alt="Beach Volleyball 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([hike1, hike2, hike3, hike4], 0)}>
+                    <img src={hike2} alt="Beach Volleyball 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([hike1, hike2, hike3, hike4], 1)}>
+                    <img src={hike3} alt="Beach Volleyball 3" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([hike1, hike2, hike3, hike4], 2)}>
+                    <img src={hike4} alt="Beach Volleyball 3" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([hike1, hike2, hike3, hike4], 3)}>
                 </div>
             </div>
         </div>
@@ -706,10 +817,10 @@ This partnership marks the beginning of an ongoing commitment to regular local c
         <div class="w-full lg:col-span-5">
             <div class="space-y-4">
                 <div class="grid grid-rows-2 gap-2 md:gap-3">
-                    <img src={bolivia2} alt="Beach Volleyball 2" class="rounded-lg shadow-md">
-                    <img src={bolivia} alt="Beach Volleyball 1" class="rounded-lg shadow-md">
+                    <img src={bolivia2} alt="Beach Volleyball 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([bolivia2, bolivia], 0)}>
+                    <img src={bolivia} alt="Beach Volleyball 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([bolivia2, bolivia], 1)}>
                 </div>
-            </div>
+                <p class="text-gray-700 text-center">Simon smiles with joy, grateful for the successful heart surgery that now allows him to play and grow like other children.</p>
         </div>
     </div>
 </div>
@@ -735,7 +846,7 @@ This partnership marks the beginning of an ongoing commitment to regular local c
         </div>
 
         <div class="col-span-5">
-            <img src={myanmar} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
+            <img src={myanmar} alt="Cambodia 1" class="w-full rounded-lg shadow-md clickable-image" on:click={() => openLightbox([myanmar], 0)}>
         </div>
     </div>
 </div>
@@ -761,12 +872,71 @@ This partnership marks the beginning of an ongoing commitment to regular local c
             </div>
 
             <div class="col-span-5">
-                <img src={philipines} alt="Cambodia 1" class="w-full rounded-lg shadow-md">
+                <img src={philipines} alt="Cambodia 1" class="w-full rounded-lg shadow-md clickable-image" on:click={() => openLightbox([philipines], 0)}>
             </div>
         </div>
     </div>
 
     <!-- END -->
+     <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- NEXT SECTION HERE -->
+<div id="yeilin-colombia" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+                Supporting Yeilin's Hernia Surgery – Colombia
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>
+                    Solace Global extended its support to Yeilin, a bright and affectionate three-year-old in Colombia whose curiosity lights up her kindergarten classroom. Yeilin was diagnosed with an umbilical hernia causing swelling and tenderness, requiring surgical intervention to prevent complications and restore her comfort.
+                </p>
+                <p>
+                    With surgery scheduled at Clínica Noel on September 24, 2025, Solace Global contributed to help cover part of her care costs. This support ensures that Yeilin can return to a playful, pain-free childhood, surrounded by the love of her family and the joy of learning.
+                </p>
+                <p>
+                    Yeilin's mother expressed her heartfelt gratitude: "I would like to express my sincere gratitude to everyone supporting my daughter's surgery. Thank you for extending your generous hands without even knowing her personally. That gesture is undoubtedly one of the purest reflections of human kindness. May God bless you abundantly, multiply blessings for your life, and continue to guide every task you undertake. Your support not only alleviates a medical need, but also fills our hearts with hope."
+                </p>
+                <p>
+                    Through this initiative, Solace Global reaffirms its commitment to empowering children across borders, ensuring that every child has the opportunity to grow up healthy, happy, and full of hope.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-span-5">
+            <img src={colombia} alt="Yeilin Colombia" class="w-full rounded-lg shadow-md clickable-image" on:click={() => openLightbox([colombia], 0)}>
+        </div>
+    </div>
+</div>
+
+<!-- END -->
+     
         </div>
     </div>
 </main>
+
+<!-- Lightbox Modal -->
+{#if lightboxOpen}
+    <div class="lightbox-overlay" on:click={closeLightbox}>
+        {#if lightboxImages.length > 1}
+            <button class="lightbox-arrow lightbox-arrow-left" on:click|stopPropagation={prevLightboxImage} aria-label="Previous image">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+        {/if}
+        
+        <div class="lightbox-content" on:click|stopPropagation>
+            <img src={lightboxImages[lightboxIndex]} alt="Lightbox" class="lightbox-image">
+        </div>
+        
+        {#if lightboxImages.length > 1}
+            <button class="lightbox-arrow lightbox-arrow-right" on:click|stopPropagation={nextLightboxImage} aria-label="Next image">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+        {/if}
+    </div>
+{/if}
