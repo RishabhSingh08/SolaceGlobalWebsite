@@ -41,6 +41,7 @@
         { name: "Yash Giriyapura", role: "Chief Engagement Officer", pfp: pfpYash },
         { name: "Jennyl Patel", role: "Chief Finance Officer", pfp: pfpJennyl },
         { name: "Rishabh Singh", role: "Chief Technology Officer", pfp: pfpRishabh },
+        { name: "Ranveer Jadhav", role: "International Affairs Coordinator", pfp: pfpRanveer },
       ]
     },
     {
@@ -50,9 +51,7 @@
         { name: "Zaid Salahi", role: "Event Coordinator: Middle East", pfp: pfpZaid },
         { name: "Adam Awkash", role: "Events Coordinator: East Africa", pfp: pfpAdam },
         { name: "Dan Hyun", role: "Plano West Club Lead", pfp: pfpDan },
-        { name: "Ranveer Jadhav", role: "Vice President of Internal Operations", pfp: pfpRanveer },
         { name: "Mahit Cherku", role: "Chief of Staff", pfp: pfpMahit }
-
       ]
     },
     {
