@@ -56,7 +56,7 @@
 
     let currentTotal = BASE_FEE + (numberOfSubs * SUB_FEE);
 
-    const message = `Beach Volleyball Tournament Registration\nTeam: ${teamName}\nContact: ${contactName}\nPhone: ${contactPhone}\nEmail: ${contactEmail}\nSubs: ${numberOfSubs}\nTotal: ${currentTotal.toFixed(2)}`;
+    const message = `Basketball Tournament Registration\nTeam: ${teamName}\nContact: ${contactName}\nPhone: ${contactPhone}\nEmail: ${contactEmail}\nSubs: ${numberOfSubs}\nTotal: ${currentTotal.toFixed(2)}`;
 
     const params = new URLSearchParams({
       name: contactName,
@@ -91,11 +91,11 @@
 
     <div class="text-center space-y-4">
       {#if logoUrl}
-        <img src={logoUrl} alt="Beach Volleyball Tournament Logo" class="h-24 mx-auto" />
+        <img src={logoUrl} alt="Basketball Tournament Logo" class="h-24 mx-auto" />
       {/if}
-      <h2 class="text-3xl font-bold text-gray-900">Beach Volleyball Tournament</h2>
+      <h2 class="text-3xl font-bold text-gray-900">Basketball Tournament</h2>
       <p class="text-gray-600">
-        Register your team for the upcoming beach volleyball tournament.
+        Register your team for the upcoming basketball tournament.
       </p>
     </div>
 
