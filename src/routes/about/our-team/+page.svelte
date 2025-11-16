@@ -39,9 +39,10 @@
       members: [
         { name: "Nishant Sinari", role: "Executive Director & Founder", pfp: pfpNishant },
         { name: "Yash Giriyapura", role: "Chief Engagement Officer", pfp: pfpYash },
-        { name: "Jennyl Patel", role: "Chief Finance Officer", pfp: pfpJennyl },
+        { name: "Mahit Cherku", role: "Chief of Staff", pfp: pfpMahit },
         { name: "Rishabh Singh", role: "Chief Technology Officer", pfp: pfpRishabh },
         { name: "Ranveer Jadhav", role: "International Affairs Coordinator", pfp: pfpRanveer },
+        { name: "Jennyl Patel", role: "Chief Finance Officer", pfp: pfpJennyl },
       ]
     },
     {
@@ -51,7 +52,6 @@
         { name: "Zaid Salahi", role: "Event Coordinator: Middle East", pfp: pfpZaid },
         { name: "Adam Awkash", role: "Events Coordinator: East Africa", pfp: pfpAdam },
         { name: "Dan Hyun", role: "Plano West Club Lead", pfp: pfpDan },
-        { name: "Mahit Cherku", role: "Chief of Staff", pfp: pfpMahit }
       ]
     },
     {
