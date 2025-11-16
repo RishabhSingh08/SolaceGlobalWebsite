@@ -5,7 +5,7 @@
   import logoUrl from "../../lib/images/SolaceGlobalLogo.png"; // Adjust path if needed
 
   // --- Configuration ---
-  const BASE_FEE = 60; // Base fee for team captain
+  const BASE_FEE = 50; // Base fee for team captain
   const SUB_FEE = 5; // Additional fee per sub
   // IMPORTANT: Replace 'solace-global' with your actual Hack Club Bank slug if using HCB,
   // or replace the entire URL structure if using a different payment provider.
