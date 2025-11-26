@@ -39,6 +39,11 @@
     import pune3 from "../../../lib/images/MediaImages/pune3.jpg";
     import pune4 from "../../../lib/images/MediaImages/pune4.png";
 
+    import bazaar1 from "../../../lib/images/discoveryImages/13.PNG";
+    import bazaar2 from "../../../lib/images/discoveryImages/14.PNG";
+    import bazaar3 from "../../../lib/images/discoveryImages/15.PNG";
+    import bazaar4 from "../../../lib/images/discoveryImages/16.PNG";
+
   import header from "../../../lib/images/discoveryImages/Header.jpg";
 
   import { onMount } from "svelte";
@@ -660,6 +665,33 @@ By the end of the workshop, the twenty-five participants demonstrated stronger p
 
     </div>
   </div>
+
+  <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16 my-12"></div>
+
+<!-- Black Business Bazaar Section -->
+<div id="black-business-bazaar" class="space-y-6">
+    <div class="flex flex-col md:grid md:grid-cols-9 gap-6 md:gap-16 items-start md:items-center">
+        <div class="space-y-4 md:col-span-4 order-2 md:order-1">
+            <p class="text-2xl md:text-3xl rasa">
+                Supporting Black Owned Businesses at the 2025 Black Business Bazaar in Dallas
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>
+                    Solace Global recently supported more than 30 local Black-owned businesses at the 2025 Black Business Bazaar in Dallas. Our team invested directly in local shops by purchasing products and services, while also sharing resources designed to help these entrepreneurs grow and sustain their ventures. Together with our partners at Undefined Robotics, we introduced attendees to robotics and emerging technologies, highlighting how innovation can strengthen community businesses.
+                </p>
+            </div>
+        </div>
+        
+          <div class="md:col-span-5 order-1 md:order-2">
+            <div class="grid grid-cols-2 gap-2 md:gap-3">
+              <img src={bazaar1} alt="Black Business Bazaar 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([bazaar1, bazaar2, bazaar3, bazaar4], 0)}>
+              <img src={bazaar2} alt="Black Business Bazaar 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([bazaar1, bazaar2, bazaar3, bazaar4], 1)}>
+              <img src={bazaar3} alt="Black Business Bazaar 3" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([bazaar1, bazaar2, bazaar3, bazaar4], 2)}>
+              <img src={bazaar4} alt="Black Business Bazaar 4" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([bazaar1, bazaar2, bazaar3, bazaar4], 3)}>
+            </div>
+          </div>
+    </div>
+</div>
 
   <!-- Lightbox Modal -->
   {#if lightboxOpen}
