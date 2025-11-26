@@ -39,10 +39,10 @@
     import pune3 from "../../../lib/images/MediaImages/pune3.jpg";
     import pune4 from "../../../lib/images/MediaImages/pune4.png";
 
-    import bazaar1 from "../../../lib/images/discoveryImages/13.PNG";
-    import bazaar2 from "../../../lib/images/discoveryImages/14.PNG";
-    import bazaar3 from "../../../lib/images/discoveryImages/15.PNG";
-    import bazaar4 from "../../../lib/images/discoveryImages/16.PNG";
+    import bazaar1 from "../../../lib/images/discoveryImages/13.png";
+    import bazaar2 from "../../../lib/images/discoveryImages/14.png";
+    import bazaar3 from "../../../lib/images/discoveryImages/15.png";
+    import bazaar4 from "../../../lib/images/discoveryImages/16.png";
 
   import header from "../../../lib/images/discoveryImages/Header.jpg";
 
