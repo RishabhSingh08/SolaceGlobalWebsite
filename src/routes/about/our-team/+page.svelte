@@ -32,7 +32,7 @@
   import pfpOmar from "../../../lib/images/Headshots/omar.png";
   import pfpAdam from "../../../lib/images/Headshots/adam.jpg";
   import pfpRatan from "../../../lib/images/Headshots/ratan.jpg";
-  import pfpLakshit from "../../../lib/images/Headshots/lakshit.JPG";
+  import pfpLakshit from "../../../lib/images/Headshots/lakshit.png";
 
   const departments = [
     {
