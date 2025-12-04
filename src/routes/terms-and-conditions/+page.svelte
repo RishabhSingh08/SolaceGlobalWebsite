@@ -49,9 +49,9 @@
           In compliance with Texas Business and Commerce Code (Chapter 521), we safeguard sensitive personal information and will promptly notify users of any breach involving this information.
         </p>
 
-        <h3 class="text-xl font-medium text-gray-800 mb-2">2.5. Children’s Privacy:</h3>
+        <h3 class="text-xl font-medium text-gray-800 mb-2">2.5. Children's Privacy:</h3>
         <p class="text-gray-700 mb-4">
-          Solace Global complies with the Children’s Online Privacy Protection Act (COPPA) and Texas law. We do not knowingly collect personal data from children under the age of 13 without parental consent.
+          Solace Global complies with the Children's Online Privacy Protection Act (COPPA) and Texas law. We do not knowingly collect personal data from children under the age of 13 without parental consent.
         </p>
       </section>
 

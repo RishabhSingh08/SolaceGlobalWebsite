@@ -232,7 +232,7 @@
       <img src="https://www.nestbedding.com/cdn/shop/articles/dark_bedroom_at_night_10806ccc-8468-4fd1-928b-3158322b8a8e_1200x1200.jpg?v=1574245656" alt="Article" class="w-full h-56 object-cover">
       <div class="p-5">
         <h3 class="text-lg font-serif text-gray-300 mb-2 group-hover:text-red-600 transition-colors">The Importance of Rest in a Busy World</h3>
-        <p class="text-sm text-gray-400">Modern life often glorifies busyness. Productivity is praised, and schedules are filled to the brim. But what’s often overlooked is the necessity of rest...</p>
+        <p class="text-sm text-gray-400">Modern life often glorifies busyness. Productivity is praised, and schedules are filled to the brim. But what's often overlooked is the necessity of rest...</p>
       </div>
     </a>
 

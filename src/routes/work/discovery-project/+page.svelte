@@ -603,7 +603,7 @@ By the end of the workshop, the twenty-five participants demonstrated stronger p
             </p>
             <div class="space-y-3 text-sm md:text-base">
                 <p>
-                    Solace Global partnered with Undefined Robotics (#25782) to deliver a lively, hands-on robotics workshop for 20 primary students at Kids USA Montessori. The 60–90 minute session mixed short, kid-friendly demos with rotating stations where children explored real robot components — a movable claw, a movable chassis, and a safely demonstrated bow-and-arrow shooter mechanism — then worked in small teams to assemble and operate simple builds.
+                    Solace Global partnered with Undefined Robotics (#25782) to deliver a lively, hands-on robotics workshop for 20 primary students at Kids USA Montessori. The 60-90 minute session mixed short, kid-friendly demos with rotating stations where children explored real robot components — a movable claw, a movable chassis, and a safely demonstrated bow-and-arrow shooter mechanism — then worked in small teams to assemble and operate simple builds.
                 </p>
                 <p>
                     Activities were Montessori-friendly: tactile, self-directed, and designed to teach basic mechanics (levers, gears, cause-and-effect) while encouraging collaboration and communication. The workshop turned abstract concepts into concrete experiences that sparked curiosity and confidence: students stayed engaged, practiced problem-solving, and shared ideas about how robots could help their communities.

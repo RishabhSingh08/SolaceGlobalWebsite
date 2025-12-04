@@ -4,7 +4,7 @@
 
 <svelte:head>
     <title>The Importance of Rest in a Busy World | Solace Global</title>
-    <meta name="description" content="Modern life often glorifies busyness. Productivity is praised, and schedules are filled to the brim. But what’s often overlooked is the necessity...">
+    <meta name="description" content="Modern life often glorifies busyness. Productivity is praised, and schedules are filled to the brim. But what's often overlooked is the necessity...">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
@@ -40,7 +40,7 @@
     </div>
     
     <div class="max-w-4xl mx-auto article-content">
-<p>Modern life often glorifies busyness. Productivity is praised, and schedules are filled to the brim. But what’s often overlooked is the necessity of rest—not just sleep, but true rest that allows the mind and body to recharge.</p> 
+<p>Modern life often glorifies busyness. Productivity is praised, and schedules are filled to the brim. But what's often overlooked is the necessity of rest—not just sleep, but true rest that allows the mind and body to recharge.</p> 
 <p>Rest is not laziness. It is the foundation of resilience, creativity, and well-being. Studies show that when people regularly take breaks and allow themselves downtime, they perform better in both professional and personal settings. Creativity especially thrives in moments of rest, when the brain has space to make new connections and insights.</p>
 <p>Unfortunately, many people push rest aside, treating it as optional. This mindset leads to burnout, fatigue, and declining mental health. In contrast, cultures and workplaces that respect rest—through practices like midday breaks, flexible schedules, or emphasis on boundaries—see improved outcomes for both individuals and communities.</p>
 <p>Rest also has a deeper dimension: it allows people to reconnect with themselves. In moments of pause, reflection becomes possible. Whether through a quiet walk, reading, meditation, or simply doing nothing, rest creates space for clarity and renewal.</p>

@@ -39,13 +39,13 @@
       <div class="w-full md:col-span-7 md:col-start-5 md:col-end-12">
         <div class="space-y-6">
 <div class="space-y-4">
-  <p class="rasa text-xl md:text-2xl">Not all interactions are equal. Watching a quick clip isn’t the same as completing a workshop, so we adjust our numbers to reflect the depth of engagement.</p>
+  <p class="rasa text-xl md:text-2xl">Not all interactions are equal. Watching a quick clip isn't the same as completing a workshop, so we adjust our numbers to reflect the depth of engagement.</p>
 
   <p class="text-base md:text-lg font-semibold underline">Our Formula</p>
   <p class="text-base md:text-lg">Impact = (Short-form Views × 0.08) + (Long-form Views × 0.4) + (In-Person Participants × 1.0)</p>
 
   <p class="text-base md:text-lg font-semibold underline">Why These Weights?</p>
-  <p class="text-base md:text-lg">0.08 for Short-form Views — Short videos (TikTok, Reels, Shorts) are a great way to spark curiosity, but they’re brief and often passive. We count each as 8% of a full engagement to reflect limited time spent learning.</p>
+  <p class="text-base md:text-lg">0.08 for Short-form Views — Short videos (TikTok, Reels, Shorts) are a great way to spark curiosity, but they're brief and often passive. We count each as 8% of a full engagement to reflect limited time spent learning.</p>
   <p class="text-base md:text-lg">0.4 for Long-form Views — Longer videos (like our Career Compass series) involve sustained attention and skill-building. We count each as 40% of a full engagement because they deliver more meaningful learning.</p>
   <p class="text-base md:text-lg">1.0 for In-Person Participants — Hands-on workshops, STEM kit distributions, and humanitarian projects have the most direct impact. We count each person reached in person as one full meaningful engagement.</p>
 

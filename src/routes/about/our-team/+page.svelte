@@ -32,6 +32,7 @@
   import pfpOmar from "../../../lib/images/Headshots/omar.png";
   import pfpAdam from "../../../lib/images/Headshots/adam.jpg";
   import pfpRatan from "../../../lib/images/Headshots/ratan.jpg";
+  import pfpLakshit from "../../../lib/images/Headshots/lakshit.JPG";
 
   const departments = [
     {
@@ -43,6 +44,7 @@
         { name: "Rishabh Singh", role: "Chief Technology Officer", pfp: pfpRishabh },
         { name: "Ranveer Jadhav", role: "International Affairs Coordinator", pfp: pfpRanveer },
         { name: "Jennyl Patel", role: "Chief Finance Officer", pfp: pfpJennyl },
+        { name: "Lakshit Ahuja", role: "Chief Finance Officer", pfp: pfpLakshit },
       ]
     },
     {

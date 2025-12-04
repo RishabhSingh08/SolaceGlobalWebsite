@@ -195,25 +195,25 @@ function acceptTerms() {
                         <div>
                             <h4 class="text-xl md:text-2xl font-base"><a href="/work/connection-project" class="text-gray-600 hover:underline " on:click={closeAllDropdowns}>The Connection Project</a></h4>
                             <ul class="mt-2 space-y-2">
-                                <li><a href="/work/connection-project/#baqiyatullah" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Clothing for Those in Need – Pakistan</a></li>
-                                <li><a href="/work/connection-project/#israel-aid" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Essential Aid for Those in Need – Israel</a></li>
+                                <li><a href="/work/connection-project/#baqiyatullah" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Clothing for Those in Need - Pakistan</a></li>
+                                <li><a href="/work/connection-project/#israel-aid" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Essential Aid for Those in Need - Israel</a></li>
                                 <li><a href="/work/connection-project/#volleyball-fundraiser" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Volleyball Fundraiser at Plano West High School</a></li>
-                                <li><a href="/work/connection-project/#ethiopia-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Empowering Medresa-Hamza Students – Ethiopia</a></li>
-                                <li><a href="/work/connection-project/#switzerland-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Cultural Heritage – Switzerland</a></li>
-                                <li><a href="/work/connection-project/#syria-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Clothing and Care for Orphans – Syria</a></li>
+                                <li><a href="/work/connection-project/#ethiopia-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Empowering Medresa-Hamza Students - Ethiopia</a></li>
+                                <li><a href="/work/connection-project/#switzerland-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Cultural Heritage - Switzerland</a></li>
+                                <li><a href="/work/connection-project/#syria-donation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Clothing and Care for Orphans - Syria</a></li>
                                 <li><a href="/work/connection-project/#soccer-tourney" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Soccer Fundraiser Tournament</a></li>
-                                <li><a href="/work/connection-project/#cambodia" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Socheata’s Journey to Recovery – Cambodia</a></li>
-                                <li><a href="/work/connection-project/#tanzania" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Helping Felista Walk Toward Her Dreams – Tanzania</a></li>
-                                <li><a href="/work/connection-project/#martin-malawi" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Martin's Recovery – Malawi</a></li>
-                                <li><a href="/work/connection-project/#kaltuma-kenya" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Standing Beside Kaltuma in Her Fight Against Thyroid Disease – Kenya</a></li>
-                                <li><a href="/work/connection-project/#ana-haiti" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Bringing Hope to Ana as She Fights a Heart Condition – Haiti</a></li>
-                                <li><a href="/work/connection-project/#elvis-uganda" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Elvis as He Faces Surgery for a Tumor – Uganda</a></li>
+                                <li><a href="/work/connection-project/#cambodia" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Socheata's Journey to Recovery - Cambodia</a></li>
+                                <li><a href="/work/connection-project/#tanzania" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Helping Felista Walk Toward Her Dreams - Tanzania</a></li>
+                                <li><a href="/work/connection-project/#martin-malawi" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Martin's Recovery - Malawi</a></li>
+                                <li><a href="/work/connection-project/#kaltuma-kenya" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Standing Beside Kaltuma in Her Fight Against Thyroid Disease - Kenya</a></li>
+                                <li><a href="/work/connection-project/#ana-haiti" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Bringing Hope to Ana as She Fights a Heart Condition - Haiti</a></li>
+                                <li><a href="/work/connection-project/#elvis-uganda" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Elvis as He Faces Surgery for a Tumor - Uganda</a></li>
                                 <li><a href="/work/connection-project/#little-elm-volleyball" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Beach Volleyball Tournament at Little Elm Beach 2025</a></li>
                                 <li><a href="/work/connection-project/#north-texas-hike-club" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Community Cleanup with North Texas Hike Club</a></li>
-                                <li><a href="/work/connection-project/#simon-bolivia" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Paying for Simon’s Heart Surgery- Bolivia</a></li>
+                                <li><a href="/work/connection-project/#simon-bolivia" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Paying for Simon's Heart Surgery- Bolivia</a></li>
                                 <li><a href="/work/connection-project/#aung-myanmar" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Helping Aung Breathe Again- Myanmar</a></li>
                                 <li><a href="/work/connection-project/#concepcion-philipines" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Concepcion's Gallbladder Surgery - Philippines</a></li>
-                                <li><a href="/work/connection-project/#yeilin-colombia" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Yeilin's Hernia Surgery – Colombia</a></li>
+                                <li><a href="/work/connection-project/#yeilin-colombia" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Yeilin's Hernia Surgery - Colombia</a></li>
 
                             </ul>
                         </div>

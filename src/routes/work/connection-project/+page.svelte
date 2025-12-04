@@ -251,7 +251,7 @@
                 <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
                     <div class="space-y-4 lg:col-span-4">
                         <p class="text-2xl md:text-3xl rasa">
-                            Clothing for Those in Need – Pakistan
+                            Clothing for Those in Need - Pakistan
                         </p>
                         <div class="space-y-3 text-sm md:text-base">
                             <p>
@@ -296,7 +296,7 @@
                 <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
                     <div class="space-y-4 lg:col-span-4">
                         <p class="text-2xl md:text-3xl rasa">
-                            Essential Aid for Those in Need – Israel
+                            Essential Aid for Those in Need - Israel
                         </p>
                         <div class="space-y-3 text-sm md:text-base">
                             <p>
@@ -364,10 +364,10 @@
     <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
         <div class="space-y-4 lg:col-span-4">
             <p class="text-2xl md:text-3xl rasa">
-                Empowering Students at Medresa-Hamza School – Ethiopia
+                Empowering Students at Medresa-Hamza School - Ethiopia
             </p>
             <div class="space-y-3 text-sm md:text-base">
-                <p>Solace Global recently extended its outreach to Ethiopia by donating clothing worth Br 7,000 to ten students at the Medresa-Hamza School, located in a rural region serving youth from some of the country’s most economically challenged families. The students, aged 16 to 18, not only study at the school but also live there, as their families are unable to afford basic educational or living expenses. Medresa-Hamza provides them with shelter, meals, and a safe environment to grow both academically and personally.</p>
+                <p>Solace Global recently extended its outreach to Ethiopia by donating clothing worth Br 7,000 to ten students at the Medresa-Hamza School, located in a rural region serving youth from some of the country's most economically challenged families. The students, aged 16 to 18, not only study at the school but also live there, as their families are unable to afford basic educational or living expenses. Medresa-Hamza provides them with shelter, meals, and a safe environment to grow both academically and personally.</p>
                 <p>This initiative was born from a desire to uplift students who often go unnoticed and unsupported. For these young individuals, the simple gift of clothing was more than just fabric—it was a symbol of dignity, hope, and recognition. Each garment was carefully selected to meet their needs and bring comfort to their daily lives, reinforcing the belief that no student should be held back due to a lack of basic resources.</p>
                 <p>During the distribution, members of our local team emphasized encouragement and connection, taking the time to understand each student's background and aspirations. The gratitude expressed by the students was deeply moving, reminding us that meaningful impact often comes from simple, sincere acts of kindness. Many of the students shared their dreams of becoming doctors, teachers, and engineers—ambitions that remain alive despite their circumstances.</p>
                 <p>Solace Global remains committed to creating lasting, human-centered change. By partnering with community-based institutions like Medresa-Hamza School, we aim to build a future where every child—regardless of income or geography—has the tools, support, and belief they need to thrive.</p>
@@ -393,13 +393,13 @@
     <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
         <div class="space-y-4 lg:col-span-4">
             <p class="text-2xl md:text-3xl rasa">
-                Supporting Cultural Heritage – Switzerland
+                Supporting Cultural Heritage - Switzerland
             </p>
             <div class="space-y-3 text-sm md:text-base">
-                <p>In a continued effort to foster global connection and support community-rooted initiatives, Solace Global made a symbolic donation to the Bern Cathedral (Berner Münster)—Switzerland’s largest and most iconic late-Gothic church.                </p>
+                <p>In a continued effort to foster global connection and support community-rooted initiatives, Solace Global made a symbolic donation to the Bern Cathedral (Berner Münster)—Switzerland's largest and most iconic late-Gothic church.                </p>
                 <p>More than just a historic structure, the Bern Cathedral represents centuries of human craftsmanship, cultural continuity, and spiritual connection. Our donation covered the full cost of a guided visit, granting us the opportunity to explore this architectural masterpiece and support its preservation.                </p>
                 <p>By engaging with local heritage in Bern, we aimed to show appreciation for the values of resilience, legacy, and unity that places like the Münster uphold. From its stunning 100-meter tower to the Last Judgment portal that survived the Reformation, every corner of the cathedral tells a story of connection across generations.                </p>
-                <p>This small act reflects our belief that connection isn’t just about people—it’s also about honoring the spaces and histories that bring us together. Supporting local efforts like this reaffirms Solace Global’s commitment to bridging worlds through compassion, education, and shared experiences.</p>
+                <p>This small act reflects our belief that connection isn't just about people—it's also about honoring the spaces and histories that bring us together. Supporting local efforts like this reaffirms Solace Global's commitment to bridging worlds through compassion, education, and shared experiences.</p>
             </div>
         </div>
 
@@ -423,7 +423,7 @@
     <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
         <div class="space-y-4 lg:col-span-4">
             <p class="text-2xl md:text-3xl rasa">
-                Clothing and Care for Orphans – Syria
+                Clothing and Care for Orphans - Syria
             </p>
             <div class="space-y-3 text-sm md:text-base">
                 <p>Solace Global extended its mission of hope by organizing a meaningful giving initiative for orphaned children in Damascus, Syria. Through this effort, 14 shirts were donated to children spread throughout the city, each gift paired with two pieces of candy and a bag of chips to bring a small moment of joy and comfort to their day. </p>
@@ -457,9 +457,9 @@
             </p>
             <div class="space-y-3 text-sm md:text-base">
 <p>On July 9, we hosted an energetic and community-driven Soccer Fundraiser Tournament at Anderson Bonner Park, bringing together 50 passionate players and volunteers for a fun and meaningful afternoon. With three teams competing in a round-robin format, the event was filled with teamwork, friendly rivalry, and lots of excitement on the field.</p>              
-<p>Thanks to everyone’s support, we successfully raised over $400, with $300 awarded to the winning team as a well-earned prize for their performance and sportsmanship.</p>
-<p>This tournament was more than just a game—it was a celebration of community, purpose, and the shared belief that small actions can create big change. The funds raised will help fuel Solace Global’s ongoing efforts to make STEM education accessible around the world.</p>
-<p>We are deeply grateful to all who played, volunteered, and cheered. Together, we’re proving that even a few hours on the field can move the needle toward a better future—one goal at a time.</p>
+<p>Thanks to everyone's support, we successfully raised over $400, with $300 awarded to the winning team as a well-earned prize for their performance and sportsmanship.</p>
+<p>This tournament was more than just a game—it was a celebration of community, purpose, and the shared belief that small actions can create big change. The funds raised will help fuel Solace Global's ongoing efforts to make STEM education accessible around the world.</p>
+<p>We are deeply grateful to all who played, volunteered, and cheered. Together, we're proving that even a few hours on the field can move the needle toward a better future—one goal at a time.</p>
 </div>
         </div>
 
@@ -484,16 +484,16 @@
     <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
         <div class="space-y-4 lg:col-span-4">
             <p class="text-2xl md:text-3xl rasa">
-Supporting Socheata’s Journey to Recovery – Cambodia
+Supporting Socheata's Journey to Recovery - Cambodia
             </p>
             <div class="space-y-3 text-sm md:text-base">
 <p>Solace Global contributed toward the life-changing surgery of Socheata, a six-year-old girl from Cambodia who suffered severe burn injuries to both hands at the age of one. The injuries resulted in multiple contractures—tightened skin and tissue that severely limited her ability to move her fingers, write, eat, or perform basic daily tasks.
 </p>
 <p>Socheata lives in Takeo province with her grandmother while her parents work several hours away in Sihanoukville. Despite these challenges, she attends first grade and finds joy in math, art, and playing jump rope with her friends.
 </p>
-<p>Recognizing her urgent need, Solace Global partnered with the Children’s Surgical Centre (CSC) in Cambodia to help fund her burn contracture release surgery, a procedure designed to restore movement in her hands and improve her quality of life. The surgery, was partially funded by Solace Global, joining hands with other donors to bring Socheata closer to healing. Solace Global joined hands with other donors to help fund Socheata’s surgery.
+<p>Recognizing her urgent need, Solace Global partnered with the Children's Surgical Centre (CSC) in Cambodia to help fund her burn contracture release surgery, a procedure designed to restore movement in her hands and improve her quality of life. The surgery, was partially funded by Solace Global, joining hands with other donors to bring Socheata closer to healing. Solace Global joined hands with other donors to help fund Socheata's surgery.
 </p>
-<p>This initiative reflects Solace Global’s commitment to creating meaningful, human-centered change. By helping fund Socheata’s treatment, we aim not only to support a medical procedure but to invest in a child’s potential—allowing her to return to school, regain her independence, and pursue her dreams.
+<p>This initiative reflects Solace Global's commitment to creating meaningful, human-centered change. By helping fund Socheata's treatment, we aim not only to support a medical procedure but to invest in a child's potential—allowing her to return to school, regain her independence, and pursue her dreams.
 </p>
 <p>“I hope my hands will be better so I can draw and do things at school more easily.” — Socheata </p>
 </div>
@@ -521,23 +521,23 @@ Supporting Socheata’s Journey to Recovery – Cambodia
     <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
         <div class="space-y-4 lg:col-span-4">
             <p class="text-2xl md:text-3xl rasa">
-Helping Felista Walk Toward Her Dreams – Tanzania
+Helping Felista Walk Toward Her Dreams - Tanzania
             </p>
             <div class="space-y-3 text-sm md:text-base">
 <p>
 Solace Global contributed to the surgery of Felista, a vibrant five-year-old girl from Tanzania living with a condition called bilateral genu valgus, where her knees turn inward, making walking and playing increasingly painful. Despite these challenges, Felista remains full of joy, dreaming of one day becoming a teacher and standing confidently in front of a classroom.
 </p>
 <p>
-Raised by her single mother, who also has the same condition and recognized the early signs in her daughter, Felista’s journey has not been easy. Her mother works tirelessly through casual labor to provide for them, but the cost of corrective surgery was far beyond reach. Understanding the urgency and long-term impact of this condition, Solace Global made a heartfelt donation to help support her treatment.
+Raised by her single mother, who also has the same condition and recognized the early signs in her daughter, Felista's journey has not been easy. Her mother works tirelessly through casual labor to provide for them, but the cost of corrective surgery was far beyond reach. Understanding the urgency and long-term impact of this condition, Solace Global made a heartfelt donation to help support her treatment.
 </p>
 <p>
-Felista’s procedure—bilateral distal femoral osteotomy—is designed to realign her knees, reduce discomfort, and improve her ability to walk and play. The surgery is being facilitated by African Mission Healthcare at Kafika House, with a total cost of $777 USD. While additional funds are still being raised, contributions like Solace Global’s help bring Felista one step closer to living a pain-free life.
+Felista's procedure—bilateral distal femoral osteotomy—is designed to realign her knees, reduce discomfort, and improve her ability to walk and play. The surgery is being facilitated by African Mission Healthcare at Kafika House, with a total cost of $777 USD. While additional funds are still being raised, contributions like Solace Global's help bring Felista one step closer to living a pain-free life.
 </p>
 <p>
-This initiative reflects Solace Global’s commitment to empowering youth across borders through compassion-driven action. By supporting Felista’s surgery, we hope to ensure her dreams of education, independence, and confidence can be pursued without limitation.
+This initiative reflects Solace Global's commitment to empowering youth across borders through compassion-driven action. By supporting Felista's surgery, we hope to ensure her dreams of education, independence, and confidence can be pursued without limitation.
 </p>
 <p>
-“I don’t wish for my daughter to go through what I have experienced living with the same condition. I wish for her to have a better life.” — Felista’s mother
+“I don't wish for my daughter to go through what I have experienced living with the same condition. I wish for her to have a better life.” — Felista's mother
 </p>
 </div>
         </div>
@@ -562,7 +562,7 @@ This initiative reflects Solace Global’s commitment to empowering youth across
     <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
         <div class="space-y-4 lg:col-span-4">
             <p class="text-2xl md:text-3xl rasa">
-Supporting Martin's Recovery – Malawi
+Supporting Martin's Recovery - Malawi
             </p>
             <div class="space-y-3 text-sm md:text-base">
 <p>
@@ -599,7 +599,7 @@ This initiative reflects Solace Global's belief that every child deserves the op
     <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
         <div class="space-y-4 lg:col-span-4">
             <p class="text-2xl md:text-3xl rasa">
-Standing Beside Kaltuma in Her Fight Against Thyroid Disease – Kenya
+Standing Beside Kaltuma in Her Fight Against Thyroid Disease - Kenya
             </p>
             <div class="space-y-3 text-sm md:text-base">
 <p>
@@ -626,7 +626,7 @@ Through this gift, Solace Global reaffirms its commitment to uplifting lives, en
                     <img src={kenya} alt="Ethiopia Donation 1" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([kenya, kenya1], 0)}>
                     <img src={kenya1} alt="Ethiopia Donation 2" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([kenya, kenya1], 1)}>
                 </div>
-                <p class="text-gray-700 text-center">Kaltuma stands strong after receiving treatment for her thyroid condition, grateful for the chance to focus on her family’s future</p>
+                <p class="text-gray-700 text-center">Kaltuma stands strong after receiving treatment for her thyroid condition, grateful for the chance to focus on her family's future</p>
             </div>
         </div>
 
@@ -642,7 +642,7 @@ Through this gift, Solace Global reaffirms its commitment to uplifting lives, en
     <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
         <div class="space-y-4 lg:col-span-4">
             <p class="text-2xl md:text-3xl rasa">
-Bringing Hope to Ana as She Fights a Heart Condition – Haiti
+Bringing Hope to Ana as She Fights a Heart Condition - Haiti
             </p>
             <div class="space-y-3 text-sm md:text-base">
 <p>
@@ -685,7 +685,7 @@ Through this act of kindness, Solace Global helps carry Ana's burden, turning fe
     <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
         <div class="space-y-4 lg:col-span-4">
             <p class="text-2xl md:text-3xl rasa">
-Supporting Elvis as He Faces Surgery for a Tumor – Uganda
+Supporting Elvis as He Faces Surgery for a Tumor - Uganda
             </p>
             <div class="space-y-3 text-sm md:text-base">
 <p>
@@ -741,7 +741,7 @@ With this contribution, Solace Global is helping Elvis move closer to the care t
                     Beyond the competition, the event served as a celebration of unity and collective effort—proving that fun, collaboration, and generosity can go hand in hand. Attendees enjoyed not only the games, but also the opportunity to meet new people, strengthen community bonds, and share in a day filled with energy and laughter.
                 </p>
                 <p>
-                    Most importantly, the funds raised from the tournament will directly support our upcoming outreach initiative with an orphanage in Pune, India, helping to extend the day’s spirit of connection and care across borders. Events like this remind us that when people come together—whether through sport, service, or shared experiences—we create opportunities to uplift others and build a stronger, more connected world.
+                    Most importantly, the funds raised from the tournament will directly support our upcoming outreach initiative with an orphanage in Pune, India, helping to extend the day's spirit of connection and care across borders. Events like this remind us that when people come together—whether through sport, service, or shared experiences—we create opportunities to uplift others and build a stronger, more connected world.
                 </p>
             </div>
         </div>
@@ -774,7 +774,7 @@ Community Cleanup with North Texas Hike Club            </p>
 In collaboration with the North Texas Hike Club, Solace Global organized a meaningful local initiative focused on caring for our shared environment. Together, we hosted clean-up efforts at White Rock Lake and Willow Bend Park, bringing volunteers together to remove litter, restore natural beauty, and protect community green spaces.
 </p>
 <p>
-This partnership marks the beginning of an ongoing commitment to regular local clean-ups, reinforcing the idea that connection isn’t just between people—it’s also with the places we live and enjoy. By uniting outdoor enthusiasts and community members, we not only improved the environment but also built stronger bonds rooted in service, stewardship, and shared purpose.
+This partnership marks the beginning of an ongoing commitment to regular local clean-ups, reinforcing the idea that connection isn't just between people—it's also with the places we live and enjoy. By uniting outdoor enthusiasts and community members, we not only improved the environment but also built stronger bonds rooted in service, stewardship, and shared purpose.
 </p>
 </div>
         </div>
@@ -800,7 +800,7 @@ This partnership marks the beginning of an ongoing commitment to regular local c
     
     <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
         <div class="space-y-4 lg:col-span-4">
-            <p class="text-2xl md:text-3xl rasa"> Paying for Simon’s Heart Surgery - Bolivia</p>
+            <p class="text-2xl md:text-3xl rasa"> Paying for Simon's Heart Surgery - Bolivia</p>
             <div class="space-y-3 text-sm md:text-base">
                 <p>
                 Simon is a six-year-old boy from Bolivia who lives with his aunt and five older siblings, after losing his mother at birth. Doctors diagnosed him with a ventricular septal defect (VSD)—a hole between the lower chambers of his heart—that leaves him weak and short of breath.
@@ -809,7 +809,7 @@ This partnership marks the beginning of an ongoing commitment to regular local c
                 On April 16, 2025, Simon is scheduled for open-heart surgery at Hospital del Niño Dr. Ovidio Aliaga Uría. Surgeons will place a patch to close the hole so oxygen-rich blood can circulate properly. The total cost of his care is $1,500, covering diagnostics, surgery, follow-up, and medications through our partner, International Cardiac Alliance.
                 </p>
                 <p>
-                To support Simon’s recovery, Solace Global donated funds to help cover part of the cost of his surgery. This contribution brings Simon closer to the treatment he urgently needs and gives him the chance to grow up healthy and strong.
+                To support Simon's recovery, Solace Global donated funds to help cover part of the cost of his surgery. This contribution brings Simon closer to the treatment he urgently needs and gives him the chance to grow up healthy and strong.
                 </p>
             </div>
         </div>
@@ -835,7 +835,7 @@ This partnership marks the beginning of an ongoing commitment to regular local c
             <p class="text-2xl md:text-3xl rasa"> Helping Aung Breathe Again- Myanmar</p>
             <div class="space-y-3 text-sm md:text-base">
                 <p>
-                Aung is a 13-year-old boy from Myawaddy, Karen State, who lives with his mother and two older siblings. His mother works as a laundry worker, but the family’s income is barely enough to cover food and daily expenses, leaving little for medical care.
+                Aung is a 13-year-old boy from Myawaddy, Karen State, who lives with his mother and two older siblings. His mother works as a laundry worker, but the family's income is barely enough to cover food and daily expenses, leaving little for medical care.
                 </p>
                 <p>
                 In April 2025, Aung began experiencing severe breathing difficulties caused by a blockage in his left nostril. After an initial clinic visit and unsuccessful treatment for sinusitis, doctors discovered a nasal polyp and referred him to Mae Sot General Hospital, where surgery was recommended to remove the obstruction and restore his breathing.
@@ -858,10 +858,10 @@ This partnership marks the beginning of an ongoing commitment to regular local c
         
         <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
             <div class="space-y-4 lg:col-span-4">
-                <p class="text-2xl md:text-3xl rasa"> Supporting Concepcion’s Gallbladder Surgery - Philippines</p>
+                <p class="text-2xl md:text-3xl rasa"> Supporting Concepcion's Gallbladder Surgery - Philippines</p>
                 <div class="space-y-3 text-sm md:text-base">
                     <p>
-                        Concepcion is a 52-year-old public school teacher and single mother in the Philippines. For 17 years she has supported two school-age children while caring for three elderly siblings at home—one is bedridden, another has had a leg amputated, and the eldest brother serves as their daily caregiver. With no pensions or outside assistance, Concepcion’s steady income has kept the entire household going.
+                        Concepcion is a 52-year-old public school teacher and single mother in the Philippines. For 17 years she has supported two school-age children while caring for three elderly siblings at home—one is bedridden, another has had a leg amputated, and the eldest brother serves as their daily caregiver. With no pensions or outside assistance, Concepcion's steady income has kept the entire household going.
                     </p>
                     <p>
                         Four months ago, she began experiencing severe abdominal pain radiating to her back, persistent vomiting, and difficulty eating. What started as abdominal swelling quickly led to dramatic weight loss—from 77 kg to 54 kg. Despite the pain, she continued teaching, worried about who would look after her family if she became too sick to work. Doctors diagnosed gallstones and recommended a cholecystectomy to relieve her symptoms and prevent complications.
@@ -886,7 +886,7 @@ This partnership marks the beginning of an ongoing commitment to regular local c
     <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
         <div class="space-y-4 lg:col-span-4">
             <p class="text-2xl md:text-3xl rasa">
-                Supporting Yeilin's Hernia Surgery – Colombia
+                Supporting Yeilin's Hernia Surgery - Colombia
             </p>
             <div class="space-y-3 text-sm md:text-base">
                 <p>
