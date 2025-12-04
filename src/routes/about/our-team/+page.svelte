@@ -44,7 +44,7 @@
         { name: "Rishabh Singh", role: "Chief Technology Officer", pfp: pfpRishabh },
         { name: "Ranveer Jadhav", role: "International Affairs Coordinator", pfp: pfpRanveer },
         { name: "Jennyl Patel", role: "Chief Finance Officer", pfp: pfpJennyl },
-        { name: "Lakshit Ahuja", role: "Chief Finance Officer", pfp: pfpLakshit },
+        { name: "Lakshit Ahuja", role: "Chief Expansion Officer", pfp: pfpLakshit },
       ]
     },
     {
