@@ -1,13 +1,13 @@
 <script>
-  import Video from "../lib/images/ActualActualFinalVideo.mp4";
+  import Video from "$Images/ActualActualFinalVideo.mp4";
 
   // Simplified sponsors array - removed unused imports
-  import Sponsor01 from "../lib/images/Sponsors/Hack_Club_Flag_Standalone.png";
-  import Sponsor05 from "../lib/images/Sponsors/shanti.png";
-  import Sponsor06 from "../lib/images/Sponsors/undefined.png";
-  import Sponsor07 from "../lib/images/Sponsors/amazon.png";
-  import Sponsor08 from "../lib/images/Sponsors/3.png";
-  import Sponsor09 from "../lib/images/Sponsors/google.png";
+  import Sponsor01 from "$Sponsors/Hack_Club_Flag_Standalone.png";
+  import Sponsor05 from "$Sponsors/shanti.png";
+  import Sponsor06 from "$Sponsors/undefined.png";
+  import Sponsor07 from "$Sponsors/amazon.png";
+  import Sponsor08 from "$Sponsors/3.png";
+  import Sponsor09 from "$Sponsors/google.png";
 
   const sponsors = [
       { image: Sponsor07, alt: "Amazon" },

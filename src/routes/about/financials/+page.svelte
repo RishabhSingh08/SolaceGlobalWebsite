@@ -1,7 +1,7 @@
 <script>
-    import IRSLetter from "../../../lib/images/PDFs/IRS Letter.pdf";
-    import Certificate from "../../../lib/images/PDFs/Certificate of Status.pdf";
-    import Fiscal from "../../../lib/images/PDFs/fiscal_sponsorship_letter (1).pdf";
+    import IRSLetter from "$Images/PDFs/IRS Letter.pdf";
+    import Certificate from "$Images/PDFs/Certificate of Status.pdf";
+    import Fiscal from "$Images/PDFs/fiscal_sponsorship_letter (1).pdf";
 </script>
 
 <svelte:head>

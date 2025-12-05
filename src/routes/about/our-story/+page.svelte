@@ -1,5 +1,5 @@
 <script>
-    import OurStoryPic from "../../../lib/images/article1.png";
+    import OurStoryPic from "$Images/article1.png";
 </script>
 
 <svelte:head>

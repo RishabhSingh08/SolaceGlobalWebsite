@@ -10,7 +10,11 @@ const config = {
     adapter: adapter(),
 
     alias: {
-      $houdini: ".houdini/"
+      $connectionImages: "src/lib/images/MediaImages",
+      $discoveryImages: "src/lib/images/DiscoveryImages",
+      $Sponsors: "src/lib/images/Sponsors",
+      $Headshots: "src/lib/images/Headshots",
+      $Images: "src/lib/images",
     }
   },
   preprocess: vitePreprocess(),

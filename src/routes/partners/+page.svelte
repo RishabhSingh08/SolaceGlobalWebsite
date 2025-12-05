@@ -1,17 +1,17 @@
 <script>
-    import Sponsor01 from "../../lib/images/Sponsors/Hack_Club_Flag_Standalone.png";
-    import Sponsor02 from "../../lib/images/Sponsors/Pinkberry_logo.png";
-    import Sponsor03 from "../../lib/images/Sponsors/projectworld2.jpeg";
-    import Sponsor05 from "../../lib/images/Sponsors/shanti.png";
-    import Sponsor06 from "../../lib/images/Sponsors/undefined.png";
-    import Sponsor07 from "../../lib/images/Sponsors/amazon.png";
-    import Sponsor08 from "../../lib/images/Sponsors/nlss2.png";
-    import Sponsor09 from "../../lib/images/Sponsors/code2.png";
-    import Sponsor10 from "../../lib/images/Sponsors/google2.png";
+    import Sponsor01 from "$Sponsors/Hack_Club_Flag_Standalone.png";
+    import Sponsor02 from "$Sponsors/Pinkberry_logo.png";
+    import Sponsor03 from "$Sponsors/projectworld2.jpeg";
+    import Sponsor05 from "$Sponsors/shanti.png";
+    import Sponsor06 from "$Sponsors/undefined.png";
+    import Sponsor07 from "$Sponsors/amazon.png";
+    import Sponsor08 from "$Sponsors/nlss2.png";
+    import Sponsor09 from "$Sponsors/code2.png";
+    import Sponsor10 from "$Sponsors/google2.png";
 
-    import Sponsor11 from "../../lib/images/Sponsors/1.png";
-    import Sponsor12 from "../../lib/images/Sponsors/2.png";
-    import Sponsor13 from "../../lib/images/Sponsors/3.png";
+    import Sponsor11 from "$Sponsors/1.png";
+    import Sponsor12 from "$Sponsors/2.png";
+    import Sponsor13 from "$Sponsors/3.png";
 
 
 

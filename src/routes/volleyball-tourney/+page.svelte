@@ -2,7 +2,7 @@
   import { writable, derived } from 'svelte/store';
 
   // Optional: If you have a specific logo for the tournament
-  import logoUrl from "../../lib/images/SolaceGlobalLogo.png"; // Adjust path if needed
+  import logoUrl from "$Images/SolaceGlobalLogo.png"; // Adjust path if needed
 
   // --- Configuration ---
   const BASE_PRICE = 42;          // Base price for a TEAM

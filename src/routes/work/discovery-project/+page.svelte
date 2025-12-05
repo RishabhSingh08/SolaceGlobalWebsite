@@ -1,50 +1,50 @@
 <script>
-  import image01 from "../../../lib/images/MediaImages/IMG_6224.jpg";
-  import image02 from "../../../lib/images/MediaImages/kids.jpg";
-  import image03 from "../../../lib/images/Volunteer.jpg";
+  import image01 from "$connectionImages/IMG_6224.jpg";
+  import image02 from "$connectionImages/kids.jpg";
+  import image03 from "$Images/Volunteer.jpg";
   
-  import image04 from "../../../lib/images/MediaImages/IMG_6596.jpg";
-  import image05 from "../../../lib/images/MediaImages/IMG_6589.jpg";
+  import image04 from "$connectionImages/IMG_6596.jpg";
+  import image05 from "$connectionImages/IMG_6589.jpg";
 
-  import discoveryImage1 from "../../../lib/images/discoveryImages/1.jpg";
-  import discoveryImage2 from "../../../lib/images/discoveryImages/2.jpg";
-  import discoveryImage3 from "../../../lib/images/discoveryImages/3.jpg";
-  import discoveryImage4 from "../../../lib/images/discoveryImages/4.jpg";
-  import discoveryImage5 from "../../../lib/images/discoveryImages/5.jpg";
-  import discoveryImage6 from "../../../lib/images/discoveryImages/6.jpg";
-  import discoveryImage7 from "../../../lib/images/discoveryImages/7.jpg";
-  import discoveryImage9 from "../../../lib/images/discoveryImages/9.jpg";
-  import discoveryImage10 from "../../../lib/images/discoveryImages/10.jpg";
-  import discoveryImage11 from "../../../lib/images/discoveryImages/11.jpg";
-  import discoveryImage12 from "../../../lib/images/discoveryImages/12.jpg";
+  import discoveryImage1 from "$discoveryImages/1.jpg";
+  import discoveryImage2 from "$discoveryImages/2.jpg";
+  import discoveryImage3 from "$discoveryImages/3.jpg";
+  import discoveryImage4 from "$discoveryImages/4.jpg";
+  import discoveryImage5 from "$discoveryImages/5.jpg";
+  import discoveryImage6 from "$discoveryImages/6.jpg";
+  import discoveryImage7 from "$discoveryImages/7.jpg";
+  import discoveryImage9 from "$discoveryImages/9.jpg";
+  import discoveryImage10 from "$discoveryImages/10.jpg";
+  import discoveryImage11 from "$discoveryImages/11.jpg";
+  import discoveryImage12 from "$discoveryImages/12.jpg";
 
-    import image06 from "../../../lib/images/MediaImages/robotpic.jpg";
-    import image07 from "../../../lib/images/MediaImages/techbuildersImage.png";
-    import video01 from "../../../lib/images/MediaImages/solaceVideo.mp4";
-    import poster01 from "../../../lib/images/MediaImages/poster01.png";
-    import robotCon from "../../../lib/images/MediaImages/robotconnection.jpg";
-    import german from "../../../lib/images/MediaImages/image0.jpg";
+    import image06 from "$connectionImages/robotpic.jpg";
+    import image07 from "$connectionImages/techbuildersImage.png";
+    import video01 from "$connectionImages/solaceVideo.mp4";
+    import poster01 from "$connectionImages/poster01.png";
+    import robotCon from "$connectionImages/robotconnection.jpg";
+    import german from "$connectionImages/image0.jpg";
 
-    import china1 from "../../../lib/images/MediaImages/china1.png";
-    import china2 from "../../../lib/images/MediaImages/china2.png";
-    import china3 from "../../../lib/images/MediaImages/china3.png";
+    import china1 from "$connectionImages/china1.png";
+    import china2 from "$connectionImages/china2.png";
+    import china3 from "$connectionImages/china3.png";
 
-    import und1 from "../../../lib/images/MediaImages/und1.jpg";
-    import und2 from "../../../lib/images/MediaImages/und2.jpg";
-    import und3 from "../../../lib/images/MediaImages/und3.jpg";
-    import und4 from "../../../lib/images/MediaImages/und4.jpg";
+    import und1 from "$connectionImages/und1.jpg";
+    import und2 from "$connectionImages/und2.jpg";
+    import und3 from "$connectionImages/und3.jpg";
+    import und4 from "$connectionImages/und4.jpg";
 
-    import pune1 from "../../../lib/images/MediaImages/pune1.jpg";
-    import pune2 from "../../../lib/images/MediaImages/pune2.jpg";
-    import pune3 from "../../../lib/images/MediaImages/pune3.jpg";
-    import pune4 from "../../../lib/images/MediaImages/pune4.png";
+    import pune1 from "$connectionImages/pune1.jpg";
+    import pune2 from "$connectionImages/pune2.jpg";
+    import pune3 from "$connectionImages/pune3.jpg";
+    import pune4 from "$connectionImages/pune4.png";
 
-    import bazaar1 from "../../../lib/images/discoveryImages/13.png";
-    import bazaar2 from "../../../lib/images/discoveryImages/14.png";
-    import bazaar3 from "../../../lib/images/discoveryImages/15.png";
-    import bazaar4 from "../../../lib/images/discoveryImages/16.png";
+    import bazaar1 from "$discoveryImages/13.png";
+    import bazaar2 from "$discoveryImages/14.png";
+    import bazaar3 from "$discoveryImages/15.png";
+    import bazaar4 from "$discoveryImages/16.png";
 
-  import header from "../../../lib/images/discoveryImages/Header.jpg";
+  import header from "$discoveryImages/Header.jpg";
 
   import { onMount } from "svelte";
   let currentIndex = 0;

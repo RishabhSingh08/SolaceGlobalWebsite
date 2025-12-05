@@ -1,67 +1,67 @@
 <script>
-    import poster01 from "../../../lib/images/MediaImages/poster01.png";
-    import baqia from "../../../lib/images/MediaImages/baqia.png";
-    import Video from "../../../lib/images/MediaImages/baqtiVideo.mp4";
+    import poster01 from "$connectionImages/poster01.png";
+    import baqia from "$connectionImages/baqia.png";
+    import Video from "$connectionImages/baqtiVideo.mp4";
 
-    import israel from "../../../lib/images/MediaImages/israel.jpg";
-    import israel2 from "../../../lib/images/MediaImages/israel2.jpg";
-    import israel3 from "../../../lib/images/MediaImages/israel3.jpg";
-    import israel4 from "../../../lib/images/MediaImages/israel4.jpg";
+    import israel from "$connectionImages/israel.jpg";
+    import israel2 from "$connectionImages/israel2.jpg";
+    import israel3 from "$connectionImages/israel3.jpg";
+    import israel4 from "$connectionImages/israel4.jpg";
 
-    import v1 from "../../../lib/images/MediaImages/volley1.png";
-    import v2 from "../../../lib/images/MediaImages/volley2.png";
-    import v3 from "../../../lib/images/MediaImages/volley3.png";
-    import e1 from "../../../lib/images/MediaImages/e1.jpeg";
-    import e2 from "../../../lib/images/MediaImages/e2.jpeg";
+    import v1 from "$connectionImages/volley1.png";
+    import v2 from "$connectionImages/volley2.png";
+    import v3 from "$connectionImages/volley3.png";
+    import e1 from "$connectionImages/e1.jpeg";
+    import e2 from "$connectionImages/e2.jpeg";
 
-    import s1 from "../../../lib/images/MediaImages/s1.jpeg";
-    import s2 from "../../../lib/images/MediaImages/s2.jpeg";
-    import s3 from "../../../lib/images/MediaImages/s3.jpeg";
+    import s1 from "$connectionImages/s1.jpeg";
+    import s2 from "$connectionImages/s2.jpeg";
+    import s3 from "$connectionImages/s3.jpeg";
 
-    import syria1 from "../../../lib/images/MediaImages/syria1.png";
-    import syria2 from "../../../lib/images/MediaImages/syria2.png";
-    import syria3 from "../../../lib/images/MediaImages/syria3.png";
+    import syria1 from "$connectionImages/syria1.png";
+    import syria2 from "$connectionImages/syria2.png";
+    import syria3 from "$connectionImages/syria3.png";
 
-    import soccer1 from "../../../lib/images/MediaImages/soccer1.png"
-    import soccer2 from "../../../lib/images/MediaImages/soccer2.png"
-    import soccer3 from "../../../lib/images/MediaImages/soccer3.png"
-    import soccer4 from "../../../lib/images/MediaImages/soccer4.png"
+    import soccer1 from "$connectionImages/soccer1.png"
+    import soccer2 from "$connectionImages/soccer2.png"
+    import soccer3 from "$connectionImages/soccer3.png"
+    import soccer4 from "$connectionImages/soccer4.png"
 
-    import cambodia from "../../../lib/images/MediaImages/cambodia.png";
-    import cambodia1 from "../../../lib/images/MediaImages/cambodia1.png";
+    import cambodia from "$connectionImages/cambodia.png";
+    import cambodia1 from "$connectionImages/cambodia1.png";
 
-    import colombia from "../../../lib/images/MediaImages/colombia.png";
-    import philipines from "$lib/images/MediaImages/philippines.png";
+    import colombia from "$connectionImages/colombia.png";
+    import philipines from "$connectionImages/philippines.png";
 
-    import tanzania from "$lib/images/MediaImages/tanzania.png"
-    import tanzania2 from "$lib/images/MediaImages/tanzania2.png"
-    import malawi from "$lib/images/MediaImages/malawi.png"
+    import tanzania from "$connectionImages/tanzania.png"
+    import tanzania2 from "$connectionImages/tanzania2.png"
+    import malawi from "$connectionImages/malawi.png"
 
-    import kenya from "$lib/images/MediaImages/kenya.png"
-    import kenya1 from "$lib/images/MediaImages/kenya1.png"
+    import kenya from "$connectionImages/kenya.png"
+    import kenya1 from "$connectionImages/kenya1.png"
 
-    import haiti from "$lib/images/MediaImages/haiti.png"
-    import haiti2 from "$lib/images/MediaImages/haiti2.png"
+    import haiti from "$connectionImages/haiti.png"
+    import haiti2 from "$connectionImages/haiti2.png"
     
-    import uganda from "$lib/images/MediaImages/uganda.png"
-    import uganda1 from "$lib/images/MediaImages/uganda1.png"
+    import uganda from "$connectionImages/uganda.png"
+    import uganda1 from "$connectionImages/uganda1.png"
 
-    import bv1 from "$lib/images/MediaImages/bv1.png"
-    import bv2 from "$lib/images/MediaImages/bv2.png"
-    import bv3 from "$lib/images/MediaImages/bv3.png"
-    import bv4 from "$lib/images/MediaImages/bv4.png"
+    import bv1 from "$connectionImages/bv1.png"
+    import bv2 from "$connectionImages/bv2.png"
+    import bv3 from "$connectionImages/bv3.png"
+    import bv4 from "$connectionImages/bv4.png"
 
-    import myanmar from "$lib/images/MediaImages/myanmar.jpg"
+    import myanmar from "$connectionImages/myanmar.jpg"
 
-    import bolivia from "$lib/images/MediaImages/bolivia.jpg"
-    import bolivia2 from "$lib/images/MediaImages/bolivia2.jpg"
+    import bolivia from "$connectionImages/bolivia.jpg"
+    import bolivia2 from "$connectionImages/bolivia2.jpg"
 
-    import hike1 from "$lib/images/MediaImages/hike1.png"
-    import hike2 from "$lib/images/MediaImages/hike2.png"
-    import hike3 from "$lib/images/MediaImages/hike3.png"
-    import hike4 from "$lib/images/MediaImages/hike4.png"
+    import hike1 from "$connectionImages/hike1.png"
+    import hike2 from "$connectionImages/hike2.png"
+    import hike3 from "$connectionImages/hike3.png"
+    import hike4 from "$connectionImages/hike4.png"
 
-    import india from "$lib/images/MediaImages/india.jpg"
+    import india from "$connectionImages/india.jpg"
 
     // Lightbox functionality
     let lightboxOpen = false;
@@ -916,7 +916,7 @@ This partnership marks the beginning of an ongoing commitment to regular local c
      <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
 
 <!-- NEXT SECTION HERE -->
-<div id="yeilin-colombia" class="space-y-6">
+<div id="homeless-india" class="space-y-6">
     
     <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
         <div class="space-y-4 lg:col-span-4">
@@ -925,7 +925,7 @@ This partnership marks the beginning of an ongoing commitment to regular local c
             </p>
             <div class="space-y-3 text-sm md:text-base">
                 <p>
-                    Solace Global’s donation of 100 meals to the Feed the Hungry Homeless People in India project, carried out with dedication by the Sai Rural and Urban Development Society, reflects a deeply human commitment to compassion and dignity. Across the streets, markets, and forgotten corners of many Indian cities, elderly individuals struggle each day with hunger, exhaustion, and the painful reality of being overlooked. They were once builders of families and communities. They worked, cared, taught, and sacrificed. Now, in their most vulnerable years, many find themselves alone, unsupported, and unsure of where their next meal will come from.                </p>
+                    Solace Global's donation of 100 meals to the Feed the Hungry Homeless People in India project, carried out with dedication by the Sai Rural and Urban Development Society, reflects a deeply human commitment to compassion and dignity. Across the streets, markets, and forgotten corners of many Indian cities, elderly individuals struggle each day with hunger, exhaustion, and the painful reality of being overlooked. They were once builders of families and communities. They worked, cared, taught, and sacrificed. Now, in their most vulnerable years, many find themselves alone, unsupported, and unsure of where their next meal will come from.                </p>
                 <p>
                     The world often moves too quickly to notice them. People hurry to work, pass by on crowded sidewalks, or focus on their own worries. In this rush, the elderly who have little or nothing are left behind. Their stories, rich with decades of experience, become lost in the noise. Their needs become invisible. Yet they continue to carry hope in quiet ways, believing that someone, somewhere, will care enough to reach out.                </p>
                 <p>

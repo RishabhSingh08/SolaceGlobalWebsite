@@ -3,7 +3,7 @@ import { injectAnalytics } from '@vercel/analytics/sveltekit'
 injectAnalytics();
 import "../app.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Icon from "../lib/images/SolaceGlobalLogo.png";
+import Icon from "$Images/SolaceGlobalLogo.png";
 import { onMount } from 'svelte';
 import { goto } from '$app/navigation';
 

@@ -3,7 +3,7 @@
 <script>
   import { writable, derived } from 'svelte/store';
   
-  import logoUrl from "../../lib/images/SolaceGlobalLogo.png";
+  import logoUrl from "$Images/SolaceGlobalLogo.png";
 
   // Props
   
