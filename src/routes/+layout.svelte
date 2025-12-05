@@ -214,6 +214,7 @@ function acceptTerms() {
                                 <li><a href="/work/connection-project/#aung-myanmar" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Helping Aung Breathe Again- Myanmar</a></li>
                                 <li><a href="/work/connection-project/#concepcion-philipines" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Concepcion's Gallbladder Surgery - Philippines</a></li>
                                 <li><a href="/work/connection-project/#yeilin-colombia" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Yeilin's Hernia Surgery - Colombia</a></li>
+                                <li><a href="/work/connection-project/#homeless-india" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Feeding 100 Homeless People - India</a></li>
 
                             </ul>
                         </div>

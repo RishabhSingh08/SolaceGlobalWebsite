@@ -61,6 +61,8 @@
     import hike3 from "$lib/images/MediaImages/hike3.png"
     import hike4 from "$lib/images/MediaImages/hike4.png"
 
+    import india from "$lib/images/MediaImages/india.jpg"
+
     // Lightbox functionality
     let lightboxOpen = false;
     let lightboxImages = [];
@@ -878,7 +880,7 @@ This partnership marks the beginning of an ongoing commitment to regular local c
     </div>
 
     <!-- END -->
-     <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+<div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
 
 <!-- NEXT SECTION HERE -->
 <div id="yeilin-colombia" class="space-y-6">
@@ -911,7 +913,41 @@ This partnership marks the beginning of an ongoing commitment to regular local c
 </div>
 
 <!-- END -->
-     
+     <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- NEXT SECTION HERE -->
+<div id="yeilin-colombia" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+                Feeding 100 Homeless People - India
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>
+                    Solace Global’s donation of 100 meals to the Feed the Hungry Homeless People in India project, carried out with dedication by the Sai Rural and Urban Development Society, reflects a deeply human commitment to compassion and dignity. Across the streets, markets, and forgotten corners of many Indian cities, elderly individuals struggle each day with hunger, exhaustion, and the painful reality of being overlooked. They were once builders of families and communities. They worked, cared, taught, and sacrificed. Now, in their most vulnerable years, many find themselves alone, unsupported, and unsure of where their next meal will come from.                </p>
+                <p>
+                    The world often moves too quickly to notice them. People hurry to work, pass by on crowded sidewalks, or focus on their own worries. In this rush, the elderly who have little or nothing are left behind. Their stories, rich with decades of experience, become lost in the noise. Their needs become invisible. Yet they continue to carry hope in quiet ways, believing that someone, somewhere, will care enough to reach out.                </p>
+                <p>
+                    This is where the Sai Rural and Urban Development Society plays a vital role. Their volunteers walk into the communities others ignore, offering food with kindness and respect. They speak gently to those they serve, treating each person as someone worthy of attention and comfort. Every meal they distribute is more than nourishment. It is a gesture that tells each recipient that they matter, that their life has value, and that they are not forgotten.                </p>
+                <p>
+                    Solace Global chose to support this mission because caring for the elderly is not only a responsibility. It is a reflection of who we are. The donation of 100 meals represents empathy, gratitude, and a desire to bring light to people who have endured too much darkness. It symbolizes a wish to restore dignity, even if only for a moment, and to remind those who suffer that compassion still exists.
+                </p>
+                <p>
+                    Together, Solace Global and the Sai Rural and Urban Development Society hope this act inspires others to see the elderly with new eyes. Every meal served is a reminder that kindness has the power to ease hunger, renew hope, and honor the lives of people who deserve far more than the world has given them.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-span-5">
+            <img src={india} alt="Homeless India" class="w-full rounded-lg shadow-md clickable-image" on:click={() => openLightbox([india], 0)}>
+        </div>
+    </div>
+</div>
+
+<!-- END -->
+
+
         </div>
     </div>
 </main>
