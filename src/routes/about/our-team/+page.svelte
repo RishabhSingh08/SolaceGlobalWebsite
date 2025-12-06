@@ -33,6 +33,7 @@
   import pfpAdam from "$Headshots/adam.jpg";
   import pfpRatan from "$Headshots/ratan.jpg";
   import pfpLakshit from "$Headshots/lakshit.png";
+  import pfpVihaan from "$Headshots/vihaan.png";
 
   const departments = [
     {
@@ -63,6 +64,7 @@
         { name: "Punit Lakhotiya", role: "Chief Information Officer", pfp: pfpPunit },
         { name: "Xander Kuksov", role: "Technical Coordinator", pfp: pfpXander },
         { name: "Vedant Bakshi", role: "Research/Data Analyst", pfp: pfpVedantB },
+        { name: "Vihaan Thakore", role: "Head of Robotics Education", pfp: pfpVihaan },
         // { name: "Adwaith Sajin", role: "Video Production Engineer", pfp: pfpAadi }
       ]
     },
