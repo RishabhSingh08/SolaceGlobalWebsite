@@ -44,6 +44,8 @@
     import bazaar3 from "$discoveryImages/15.png";
     import bazaar4 from "$discoveryImages/16.png";
 
+    import stjude from "$discoveryImages/17.jpg";
+
   import header from "$discoveryImages/Header.jpg";
 
   import { onMount } from "svelte";
@@ -692,6 +694,44 @@ By the end of the workshop, the twenty-five participants demonstrated stronger p
           </div>
     </div>
 </div>
+  <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16 my-12"></div>
+
+<div id="stjude" class="space-y-6">
+    <div class="flex flex-col md:grid md:grid-cols-9 gap-6 md:gap-16 items-start md:items-center">
+        <div class="space-y-4 md:col-span-4 order-2 md:order-1">
+            <p class="text-2xl md:text-3xl rasa">
+                Supporting St. Jude’s Children Hospital
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>
+Solace Global has recently made a significant donation to St. Jude Children's Research Hospital, reinforcing its commitment to supporting cancer research and improving the lives of young patients battling this devastating disease. In addition to this direct financial contribution, Solace Global has also purchased St. Jude merchandise to be awarded as prizes in its upcoming sports tournament, further amplifying its support and engagement. St. Jude Children's Research Hospital is renowned for its pioneering work in pediatric cancer research and treatment, ensuring that families never receive a bill from St. Jude for treatment, travel, housing, or food. By directing funds specifically towards cancer research, Solace Global aims to contribute to the development of innovative therapies and, ultimately, to finding cures for childhood cancers.                </p>
+<p>
+  The decision to support St. Jude reflects Solace Global's strategic approach to philanthropy, focusing on organizations that demonstrate a clear impact and a commitment to long-term solutions. The purchase of St. Jude merchandise adds another layer to Solace Global's support, creating an opportunity to raise awareness among its employees and participants. This initiative not only rewards athletic achievement but also promotes a deeper understanding of St. Jude's mission and the importance of supporting its work, integrating philanthropy into company culture and engaging employees in a meaningful cause.
+</p>
+            </div>
+        </div>
+        
+          <div class="md:col-span-5 order-1 md:order-2">
+            <div class="grid grid-cols-2 gap-2 md:gap-3">
+                <img src={stjude} alt="stjude" class="rounded-lg shadow-md clickable-image" on:click={() => openLightbox([stjude], 0)}>
+            </div>
+          </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- Lightbox Modal -->
   {#if lightboxOpen}
