@@ -11,7 +11,7 @@ const config = {
 
     alias: {
       $connectionImages: "src/lib/images/MediaImages",
-      $discoveryImages: "src/lib/images/DiscoveryImages",
+      $discoveryImages: "src/lib/images/discoveryImages",
       $Sponsors: "src/lib/images/Sponsors",
       $Headshots: "src/lib/images/Headshots",
       $Images: "src/lib/images",

@@ -6,17 +6,17 @@
   import image04 from "$connectionImages/IMG_6596.jpg";
   import image05 from "$connectionImages/IMG_6589.jpg";
 
-  import discoveryImage1 from "../../../lib/images/discoveryImages/1.jpg";
-  import discoveryImage2 from "../../../lib/images/discoveryImages/2.jpg";
-  import discoveryImage3 from "../../../lib/images/discoveryImages/3.jpg";
-  import discoveryImage4 from "../../../lib/images/discoveryImages/4.jpg";
-  import discoveryImage5 from "../../../lib/images/discoveryImages/5.jpg";
-  import discoveryImage6 from "../../../lib/images/discoveryImages/6.jpg";
-  import discoveryImage7 from "../../../lib/images/discoveryImages/7.jpg";
-  import discoveryImage9 from "../../../lib/images/discoveryImages/9.jpg";
-  import discoveryImage10 from "../../../lib/images/discoveryImages/10.jpg";
-  import discoveryImage11 from "../../../lib/images/discoveryImages/11.jpg";
-  import discoveryImage12 from "../../../lib/images/discoveryImages/12.jpg";
+  import discoveryImage1 from "$discoveryImages/1.jpg";
+  import discoveryImage2 from "$discoveryImages/2.jpg";
+  import discoveryImage3 from "$discoveryImages/3.jpg";
+  import discoveryImage4 from "$discoveryImages/4.jpg";
+  import discoveryImage5 from "$discoveryImages/5.jpg";
+  import discoveryImage6 from "$discoveryImages/6.jpg";
+  import discoveryImage7 from "$discoveryImages/7.jpg";
+  import discoveryImage9 from "$discoveryImages/9.jpg";
+  import discoveryImage10 from "$discoveryImages/10.jpg";
+  import discoveryImage11 from "$discoveryImages/11.jpg";
+  import discoveryImage12 from "$discoveryImages/12.jpg";
 
     import image06 from "$connectionImages/robotpic.jpg";
     import image07 from "$connectionImages/techbuildersImage.png";
@@ -39,12 +39,12 @@
     import pune3 from "$connectionImages/pune3.jpg";
     import pune4 from "$connectionImages/pune4.png";
 
-    import bazaar1 from "../../../lib/images/discoveryImages/13.png";
-    import bazaar2 from "../../../lib/images/discoveryImages/14.png";
-    import bazaar3 from "../../../lib/images/discoveryImages/15.png";
-    import bazaar4 from "../../../lib/images/discoveryImages/16.png";
+    import bazaar1 from "$discoveryImages/13.png";
+    import bazaar2 from "$discoveryImages/14.png";
+    import bazaar3 from "$discoveryImages/15.png";
+    import bazaar4 from "$discoveryImages/16.png";
 
-  import header from "../../../lib/images/discoveryImages/Header.jpg";
+  import header from "$discoveryImages/Header.jpg";
 
   import { onMount } from "svelte";
   let currentIndex = 0;
