@@ -1,5 +1,5 @@
 <script>
-import VolunteerImage from "$MediaImages/IMG_6585 (1).jpg";
+import VolunteerImage from "$connectionImages/IMG_6585 (1).jpg";
 </script>
 
 <svelte:head>

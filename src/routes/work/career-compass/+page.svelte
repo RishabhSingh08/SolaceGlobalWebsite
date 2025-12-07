@@ -1,5 +1,5 @@
 <script>
-    import careerCompass from "$MediaImages/careercompass.jpg";
+    import careerCompass from "$connectionImages/careercompass.jpg";
 
     const sections = [
         {

@@ -33,7 +33,7 @@
   import pfpAdam from "$Headshots/adam.jpg";
   import pfpRatan from "$Headshots/ratan.jpg";
   import pfpLakshit from "$Headshots/lakshit.png";
-  import pfpVihaan from "$Headshots/vihaan.png";
+  import pfpVihaan from "$Headshots/vihaan_t.png";
 
   const departments = [
     {
