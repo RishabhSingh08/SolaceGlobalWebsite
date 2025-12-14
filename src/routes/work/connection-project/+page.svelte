@@ -62,6 +62,7 @@
     import hike4 from "$connectionImages/hike4.png"
 
     import india from "$connectionImages/india.jpg"
+    import sudan from "$connectionImages/sudan.png"
 
     // Lightbox functionality
     let lightboxOpen = false;
@@ -941,6 +942,34 @@ This partnership marks the beginning of an ongoing commitment to regular local c
 
         <div class="col-span-5">
             <img src={india} alt="Homeless India" class="w-full rounded-lg shadow-md clickable-image" on:click={() => openLightbox([india], 0)}>
+        </div>
+    </div>
+</div>
+<!-- END -->
+
+     <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16"></div>
+
+<!-- Begin -->
+
+<div id="support-sudan" class="space-y-6">
+    
+    <div class="flex flex-col lg:grid lg:grid-cols-9 gap-6 lg:gap-16 items-start lg:items-center">
+        <div class="space-y-4 lg:col-span-4">
+            <p class="text-2xl md:text-3xl rasa">
+Emergency Meal Support for Families - Sudan
+            </p>
+            <div class="space-y-3 text-sm md:text-base">
+                <p>
+Solace Global extended its commitment to humanity by donating 25 meals to support families displaced by the escalating conflict in Sudan and to help address the severe food crisis in the region. Following the devastating conflict that began in April 2023, millions of people have been forced from their homes and are facing severe food insecurity, creating the world’s largest displacement crisis. This vital initiative aims to provide essential nourishment and a critical measure of comfort to those who have lost everything, helping established humanitarian efforts deliver life-saving staples to the people who need them most.
+                <p>
+This act of providing 25 meals extends far beyond basic sustenance. It embodies The Connection Project's core mission: fostering meaningful relationships and demonstrating genuine care across vast distances. For a family in Sudan, receiving this aid is not just about alleviating hunger; it is a tangible reminder that they are not forgotten and that people globally stand in solidarity with their suffering. This gesture helps to restore dignity and fosters a sense of hope—essential ingredients for resilience during this prolonged crisis.
+                <p>
+By contributing toward emergency food assistance, Solace Global’s donation plays a crucial role in the wider humanitarian effort to combat famine and malnutrition in the region. The funds help to ensure that vulnerable individuals, including children and mothers, have access to the basic sustenance they need. Solace Global believes that meaningful impact is built one connection at a time. This initiative is a powerful reflection of our ongoing dedication to creating meaningful, human-centered change across borders, ensuring that individuals in crisis have access to the basic support they need to heal and rebuild.
+            </div>
+        </div>
+
+        <div class="col-span-5">
+            <img src={sudan} alt="Homeless India" class="w-full rounded-lg shadow-md clickable-image" on:click={() => openLightbox([sudan], 0)}>
         </div>
     </div>
 </div>
