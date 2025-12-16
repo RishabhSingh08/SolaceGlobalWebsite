@@ -2,11 +2,32 @@
 </script>
 
 <svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>How We Work | Solace Global - Youth-Led STEM Nonprofit Operations</title>
+  <meta name="title" content="How We Work | Solace Global - Youth-Led STEM Nonprofit Operations" />
+  <meta name="description" content="Learn how Solace Global operates as a youth-led nonprofit providing STEM education globally. Based in Dallas, Texas, we serve foster homes, senior citizens, and schools in Pakistan, Somalia, Kenya, and India through HCB fiscal sponsorship." />
+  <meta name="keywords" content="how Solace Global works, youth-led nonprofit operations, STEM education model, HCB fiscal sponsorship, Dallas nonprofit, Pakistan education, Somalia outreach, Kenya schools, India STEM, nonprofit operations, high school nonprofit" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solaceglobal.xyz/about/how-we-work" />
+  <meta property="og:title" content="How We Work | Solace Global Operations" />
+  <meta property="og:description" content="Learn how our youth-led nonprofit delivers STEM education and humanitarian outreach globally." />
+  <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/about/how-we-work" />
+  <meta name="twitter:title" content="How We Work | Solace Global Operations" />
+  <meta name="twitter:description" content="Learn how our youth-led nonprofit delivers STEM education and humanitarian outreach globally." />
+  <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+
+  <link rel="canonical" href="https://solaceglobal.xyz/about/how-we-work" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
 <style>

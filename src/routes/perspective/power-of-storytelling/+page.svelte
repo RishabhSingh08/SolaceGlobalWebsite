@@ -3,8 +3,57 @@
 </script>
 
 <svelte:head>
+    <!-- Primary Meta Tags -->
     <title>The Power of Storytelling in Building Empathy | Solace Global</title>
-    <meta name="description" content="Stories shape how we see the world. They have the power to connect people across backgrounds, cultures, and generations. In an age dominated...">
+    <meta name="title" content="The Power of Storytelling in Building Empathy | Solace Global" />
+    <meta name="description" content="Stories shape how we see the world. Learn how storytelling connects people across backgrounds, cultures, and generations to foster empathy and drive social change. By Solace Global Foundation." />
+    <meta name="keywords" content="power of storytelling, building empathy, storytelling for social change, connecting through stories, nonprofit storytelling, empathy in communication, cultural connection, Solace Global perspectives" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://solaceglobal.xyz/perspective/power-of-storytelling" />
+    <meta property="og:title" content="The Power of Storytelling in Building Empathy" />
+    <meta property="og:description" content="Stories shape how we see the world. Learn how storytelling connects people and fosters empathy." />
+    <meta property="og:image" content="https://www.shutterstock.com/image-photo/stack-books-against-background-library-600nw-2459213053.jpg" />
+    <meta property="og:site_name" content="Solace Global Foundation" />
+    <meta property="article:published_time" content="2024-01-15" />
+    <meta property="article:author" content="Solace Global" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://solaceglobal.xyz/perspective/power-of-storytelling" />
+    <meta name="twitter:title" content="The Power of Storytelling in Building Empathy" />
+    <meta name="twitter:description" content="Stories shape how we see the world. Learn how storytelling fosters empathy." />
+    <meta name="twitter:image" content="https://www.shutterstock.com/image-photo/stack-books-against-background-library-600nw-2459213053.jpg" />
+    
+    <!-- Structured Data -->
+    {@html `<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "The Power of Storytelling in Building Empathy",
+      "description": "Stories shape how we see the world. They have the power to connect people across backgrounds, cultures, and generations.",
+      "image": "https://www.shutterstock.com/image-photo/stack-books-against-background-library-600nw-2459213053.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "Solace Global Foundation"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Solace Global Foundation",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://solaceglobal.xyz/favicon.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://solaceglobal.xyz/perspective/power-of-storytelling"
+      }
+    }
+    </script>`}
+
+    <link rel="canonical" href="https://solaceglobal.xyz/perspective/power-of-storytelling" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">

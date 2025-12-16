@@ -2,6 +2,30 @@
   // Add any necessary interactivity or functionality here
 </script>
 
+<svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>Terms and Conditions | Solace Global Foundation</title>
+  <meta name="title" content="Terms and Conditions | Solace Global Foundation" />
+  <meta name="description" content="Read Solace Global's Terms and Conditions. Learn about website usage, privacy policy, data compliance, COPPA compliance, Texas privacy laws, and legal information for our 501(c)(3) nonprofit organization." />
+  <meta name="keywords" content="Solace Global terms and conditions, nonprofit privacy policy, COPPA compliance, Texas privacy laws, website terms of use, data protection, nonprofit legal" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solaceglobal.xyz/terms-and-conditions" />
+  <meta property="og:title" content="Terms and Conditions | Solace Global" />
+  <meta property="og:description" content="Terms of use and privacy policy for Solace Global Foundation website." />
+  <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/terms-and-conditions" />
+  <meta name="twitter:title" content="Terms and Conditions | Solace Global" />
+  <meta name="twitter:description" content="Terms of use and privacy policy for Solace Global Foundation." />
+  
+  <link rel="canonical" href="https://solaceglobal.xyz/terms-and-conditions" />
+</svelte:head>
+
 <style>
   /* TailwindCSS is used for styling */
 </style>

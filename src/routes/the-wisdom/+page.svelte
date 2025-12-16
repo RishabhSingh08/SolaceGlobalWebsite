@@ -10,6 +10,47 @@
 </script>
 
 <svelte:head>
+    <!-- Primary Meta Tags -->
+    <title>The Wisdom | Solace Global Blog - Insights & Perspectives</title>
+    <meta name="title" content="The Wisdom | Solace Global Blog - Insights & Perspectives" />
+    <meta name="description" content="Explore insights, perspectives, and resources from Solace Global Foundation. Read articles on STEM education, social impact, empathy, storytelling, personal development, and creating lasting change for tomorrow." />
+    <meta name="keywords" content="Solace Global blog, The Wisdom, nonprofit insights, STEM education articles, social impact stories, youth leadership blog, empathy building, storytelling, personal development, global change" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="blog" />
+    <meta property="og:url" content="https://solaceglobal.xyz/the-wisdom" />
+    <meta property="og:title" content="The Wisdom | Solace Global Blog" />
+    <meta property="og:description" content="Insights, perspectives, and resources to create lasting change for tomorrow." />
+    <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+    <meta property="og:site_name" content="Solace Global Foundation" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://solaceglobal.xyz/the-wisdom" />
+    <meta name="twitter:title" content="The Wisdom | Solace Global Blog" />
+    <meta name="twitter:description" content="Insights, perspectives, and resources to create lasting change." />
+    <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+    
+    <!-- Structured Data -->
+    {@html `<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "The Wisdom - Solace Global Blog",
+      "description": "Insights, perspectives, and resources from Solace Global Foundation",
+      "url": "https://solaceglobal.xyz/the-wisdom",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Solace Global Foundation",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://solaceglobal.xyz/favicon.png"
+        }
+      }
+    }
+    </script>`}
+
+    <link rel="canonical" href="https://solaceglobal.xyz/the-wisdom" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">

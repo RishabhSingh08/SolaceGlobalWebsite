@@ -5,11 +5,32 @@
 </script>
 
 <svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>Financials | Solace Global - Nonprofit Transparency & 501(c)(3) Status</title>
+  <meta name="title" content="Financials | Solace Global - Nonprofit Transparency & 501(c)(3) Status" />
+  <meta name="description" content="View Solace Global's financial documents including IRS 501(c)(3) Letter of Determination, Certificate of Status, and Fiscal Sponsorship Agreement with Hack Club. We're committed to transparency and ethical financial management." />
+  <meta name="keywords" content="Solace Global financials, 501c3 nonprofit, IRS determination letter, fiscal sponsorship Hack Club, nonprofit transparency, tax-exempt status, nonprofit financial documents, charitable organization" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solaceglobal.xyz/about/financials" />
+  <meta property="og:title" content="Financials | Solace Global - Nonprofit Transparency" />
+  <meta property="og:description" content="View our 501(c)(3) documentation and financial transparency reports." />
+  <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/about/financials" />
+  <meta name="twitter:title" content="Financials | Solace Global - Nonprofit Transparency" />
+  <meta name="twitter:description" content="View our 501(c)(3) documentation and financial transparency reports." />
+  <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+
+  <link rel="canonical" href="https://solaceglobal.xyz/about/financials" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
 <style>

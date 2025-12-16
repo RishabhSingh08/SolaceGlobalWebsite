@@ -99,10 +99,46 @@
 <svelte:window on:keydown={handleKeydown} />
 
 <svelte:head>
+    <!-- Primary Meta Tags -->
+    <title>The Connection Project | Solace Global - Humanitarian Outreach</title>
+    <meta name="title" content="The Connection Project | Solace Global - Humanitarian Outreach" />
+    <meta name="description" content="The Connection Project provides humanitarian aid worldwide. Our initiatives include clothing donations in Pakistan, essential aid in Israel, fundraising events in Texas, support for Syria, Cambodia, Colombia, Philippines, Tanzania, Kenya, Haiti, Uganda, Bolivia, Myanmar, India, and Sudan." />
+    <meta name="keywords" content="Connection Project, humanitarian aid, clothing donations Pakistan, Israel aid, Syria relief, Cambodia support, Philippines aid, Tanzania outreach, Kenya humanitarian, Haiti support, Uganda aid, Bolivia assistance, Myanmar relief, India outreach, Sudan humanitarian, volleyball fundraiser, soccer tournament, beach volleyball" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://solaceglobal.xyz/work/connection-project" />
+    <meta property="og:title" content="The Connection Project | Humanitarian Outreach - Solace Global" />
+    <meta property="og:description" content="Global humanitarian outreach providing aid and support to communities in need across Pakistan, Israel, Syria, and 15+ countries." />
+    <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+    <meta property="og:site_name" content="Solace Global Foundation" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://solaceglobal.xyz/work/connection-project" />
+    <meta name="twitter:title" content="The Connection Project | Humanitarian Outreach - Solace Global" />
+    <meta name="twitter:description" content="Global humanitarian outreach providing aid and support to communities in need worldwide." />
+    <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+    
+    <!-- Structured Data -->
+    {@html `<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Project",
+      "name": "The Connection Project",
+      "description": "Humanitarian outreach initiative providing aid and support to communities in need across 18+ countries",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Solace Global Foundation"
+      },
+      "areaServed": ["Pakistan", "Israel", "Syria", "Cambodia", "Colombia", "Philippines", "Tanzania", "Kenya", "Haiti", "Uganda", "Bolivia", "Myanmar", "India", "Sudan"]
+    }
+    </script>`}
+
+    <link rel="canonical" href="https://solaceglobal.xyz/work/connection-project" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
 <style>

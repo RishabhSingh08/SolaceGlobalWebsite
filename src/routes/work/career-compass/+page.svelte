@@ -156,10 +156,48 @@
 </script>
 
 <svelte:head>
+    <!-- Primary Meta Tags -->
+    <title>Career Compass | Solace Global - Career Guidance for Students</title>
+    <meta name="title" content="Career Compass | Solace Global - Career Guidance for Students" />
+    <meta name="description" content="Explore career paths in Engineering, Humanities, Business, Fine Arts, and Natural Sciences with Solace Global's Career Compass. Watch educational videos about Mechanical Engineering, Robotics, Computer Science, Marketing, Graphic Design, Microbiology, and more." />
+    <meta name="keywords" content="Career Compass, STEM careers, engineering careers, mechanical engineering, robotics engineering, computer science, environmental engineering, electrical engineering, marine engineering, humanities careers, foreign language careers, international law, public relations, business careers, marketing, entrepreneurship, fine arts careers, graphic design, natural sciences, microbiology, statistics, applied mathematics" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://solaceglobal.xyz/work/career-compass" />
+    <meta property="og:title" content="Career Compass | Solace Global - Explore Career Paths" />
+    <meta property="og:description" content="Explore career paths in Engineering, Humanities, Business, Fine Arts, and Natural Sciences with educational videos and guidance." />
+    <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+    <meta property="og:site_name" content="Solace Global Foundation" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://solaceglobal.xyz/work/career-compass" />
+    <meta name="twitter:title" content="Career Compass | Solace Global - Explore Career Paths" />
+    <meta name="twitter:description" content="Explore career paths in Engineering, Humanities, Business, Fine Arts, and Natural Sciences." />
+    <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+    
+    <!-- Structured Data -->
+    {@html `<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOccupationalProgram",
+      "name": "Career Compass by Solace Global",
+      "description": "Educational program helping students explore career paths in STEM, Humanities, Business, and Arts",
+      "provider": {
+        "@type": "Organization",
+        "name": "Solace Global Foundation"
+      },
+      "programType": "Career Guidance",
+      "educationalProgramMode": "online",
+      "occupationalCategory": ["Engineering", "Humanities", "Business", "Fine Arts", "Natural Sciences"]
+    }
+    </script>`}
+
+    <link rel="canonical" href="https://solaceglobal.xyz/work/career-compass" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
 <style>

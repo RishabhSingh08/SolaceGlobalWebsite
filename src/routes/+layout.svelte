@@ -58,12 +58,12 @@ function acceptTerms() {
 
 <main>
     <div class="flex flex-col min-h-screen">
-        <nav class="w-full py-4 border-b relative">
+        <nav class="w-full py-4 border-b relative" role="navigation" aria-label="Main navigation">
             <div class="container mx-auto px-4">
                 <div class="flex items-center justify-between">
                     <div class="flex items-center">
-                        <a href="/" class="block">
-                            <img src={Icon} alt="Logo" class="w-24 md:w-32" on:click={closeAllDropdowns}>
+                        <a href="/" class="block" aria-label="Solace Global Home">
+                            <img src={Icon} alt="Solace Global - Empowering Communities Logo" class="w-24 md:w-32" on:click={closeAllDropdowns}>
                         </a>
                     </div>
 
@@ -275,26 +275,30 @@ function acceptTerms() {
         </div>
         {/if}
 
-        <footer class="p-4 md:p-8 border-t mt-auto">
+        <footer class="p-4 md:p-8 border-t mt-auto" role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
             <div class="container mx-auto">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
                     <div class="flex justify-center md:justify-start">
-                        <a href="/">
-                            <img class="w-24 md:w-32" src={Icon} alt="Logo" on:click={closeAllDropdowns}>
+                        <a href="/" aria-label="Solace Global Home">
+                            <img class="w-24 md:w-32" src={Icon} alt="Solace Global - Empowering Communities Logo" on:click={closeAllDropdowns}>
                         </a>
                     </div>
                     <div>
-                        <p class="text-sm text-center md:text-base">We are a student-led nonprofit focused on empowering underserved communities through support, innovation, and impactful outreach programs.</p>
+                        <p class="text-sm text-center md:text-base" itemprop="description">We are a student-led nonprofit focused on empowering underserved communities through support, innovation, and impactful outreach programs.</p>
+                        <p class="text-xs text-center mt-2 text-gray-500">© 2024 Solace Global Foundation. A 501(c)(3) nonprofit organization.</p>
                     </div>
                     <div class="flex justify-center md:justify-end gap-4 md:gap-8 items-center text-xl md:text-2xl">
-                        <a href="https://www.tiktok.com/@solaceglobalnpo" target="_blank" aria-label="Tiktok" class="hover:text-red-500 transition">
-                            <i class="fa-brands fa-tiktok"></i>
+                        <a href="https://www.tiktok.com/@solaceglobalnpo" target="_blank" rel="noopener noreferrer" aria-label="Follow Solace Global on TikTok" class="hover:text-red-500 transition">
+                            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
                         </a>
-                        <a href="https://www.instagram.com/solaceglobalnpo/" target="_blank" aria-label="Instagram" class="hover:text-red-500 transition">
-                            <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.instagram.com/solaceglobalnpo/" target="_blank" rel="noopener noreferrer" aria-label="Follow Solace Global on Instagram" class="hover:text-red-500 transition">
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
                         </a>
-                        <a href="https://www.youtube.com/@SolaceGlobalNPO1" target="_blank" aria-label="Youtube" class="hover:text-red-500 transition">
-                            <i class="fa-brands fa-youtube"></i>
+                        <a href="https://www.youtube.com/@SolaceGlobalNPO1" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to Solace Global on YouTube" class="hover:text-red-500 transition">
+                            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                        </a>
+                        <a href="mailto:team@solaceglobal.xyz" aria-label="Email Solace Global" class="hover:text-red-500 transition">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>

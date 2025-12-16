@@ -33,6 +33,52 @@
         ];
 </script>
 <svelte:head>
+<!-- Primary Meta Tags -->
+<title>Partners & Sponsors | Solace Global - Our Corporate Supporters</title>
+<meta name="title" content="Partners & Sponsors | Solace Global - Our Corporate Supporters" />
+<meta name="description" content="Meet Solace Global's partners: Jukebox, Amazon Business, Shanti Bhavan, Code.org, Google for Nonprofits, Undefined Robotics, Hack Club, Naihati New Life Society, Project World Impact, Pinkberry, DesiClik, and Sina Taleghani & Associates." />
+<meta name="keywords" content="Solace Global partners, nonprofit sponsors, Amazon Business, Shanti Bhavan, Code.org, Google for Nonprofits, Undefined Robotics, Hack Club, Naihati New Life Society, Project World Impact, Pinkberry, DesiClik, Sina Taleghani, Jukebox" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://solaceglobal.xyz/partners" />
+<meta property="og:title" content="Partners & Sponsors | Solace Global" />
+<meta property="og:description" content="Meet our amazing partners and sponsors supporting STEM education and humanitarian outreach globally." />
+<meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+<meta property="og:site_name" content="Solace Global Foundation" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="https://solaceglobal.xyz/partners" />
+<meta name="twitter:title" content="Partners & Sponsors | Solace Global" />
+<meta name="twitter:description" content="Meet our amazing partners and sponsors supporting STEM education globally." />
+<meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+
+<!-- Structured Data -->
+{@html `<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Solace Global Partners and Sponsors",
+  "description": "Organizations partnering with Solace Global Foundation",
+  "itemListElement": [
+    {"@type": "Organization", "name": "Amazon Business"},
+    {"@type": "Organization", "name": "Shanti Bhavan Children's Project"},
+    {"@type": "Organization", "name": "Code.org"},
+    {"@type": "Organization", "name": "Google for Nonprofits"},
+    {"@type": "Organization", "name": "Undefined Robotics"},
+    {"@type": "Organization", "name": "Hack Club"},
+    {"@type": "Organization", "name": "Naihati New Life Society"},
+    {"@type": "Organization", "name": "Project World Impact"},
+    {"@type": "Organization", "name": "Pinkberry"},
+    {"@type": "Organization", "name": "DesiClik"},
+    {"@type": "Organization", "name": "Sina Taleghani & Associates"},
+    {"@type": "Organization", "name": "Jukebox"}
+  ]
+}
+</script>`}
+
+<link rel="canonical" href="https://solaceglobal.xyz/partners" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">

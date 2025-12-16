@@ -144,6 +144,51 @@
   }
 </script>
 
+<svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>Donate | Solace Global - Support STEM Education & Humanitarian Aid</title>
+  <meta name="title" content="Donate | Solace Global - Support STEM Education & Humanitarian Aid" />
+  <meta name="description" content="Donate to Solace Global and support STEM education, humanitarian aid, and youth empowerment across 18+ countries. 100% tax-deductible through our 501(c)(3) status. Choose causes: Medical, Learning, or Conflict relief." />
+  <meta name="keywords" content="donate to Solace Global, STEM education donation, humanitarian aid charity, tax-deductible donation, 501c3 nonprofit donation, support youth education, medical relief, conflict relief, education funding" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solaceglobal.xyz/donate" />
+  <meta property="og:title" content="Donate | Support Solace Global's Mission" />
+  <meta property="og:description" content="Support STEM education and humanitarian aid across 18+ countries. 100% tax-deductible." />
+  <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/donate" />
+  <meta name="twitter:title" content="Donate | Support Solace Global's Mission" />
+  <meta name="twitter:description" content="Support STEM education and humanitarian aid across 18+ countries." />
+  <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+  
+  <!-- Structured Data - DonateAction -->
+  {@html `<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DonateAction",
+    "name": "Donate to Solace Global",
+    "description": "Support STEM education and humanitarian aid worldwide",
+    "recipient": {
+      "@type": "Organization",
+      "name": "Solace Global Foundation",
+      "url": "https://solaceglobal.xyz"
+    },
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://solaceglobal.xyz/donate",
+      "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
+    }
+  }
+  </script>`}
+
+  <link rel="canonical" href="https://solaceglobal.xyz/donate" />
+</svelte:head>
+
 <main class=" rounded-3xl  py-8">
   <div class="max-w-lg mx-auto bg-white rounded-xl shadow-lg p-6 space-y-8">
     

@@ -2,11 +2,32 @@
 </script>
 
 <svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>Donor Impact Statement | Solace Global - Measuring Our Impact</title>
+  <meta name="title" content="Donor Impact Statement | Solace Global - Measuring Our Impact" />
+  <meta name="description" content="Understand how Solace Global measures impact. Our transparent methodology weighs short-form views, long-form educational content, and in-person participation to show 12,100+ meaningful engagements from donors and supporters." />
+  <meta name="keywords" content="donor impact statement, nonprofit impact measurement, Solace Global impact, meaningful engagements, donation impact, STEM education impact, humanitarian impact metrics, nonprofit transparency" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solaceglobal.xyz/impact-statement" />
+  <meta property="og:title" content="Donor Impact Statement | Solace Global" />
+  <meta property="og:description" content="See how we measure and report the real impact of your donations and support." />
+  <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/impact-statement" />
+  <meta name="twitter:title" content="Donor Impact Statement | Solace Global" />
+  <meta name="twitter:description" content="See how we measure and report the real impact of your donations and support." />
+  <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+
+  <link rel="canonical" href="https://solaceglobal.xyz/impact-statement" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
 <style>

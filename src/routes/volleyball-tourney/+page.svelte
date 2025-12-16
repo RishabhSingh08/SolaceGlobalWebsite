@@ -166,6 +166,60 @@
 
 </script>
 
+<svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>Volleyball Tournament | Solace Global - Charity Sports Event</title>
+  <meta name="title" content="Volleyball Tournament | Solace Global - Charity Sports Event" />
+  <meta name="description" content="Register for Solace Global's charity volleyball tournament. Team registration $42 or individual $7. $5 per substitute. All proceeds support STEM education and humanitarian outreach programs worldwide." />
+  <meta name="keywords" content="Solace Global volleyball tournament, charity volleyball, Dallas volleyball event, nonprofit sports event, team registration, beach volleyball, fundraiser tournament, youth sports" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solaceglobal.xyz/volleyball-tourney" />
+  <meta property="og:title" content="Volleyball Tournament | Solace Global" />
+  <meta property="og:description" content="Register for our charity volleyball tournament. All proceeds support STEM education." />
+  <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/volleyball-tourney" />
+  <meta name="twitter:title" content="Volleyball Tournament | Solace Global" />
+  <meta name="twitter:description" content="Register for our charity volleyball tournament." />
+  <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+  
+  <!-- Structured Data -->
+  {@html `<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsEvent",
+    "name": "Solace Global Charity Volleyball Tournament",
+    "description": "Charity volleyball tournament supporting STEM education and humanitarian programs",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Solace Global Foundation"
+    },
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Team Registration",
+        "price": "42",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "name": "Individual Registration",
+        "price": "7",
+        "priceCurrency": "USD"
+      }
+    ]
+  }
+  </script>`}
+
+  <link rel="canonical" href="https://solaceglobal.xyz/volleyball-tourney" />
+</svelte:head>
+
 <main class="rounded-3xl bg-gradient-to-b from-white to-gray-100 py-8">
   <div class="max-w-lg mx-auto bg-white rounded-xl shadow-lg p-6 space-y-8">
 

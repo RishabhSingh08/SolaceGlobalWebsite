@@ -7,8 +7,62 @@
 </script>
 
 <svelte:head>
-  <title>{data.article.title}</title>
+  <!-- Primary Meta Tags -->
+  <title>{data.article.title} | The Wisdom - Solace Global</title>
+  <meta name="title" content="{data.article.title} | The Wisdom - Solace Global" />
   <meta name="description" content={data.article.brief} />
+  <meta name="author" content="Solace Global Foundation" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://solaceglobal.xyz/the-wisdom/{data.article.slug}" />
+  <meta property="og:title" content={data.article.title} />
+  <meta property="og:description" content={data.article.brief} />
+  {#if data.article.coverImage}
+  <meta property="og:image" content={data.article.coverImage.url} />
+  {/if}
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  <meta property="article:published_time" content={data.article.publishedAt} />
+  <meta property="article:author" content="Solace Global" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/the-wisdom/{data.article.slug}" />
+  <meta name="twitter:title" content={data.article.title} />
+  <meta name="twitter:description" content={data.article.brief} />
+  {#if data.article.coverImage}
+  <meta name="twitter:image" content={data.article.coverImage.url} />
+  {/if}
+  
+  <!-- Structured Data -->
+  {@html `<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "${data.article.title.replace(/"/g, '\\"')}",
+    "description": "${data.article.brief.replace(/"/g, '\\"')}",
+    ${data.article.coverImage ? `"image": "${data.article.coverImage.url}",` : ''}
+    "datePublished": "${data.article.publishedAt}",
+    "author": {
+      "@type": "Organization",
+      "name": "Solace Global Foundation"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Solace Global Foundation",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://solaceglobal.xyz/favicon.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://solaceglobal.xyz/the-wisdom/${data.article.slug}"
+    }
+  }
+  </script>`}
+
+  <link rel="canonical" href="https://solaceglobal.xyz/the-wisdom/{data.article.slug}" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">

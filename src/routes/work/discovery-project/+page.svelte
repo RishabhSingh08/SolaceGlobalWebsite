@@ -120,10 +120,48 @@
 <svelte:window on:keydown={handleKeydown} />
 
 <svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>The Discovery Project | Solace Global - STEM Education & Robotics</title>
+  <meta name="title" content="The Discovery Project | Solace Global - STEM Education & Robotics" />
+  <meta name="description" content="The Discovery Project delivers hands-on STEM education through robotics workshops, coding classes, and educational outreach. Programs in China, India, Germany, and partnership with Undefined Robotics. St. Jude fundraising and community bazaar events." />
+  <meta name="keywords" content="Discovery Project, STEM education, robotics workshops, coding classes, hands-on learning, Undefined Robotics partnership, China robotics, India STEM education, Germany robotics, St. Jude fundraiser, community bazaar, tech education" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solaceglobal.xyz/work/discovery-project" />
+  <meta property="og:title" content="The Discovery Project | STEM Education - Solace Global" />
+  <meta property="og:description" content="Hands-on STEM education through robotics workshops, coding classes, and educational outreach programs worldwide." />
+  <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/work/discovery-project" />
+  <meta name="twitter:title" content="The Discovery Project | STEM Education - Solace Global" />
+  <meta name="twitter:description" content="Hands-on STEM education through robotics workshops, coding classes, and educational outreach programs." />
+  <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+  
+  <!-- Structured Data -->
+  {@html `<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOccupationalProgram",
+    "name": "The Discovery Project",
+    "description": "Hands-on STEM education program delivering robotics workshops, coding classes, and educational outreach",
+    "provider": {
+      "@type": "Organization",
+      "name": "Solace Global Foundation"
+    },
+    "programType": "STEM Education",
+    "educationalProgramMode": ["in-person", "online"],
+    "areaServed": ["China", "India", "Germany", "United States"]
+  }
+  </script>`}
+
+  <link rel="canonical" href="https://solaceglobal.xyz/work/discovery-project" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
 <style>

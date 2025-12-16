@@ -78,6 +78,31 @@
   }
 </script>
 
+<svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>Art Workshop | Solace Global - Creative STEM Education</title>
+  <meta name="title" content="Art Workshop | Solace Global - Creative STEM Education" />
+  <meta name="description" content="Join Solace Global's Art Workshop combining creativity with STEM education. Support youth artistic expression and donate to help fund art materials, workshops, and creative programs for underserved communities." />
+  <meta name="keywords" content="Solace Global art workshop, STEM art education, creative workshops, youth art program, art donation, nonprofit art event, Dallas art workshop" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solaceglobal.xyz/art-workshop" />
+  <meta property="og:title" content="Art Workshop | Solace Global" />
+  <meta property="og:description" content="Join our Art Workshop combining creativity with STEM education for youth." />
+  <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/art-workshop" />
+  <meta name="twitter:title" content="Art Workshop | Solace Global" />
+  <meta name="twitter:description" content="Join our Art Workshop combining creativity with STEM education." />
+  <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+  
+  <link rel="canonical" href="https://solaceglobal.xyz/art-workshop" />
+</svelte:head>
+
 <main class="rounded-3xl bg-gradient-to-b from-white to-gray-100 py-8">
   <div class="max-w-lg mx-auto bg-white rounded-xl shadow-lg p-6 space-y-8">
 

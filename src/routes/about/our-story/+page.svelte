@@ -3,11 +3,50 @@
 </script>
 
 <svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>Our Story | Solace Global Foundation - Youth-Led Nonprofit History</title>
+  <meta name="title" content="Our Story | Solace Global Foundation - Youth-Led Nonprofit History" />
+  <meta name="description" content="Discover how Solace Global was founded by teenagers passionate about creating positive change. Led by Nishant Sinari, learn about our journey from a grassroots initiative to an international movement impacting communities across 18+ countries through STEM education." />
+  <meta name="keywords" content="Solace Global history, Nishant Sinari founder, youth-led nonprofit story, STEM education nonprofit, teen charity founders, Dallas nonprofit origin, grassroots STEM initiative" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://solaceglobal.xyz/about/our-story" />
+  <meta property="og:title" content="Our Story | Solace Global Foundation" />
+  <meta property="og:description" content="Discover how Solace Global was founded by teenagers passionate about creating positive change through STEM education." />
+  <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/about/our-story" />
+  <meta name="twitter:title" content="Our Story | Solace Global Foundation" />
+  <meta name="twitter:description" content="Discover how Solace Global was founded by teenagers passionate about creating positive change through STEM education." />
+  <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+  
+  <!-- Structured Data -->
+  {@html `<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Our Story - Solace Global Foundation",
+    "description": "How teenagers came together to create Solace Global and drive positive change through STEM education.",
+    "author": {
+      "@type": "Person",
+      "name": "Nishant Sinari"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Solace Global Foundation"
+    }
+  }
+  </script>`}
+
+  <link rel="canonical" href="https://solaceglobal.xyz/about/our-story" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
 <style>

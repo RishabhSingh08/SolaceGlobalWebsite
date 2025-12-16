@@ -86,6 +86,51 @@
   $: totalFee = BASE_FEE + (numberOfSubs * SUB_FEE);
 </script>
 
+<svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>Basketball Tournament | Solace Global - Charity Sports Event</title>
+  <meta name="title" content="Basketball Tournament | Solace Global - Charity Sports Event" />
+  <meta name="description" content="Register your team for Solace Global's charity basketball tournament. $50 base fee per team with $5 per substitute. All proceeds support STEM education and humanitarian outreach programs." />
+  <meta name="keywords" content="Solace Global basketball tournament, charity basketball, Dallas basketball event, nonprofit sports event, team registration, youth basketball, fundraiser tournament" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solaceglobal.xyz/basketball-tourney" />
+  <meta property="og:title" content="Basketball Tournament | Solace Global" />
+  <meta property="og:description" content="Register for our charity basketball tournament. All proceeds support STEM education." />
+  <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/basketball-tourney" />
+  <meta name="twitter:title" content="Basketball Tournament | Solace Global" />
+  <meta name="twitter:description" content="Register for our charity basketball tournament." />
+  <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+  
+  <!-- Structured Data -->
+  {@html `<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsEvent",
+    "name": "Solace Global Charity Basketball Tournament",
+    "description": "Charity basketball tournament supporting STEM education and humanitarian programs",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Solace Global Foundation"
+    },
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "offers": {
+      "@type": "Offer",
+      "price": "50",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>`}
+
+  <link rel="canonical" href="https://solaceglobal.xyz/basketball-tourney" />
+</svelte:head>
+
 <main class="rounded-3xl bg-gradient-to-b from-white to-gray-100 py-8">
   <div class="max-w-lg mx-auto bg-white rounded-xl shadow-lg p-6 space-y-8">
 

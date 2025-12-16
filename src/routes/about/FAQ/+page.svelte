@@ -2,11 +2,74 @@
 </script>
 
 <svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>FAQ | Solace Global - Frequently Asked Questions About Our Nonprofit</title>
+  <meta name="title" content="FAQ | Solace Global - Frequently Asked Questions About Our Nonprofit" />
+  <meta name="description" content="Find answers to common questions about Solace Global. Learn about our STEM programs, robotics workshops, coding classes, volunteer opportunities, donation usage, partnerships, and our mission to empower communities through education." />
+  <meta name="keywords" content="Solace Global FAQ, nonprofit questions, STEM education programs, robotics workshops, coding classes, volunteer opportunities, how to donate, nonprofit partnerships, Hack Club fiscal sponsorship" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solaceglobal.xyz/about/FAQ" />
+  <meta property="og:title" content="FAQ | Solace Global - Frequently Asked Questions" />
+  <meta property="og:description" content="Find answers to common questions about Solace Global's STEM programs, volunteer opportunities, and mission." />
+  <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/about/FAQ" />
+  <meta name="twitter:title" content="FAQ | Solace Global - Frequently Asked Questions" />
+  <meta name="twitter:description" content="Find answers to common questions about Solace Global's STEM programs and mission." />
+  <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+  
+  <!-- Structured Data - FAQPage -->
+  {@html `<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What programs does Solace Global offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We offer Robotic Workshops, Coding Classes, and Climate Change Projects designed to inspire creativity and make a positive impact."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I volunteer or get involved?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Reach out to us via email at team@solaceglobal.xyz or call 469-573-1655 to learn about volunteer opportunities."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the foundation use donations?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Donations support and expand STEM projects, host impactful events, and give back to the community through various initiatives."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the mission and vision of Solace Global?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our mission is to harness the power of STEM to address global challenges, empower individuals, and create opportunities for growth and innovation."
+        }
+      }
+    ]
+  }
+  </script>`}
+
+  <link rel="canonical" href="https://solaceglobal.xyz/about/FAQ" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
 <style>

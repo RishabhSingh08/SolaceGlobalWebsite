@@ -127,20 +127,95 @@
 </script>
 
 <svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>Solace Global | Youth-Led STEM Nonprofit Organization | Dallas, Texas</title>
+  <meta name="title" content="Solace Global | Youth-Led STEM Nonprofit Organization | Dallas, Texas" />
+  <meta name="description" content="Solace Global is a youth-led 501(c)(3) nonprofit organization empowering communities through STEM education, robotics workshops, coding classes, and humanitarian outreach across 18+ countries. Founded by Nishant Sinari, we've impacted 12,000+ lives and raised $70,000+ in value." />
+  <meta name="keywords" content="Solace Global, STEM education nonprofit, youth-led nonprofit, robotics workshops, coding classes for kids, STEM for underserved communities, Dallas nonprofit, Nishant Sinari, teen-led charity, global education initiative, 501c3 nonprofit, Hack Club, Career Compass, Discovery Project, Connection Project" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solaceglobal.xyz/" />
+  <meta property="og:title" content="Solace Global | Youth-Led STEM Nonprofit Organization" />
+  <meta property="og:description" content="Empowering communities through STEM education, robotics workshops, and humanitarian outreach. Youth-led nonprofit impacting 12,000+ lives across 18+ countries." />
+  <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
+  <meta property="og:site_name" content="Solace Global Foundation" />
+  <meta property="og:locale" content="en_US" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://solaceglobal.xyz/" />
+  <meta name="twitter:title" content="Solace Global | Youth-Led STEM Nonprofit Organization" />
+  <meta name="twitter:description" content="Empowering communities through STEM education, robotics workshops, and humanitarian outreach. Youth-led nonprofit impacting 12,000+ lives across 18+ countries." />
+  <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
+  
+  <!-- Structured Data - Organization -->
+  {@html `<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NGO",
+    "name": "Solace Global Foundation",
+    "alternateName": "Solace Global",
+    "url": "https://solaceglobal.xyz",
+    "logo": "https://solaceglobal.xyz/favicon.png",
+    "description": "Youth-led 501(c)(3) nonprofit organization empowering communities through STEM education, robotics workshops, coding classes, and humanitarian outreach.",
+    "foundingDate": "2023",
+    "founder": {
+      "@type": "Person",
+      "name": "Nishant Sinari",
+      "jobTitle": "Executive Director & Founder"
+    },
+    "areaServed": "Worldwide",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dallas",
+      "addressRegion": "TX",
+      "addressCountry": "US"
+    },
+    "email": "team@solaceglobal.xyz",
+    "telephone": "+1-469-573-1655",
+    "sameAs": [
+      "https://www.youtube.com/@SolaceGlobalNPO1"
+    ],
+    "knowsAbout": ["STEM Education", "Robotics", "Coding", "Youth Development", "Humanitarian Aid"],
+    "numberOfEmployees": {
+      "@type": "QuantitativeValue",
+      "value": 200,
+      "unitText": "volunteers"
+    }
+  }
+  </script>`}
+  
+  <!-- Structured Data - WebSite -->
+  {@html `<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Solace Global",
+    "url": "https://solaceglobal.xyz",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://solaceglobal.xyz/the-wisdom?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>`}
+
+  <link rel="canonical" href="https://solaceglobal.xyz/" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="all" href="https://cdn.smore.com/css/list-form-signup.2981f49d.css"/>
 </svelte:head>
 
-<main class="container mx-auto">
+<div class="container mx-auto" itemscope itemtype="https://schema.org/WebPage">
   <div class="px-4 md:px-8 mt-6 md:mt-10">
       <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif leading-tight md:leading-snug lg:leading-[4.5rem] max-w-full md:max-w-3xl lg:max-w-4xl">
           Unite to create a future of lasting value
       </h1>
       
       <p class="mt-3 md:mt-5 text-base md:text-lg lg:text-xl border-b-2 border-black pb-2 max-w-full md:max-w-2xl lg:max-w-[725px]">
-          <a href="/about/how-we-work">
+          <a href="/about/how-we-work" aria-label="Learn about how Solace Global creates change">
               Learn about empowerment and innovation to create lasting change for tomorrow.
           </a>
       </p>
@@ -158,27 +233,29 @@
   </div>
 
   <div class="mt-12 md:mt-20 px-4 md:px-8">
-      <p class="text-2xl md:text-3xl lg:text-4xl font-serif mb-6">Featured Insights</p>
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-serif mb-6">Featured Insights</h2>
 
       {#if data.featured.length === 0}
           <p class="text-gray-500">No featured articles available.</p>
       {:else}
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
               {#each data.featured as article}
-                  <a href="/the-wisdom/{article.slug}" class="group block bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-[1.02]">
+                  <article class="group block bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-[1.02]" itemscope itemtype="https://schema.org/Article">
+                      <a href="/the-wisdom/{article.slug}">
                       {#if article.coverImage?.url}
-                          <img src={article.coverImage.url} alt={article.title} class="w-full h-40 object-cover" />
+                          <img src={article.coverImage.url} alt={article.title} class="w-full h-40 object-cover" itemprop="image" />
                       {/if}
                       <div class="p-4">
-                          <time class="block text-sm text-gray-500 mb-1">
+                          <time class="block text-sm text-gray-500 mb-1" datetime={article.publishedAt} itemprop="datePublished">
                               {formatDate(article.publishedAt)}
                           </time>
-                          <h3 class="text-lg font-semibold text-gray-800 group-hover:text-red-600 transition-colors">
+                          <h3 class="text-lg font-semibold text-gray-800 group-hover:text-red-600 transition-colors" itemprop="headline">
                               {article.title}
                           </h3>
-                          <p class="text-sm text-gray-600 mt-2">{article.brief}</p>
+                          <p class="text-sm text-gray-600 mt-2" itemprop="description">{article.brief}</p>
                       </div>
-                  </a>
+                      </a>
+                  </article>
               {/each}
           </div>
       {/if}
@@ -211,7 +288,7 @@
       </div>
   </div>
   
-<div class="bg-zinc-900 px-6 md:px-16 py-14 text-white mt-16 md:mt-24 rounded-lg">
+<section class="bg-zinc-900 px-6 md:px-16 py-14 text-white mt-16 md:mt-24 rounded-lg" aria-label="Perspectives and Newsletter">
   <div class="flex flex-col lg:flex-row lg:justify-between items-center mb-10">
     <h2 class="text-3xl md:text-4xl lg:text-5xl font-serif font-medium">Perspectives</h2>
     <p class="mt-4 lg:mt-0 text-sm lg:text-base max-w-xl lg:text-right">
@@ -220,21 +297,25 @@
   </div>
 
   <div class="grid lg:grid-cols-3 gap-10">
-    <a href="/perspective/power-of-storytelling" class="bg-zinc-800 rounded-xl overflow-hidden shadow-xl group transition hover:shadow-2xl border border-zinc-600">
-      <img src="https://www.shutterstock.com/image-photo/stack-books-against-background-library-600nw-2459213053.jpg" alt="Article" class="w-full h-56 object-cover">
+    <article class="bg-zinc-800 rounded-xl overflow-hidden shadow-xl group transition hover:shadow-2xl border border-zinc-600" itemscope itemtype="https://schema.org/Article">
+      <a href="/perspective/power-of-storytelling">
+      <img src="https://www.shutterstock.com/image-photo/stack-books-against-background-library-600nw-2459213053.jpg" alt="The Power of Storytelling in Building Empathy" class="w-full h-56 object-cover" itemprop="image">
       <div class="p-5">
-        <h3 class="text-xl font-serif text-gray-300 mb-2 group-hover:text-red-600 transition-colors">The Power of Storytelling in Building Empathy</h3>
-        <p class="text-sm text-gray-400">Stories shape how we see the world. They have the power to connect people across backgrounds, cultures, and generations. In an age dominated...</p>
+        <h3 class="text-xl font-serif text-gray-300 mb-2 group-hover:text-red-600 transition-colors" itemprop="headline">The Power of Storytelling in Building Empathy</h3>
+        <p class="text-sm text-gray-400" itemprop="description">Stories shape how we see the world. They have the power to connect people across backgrounds, cultures, and generations. In an age dominated...</p>
       </div>
-    </a>
+      </a>
+    </article>
 
-    <a href="/perspective/importance-of-rest" class="bg-zinc-800 rounded-xl overflow-hidden shadow-xl group transition hover:shadow-2xl border border-zinc-600">
-      <img src="https://www.nestbedding.com/cdn/shop/articles/dark_bedroom_at_night_10806ccc-8468-4fd1-928b-3158322b8a8e_1200x1200.jpg?v=1574245656" alt="Article" class="w-full h-56 object-cover">
+    <article class="bg-zinc-800 rounded-xl overflow-hidden shadow-xl group transition hover:shadow-2xl border border-zinc-600" itemscope itemtype="https://schema.org/Article">
+      <a href="/perspective/importance-of-rest">
+      <img src="https://www.nestbedding.com/cdn/shop/articles/dark_bedroom_at_night_10806ccc-8468-4fd1-928b-3158322b8a8e_1200x1200.jpg?v=1574245656" alt="The Importance of Rest in a Busy World" class="w-full h-56 object-cover" itemprop="image">
       <div class="p-5">
-        <h3 class="text-lg font-serif text-gray-300 mb-2 group-hover:text-red-600 transition-colors">The Importance of Rest in a Busy World</h3>
-        <p class="text-sm text-gray-400">Modern life often glorifies busyness. Productivity is praised, and schedules are filled to the brim. But what's often overlooked is the necessity of rest...</p>
+        <h3 class="text-lg font-serif text-gray-300 mb-2 group-hover:text-red-600 transition-colors" itemprop="headline">The Importance of Rest in a Busy World</h3>
+        <p class="text-sm text-gray-400" itemprop="description">Modern life often glorifies busyness. Productivity is praised, and schedules are filled to the brim. But what's often overlooked is the necessity of rest...</p>
       </div>
-    </a>
+      </a>
+    </article>
 
     <div class="bg-zinc-800 rounded-xl shadow-xl p-6">
       <h3 class="text-xl font-serif text-gray-300 mb-4">Subscribe To Our Newsletter</h3>
@@ -255,14 +336,14 @@
       </form>
     </div>
   </div>
-</div>
+</section>
 
   
   <div class="my-10 md:my-16"></div>
 
-  <div class="px-4 md:px-8 mb-12 md:mb-20">
+  <section class="px-4 md:px-8 mb-12 md:mb-20" aria-label="Foundation Statistics">
       <div class="mb-6 md:mb-8">
-          <p class="text-2xl md:text-3xl lg:text-4xl font-serif text-center">Foundation Facts</p>
+          <h2 class="text-2xl md:text-3xl lg:text-4xl font-serif text-center">Foundation Facts</h2>
       </div>
       
       <div class="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8 text-center">
@@ -341,8 +422,8 @@
               </button>
           </div>
       {/if}
-  </div>
-</main>
+  </section>
+</div>
 
 <style>
   .font-serif {
