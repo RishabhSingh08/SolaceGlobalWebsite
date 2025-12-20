@@ -34,6 +34,7 @@
   import pfpRatan from "$Headshots/ratan.jpg";
   import pfpLakshit from "$Headshots/lakshit.png";
   import pfpVihaan from "$Headshots/vihaan_t.png";
+  import pfpRitvik from "$Headshots/ritvik.png";
 
   const departments = [
     {
@@ -46,6 +47,8 @@
         { name: "Ranveer Jadhav", role: "International Affairs Coordinator", pfp: pfpRanveer },
         { name: "Jennyl Patel", role: "Chief Finance Officer", pfp: pfpJennyl },
         { name: "Lakshit Ahuja", role: "Chief Expansion Officer", pfp: pfpLakshit },
+        { name: "Ritvik Punati", role: "Director of Community Relations and Volunteer Services ", pfp: pfpRitvik },
+
       ]
     },
     {
