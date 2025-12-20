@@ -103,12 +103,36 @@
   ];
 </script>
 
+  // Dynamic Schema Generation
+  const baseUrl = "https://solaceglobal.xyz";
+
+  // Flatten all members for the schema
+  $: allMembers = departments.flatMap(dept => dept.members);
+
+  $: schema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "Solace Global Team",
+    "description": "Meet the dedicated team of youth leaders and volunteers behind Solace Global Foundation.",
+    "url": `${baseUrl}/about/our-team`,
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Solace Global Foundation",
+      "member": allMembers.map(member => ({
+        "@type": "Person",
+        "name": member.name,
+        "jobTitle": member.role,
+        "image": member.pfp ? new URL(member.pfp, baseUrl).href : undefined
+      }))
+    }
+  });
+</script>
 
 <svelte:head>
   <!-- Primary Meta Tags -->
   <title>Our Team | Solace Global Leadership & Volunteers</title>
   <meta name="title" content="Our Team | Solace Global Leadership & Volunteers" />
-  <meta name="description" content="Meet the dedicated team behind Solace Global. Led by Founder & Executive Director Nishant Sinari, our youth-led team includes Yash Giriyapura, Mahit Cherku, Rishabh Singh, Ranveer Jadhav, and 40+ passionate volunteers driving STEM education globally." />
+  <meta name="description" content="Meet the powerhouse team behind Solace Global. Led by Founder Nishant Sinari, our 40+ youth volunteers drive STEM education and humanitarian aid across 18+ countries including Dallas, Texas." />
   <meta name="keywords" content="Solace Global team, Nishant Sinari, Yash Giriyapura, Mahit Cherku, Rishabh Singh, Ranveer Jadhav, Jennyl Patel, Lakshit Ahuja, Samanyu Earna, Punit Lakhotiya, nonprofit leadership, youth volunteers, STEM educators, Dallas nonprofit team" />
   
   <!-- Open Graph / Facebook -->
@@ -127,53 +151,7 @@
   <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
   
   <!-- Structured Data - Team Members -->
-  {@html `<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "AboutPage",
-    "name": "Solace Global Team",
-    "description": "Meet the dedicated team behind Solace Global Foundation",
-    "mainEntity": {
-      "@type": "Organization",
-      "name": "Solace Global Foundation",
-      "member": [
-        {"@type": "Person", "name": "Nishant Sinari", "jobTitle": "Executive Director & Founder"},
-        {"@type": "Person", "name": "Yash Giriyapura", "jobTitle": "Chief Engagement Officer"},
-        {"@type": "Person", "name": "Mahit Cherku", "jobTitle": "Chief of Staff"},
-        {"@type": "Person", "name": "Rishabh Singh", "jobTitle": "Chief Technology Officer"},
-        {"@type": "Person", "name": "Ranveer Jadhav", "jobTitle": "International Affairs Coordinator"},
-        {"@type": "Person", "name": "Jennyl Patel", "jobTitle": "Chief Finance Officer"},
-        {"@type": "Person", "name": "Lakshit Ahuja", "jobTitle": "Chief Expansion Officer"},
-        {"@type": "Person", "name": "Jude Kumar", "jobTitle": "Events Manager: North Texas"},
-        {"@type": "Person", "name": "Zaid Salahi", "jobTitle": "Event Coordinator: Middle East"},
-        {"@type": "Person", "name": "Adam Awkash", "jobTitle": "Events Coordinator: East Africa"},
-        {"@type": "Person", "name": "Dan Hyun", "jobTitle": "Plano West Club Lead"},
-        {"@type": "Person", "name": "Samanyu Earna", "jobTitle": "Director of Technology"},
-        {"@type": "Person", "name": "Punit Lakhotiya", "jobTitle": "Chief Information Officer"},
-        {"@type": "Person", "name": "Xander Kuksov", "jobTitle": "Technical Coordinator"},
-        {"@type": "Person", "name": "Vedant Bakshi", "jobTitle": "Research/Data Analyst"},
-        {"@type": "Person", "name": "Vihaan Thakore", "jobTitle": "Head of Robotics Education"},
-        {"@type": "Person", "name": "Anvita Halbhavi", "jobTitle": "STEM Educator: North America"},
-        {"@type": "Person", "name": "Azalea Tang", "jobTitle": "STEM Educator: North America"},
-        {"@type": "Person", "name": "Ainesh Gupta", "jobTitle": "STEM Educator: South Asia"},
-        {"@type": "Person", "name": "Swaraj Nibandhe", "jobTitle": "STEM Program Coordinator: Southwest Asia"},
-        {"@type": "Person", "name": "Erik Wang", "jobTitle": "STEM Educator: Asia"},
-        {"@type": "Person", "name": "Ratan", "jobTitle": "Public Health Outreach Lead"},
-        {"@type": "Person", "name": "Aidan Garrido", "jobTitle": "Marketing Associate"},
-        {"@type": "Person", "name": "Tiffany Chan", "jobTitle": "Global Outreach & Social Media Officer"},
-        {"@type": "Person", "name": "Abhinav Karthik", "jobTitle": "Global Outreach Officer"},
-        {"@type": "Person", "name": "Saahil Amin", "jobTitle": "Global Outreach Officer"},
-        {"@type": "Person", "name": "Abhiram Vemulapalli", "jobTitle": "Global Outreach Officer"},
-        {"@type": "Person", "name": "Azaan Naqvi", "jobTitle": "Career Compass Manager"},
-        {"@type": "Person", "name": "Nishant Venkatachalam", "jobTitle": "Director of Finance"},
-        {"@type": "Person", "name": "Vedant Teware", "jobTitle": "Finance Associate"},
-        {"@type": "Person", "name": "Omar Ahmed", "jobTitle": "Finance Associate"},
-        {"@type": "Person", "name": "Kaushal Ganapur", "jobTitle": "Finance Associate"},
-        {"@type": "Person", "name": "Abhish Bandi", "jobTitle": "Finance Associate"}
-      ]
-    }
-  }
-  </script>`}
+  {@html `<script type="application/ld+json">${schema}</script>`}
 
   <link rel="canonical" href="https://solaceglobal.xyz/about/our-team" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
