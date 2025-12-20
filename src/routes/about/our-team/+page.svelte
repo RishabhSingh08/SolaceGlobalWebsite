@@ -104,7 +104,7 @@
       ]
     },
   ];
-</script>
+
 
   // Dynamic Schema Generation
   const baseUrl = "https://solaceglobal.xyz";

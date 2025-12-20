@@ -49,7 +49,7 @@ export async function getAllArticles() {
       publication(host: $host) {
         isTeam
         title
-        posts(first: 20) {
+        posts(first: 50) {
           edges {
             node {
               id

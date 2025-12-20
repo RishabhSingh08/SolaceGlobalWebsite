@@ -1,5 +1,12 @@
 import { getFeaturedArticles } from "$lib/hashnode.js";
 
+export const config = {
+  isr: {
+    expiration: 60,
+  },
+};
+
+
 export async function load() {
   try {
     const featured = await getFeaturedArticles();

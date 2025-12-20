@@ -1,5 +1,12 @@
 // article/+page.server.js
 import { getAllArticles } from "$lib/hashnode.js";
+
+export const config = {
+  isr: {
+    expiration: 60,
+  },
+};
+
 import { error } from "@sveltejs/kit";
 
 export async function load() {
