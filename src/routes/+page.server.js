@@ -2,7 +2,7 @@ import { getFeaturedArticles } from "$lib/hashnode.js";
 
 export const config = {
   isr: {
-    expiration: 60,
+    expiration: 10,
   },
 };
 

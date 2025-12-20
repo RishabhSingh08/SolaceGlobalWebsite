@@ -128,16 +128,16 @@
 
 <svelte:head>
   <!-- Primary Meta Tags -->
-  <title>Solace Global | Dallas Youth-Led STEM Nonprofit</title>
-  <meta name="title" content="Solace Global | Dallas Youth-Led STEM Nonprofit" />
-  <meta name="description" content="Solace Global is a Dallas-based, youth-led 501(c)(3) nonprofit empowering communities worldwide through STEM education, robotics, and humanitarian aid. Founded by Nishant Sinari, our team impacts 12k+ lives across 18+ countries." />
-  <meta name="keywords" content="Dallas nonprofit, Solace Global, STEM education, youth-led nonprofit, robotics workshops, coding classes, Nishant Sinari, Punit Lakhotiya, volunteer opportunities Dallas, 501c3 charity, global education" />
+  <title>Solace Global</title>
+  <meta name="title" content="Solace Global | STEM Nonprofit" />
+  <meta name="description" content="Solace Global is a 501(c)(3) nonprofit empowering communities worldwide through STEM education, robotics, and humanitarian aid. Founded by Nishant Sinari, our team impacts 12k+ lives across 18+ countries." />
+  <meta name="keywords" content="Solace Global, STEM education, nonprofit, robotics workshops, coding classes, Nishant Sinari, Punit Lakhotiya, volunteer opportunities, 501c3 charity, global education" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://solaceglobal.xyz/" />
-  <meta property="og:title" content="Solace Global | Dallas Youth-Led STEM Nonprofit" />
-  <meta property="og:description" content="A Dallas-based youth-led nonprofit empowering communities through STEM education and humanitarian outreach. Impacting 12,000+ lives across 18+ countries." />
+  <meta property="og:title" content="Solace Global | STEM Nonprofit" />
+  <meta property="og:description" content="A nonprofit empowering communities through STEM education and humanitarian outreach. Impacting 12,000+ lives across 18+ countries." />
   <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
   <meta property="og:site_name" content="Solace Global Foundation" />
   <meta property="og:locale" content="en_US" />
@@ -145,8 +145,8 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://solaceglobal.xyz/" />
-  <meta name="twitter:title" content="Solace Global | Youth-Led STEM Nonprofit Organization" />
-  <meta name="twitter:description" content="Empowering communities through STEM education, robotics workshops, and humanitarian outreach. Youth-led nonprofit impacting 12,000+ lives across 18+ countries." />
+  <meta name="twitter:title" content="Solace Global | STEM Nonprofit Organization" />
+  <meta name="twitter:description" content="Empowering communities through STEM education, robotics workshops, and humanitarian outreach. Nonprofit impacting 12,000+ lives across 18+ countries." />
   <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
   
   <!-- Structured Data - Organization -->

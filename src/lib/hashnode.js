@@ -6,40 +6,12 @@ const client = new GraphQLClient("https://gql.hashnode.com", {
   },
 });
 
-// Fetch 4 featured articles
+// Fetch 4 featured articles (uses getAllArticles for consistency)
 export async function getFeaturedArticles() {
-  const query = `
-      query GetFeaturedArticles($host: String!) {
-        publication(host: $host) {
-          posts(first: 4) {
-            edges {
-              node {
-                id
-                title
-                brief
-                slug
-                publishedAt
-                coverImage {
-                  url
-                }
-              }
-            }
-          }
-        }
-      }
-    `;
-
-  const variables = {
-    host: "solaceglobal.hashnode.dev",
-  };
-
-  try {
-    const data = await client.request(query, variables);
-    return data.publication.posts.edges.map((edge) => edge.node);
-  } catch (error) {
-    console.error("GraphQL Error:", error);
-    throw error;
-  }
+  const allArticles = await getAllArticles();
+  const featured = allArticles.slice(0, 4);
+  console.log("Featured articles:", featured.map(a => ({ title: a.title, date: a.publishedAt })));
+  return featured;
 }
 
 // Query to fetch all articles
