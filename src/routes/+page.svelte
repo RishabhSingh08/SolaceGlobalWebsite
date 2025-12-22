@@ -130,14 +130,14 @@
   <!-- Primary Meta Tags -->
   <title>Solace Global</title>
   <meta name="title" content="Solace Global | STEM Nonprofit" />
-  <meta name="description" content="Solace Global is a 501(c)(3) nonprofit empowering communities worldwide through STEM education, robotics, and humanitarian aid. Founded by Nishant Sinari, our team impacts 12k+ lives across 18+ countries." />
+  <meta name="description" content="Solace Global is a 501(c)(3) nonprofit empowering communities worldwide through STEM education, robotics, and humanitarian aid. Founded by Nishant Sinari, our team impacts 15k+ lives across 21 countries." />
   <meta name="keywords" content="Solace Global, STEM education, nonprofit, robotics workshops, coding classes, Nishant Sinari, Punit Lakhotiya, volunteer opportunities, 501c3 charity, global education" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://solaceglobal.xyz/" />
   <meta property="og:title" content="Solace Global | STEM Nonprofit" />
-  <meta property="og:description" content="A nonprofit empowering communities through STEM education and humanitarian outreach. Impacting 12,000+ lives across 18+ countries." />
+  <meta property="og:description" content="A nonprofit empowering communities through STEM education and humanitarian outreach. Impacting 15,000+ lives across 21 countries." />
   <meta property="og:image" content="https://solaceglobal.xyz/og-image.png" />
   <meta property="og:site_name" content="Solace Global Foundation" />
   <meta property="og:locale" content="en_US" />
@@ -146,7 +146,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://solaceglobal.xyz/" />
   <meta name="twitter:title" content="Solace Global | STEM Nonprofit Organization" />
-  <meta name="twitter:description" content="Empowering communities through STEM education, robotics workshops, and humanitarian outreach. Nonprofit impacting 12,000+ lives across 18+ countries." />
+  <meta name="twitter:description" content="Empowering communities through STEM education, robotics workshops, and humanitarian outreach. Nonprofit impacting 15,000+ lives across 21 countries." />
   <meta name="twitter:image" content="https://solaceglobal.xyz/og-image.png" />
   
   <!-- Structured Data - Organization -->
@@ -181,7 +181,7 @@
     "numberOfEmployees": {
       "@type": "QuantitativeValue",
       "value": 200,
-      "unitText": "volunteers"
+      "unitText": "members"
     }
   }
   </script>`}
@@ -352,28 +352,28 @@
               <p class="mt-2 text-sm md:text-base underline cursor-pointer hover:text-red-600 transition-colors" 
                   bind:this={popupTrigger}
                   on:click|stopPropagation={togglePopup}>
-                  Raised in value
+                  Raised in kind
               </p>
           </div>
           
           <div class="p-4">
-              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">12k+</div>
+                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">15k+</div>
               <p class="mt-2 text-sm md:text-base underline hover:text-red-600 transition-colors"><a href="/impact-statement">People impacted</a></p>
           </div>
           
           <div class="p-4">
-              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">18+</div>
+                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">21</div>
               <p class="mt-2 text-sm md:text-base">Countries in operation</p>
           </div>
           
           <div class="p-4">
               <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">200+</div>
-              <p class="mt-2 text-sm md:text-base">Volunteers</p>
+                <p class="mt-2 text-sm md:text-base">Members</p>
           </div>
           
           <div class="p-4">
-              <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">20+</div>
-              <p class="mt-2 text-sm md:text-base">Programs</p>
+                <div class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif">40+</div>
+                <p class="mt-2 text-sm md:text-base">Events</p>
           </div>
       </div>
 
@@ -401,7 +401,7 @@
                   
                   <div class="mt-6 pt-4 border-t border-gray-200">
                       <div class="flex justify-between items-center">
-                          <span class="font-bold text-lg text-gray-800">Total Value</span>
+                        <span class="font-bold text-lg text-gray-800">Total In Kind</span>
                           <span class="font-bold text-lg text-red-600">${totalContributions.toLocaleString()}</span>
                       </div>
                   </div>
