@@ -35,6 +35,7 @@
   import pfpLakshit from "$Headshots/lakshit.png";
   import pfpVihaan from "$Headshots/vihaan_t.png";
   import pfpRitvik from "$Headshots/ritvik.png";
+  import pfpJacob from "$Headshots/jacob.png";
 
   const departments = [
     {
@@ -97,6 +98,7 @@
       name: "Finance Team",
       members: [
         { name: "Nishant Venkatachalam", role: "Director of Finance", pfp: pfpNishantV },
+        { name: "Jacob Wheat", role: "Finance Manager", pfp: pfpJacob },
         { name: "Vedant Teware", role: "Finance Associate", pfp: pfpVedant },
         { name: "Omar Ahmed", role: "Finance Associate", pfp: pfpOmar},
         { name: "Kaushal Ganapur", role: "Finance Associate", pfp: pfpKaushal },
