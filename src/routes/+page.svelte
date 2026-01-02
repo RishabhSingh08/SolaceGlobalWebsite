@@ -8,6 +8,7 @@
   import Sponsor07 from "$Sponsors/amazon.png";
   import Sponsor08 from "$Sponsors/3.png";
   import Sponsor09 from "$Sponsors/google.png";
+  import CodingCompFlyer from "$Images/codingcomp.jpg";
 
   const sponsors = [
       { image: Sponsor07, alt: "Amazon" },
@@ -124,6 +125,23 @@
   $: if (showFormError) validateForm();
   $: totalFee = BASE_FEE + (numberOfSubs * SUB_FEE);
 
+  // Coding Tournament Flyer Modal
+  let flyerModalVisible = false;
+
+  function toggleFlyerModal() {
+    flyerModalVisible = !flyerModalVisible;
+    if (flyerModalVisible) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+  }
+
+  function closeFlyerModal() {
+    flyerModalVisible = false;
+    document.body.style.overflow = '';
+  }
+
 </script>
 
 <svelte:head>
@@ -231,6 +249,62 @@
           <a href="/about/how-we-work">Learn how to make a difference</a>
       </p>
   </div>
+
+  <!-- Coding Tournament Banner -->
+  <section class="mt-10 md:mt-16 px-4 md:px-8" aria-label="Coding Tournament">
+    <div class="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6 bg-gray-50 rounded-lg p-4 w-full">
+      <img 
+        src={CodingCompFlyer} 
+        alt="Coding Competition Flyer" 
+        class="w-32 h-32 sm:w-40 sm:h-40 object-cover rounded-lg shadow-md cursor-pointer hover:opacity-90 transition-opacity" 
+        on:click={toggleFlyerModal}
+        on:keydown={(e) => e.key === 'Enter' && toggleFlyerModal()}
+        tabindex="0"
+        role="button"
+        aria-label="Click to view full flyer"
+      />
+      <div class="text-center sm:text-left">
+        <h3 class="text-lg md:text-xl font-semibold text-gray-800">Coding Tournament</h3>
+        <p class="text-sm text-gray-600 mt-1">Join our competitive coding challenge!</p>
+        <a href="/coding-tourney">
+          <button class="mt-3 px-6 py-2 bg-red-500 hover:bg-red-600 text-white text-sm font-medium rounded-lg transition-colors">
+            Sign Up
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Flyer Modal -->
+  {#if flyerModalVisible}
+    <div 
+      class="fixed inset-0 bg-black bg-opacity-75 z-50 overflow-y-auto" 
+      on:click={closeFlyerModal}
+      on:keydown={(e) => e.key === 'Escape' && closeFlyerModal()}
+      role="button"
+      tabindex="0"
+      aria-label="Close modal"
+    >
+      <div class="min-h-full flex items-start justify-center p-4 py-8">
+        <div class="relative w-full max-w-2xl" on:click|stopPropagation>
+          <img 
+            src={CodingCompFlyer} 
+            alt="Coding Competition Flyer" 
+            class="w-full h-auto rounded-lg shadow-2xl"
+          />
+          <button 
+            class="absolute top-2 right-2 bg-white text-gray-800 rounded-full p-2 hover:bg-gray-100 transition-colors shadow-lg"
+            on:click={closeFlyerModal}
+            aria-label="Close flyer"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  {/if}
 
   <div class="mt-12 md:mt-20 px-4 md:px-8">
       <h2 class="text-2xl md:text-3xl lg:text-4xl font-serif mb-6">Featured Insights</h2>
