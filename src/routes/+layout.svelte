@@ -285,7 +285,7 @@ function acceptTerms() {
                     </div>
                     <div>
                         <p class="text-sm text-center md:text-base" itemprop="description">We are a student-led nonprofit focused on empowering underserved communities through support, innovation, and impactful outreach programs.</p>
-                        <p class="text-xs text-center mt-2 text-gray-500">© 2024 Solace Global Foundation. A 501(c)(3) nonprofit organization.</p>
+                        <p class="text-xs text-center mt-2 text-gray-500">© 2026 Solace Global Foundation. A 501(c)(3) nonprofit organization.</p>
                     </div>
                     <div class="flex justify-center md:justify-end gap-4 md:gap-8 items-center text-xl md:text-2xl">
                         <a href="https://www.tiktok.com/@solaceglobalnpo" target="_blank" rel="noopener noreferrer" aria-label="Follow Solace Global on TikTok" class="hover:text-red-500 transition">
