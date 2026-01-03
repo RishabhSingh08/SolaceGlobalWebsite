@@ -1,13 +1,14 @@
 <script>
   // --- Configuration ---
-  const BASE_FEE = 10;           // Base team registration fee
+  const BASE_FEE = 10;
   const PAYMENT_LINK_BASE = "https://hcb.hackclub.com/donations/start/solace-global";
 
   // --- Form State ---
-  let teamName = "";
-  let contactName = "";
-  let contactPhone = "";
-  let contactEmail = "";
+  let name = "";
+  let teammateNames = "";
+  let number = "";
+  let email = "";
+  let pizzaChoice = "";
   let agreedToTerms = false;
   let showFormError = false;
   let formErrors = {};
@@ -18,12 +19,13 @@
     const phoneRegex = /^[\d\s\-\+\(\)]+$/;
     
     formErrors = {
-      teamName: !teamName.trim() ? "Team name is required" : null,
-      contactName: !contactName.trim() ? "Primary contact name is required" : null,
-      contactPhone: !contactPhone.trim() ? "Phone number is required" : 
-                    !phoneRegex.test(contactPhone) ? "Please enter a valid phone number" : null,
-      contactEmail: !contactEmail.trim() ? "Email is required" : 
-                    !emailRegex.test(contactEmail) ? "Please enter a valid email address" : null,
+      name: !name.trim() ? "Name is required" : null,
+      teammateNames: !teammateNames.trim() ? "Teammate names are required" : null,
+      number: !number.trim() ? "Number is required" : 
+              !phoneRegex.test(number) ? "Please enter a valid phone number" : null,
+      email: !email.trim() ? "Email is required" : 
+             !emailRegex.test(email) ? "Please enter a valid email address" : null,
+      pizzaChoice: !pizzaChoice ? "Pizza choice is required" : null,
       terms: !agreedToTerms ? "You must agree to the terms and conditions." : null,
     };
     formErrors = Object.fromEntries(Object.entries(formErrors).filter(([_, v]) => v != null));
@@ -38,11 +40,11 @@
     }
     showFormError = false;
 
-    const message = `Coding Tournament Registration\nTeam: ${teamName}\nContact: ${contactName}\nPhone: ${contactPhone}\nEmail: ${contactEmail}\nTotal: $${BASE_FEE.toFixed(2)}`;
+    const message = `Coding Tournament Registration\nName: ${name}\nTeammates: ${teammateNames}\nNumber: ${number}\nEmail: ${email}\nPizza: ${pizzaChoice}\nTotal: $${BASE_FEE.toFixed(2)}`;
 
     const params = new URLSearchParams({
-      name: contactName,
-      email: contactEmail,
+      name: name,
+      email: email,
       message: message,
       amount: (BASE_FEE * 100).toFixed(0)
     });
@@ -66,7 +68,7 @@
 <svelte:head>
   <title>Coding Tournament Registration | Solace Global</title>
   <meta name="title" content="Coding Tournament Registration | Solace Global" />
-  <meta name="description" content="Register your team for Solace Global's competitive coding & innovation challenge. Showcase your programming skills and compete with teams from around the world." />
+  <meta name="description" content="Register your team for Solace Global's competitive coding & innovation challenge." />
   <link rel="canonical" href="https://solaceglobal.xyz/coding-tourney" />
 </svelte:head>
 
@@ -82,75 +84,96 @@
 
       <!-- Form -->
       <form on:submit={handleSubmit} class="space-y-5">
-        <!-- Team Name -->
+        <!-- Name -->
         <div>
-          <label for="teamName" class="block text-sm font-medium text-gray-700 mb-1">
-            Team Name <span class="text-red-500">*</span>
+          <label for="name" class="block text-sm font-medium text-gray-700 mb-1">
+            Name <span class="text-red-500">*</span>
           </label>
           <input
             type="text"
-            id="teamName"
-            bind:value={teamName}
+            id="name"
+            bind:value={name}
             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors"
-            class:border-red-500={formErrors.teamName}
-            placeholder="Enter your team name"
+            class:border-red-500={formErrors.name}
+            placeholder="Enter your name"
           />
-          {#if formErrors.teamName}
-            <p class="mt-1 text-sm text-red-500">{formErrors.teamName}</p>
+          {#if formErrors.name}
+            <p class="mt-1 text-sm text-red-500">{formErrors.name}</p>
           {/if}
         </div>
 
-        <!-- Primary Contact Name -->
+        <!-- Teammate Names -->
         <div>
-          <label for="contactName" class="block text-sm font-medium text-gray-700 mb-1">
-            Primary Contact Name <span class="text-red-500">*</span>
+          <label for="teammateNames" class="block text-sm font-medium text-gray-700 mb-1">
+            Teammates Names (if applicable) <span class="text-red-500">*</span>
           </label>
-          <input
-            type="text"
-            id="contactName"
-            bind:value={contactName}
+          <p class="text-xs text-gray-500 mb-2">Every teammate MUST fill out the form</p>
+          <textarea
+            id="teammateNames"
+            bind:value={teammateNames}
+            rows="3"
             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors"
-            class:border-red-500={formErrors.contactName}
-            placeholder="Enter contact name"
+            class:border-red-500={formErrors.teammateNames}
+            placeholder="Enter teammate names (or write 'N/A' if solo)"
           />
-          {#if formErrors.contactName}
-            <p class="mt-1 text-sm text-red-500">{formErrors.contactName}</p>
+          {#if formErrors.teammateNames}
+            <p class="mt-1 text-sm text-red-500">{formErrors.teammateNames}</p>
           {/if}
         </div>
 
-        <!-- Phone Number -->
+        <!-- Number -->
         <div>
-          <label for="contactPhone" class="block text-sm font-medium text-gray-700 mb-1">
-            Phone Number <span class="text-red-500">*</span>
+          <label for="number" class="block text-sm font-medium text-gray-700 mb-1">
+            Number <span class="text-red-500">*</span>
           </label>
           <input
             type="tel"
-            id="contactPhone"
-            bind:value={contactPhone}
+            id="number"
+            bind:value={number}
             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors"
-            class:border-red-500={formErrors.contactPhone}
+            class:border-red-500={formErrors.number}
             placeholder="Enter phone number"
           />
-          {#if formErrors.contactPhone}
-            <p class="mt-1 text-sm text-red-500">{formErrors.contactPhone}</p>
+          {#if formErrors.number}
+            <p class="mt-1 text-sm text-red-500">{formErrors.number}</p>
           {/if}
         </div>
 
-        <!-- Email Address -->
+        <!-- Email -->
         <div>
-          <label for="contactEmail" class="block text-sm font-medium text-gray-700 mb-1">
-            Email Address <span class="text-red-500">*</span>
+          <label for="email" class="block text-sm font-medium text-gray-700 mb-1">
+            Email <span class="text-red-500">*</span>
           </label>
           <input
             type="email"
-            id="contactEmail"
-            bind:value={contactEmail}
+            id="email"
+            bind:value={email}
             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors"
-            class:border-red-500={formErrors.contactEmail}
+            class:border-red-500={formErrors.email}
             placeholder="Enter email address"
           />
-          {#if formErrors.contactEmail}
-            <p class="mt-1 text-sm text-red-500">{formErrors.contactEmail}</p>
+          {#if formErrors.email}
+            <p class="mt-1 text-sm text-red-500">{formErrors.email}</p>
+          {/if}
+        </div>
+
+        <!-- Pizza Choice -->
+        <div>
+          <label for="pizzaChoice" class="block text-sm font-medium text-gray-700 mb-1">
+            Pizza Choice <span class="text-red-500">*</span>
+          </label>
+          <select
+            id="pizzaChoice"
+            bind:value={pizzaChoice}
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors"
+            class:border-red-500={formErrors.pizzaChoice}
+          >
+            <option value="">Select a pizza choice</option>
+            <option value="pepperoni-cheese">Pepperoni Cheese</option>
+            <option value="veggie">Veggie</option>
+          </select>
+          {#if formErrors.pizzaChoice}
+            <p class="mt-1 text-sm text-red-500">{formErrors.pizzaChoice}</p>
           {/if}
         </div>
 
