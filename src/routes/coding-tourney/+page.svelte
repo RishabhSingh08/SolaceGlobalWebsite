@@ -5,6 +5,7 @@
 
   // --- Form State ---
   let name = "";
+  let schoolName = "";
   let teammateNames = "";
   let number = "";
   let email = "";
@@ -20,6 +21,7 @@
     
     formErrors = {
       name: !name.trim() ? "Name is required" : null,
+      schoolName: !schoolName.trim() ? "School name is required" : null,
       teammateNames: !teammateNames.trim() ? "Teammate names are required" : null,
       number: !number.trim() ? "Number is required" : 
               !phoneRegex.test(number) ? "Please enter a valid phone number" : null,
@@ -40,7 +42,7 @@
     }
     showFormError = false;
 
-    const message = `Coding Tournament Registration\nName: ${name}\nTeammates: ${teammateNames}\nNumber: ${number}\nEmail: ${email}\nPizza: ${pizzaChoice}\nTotal: $${BASE_FEE.toFixed(2)}`;
+    const message = `Coding Tournament Registration\nName: ${name}\nSchool: ${schoolName}\nTeammates: ${teammateNames}\nNumber: ${number}\nEmail: ${email}\nPizza: ${pizzaChoice}\nTotal: $${BASE_FEE.toFixed(2)}`;
 
     const params = new URLSearchParams({
       name: name,
@@ -99,6 +101,24 @@
           />
           {#if formErrors.name}
             <p class="mt-1 text-sm text-red-500">{formErrors.name}</p>
+          {/if}
+        </div>
+
+        <!-- School Name -->
+        <div>
+          <label for="schoolName" class="block text-sm font-medium text-gray-700 mb-1">
+            School Name <span class="text-red-500">*</span>
+          </label>
+          <input
+            type="text"
+            id="schoolName"
+            bind:value={schoolName}
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors"
+            class:border-red-500={formErrors.schoolName}
+            placeholder="Enter your school name"
+          />
+          {#if formErrors.schoolName}
+            <p class="mt-1 text-sm text-red-500">{formErrors.schoolName}</p>
           {/if}
         </div>
 
