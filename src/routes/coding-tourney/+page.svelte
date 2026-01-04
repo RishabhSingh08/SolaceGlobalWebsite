@@ -189,7 +189,8 @@
             class:border-red-500={formErrors.pizzaChoice}
           >
             <option value="">Select a pizza choice</option>
-            <option value="pepperoni-cheese">Pepperoni Cheese</option>
+            <option value="pepperoni">Pepperoni</option>
+            <option value="cheese">Cheese</option>
             <option value="veggie">Veggie</option>
           </select>
           {#if formErrors.pizzaChoice}
