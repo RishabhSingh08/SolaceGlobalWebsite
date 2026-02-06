@@ -232,19 +232,6 @@
       </p>
   </div>
 
-  <!-- Coding Tournament Cancelled Banner -->
-  <section class="mt-10 md:mt-16 px-4 md:px-8" aria-label="Coding Tournament Cancelled">
-    <div class="bg-red-50 border-2 border-red-300 rounded-lg p-6 md:p-8 w-full">
-      <div class="flex items-center gap-4 md:gap-6">
-        <span class="text-4xl md:text-5xl">📢</span>
-        <div>
-          <h3 class="text-xl md:text-2xl font-semibold text-red-800">Coding Tournament Cancelled</h3>
-          <p class="text-base md:text-lg text-red-600 mt-2">Due to low participation, this event has been cancelled. Stay tuned for future events!</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <div class="mt-12 md:mt-20 px-4 md:px-8">
       <h2 class="text-2xl md:text-3xl lg:text-4xl font-serif mb-6">Featured Insights</h2>
 
