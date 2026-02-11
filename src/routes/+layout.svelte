@@ -236,6 +236,7 @@ function acceptTerms() {
                                 <li><a href="/work/discovery-project/#pune-robotics" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Pune Tribal Robotics at Anathsamram Karyakran Orphanage</a></li>
                                 <li><a href="/work/discovery-project/#black-business-bazaar" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting Black Owned Businesses at the 2025 Black Business Bazaar in Dallas</a></li>
                                 <li><a href="/work/discovery-project/#stjude" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Supporting St. Jude’s Children Hospital</a></li>
+                                <li><a href="/work/discovery-project/#unitary-foundation" class="text-gray-600 hover:underline" on:click={closeAllDropdowns}>Quantum Computing Support for Unitary Foundation</a></li>
 
                             </ul>
                         </div>

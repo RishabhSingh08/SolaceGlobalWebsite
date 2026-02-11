@@ -46,6 +46,8 @@
 
     import stjude from "$discoveryImages/17.jpg";
 
+    import unitaryFoundationImage from "$Images/f.png";
+
   import header from "$discoveryImages/Header.jpg";
 
   import { onMount } from "svelte";
@@ -347,7 +349,7 @@
                     class:bg-gray-500="{index !== currentIndex}"
                     on:click={() => goToSlide(index)}
                     aria-label="Go to slide {index+1}"
-                  />
+                  ></button>
                 {/each}
               </div>
             </div>
@@ -756,6 +758,34 @@ Solace Global has recently made a significant donation to St. Jude Children's Re
           </div>
     </div>
 </div>
+
+  <div class="border-b border-zinc-300 mx-2 md:mx-8 lg:mx-16 my-12"></div>
+
+  <!-- Unitary Foundation Section -->
+  <div id="unitary-foundation" class="space-y-6">
+    <div class="flex flex-col md:grid md:grid-cols-9 gap-6 md:gap-16 items-start md:items-center">
+      <div class="space-y-4 md:col-span-4 order-2 md:order-1">
+        <p class="text-2xl md:text-3xl rasa">Quantum Computing Support for Unitary Foundation</p>
+        <div class="space-y-3 text-sm md:text-base">
+          <p>
+            We recently donated to the Unitary Foundation, a 501(c)(3) non-profit dedicated to creating a quantum technology ecosystem that benefits the most people. Our contribution supports their mission to fund global explorers through microgrants and develop essential open-source tools like mitiq, metriq, and ucc. By supporting their work, we are helping to ensure that the foundational research and software needed for the quantum revolution remain accessible to everyone, from independent researchers to student developers.
+          </p>
+          <p>
+            This donation reinforces our commitment to fostering curiosity and innovation across all scientific frontiers. The Unitary Foundation plays a critical role in lowering the barriers to entry in quantum computing by removing the need for traditional organizational affiliation for its grant recipients. We are proud to support an organization that serves as a torchbearer for open-source science, empowering a diverse community of thinkers to build a future where transformative technology is a unifying and accessible force.
+          </p>
+        </div>
+      </div>
+
+      <div class="md:col-span-5 order-1 md:order-2">
+        <img
+          src={unitaryFoundationImage}
+          alt="Unitary Foundation"
+          class="rounded-lg shadow-md clickable-image"
+          on:click={() => openLightbox([unitaryFoundationImage], 0)}
+        >
+      </div>
+    </div>
+  </div>
 
 
 
